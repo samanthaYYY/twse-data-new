@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T01:49:58.937Z",
+  "updatedAt": "2026-08-04T01:53:51.051Z",
   "sources": {
     "institutionalFlow": {
       "date": "20260803",
@@ -7,9 +7,9 @@
       "error": null
     },
     "marginTrading": {
-      "date": "20260725",
-      "isStale": true,
-      "error": "no_data_in_lookback_range"
+      "date": "20260803",
+      "isStale": false,
+      "error": "no_stock_table_found"
     },
     "foreignHolding": {
       "date": "20260803",
@@ -17,15 +17,15 @@
       "error": null
     },
     "monthlyRevenue": {
-      "fetchedAt": "2026-08-04T01:50:18.462Z",
+      "fetchedAt": "2026-08-04T01:54:02.741Z",
       "error": null
     },
     "dividend": {
-      "fetchedAt": "2026-08-04T01:50:19.706Z",
+      "fetchedAt": "2026-08-04T01:54:18.389Z",
       "error": null
     },
     "valuation": {
-      "fetchedAt": "2026-08-04T01:50:20.249Z",
+      "fetchedAt": "2026-08-04T01:54:19.713Z",
       "error": null
     }
   },
