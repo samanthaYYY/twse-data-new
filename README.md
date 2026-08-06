@@ -10,6 +10,7 @@
 |---|---|---|---|
 | `latest_prices.json` | 最新報價快照（現價、昨收、漲跌、到價提醒、更新時間），key 為股票代號 | GitHub Actions（`tw-stock-alert` 的 `check-prices.mjs`）每 15 分鐘 | 儀表板、排程、Claude |
 | `radar-baseline.json` | 潛力雷達的**名單＋分析基準**：每檔題材/基期/潛力標籤、催化、`p`(進場區間錨定基準價) | 人工維護 + 排程刷新後回存 | 儀表板、排程、Claude |
+| `fundamentals.json` | 基本面/籌碼面快照：三大法人買賣超(T86)、融資融券餘額(MI_MARGN)、外資持股比率(MI_QFIIS)、月營收(t187ap05_L)、股利分派(t187ap45_L)、全市場估值(BWIBBU_ALL)，key 為股票代號，值為官方回傳原始物件 | GitHub Actions（`tw-stock-alert` 的 `check-fundamentals.mjs`）平日 17:00 台灣時間 | Claude（`taiwan-stock-advisor` skill） |
 | `README.md` | 本說明 | 人工 | 人 |
 
 > 私有 repo `tw-stock-alert` 的 `prices.json` 是「要抓哪些股票」的源頭；`latest_prices.json` 是它跑出來的結果。**加減股票 = 改 `prices.json`**，`latest_prices.json` 下次排程自動更新。
@@ -27,9 +28,17 @@
         ▼                                    ▼
    潛力雷達儀表板（固定模板 HTML）      月/季排程（Cowork Scheduled）
    線上抓 radar-baseline + latest_prices   只更新 radar-baseline、出摘要
+
+私有 tw-stock-alert：同一份 prices.json（觀察清單）
+        │  GitHub Actions 平日 17:00 台灣時間（收盤後約2-3小時，資料應已齊備）
+        ▼
+   check-fundamentals.mjs 抓 T86/MI_MARGN/MI_QFIIS/t187ap05_L/t187ap45_L/BWIBBU_ALL
+        │  過濾成只留觀察清單裡的股票，寫進本 repo
+        ▼
+   fundamentals.json ──▶ Claude（taiwan-stock-advisor skill 用 bash curl 讀）
 ```
 
-報價抓取邏輯（`check-prices.mjs`、Gist 雙寫、`alertTargets`）不受本 repo 的儀表板/排程影響——它們都只「讀」`latest_prices.json`。
+報價抓取邏輯（`check-prices.mjs`、Gist 雙寫、`alertTargets`）跟基本面抓取邏輯（`check-fundamentals.mjs`）互相獨立，共用同一份 `prices.json` 觀察清單、同一把 `DATA_REPO_TOKEN`，但排程時間、輸出檔案完全分開，互不影響。
 
 ---
 
@@ -60,9 +69,19 @@
 
 ---
 
+## 基本面/籌碼面資料（fundamentals.json）
+
+給 Claude（`taiwan-stock-advisor` skill）分析個股用，取代對話當下即時打 TWSE/MOPS API（那樣做會踩到快取和網址解鎖限制，2026/08 除錯後改成這套排程批次架構，跟報價系統同一套模式）。
+
+**結構**：`data` 以股票代號為 key，每檔底下六個欄位——`institutionalFlow`(T86)、`marginTrading`(MI_MARGN)、`foreignHolding`(MI_QFIIS)、`monthlyRevenue`(t187ap05_L)、`dividend`(t187ap45_L)、`valuation`(BWIBBU_ALL)，全部保留官方回傳的原始物件，不重新命名欄位。頂層 `sources` 記錄各項的 `date`/`isStale`/`error`，逐日資料（T86、融資融券、外資持股）找不到當天資料時會自動往前找最近交易日，並用 `isStale` 標記。
+
+**已知踩過的坑**：融資融券 (MI_MARGN) 的官方 JSON 不是單純的 `fields`/`data`，是巢狀 `tables` 陣列（大盤總計表 + 逐股明細表兩張），逐股明細表用「列數最多」(而非欄位名稱) 判斷；月營收/股利分派/全市場估值 (openapi.twse.com.tw 系列) 沒有查詢參數，永遠回傳全市場，程式自行過濾成觀察清單。
+
+---
+
 ## 維護方式
 
-- **加/減股票** → 改私有 repo 的 `prices.json`（唯一入口）。新股第一次由排程自動研究，之後排程會給刷新版 `radar-baseline.json`，提交回本 repo 固定下來。
+- **加/減股票** → 改私有 repo 的 `prices.json`（唯一入口）。新股第一次由排程自動研究，之後排程會給刷新版 `radar-baseline.json`，提交回本 repo 固定下來；`fundamentals.json` 也會在下次 17:00 排程自動涵蓋新股票，不用額外設定。
 - **手動細修分析** → 改 `radar-baseline.json` 重新提交。
 - **儀表板** → 用 `tw-watchlist-radar.html` 這個檔，直接瀏覽器開即可（自己線上抓最新資料）；只有模板本身改版時才需換新檔。
 - **除權息季（7–8 月）** → 進場區間會因基準價重錨而變動，屬正常。
