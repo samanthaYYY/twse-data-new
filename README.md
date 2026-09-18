@@ -1,8 +1,8 @@
-# twse-data-new — 台股報價 + 籌碼面 + K線 + 潛力雷達資料源
+# twse-data-new — 台股報價 + 籌碼面 + K線 + 重大訊息 + 潛力雷達資料源
 
 這裡存放外部讀取專用的資料。程式與觀察清單在私有 repo `tw-stock-alert`。
 
-最後更新：2026/08/23（新增董監持股／集保股權分散、補記 K 線與上櫃來源、退役 Gist）
+最後更新：2026/09/18（新增重大訊息監控 material_news.json；前次 2026/08/23：新增董監持股／集保股權分散、補記 K 線與上櫃來源、退役 Gist）
 
 ---
 
@@ -13,30 +13,32 @@
 | `latest_prices.json` | 最新報價快照（現價、昨收、漲跌、到價提醒、更新時間），key 為股票代號 | GitHub Actions（`check-prices.mjs`）每 15 分鐘 | 儀表板、排程、Claude |
 | `fundamentals.json` | **八面向**籌碼/基本面快照（見下），key 為股票代號，值為官方回傳原始物件 | GitHub Actions（`check-fundamentals.mjs`）平日 17:00 | Claude（`taiwan-stock-advisor` skill） |
 | `kline_history.json` | 個股日 K 線歷史（開高低收量），保留約 120 交易日 | GitHub Actions（`check-kline.mjs`）平日 17:30 | Claude（技術分析） |
+| `material_news.json` | 觀察清單**重大訊息**去重記憶＋近期明細（含 AI 多空粗判、一句話重點） | GitHub Actions（`check-material.mjs`）盤中每 30 分＋盤後 16:00/20:00 | 排程去重、Claude、儀表板 |
 | `radar-baseline.json` | 潛力雷達的**名單＋分析基準**（題材/基期/潛力標籤、`p`進場錨定基準價） | 人工維護 + 排程刷新 | 儀表板、排程、Claude |
 | `README.md` | 本說明 | 人工 | 人 |
 
-> 私有 repo 的 `prices.json`（觀察清單，62 檔）是「要抓哪些股票」的唯一源頭。**加減股票 = 改 `prices.json`**，三份輸出檔下次排程自動更新。
+> 私有 repo 的 `prices.json`（觀察清單）是「要抓哪些股票」的唯一源頭。**加減股票 = 改 `prices.json`**，各輸出檔下次排程自動更新。
 
 ---
 
 ## 系統總覽
 
 ```
-私有 tw-stock-alert：prices.json（觀察清單，手動編輯）＝三套排程共用的唯一入口
+私有 tw-stock-alert：prices.json（觀察清單，手動編輯）＝四套排程共用的唯一入口
         │
-        ├─ check.yml            平日每15分鐘  → check-prices.mjs      → latest_prices.json
-        ├─ check-fundamentals   平日 17:00     → check-fundamentals.mjs → fundamentals.json
-        └─ check-kline          平日 17:30     → check-kline.mjs       → kline_history.json
-                （三支都寫進本 public repo，共用同一把 DATA_REPO_TOKEN）
+        ├─ check.yml            平日每15分鐘   → check-prices.mjs      → latest_prices.json
+        ├─ check-fundamentals   平日 17:00      → check-fundamentals.mjs → fundamentals.json
+        ├─ check-kline          平日 17:30      → check-kline.mjs       → kline_history.json
+        └─ check-material       盤中每30分+盤後 → check-material.mjs    → material_news.json（+ Discord 推播）
+                （四支都寫進本 public repo，共用同一把 DATA_REPO_TOKEN）
                                      │
         ┌────────────────────────────┼───────────────────────────────┐
         ▼                            ▼                                ▼
   React 儀表板 /             潛力雷達 /radar.html               Claude skills
-  （讀 latest_prices）       （讀 radar-baseline+latest_prices）  （bash curl 讀四份 json）
+  （讀 latest_prices）       （讀 radar-baseline+latest_prices）  （bash curl 讀各份 json）
 ```
 
-三套排程互相獨立（抓取邏輯、輸出檔、排程時間完全分開），只共用 `prices.json` 觀察清單與 `DATA_REPO_TOKEN`。
+四套排程互相獨立（抓取邏輯、輸出檔、排程時間完全分開），只共用 `prices.json` 觀察清單與 `DATA_REPO_TOKEN`。
 
 > 2026/08/23 起 `latest_prices.json` **不再雙寫 Secret Gist**：儀表板已改讀本 repo 的 raw URL，單一資料源。
 
@@ -75,6 +77,25 @@
 
 ---
 
+## material_news.json — 觀察清單重大訊息
+
+抓 MOPS（`mopsov.twse.com.tw` 的 `ajax_t05st02`，當日全市場重訊）過濾成觀察清單，去重後把「新的」推 Discord（與到價提醒同頻道，username「台股重訊」）。目的：利多/利空第一手消息即時到手，不用等媒體、隔天跳空才追。
+
+**結構**：
+```
+{
+  "updatedAt": ISO 時間,
+  "seen":  [ "代號|發言日期|發言時間|主旨前30字", ... ]   // 去重記憶，保留最近 ~1200 筆
+  "recent":[ { code, name, date, time, subject, src, aiTag, aiNote, pushedAt }, ... ]  // 近期明細，保留最近 300 則
+}
+```
+
+- **去重記憶內建在這份檔**：`check-material` 每次讀 `seen` 比對、只推「新的」，同一則永遠只推一次。排程頻率是可調旋鈕，跑幾次只影響「多快收到」、不會重複推播。
+- `aiTag`（利多/利空/中性）與 `aiNote`（一句話重點）為 **AI 研判、僅供參考**（非投資建議），由 `claude-sonnet-4-5` 產生；沒設 `ANTHROPIC_API_KEY` 時為 `null`。
+- 資料源 memo：**舊網域 `mops.twse.com.tw` 被安全性封鎖頁擋掉**，一定要用 `mopsov.twse.com.tw`；`ajax_t05st02` 的 `step` 要用 0、`year` 用民國年、回傳是 HTML 要解析表格（欄位以關鍵字比對表頭）。
+
+---
+
 ## 潛力雷達儀表板（dashboard/public/radar.html，部署於 /radar.html）
 
 **固定模板、樣式不變**：開啟時線上抓 `radar-baseline.json`（名單＋分析）＋ `latest_prices.json`（即時價）合併呈現，抓不到退 jsDelivr、再不行用內建備援。
@@ -99,7 +120,7 @@
 
 ## 維護方式
 
-- **加/減股票** → 改私有 repo 的 `prices.json`（唯一入口）。三份輸出檔下次排程自動涵蓋。
+- **加/減股票** → 改私有 repo 的 `prices.json`（唯一入口）。四份輸出檔（含重訊監控）下次排程自動涵蓋。
 - **手動細修雷達分析** → 改 `radar-baseline.json` 重新提交。
 - **儀表板** → 直接開 `radar.html`（自己線上抓最新資料）；只有模板改版才換新檔。
 - **除權息季（7–8 月）** → 進場區間因基準價重錨而變動，屬正常。
