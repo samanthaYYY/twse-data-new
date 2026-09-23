@@ -1,21 +1,21 @@
 {
   "1303": {
     "name": "NAN YA PLASTIC",
-    "price": 227,
+    "price": 227.5,
     "prevClose": 231.5,
-    "change": -4.5,
-    "changePercent": -1.94,
+    "change": -4,
+    "changePercent": -1.73,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:14.391Z"
+    "updatedAt": "2026-09-23T05:01:32.502Z"
   },
   "1402": {
     "name": "FAR EASTERN NEW CENTURY CORPORA",
-    "price": 27.9,
+    "price": 27.95,
     "prevClose": 27.850000381469727,
-    "change": 0.05,
-    "changePercent": 0.18,
+    "change": 0.1,
+    "changePercent": 0.36,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:13.627Z"
+    "updatedAt": "2026-09-23T05:01:31.695Z"
   },
   "1503": {
     "name": "SHIHLIN ELEC & ENGINEERING",
@@ -24,7 +24,7 @@
     "change": 0,
     "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:21.395Z"
+    "updatedAt": "2026-09-23T05:00:42.531Z"
   },
   "1504": {
     "name": "TECO ELECTRIC & MACHINERY CO",
@@ -33,35 +33,35 @@
     "change": 0.3,
     "changePercent": 0.44,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:28.340Z"
+    "updatedAt": "2026-09-23T05:00:48.983Z"
   },
   "1513": {
     "name": "CHUNG HSIN ELECTRIC & MACHINERY",
-    "price": 165,
+    "price": 165.5,
     "prevClose": 166,
-    "change": -1,
-    "changePercent": -0.6,
+    "change": -0.5,
+    "changePercent": -0.3,
     "alertTargets": [
       {
         "direction": "below",
         "target": 158
       }
     ],
-    "updatedAt": "2026-09-23T04:45:20.633Z"
+    "updatedAt": "2026-09-23T05:00:41.747Z"
   },
   "1605": {
     "name": "WALSIN LIHWA CORP",
-    "price": 36.9,
+    "price": 36.8,
     "prevClose": 37,
-    "change": -0.1,
-    "changePercent": -0.27,
+    "change": -0.2,
+    "changePercent": -0.54,
     "alertTargets": [
       {
         "direction": "below",
         "target": 36
       }
     ],
-    "updatedAt": "2026-09-23T04:45:35.574Z"
+    "updatedAt": "2026-09-23T05:00:55.734Z"
   },
   "1795": {
     "name": "LOTUS PHARMACEUTICAL CO",
@@ -70,7 +70,7 @@
     "change": 2,
     "changePercent": 1.13,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:53.469Z"
+    "updatedAt": "2026-09-23T05:01:12.515Z"
   },
   "1815": {
     "name": "FULLTECH FIBER GLASS CORP",
@@ -79,7 +79,7 @@
     "change": -1.5,
     "changePercent": -1.23,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:26.725Z"
+    "updatedAt": "2026-09-23T05:00:47.456Z"
   },
   "2002": {
     "name": "CHINA STEEL CORP",
@@ -88,7 +88,7 @@
     "change": 0.05,
     "changePercent": 0.27,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:20.214Z"
+    "updatedAt": "2026-09-23T05:01:38.308Z"
   },
   "2301": {
     "name": "LITE-ON TECHNOLOGY CORP",
@@ -97,57 +97,57 @@
     "change": -1,
     "changePercent": -0.35,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:23.844Z"
+    "updatedAt": "2026-09-23T05:00:44.822Z"
   },
   "2303": {
     "name": "UNITED MICRO ELECTRONICS",
-    "price": 159.5,
+    "price": 159,
     "prevClose": 160,
-    "change": -0.5,
-    "changePercent": -0.31,
+    "change": -1,
+    "changePercent": -0.62,
     "alertTargets": [
       {
         "direction": "below",
         "target": 130
       }
     ],
-    "updatedAt": "2026-09-23T04:45:55.058Z"
+    "updatedAt": "2026-09-23T05:01:14.006Z"
   },
   "2312": {
     "name": "KINPO ELECTRONICS",
-    "price": 30.8,
+    "price": 30.75,
     "prevClose": 31.049999237060547,
-    "change": -0.25,
-    "changePercent": -0.81,
+    "change": -0.3,
+    "changePercent": -0.97,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:42.728Z"
+    "updatedAt": "2026-09-23T05:01:02.277Z"
   },
   "2313": {
     "name": "COMPEQ MANUFACTURING",
-    "price": 223.5,
+    "price": 222.5,
     "prevClose": 222,
-    "change": 1.5,
-    "changePercent": 0.68,
+    "change": 0.5,
+    "changePercent": 0.23,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:24.063Z"
+    "updatedAt": "2026-09-23T05:01:42.064Z"
   },
   "2324": {
     "name": "COMPAL ELECTRONICS INC",
-    "price": 36.95,
+    "price": 36.9,
     "prevClose": 37.04999923706055,
-    "change": -0.1,
-    "changePercent": -0.27,
+    "change": -0.15,
+    "changePercent": -0.4,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:55.875Z"
+    "updatedAt": "2026-09-23T05:01:14.790Z"
   },
   "2327": {
     "name": "YAGEO CORP",
-    "price": 574,
+    "price": 572,
     "prevClose": 571,
-    "change": 3,
-    "changePercent": 0.53,
+    "change": 1,
+    "changePercent": 0.18,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:01.173Z"
+    "updatedAt": "2026-09-23T05:01:19.788Z"
   },
   "2337": {
     "name": "MACRONIX INTERNATIONAL",
@@ -156,7 +156,7 @@
     "change": 1.5,
     "changePercent": 1.27,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:50.255Z"
+    "updatedAt": "2026-09-23T05:02:06.444Z"
   },
   "2342": {
     "name": "MOSEL VITELIC INC",
@@ -165,7 +165,7 @@
     "change": 4.2,
     "changePercent": 9.96,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:59.591Z"
+    "updatedAt": "2026-09-23T05:01:18.347Z"
   },
   "2344": {
     "name": "WINBOND ELECTRONIC CORP",
@@ -179,16 +179,16 @@
         "target": 169
       }
     ],
-    "updatedAt": "2026-09-23T04:45:19.755Z"
+    "updatedAt": "2026-09-23T05:00:41.029Z"
   },
   "2352": {
     "name": "QISDA CORPORATION",
-    "price": 29.05,
+    "price": 29,
     "prevClose": 29.399999618530273,
-    "change": -0.35,
-    "changePercent": -1.19,
+    "change": -0.4,
+    "changePercent": -1.36,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:15.236Z"
+    "updatedAt": "2026-09-23T05:01:33.340Z"
   },
   "2356": {
     "name": "INVENTEC CORP",
@@ -202,43 +202,43 @@
         "target": 70
       }
     ],
-    "updatedAt": "2026-09-23T04:45:18.852Z"
+    "updatedAt": "2026-09-23T05:00:40.277Z"
   },
   "2367": {
     "name": "UNITECH  PRINTED CIRCUIT BOARD ",
-    "price": 42,
+    "price": 41.95,
     "prevClose": 41.95000076293945,
-    "change": 0.05,
-    "changePercent": 0.12,
+    "change": 0,
+    "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:11.766Z"
+    "updatedAt": "2026-09-23T05:01:29.816Z"
   },
   "2369": {
     "name": "LINGSEN PRECISION INDUSTRIES",
-    "price": 31.3,
+    "price": 31.25,
     "prevClose": 31.350000381469727,
-    "change": -0.05,
-    "changePercent": -0.16,
+    "change": -0.1,
+    "changePercent": -0.32,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:46.733Z"
+    "updatedAt": "2026-09-23T05:02:03.121Z"
   },
   "2371": {
     "name": "TATUNG CO LTD",
-    "price": 29,
+    "price": 29.1,
     "prevClose": 29.450000762939453,
-    "change": -0.45,
-    "changePercent": -1.53,
+    "change": -0.35,
+    "changePercent": -1.19,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:34.013Z"
+    "updatedAt": "2026-09-23T05:00:54.294Z"
   },
   "2382": {
     "name": "QUANTA COMPUTER",
-    "price": 341,
+    "price": 341.5,
     "prevClose": 342,
-    "change": -1,
-    "changePercent": -0.29,
+    "change": -0.5,
+    "changePercent": -0.15,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:35.980Z"
+    "updatedAt": "2026-09-23T05:01:53.452Z"
   },
   "2395": {
     "name": "ADVANTECH CO LTD",
@@ -247,16 +247,16 @@
     "change": -2,
     "changePercent": -0.28,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:21.657Z"
+    "updatedAt": "2026-09-23T05:01:39.782Z"
   },
   "2399": {
     "name": "BIOSTAR MICROTEC INTL",
-    "price": 47.55,
+    "price": 47.5,
     "prevClose": 47.5,
-    "change": 0.05,
-    "changePercent": 0.11,
+    "change": 0,
+    "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:16.793Z"
+    "updatedAt": "2026-09-23T05:01:34.756Z"
   },
   "2404": {
     "name": "UNITED INTEGRATION SERVICES CO ",
@@ -265,7 +265,7 @@
     "change": 110,
     "changePercent": 9.65,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:26.738Z"
+    "updatedAt": "2026-09-23T05:01:44.676Z"
   },
   "2408": {
     "name": "NANYA TECHNOLOGY CORPORATION",
@@ -274,7 +274,7 @@
     "change": 21,
     "changePercent": 4.23,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:58.875Z"
+    "updatedAt": "2026-09-23T05:01:17.673Z"
   },
   "2421": {
     "name": "SUNONWEALTH ELECTRIC MACHINE IN",
@@ -283,7 +283,7 @@
     "change": -3.5,
     "changePercent": -2.1,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:51.414Z"
+    "updatedAt": "2026-09-23T05:01:10.566Z"
   },
   "2428": {
     "name": "THINKING ELECTRONIC INDL",
@@ -292,25 +292,25 @@
     "change": 0.5,
     "changePercent": 0.2,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:41.522Z"
+    "updatedAt": "2026-09-23T05:01:58.264Z"
   },
   "2449": {
     "name": "KING YUAN ELECTRONICS CO",
-    "price": 304.5,
+    "price": 305,
     "prevClose": 317,
-    "change": -12.5,
-    "changePercent": -3.94,
+    "change": -12,
+    "changePercent": -3.79,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:19.462Z"
+    "updatedAt": "2026-09-23T05:01:37.504Z"
   },
   "2451": {
     "name": "TRANSCEND INFORMATION INC",
-    "price": 283.5,
+    "price": 284.5,
     "prevClose": 285,
-    "change": -1.5,
-    "changePercent": -0.53,
+    "change": -0.5,
+    "changePercent": -0.18,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:31.250Z"
+    "updatedAt": "2026-09-23T05:00:51.770Z"
   },
   "2467": {
     "name": "C SUN MANUFACTURING CO",
@@ -319,16 +319,16 @@
     "change": -5,
     "changePercent": -0.95,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:27.452Z"
+    "updatedAt": "2026-09-23T05:00:48.184Z"
   },
   "2474": {
     "name": "CATCHER TECHNOLOGY",
-    "price": 209.5,
+    "price": 208.5,
     "prevClose": 210,
-    "change": -0.5,
-    "changePercent": -0.24,
+    "change": -1.5,
+    "changePercent": -0.71,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:34.874Z"
+    "updatedAt": "2026-09-23T05:00:55.069Z"
   },
   "2478": {
     "name": "TA-I TECHNOLOGY",
@@ -337,16 +337,16 @@
     "change": -0.5,
     "changePercent": -0.42,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:42.345Z"
+    "updatedAt": "2026-09-23T05:01:58.981Z"
   },
   "2481": {
     "name": "PAN JIT INTERNATIONAL INC",
-    "price": 174,
+    "price": 173.5,
     "prevClose": 171,
-    "change": 3,
-    "changePercent": 1.75,
+    "change": 2.5,
+    "changePercent": 1.46,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:22.457Z"
+    "updatedAt": "2026-09-23T05:01:40.531Z"
   },
   "2492": {
     "name": "WALSIN TECHNOLOGY CORP",
@@ -355,25 +355,25 @@
     "change": -4.5,
     "changePercent": -1.45,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:01.889Z"
+    "updatedAt": "2026-09-23T05:01:20.590Z"
   },
   "2882": {
     "name": "CATHAY FINANCIAL HLDG CO",
-    "price": 111.5,
+    "price": 112,
     "prevClose": 112,
-    "change": -0.5,
-    "changePercent": -0.45,
+    "change": 0,
+    "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:43.893Z"
+    "updatedAt": "2026-09-23T05:02:00.462Z"
   },
   "2884": {
     "name": "E SUN FINANCIAL HOLDINGS",
-    "price": 45.55,
+    "price": 45.6,
     "prevClose": 46.04999923706055,
-    "change": -0.5,
-    "changePercent": -1.09,
+    "change": -0.45,
+    "changePercent": -0.98,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:20.891Z"
+    "updatedAt": "2026-09-23T05:01:38.991Z"
   },
   "2889": {
     "name": "IBF FINANCIAL HOLDINGS CO LTD",
@@ -382,25 +382,25 @@
     "change": -0.1,
     "changePercent": -0.59,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:44.615Z"
+    "updatedAt": "2026-09-23T05:02:01.220Z"
   },
   "3006": {
     "name": "ELITE SEMICONDUCTOR MICROELECTR",
-    "price": 277,
+    "price": 276.5,
     "prevClose": 278.5,
-    "change": -1.5,
-    "changePercent": -0.54,
+    "change": -2,
+    "changePercent": -0.72,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:58.156Z"
+    "updatedAt": "2026-09-23T05:01:16.963Z"
   },
   "3013": {
     "name": "CHENMING ELECTRONIC TECHNOLOGY ",
-    "price": 84.7,
+    "price": 84.6,
     "prevClose": 83.0999984741211,
-    "change": 1.6,
-    "changePercent": 1.93,
+    "change": 1.5,
+    "changePercent": 1.81,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:37.805Z"
+    "updatedAt": "2026-09-23T05:01:54.947Z"
   },
   "3035": {
     "name": "FARADAY TECHNOLOGY",
@@ -409,61 +409,61 @@
     "change": 1,
     "changePercent": 0.49,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:35.188Z"
+    "updatedAt": "2026-09-23T05:01:52.632Z"
   },
   "3036": {
     "name": "WT MICROELECTRONICS CO LTD",
-    "price": 206.5,
+    "price": 206,
     "prevClose": 205,
-    "change": 1.5,
-    "changePercent": 0.73,
+    "change": 1,
+    "changePercent": 0.49,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:56.641Z"
+    "updatedAt": "2026-09-23T05:01:15.529Z"
   },
   "3044": {
     "name": "TRIPOD TECHNOLOGY CORP",
-    "price": 542,
+    "price": 544,
     "prevClose": 539,
-    "change": 3,
-    "changePercent": 0.56,
+    "change": 5,
+    "changePercent": 0.93,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:34.325Z"
+    "updatedAt": "2026-09-23T05:01:51.933Z"
   },
   "3090": {
     "name": "NICHIDENBO CORPORATION",
-    "price": 165,
+    "price": 165.5,
     "prevClose": 164.5,
-    "change": 0.5,
-    "changePercent": 0.3,
+    "change": 1,
+    "changePercent": 0.61,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:49.497Z"
+    "updatedAt": "2026-09-23T05:02:05.741Z"
   },
   "3105": {
     "name": "WIN SEMICONDUCTORS CORP",
-    "price": 491,
+    "price": 490.5,
     "prevClose": 501,
-    "change": -10,
-    "changePercent": -2,
+    "change": -10.5,
+    "changePercent": -2.1,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:50.688Z"
+    "updatedAt": "2026-09-23T05:01:09.805Z"
   },
   "3211": {
     "name": "DYNAPACK INTERNATIONAL TECHNOLO",
-    "price": 381,
+    "price": 381.5,
     "prevClose": 385,
-    "change": -4,
-    "changePercent": -1.04,
+    "change": -3.5,
+    "changePercent": -0.91,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:33.228Z"
+    "updatedAt": "2026-09-23T05:00:53.626Z"
   },
   "3221": {
     "name": "TAI-SAW TECHNOLOGY CO",
-    "price": 49.7,
+    "price": 49.95,
     "prevClose": 48,
-    "change": 1.7,
-    "changePercent": 3.54,
+    "change": 1.95,
+    "changePercent": 4.06,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:07.759Z"
+    "updatedAt": "2026-09-23T05:01:25.897Z"
   },
   "3231": {
     "name": "WISTRON CORPORATION",
@@ -472,34 +472,34 @@
     "change": 0,
     "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:36.900Z"
+    "updatedAt": "2026-09-23T05:01:54.262Z"
   },
   "3260": {
     "name": "ADATA TECHNOLOGY CO. LTD.",
-    "price": 383,
+    "price": 383.5,
     "prevClose": 384,
-    "change": -1,
-    "changePercent": -0.26,
+    "change": -0.5,
+    "changePercent": -0.13,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:32.762Z"
+    "updatedAt": "2026-09-23T05:01:50.412Z"
   },
   "3264": {
     "name": "ARDENTEC CORPORATION",
-    "price": 253,
+    "price": 252.5,
     "prevClose": 276.5,
-    "change": -23.5,
-    "changePercent": -8.5,
+    "change": -24,
+    "changePercent": -8.68,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:36.850Z"
+    "updatedAt": "2026-09-23T05:00:56.965Z"
   },
   "3265": {
     "name": "WINSTEK SEMICONDUCTOR CO LTD",
-    "price": 181,
+    "price": 181.5,
     "prevClose": 189.5,
-    "change": -8.5,
-    "changePercent": -4.49,
+    "change": -8,
+    "changePercent": -4.22,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:09.041Z"
+    "updatedAt": "2026-09-23T05:01:27.113Z"
   },
   "3357": {
     "name": "TAI-TECH ADVANCED ELECTRONICS C",
@@ -508,25 +508,25 @@
     "change": -3.5,
     "changePercent": -1.66,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:39.380Z"
+    "updatedAt": "2026-09-23T05:00:59.190Z"
   },
   "3413": {
     "name": "FOXSEMICON INTEGRATED TECHNOLOG",
-    "price": 284.5,
+    "price": 284,
     "prevClose": 283,
-    "change": 1.5,
-    "changePercent": 0.53,
+    "change": 1,
+    "changePercent": 0.35,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:31.975Z"
+    "updatedAt": "2026-09-23T05:00:52.434Z"
   },
   "3481": {
     "name": "INNOLUX CORPORATION",
-    "price": 50,
+    "price": 49.9,
     "prevClose": 50.5,
-    "change": -0.5,
-    "changePercent": -0.99,
+    "change": -0.6,
+    "changePercent": -1.19,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:09.710Z"
+    "updatedAt": "2026-09-23T05:01:27.831Z"
   },
   "3532": {
     "name": "FORMOSA SUMCO TECHNOLOGY CORP",
@@ -535,48 +535,48 @@
     "change": 18.5,
     "changePercent": 4.26,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:53.528Z"
+    "updatedAt": "2026-09-23T05:02:09.707Z"
   },
   "3583": {
     "name": "SCIENTECH CORPORATION",
-    "price": 697,
+    "price": 695,
     "prevClose": 704,
-    "change": -7,
-    "changePercent": -0.99,
+    "change": -9,
+    "changePercent": -1.28,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:29.521Z"
+    "updatedAt": "2026-09-23T05:01:47.278Z"
   },
   "3680": {
     "name": "GUDENG PRECISION INDUSTRIAL CO",
-    "price": 529,
+    "price": 530,
     "prevClose": 538,
-    "change": -9,
-    "changePercent": -1.67,
+    "change": -8,
+    "changePercent": -1.49,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:28.772Z"
+    "updatedAt": "2026-09-23T05:01:46.615Z"
   },
   "3702": {
     "name": "WPG HOLDINGS LIMITED",
-    "price": 115,
+    "price": 114.5,
     "prevClose": 113,
-    "change": 2,
-    "changePercent": 1.77,
+    "change": 1.5,
+    "changePercent": 1.33,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:22.210Z"
+    "updatedAt": "2026-09-23T05:00:43.296Z"
   },
   "3706": {
     "name": "MITAC HOLDINGS CORPORATION",
-    "price": 79.1,
+    "price": 78.7,
     "prevClose": 79.30000305175781,
-    "change": -0.2,
-    "changePercent": -0.25,
+    "change": -0.6,
+    "changePercent": -0.76,
     "alertTargets": [
       {
         "direction": "below",
         "target": 92
       }
     ],
-    "updatedAt": "2026-09-23T04:45:45.088Z"
+    "updatedAt": "2026-09-23T05:01:04.516Z"
   },
   "3707": {
     "name": "EPISIL TECHNOLOGIES INC",
@@ -585,16 +585,16 @@
     "change": 1.9,
     "changePercent": 2.73,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:18.792Z"
+    "updatedAt": "2026-09-23T05:01:36.714Z"
   },
   "3711": {
     "name": "ASE TECHNOLOGY HOLDING CO LTD",
-    "price": 693,
+    "price": 696,
     "prevClose": 693,
-    "change": 0,
-    "changePercent": 0,
+    "change": 3,
+    "changePercent": 0.43,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:30.441Z"
+    "updatedAt": "2026-09-23T05:00:50.969Z"
   },
   "4104": {
     "name": "EXCELSIOR MEDICAL CO LTD",
@@ -603,43 +603,43 @@
     "change": -0.2,
     "changePercent": -0.28,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:54.247Z"
+    "updatedAt": "2026-09-23T05:01:13.203Z"
   },
   "4540": {
     "name": "TBI MOTION TECHNOLOGY CO LTD",
-    "price": 59,
+    "price": 59.1,
     "prevClose": 59.900001525878906,
-    "change": -0.9,
-    "changePercent": -1.5,
+    "change": -0.8,
+    "changePercent": -1.34,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:43.467Z"
+    "updatedAt": "2026-09-23T05:01:03.039Z"
   },
   "4931": {
     "name": "STL TECHNOLOGY CO LTD",
-    "price": 238,
+    "price": 237.5,
     "prevClose": 240.5,
-    "change": -2.5,
-    "changePercent": -1.04,
+    "change": -3,
+    "changePercent": -1.25,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:52.614Z"
+    "updatedAt": "2026-09-23T05:01:11.734Z"
   },
   "4938": {
     "name": "PEGATRON CORPORATION",
-    "price": 91,
+    "price": 91.1,
     "prevClose": 90,
-    "change": 1,
-    "changePercent": 1.11,
+    "change": 1.1,
+    "changePercent": 1.22,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:15.934Z"
+    "updatedAt": "2026-09-23T05:01:34.080Z"
   },
   "4958": {
     "name": "ZHEN DING TECHNOLOGY HOLDING LT",
-    "price": 474.5,
+    "price": 474,
     "prevClose": 489,
-    "change": -14.5,
-    "changePercent": -2.97,
+    "change": -15,
+    "changePercent": -3.07,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:33.546Z"
+    "updatedAt": "2026-09-23T05:01:51.161Z"
   },
   "4973": {
     "name": "SILICON POWER COMPUTER & COMMUN",
@@ -648,16 +648,16 @@
     "change": -2,
     "changePercent": -1.46,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:29.581Z"
+    "updatedAt": "2026-09-23T05:00:50.215Z"
   },
   "5328": {
     "name": "HUA JUNG COMPONENTS CO",
-    "price": 52,
+    "price": 51.9,
     "prevClose": 52,
-    "change": 0,
-    "changePercent": 0,
+    "change": -0.1,
+    "changePercent": -0.19,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:10.980Z"
+    "updatedAt": "2026-09-23T05:01:29.016Z"
   },
   "5347": {
     "name": "VANGUARD INTERNATIONAL SEMICOND",
@@ -666,43 +666,43 @@
     "change": 0.5,
     "changePercent": 0.29,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:31.494Z"
+    "updatedAt": "2026-09-23T05:01:49.247Z"
   },
   "5351": {
     "name": "ETRON TECHNOLOGY INC",
-    "price": 107,
+    "price": 106,
     "prevClose": 106,
-    "change": 1,
-    "changePercent": 0.94,
+    "change": 0,
+    "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:51.547Z"
+    "updatedAt": "2026-09-23T05:02:07.642Z"
   },
   "5388": {
     "name": "SERCOMM CORP",
-    "price": 72.9,
+    "price": 73,
     "prevClose": 72.30000305175781,
-    "change": 0.6,
-    "changePercent": 0.83,
+    "change": 0.7,
+    "changePercent": 0.97,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:48.775Z"
+    "updatedAt": "2026-09-23T05:02:04.954Z"
   },
   "5425": {
     "name": "TAIWAN SEMICONDUCTOR CO",
-    "price": 94.8,
+    "price": 94.9,
     "prevClose": 93.5,
-    "change": 1.3,
-    "changePercent": 1.39,
+    "change": 1.4,
+    "changePercent": 1.5,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:06.536Z"
+    "updatedAt": "2026-09-23T05:01:24.785Z"
   },
   "5434": {
     "name": "TOPCO SCIENTIFIC CO",
-    "price": 543,
+    "price": 542,
     "prevClose": 534,
-    "change": 9,
-    "changePercent": 1.69,
+    "change": 8,
+    "changePercent": 1.5,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:57.452Z"
+    "updatedAt": "2026-09-23T05:01:16.224Z"
   },
   "5443": {
     "name": "GALLANT PRECISION MACHINING CO",
@@ -711,7 +711,7 @@
     "change": -0.5,
     "changePercent": -0.47,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:47.994Z"
+    "updatedAt": "2026-09-23T05:02:04.245Z"
   },
   "5483": {
     "name": "SINO-AMERICAN SILICON PRODUCTS ",
@@ -720,25 +720,25 @@
     "change": -10.5,
     "changePercent": -5.38,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:40.716Z"
+    "updatedAt": "2026-09-23T05:01:57.533Z"
   },
   "6139": {
     "name": "L&K ENGINEERING CO",
-    "price": 742,
+    "price": 739,
     "prevClose": 715,
-    "change": 27,
-    "changePercent": 3.78,
+    "change": 24,
+    "changePercent": 3.36,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:27.446Z"
+    "updatedAt": "2026-09-23T05:01:45.473Z"
   },
   "6147": {
     "name": "CHIPBOND TECHNOLOGY CORP",
-    "price": 215,
+    "price": 215.5,
     "prevClose": 219,
-    "change": -4,
-    "changePercent": -1.83,
+    "change": -3.5,
+    "changePercent": -1.6,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:38.100Z"
+    "updatedAt": "2026-09-23T05:00:58.074Z"
   },
   "6166": {
     "name": "ADLINK TECHNOLOGY INC",
@@ -747,25 +747,25 @@
     "change": 1.5,
     "changePercent": 1.18,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:22.951Z"
+    "updatedAt": "2026-09-23T05:00:44.063Z"
   },
   "6173": {
     "name": "PROSPERITY DIELECTRICS CO",
-    "price": 304,
+    "price": 303,
     "prevClose": 303,
-    "change": 1,
-    "changePercent": 0.33,
+    "change": 0,
+    "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:05.245Z"
+    "updatedAt": "2026-09-23T05:01:23.633Z"
   },
   "6174": {
     "name": "AKER TECHNOLOGY",
-    "price": 45.05,
+    "price": 44.85,
     "prevClose": 43.900001525878906,
-    "change": 1.15,
-    "changePercent": 2.62,
+    "change": 0.95,
+    "changePercent": 2.16,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:41.997Z"
+    "updatedAt": "2026-09-23T05:01:01.568Z"
   },
   "6182": {
     "name": "WAFER WORKS CORPORATION",
@@ -774,16 +774,16 @@
     "change": -3.5,
     "changePercent": -2.94,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:54.831Z"
+    "updatedAt": "2026-09-23T05:02:10.874Z"
   },
   "6196": {
     "name": "MARKETECH INTERNATIONAL CORP",
-    "price": 554,
+    "price": 550,
     "prevClose": 535,
-    "change": 19,
-    "changePercent": 3.55,
+    "change": 15,
+    "changePercent": 2.8,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:48.691Z"
+    "updatedAt": "2026-09-23T05:01:07.800Z"
   },
   "6213": {
     "name": "ITEQ CORP",
@@ -792,16 +792,16 @@
     "change": 1,
     "changePercent": 0.18,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:24.881Z"
+    "updatedAt": "2026-09-23T05:01:42.771Z"
   },
   "6217": {
     "name": "CCP CONTACT PROBES CO",
-    "price": 168,
+    "price": 167.5,
     "prevClose": 170.5,
-    "change": -2.5,
-    "changePercent": -1.47,
+    "change": -3,
+    "changePercent": -1.76,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:03.982Z"
+    "updatedAt": "2026-09-23T05:01:22.503Z"
   },
   "6239": {
     "name": "POWERTECH TECHNOLOGY INC",
@@ -810,7 +810,7 @@
     "change": -3.5,
     "changePercent": -1.2,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:30.199Z"
+    "updatedAt": "2026-09-23T05:01:48.067Z"
   },
   "6257": {
     "name": "SIGURD MICROELECTRONICS CORP",
@@ -819,79 +819,79 @@
     "change": -2,
     "changePercent": -0.8,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:02.602Z"
+    "updatedAt": "2026-09-23T05:01:21.354Z"
   },
   "6271": {
     "name": "TONG HSING ELECTRONIC INDUSTRIE",
-    "price": 229.5,
+    "price": 229,
     "prevClose": 228,
-    "change": 1.5,
-    "changePercent": 0.66,
+    "change": 1,
+    "changePercent": 0.44,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:49.437Z"
+    "updatedAt": "2026-09-23T05:01:08.629Z"
   },
   "6282": {
     "name": "ACBEL POLYTECH INC",
-    "price": 43.2,
+    "price": 43.15,
     "prevClose": 43,
-    "change": 0.2,
-    "changePercent": 0.47,
+    "change": 0.15,
+    "changePercent": 0.35,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:45.909Z"
+    "updatedAt": "2026-09-23T05:01:05.244Z"
   },
   "6285": {
     "name": "WNC CORPORATION",
-    "price": 231.5,
+    "price": 231,
     "prevClose": 233.5,
-    "change": -2,
-    "changePercent": -0.86,
+    "change": -2.5,
+    "changePercent": -1.07,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:23.220Z"
+    "updatedAt": "2026-09-23T05:01:41.257Z"
   },
   "6290": {
     "name": "LONGWELL CO",
-    "price": 274,
+    "price": 273,
     "prevClose": 276,
-    "change": -2,
-    "changePercent": -0.72,
+    "change": -3,
+    "changePercent": -1.09,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:45.868Z"
+    "updatedAt": "2026-09-23T05:02:02.428Z"
   },
   "6412": {
     "name": "CHICONY POWER TECHNOLOGY CO LTD",
-    "price": 74.7,
+    "price": 74.6,
     "prevClose": 74.30000305175781,
-    "change": 0.4,
-    "changePercent": 0.54,
+    "change": 0.3,
+    "changePercent": 0.4,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:38.587Z"
+    "updatedAt": "2026-09-23T05:01:55.616Z"
   },
   "6469": {
     "name": "GREAT TREE PHARMACY CO LTD",
-    "price": 64.7,
+    "price": 64.9,
     "prevClose": 64.30000305175781,
-    "change": 0.4,
-    "changePercent": 0.62,
+    "change": 0.6,
+    "changePercent": 0.93,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:47.174Z"
+    "updatedAt": "2026-09-23T05:01:06.344Z"
   },
   "6472": {
     "name": "BORA PHARMACEUTICALS CO LTD",
-    "price": 437,
+    "price": 436,
     "prevClose": 420,
-    "change": 17,
-    "changePercent": 4.05,
+    "change": 16,
+    "changePercent": 3.81,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:25.381Z"
+    "updatedAt": "2026-09-23T05:00:46.218Z"
   },
   "6530": {
     "name": "AXCEN PHOTONICS CORPORATION",
-    "price": 98.2,
+    "price": 99.2,
     "prevClose": 100.5,
-    "change": -2.3,
-    "changePercent": -2.29,
+    "change": -1.3,
+    "changePercent": -1.29,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:26.064Z"
+    "updatedAt": "2026-09-23T05:01:43.881Z"
   },
   "6672": {
     "name": "VENTEC INTERNATIONAL GROUP CO L",
@@ -900,16 +900,16 @@
     "change": 5.5,
     "changePercent": 1.82,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:55.683Z"
+    "updatedAt": "2026-09-23T05:02:11.546Z"
   },
   "6770": {
     "name": "POWERCHIP SEMICONDUCTOR MANUFAC",
-    "price": 73.3,
+    "price": 73.2,
     "prevClose": 71.80000305175781,
-    "change": 1.5,
-    "changePercent": 2.09,
+    "change": 1.4,
+    "changePercent": 1.95,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:00.305Z"
+    "updatedAt": "2026-09-23T05:01:19.011Z"
   },
   "6821": {
     "name": "LKM",
@@ -918,7 +918,7 @@
     "change": 0,
     "changePercent": 0,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:12.903Z"
+    "updatedAt": "2026-09-23T05:01:30.967Z"
   },
   "8105": {
     "name": "GIANTPLUS TECHNOLOGY CO",
@@ -927,57 +927,57 @@
     "change": -0.3,
     "changePercent": -1.96,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:17.658Z"
+    "updatedAt": "2026-09-23T05:01:35.484Z"
   },
   "8112": {
     "name": "SUPREME ELECTRONICS CO",
-    "price": 82.5,
+    "price": 82.7,
     "prevClose": 82.19999694824219,
-    "change": 0.3,
-    "changePercent": 0.36,
+    "change": 0.5,
+    "changePercent": 0.61,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:43.153Z"
+    "updatedAt": "2026-09-23T05:01:59.667Z"
   },
   "8150": {
     "name": "CHIPMOS TECHNOLOGIES INC",
-    "price": 107,
+    "price": 108,
     "prevClose": 105.5,
-    "change": 1.5,
-    "changePercent": 1.42,
+    "change": 2.5,
+    "changePercent": 2.37,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:44.294Z"
+    "updatedAt": "2026-09-23T05:01:03.744Z"
   },
   "8210": {
     "name": "CHENBRO MICOM CO",
-    "price": 898,
+    "price": 894,
     "prevClose": 898,
-    "change": 0,
-    "changePercent": 0,
+    "change": -4,
+    "changePercent": -0.45,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:46:39.399Z"
+    "updatedAt": "2026-09-23T05:01:56.334Z"
   },
   "8261": {
     "name": "ADVANCED POWER ELECTRONICS",
-    "price": 177,
+    "price": 180,
     "prevClose": 176.5,
-    "change": 0.5,
-    "changePercent": 0.28,
+    "change": 3.5,
+    "changePercent": 1.98,
     "alertTargets": [
       {
         "direction": "below",
         "target": 165
       }
     ],
-    "updatedAt": "2026-09-23T04:45:47.912Z"
+    "updatedAt": "2026-09-23T05:01:07.106Z"
   },
   "8289": {
     "name": "TAITIEN ELECTRONICS CO",
-    "price": 45.2,
+    "price": 45.25,
     "prevClose": 44.29999923706055,
-    "change": 0.9,
-    "changePercent": 2.03,
+    "change": 0.95,
+    "changePercent": 2.14,
     "alertTargets": [],
-    "updatedAt": "2026-09-23T04:45:40.643Z"
+    "updatedAt": "2026-09-23T05:01:00.397Z"
   },
   "9933": {
     "name": "CTCI CORP",
@@ -991,6 +991,6 @@
         "target": 38
       }
     ],
-    "updatedAt": "2026-09-23T04:45:24.628Z"
+    "updatedAt": "2026-09-23T05:00:45.520Z"
   }
 }
