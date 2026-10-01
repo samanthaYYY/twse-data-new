@@ -2,7 +2,7 @@
 
 這裡存放外部讀取專用的資料。程式與觀察清單在私有 repo `tw-stock-alert`。
 
-最後更新：2026/09/18（新增重大訊息監控 material_news.json；前次 2026/08/23：新增董監持股／集保股權分散、補記 K 線與上櫃來源、退役 Gist）
+最後更新：2026/10/01（K 線改以資料本身日期為準並可修復、latest_prices 新增 `marketDate`、寫檔改為內容沒變不寫；前次 2026/09/18：新增重大訊息監控 material_news.json；前次 2026/08/23：新增董監持股／集保股權分散、補記 K 線與上櫃來源、退役 Gist）
 
 ---
 
@@ -10,9 +10,9 @@
 
 | 檔案 | 內容 | 由誰寫 | 給誰讀 |
 |---|---|---|---|
-| `latest_prices.json` | 最新報價快照（現價、昨收、漲跌、到價提醒、更新時間），key 為股票代號 | GitHub Actions（`check-prices.mjs`）每 15 分鐘 | 儀表板、排程、Claude |
+| `latest_prices.json` | 最新報價快照（現價、昨收、漲跌、到價提醒、`marketDate` 實際交易日、更新時間），key 為股票代號 | GitHub Actions（`check-prices.mjs`）每 15 分鐘 | 儀表板、排程、Claude |
 | `fundamentals.json` | **八面向**籌碼/基本面快照（見下），key 為股票代號，值為官方回傳原始物件 | GitHub Actions（`check-fundamentals.mjs`）平日 17:00 | Claude（`taiwan-stock-advisor` skill） |
-| `kline_history.json` | 個股日 K 線歷史（開高低收量），保留約 120 交易日 | GitHub Actions（`check-kline.mjs`）平日 17:30 | Claude（技術分析） |
+| `kline_history.json` | 個股日 K 線歷史（開高低收量），保留約 120 交易日 | GitHub Actions（`check-kline.mjs`）平日 17:30、21:13、隔日 07:43（冪等補跑） | Claude（技術分析） |
 | `material_news.json` | 觀察清單**重大訊息**去重記憶＋近期明細（含 AI 多空粗判、一句話重點） | GitHub Actions（`check-material.mjs`）盤中每 30 分＋盤後 16:00/20:00 | 排程去重、Claude、儀表板 |
 | `radar-baseline.json` | 潛力雷達的**名單＋分析基準**（題材/基期/潛力標籤、`p`進場錨定基準價） | 人工維護 + 排程刷新 | 儀表板、排程、Claude |
 | `README.md` | 本說明 | 人工 | 人 |
@@ -28,7 +28,7 @@
         │
         ├─ check.yml            平日每15分鐘   → check-prices.mjs      → latest_prices.json
         ├─ check-fundamentals   平日 17:00      → check-fundamentals.mjs → fundamentals.json
-        ├─ check-kline          平日 17:30      → check-kline.mjs       → kline_history.json
+        ├─ check-kline          平日 17:30＋補跑 → check-kline.mjs       → kline_history.json
         └─ check-material       盤中每30分+盤後 → check-material.mjs    → material_news.json（+ Discord 推播）
                 （四支都寫進本 public repo，共用同一把 DATA_REPO_TOKEN）
                                      │
@@ -75,6 +75,12 @@
 
 `meta` 記每檔市場別（TWSE/TPEx）；`tickers[代號][YYYY-MM-DD] = {open,high,low,close,volume}`。每日例行更新只需 2 次 call（TWSE 全市場 1 次 + TPEx 全市場 1 次）；上市新股首次會逐月回補 3 個月，上櫃股無回補（官方 API 限制，只能從開始執行當天累積）。保留約 120 交易日（涵蓋季線）。
 
+**日期規則（2026/10 修正）**：K 棒的日期一律是**資料本身的交易日**，不是排程執行日。端點有日期欄位就用；沒有時用 `latest_prices.json` 的 `marketDate` 做全市場多數決推定，推定不出來就整批不寫。同一日期重跑會覆蓋同一根 K 棒，所以一天排三次補跑不會重複。
+
+**資料品質欄位 `dataQuality`**（2026/10 新增，選用）：記錄上市股最近一次官方月資料修復的時間與月份。**2026/10 以前的上櫃股 K 棒可能有一天錯置**（舊版用執行日期當 key），待 TPEx 歷史端點驗證後修復；讀取端做均線時若需要高精度，請優先參考上市股或近期資料。
+
+`meta` 裡可能留有已從觀察清單移除的代號（保留歷史，讀取端以 `latest_prices.json` 的代號為準即可）。
+
 ---
 
 ## material_news.json — 觀察清單重大訊息
@@ -91,7 +97,7 @@
 ```
 
 - **去重記憶內建在這份檔**：`check-material` 每次讀 `seen` 比對、只推「新的」，同一則永遠只推一次。排程頻率是可調旋鈕，跑幾次只影響「多快收到」、不會重複推播。
-- `aiTag`（利多/利空/中性）與 `aiNote`（一句話重點）為 **AI 研判、僅供參考**（非投資建議），由 `claude-sonnet-4-5` 產生；沒設 `ANTHROPIC_API_KEY` 時為 `null`。
+- `aiTag`（利多/利空/中性）與 `aiNote`（一句話重點）為 **AI 研判、僅供參考**（非投資建議），由 `claude-sonnet-4-5` 產生；沒設 `ANTHROPIC_API_KEY` 時為 `null`。**2026/10 以前的紀錄全部是 `null`**：workflow 當時漏傳金鑰，2026/10 起才開始有判讀。沒有新重訊時不再重寫本檔。
 - 資料源 memo：**舊網域 `mops.twse.com.tw` 被安全性封鎖頁擋掉**，一定要用 `mopsov.twse.com.tw`；`ajax_t05st02` 的 `step` 要用 0、`year` 用民國年、回傳是 HTML 要解析表格（欄位以關鍵字比對表頭）。
 
 ---
