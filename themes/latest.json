@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-02",
-  "generatedAt": "2026-10-02T15:44:53.982Z",
+  "generatedAt": "2026-10-02T18:33:13.124Z",
   "historyDays": 30,
   "dataReady": {
     "vr": true,
@@ -42,9 +42,9 @@
     },
     {
       "code": "3701",
-      "name": "3701",
+      "name": "大眾控",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電腦及週邊設備業",
       "signals": [
         "flow_turn_buy",
         "vol_surge",
@@ -89,9 +89,9 @@
     },
     {
       "code": "9933",
-      "name": "9933",
+      "name": "中鼎",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "其他",
       "signals": [
         "flow_turn_buy",
         "vol_surge",
@@ -224,9 +224,9 @@
     },
     {
       "code": "1727",
-      "name": "1727",
+      "name": "中華化",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "化學工業",
       "signals": [
         "flow_turn_buy",
         "vol_surge",
@@ -266,9 +266,9 @@
     },
     {
       "code": "3010",
-      "name": "3010",
+      "name": "華立",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子通路業",
       "signals": [
         "vol_surge_quiet",
         "flow_turn_buy"
@@ -307,9 +307,9 @@
     },
     {
       "code": "2492",
-      "name": "2492",
+      "name": "華新科",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "flow_turn_buy",
         "vol_surge",
@@ -329,9 +329,9 @@
     },
     {
       "code": "3042",
-      "name": "3042",
+      "name": "晶技",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "flow_turn_buy",
         "vol_surge",
@@ -349,9 +349,9 @@
     },
     {
       "code": "1709",
-      "name": "1709",
+      "name": "和益",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "化學工業",
       "signals": [
         "flow_turn_buy",
         "limit_up",
@@ -392,9 +392,9 @@
     },
     {
       "code": "4755",
-      "name": "4755",
+      "name": "三福化",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "化學工業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -433,9 +433,9 @@
     },
     {
       "code": "4927",
-      "name": "4927",
+      "name": "泰鼎-KY",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "vol_surge",
         "limit_up",
@@ -444,6 +444,7 @@
       "kind": "confirm",
       "score": 1.7,
       "tags": [
+        "KY",
         "追高區"
       ],
       "c": 48.15,
@@ -496,9 +497,9 @@
     },
     {
       "code": "2614",
-      "name": "2614",
+      "name": "東森",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "其他",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -515,9 +516,9 @@
     },
     {
       "code": "6225",
-      "name": "6225",
+      "name": "天瀚",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "光電業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -536,9 +537,9 @@
     },
     {
       "code": "6438",
-      "name": "6438",
+      "name": "迅得",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "其他電子業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -577,9 +578,9 @@
     },
     {
       "code": "4958",
-      "name": "4958",
+      "name": "臻鼎-KY",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "vol_surge",
         "limit_up",
@@ -588,6 +589,7 @@
       "kind": "confirm",
       "score": 1.7,
       "tags": [
+        "KY",
         "追高區"
       ],
       "c": 561,
@@ -599,9 +601,9 @@
     },
     {
       "code": "2420",
-      "name": "2420",
+      "name": "新巨",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -715,9 +717,9 @@
     },
     {
       "code": "6405",
-      "name": "6405",
+      "name": "悅城",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "光電業",
       "signals": [
         "flow_turn_buy",
         "vol_surge"
@@ -734,9 +736,9 @@
     },
     {
       "code": "3031",
-      "name": "3031",
+      "name": "佰鴻",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "光電業",
       "signals": [
         "flow_turn_buy",
         "vol_surge"
@@ -753,9 +755,9 @@
     },
     {
       "code": "7768",
-      "name": "7768",
+      "name": "頌勝科技",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "flow_turn_buy",
         "vol_surge"
@@ -810,9 +812,9 @@
     },
     {
       "code": "4989",
-      "name": "4989",
+      "name": "榮科",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "low_base_breakout",
         "vol_surge"
@@ -829,9 +831,9 @@
     },
     {
       "code": "2355",
-      "name": "2355",
+      "name": "敬鵬",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "low_base_breakout",
         "vol_surge"
@@ -850,9 +852,9 @@
     },
     {
       "code": "2327",
-      "name": "2327",
+      "name": "國巨*",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "flow_turn_buy",
         "vol_surge"
@@ -871,9 +873,9 @@
     },
     {
       "code": "3450",
-      "name": "3450",
+      "name": "聯鈞",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "low_base_breakout",
         "vol_surge"
@@ -890,9 +892,9 @@
     },
     {
       "code": "2342",
-      "name": "2342",
+      "name": "茂矽",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "flow_turn_buy",
         "vol_surge"
@@ -909,9 +911,9 @@
     },
     {
       "code": "6834",
-      "name": "6834",
+      "name": "天二科技",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子零組件業",
       "signals": [
         "flow_turn_buy",
         "limit_up"
@@ -928,9 +930,9 @@
     },
     {
       "code": "4764",
-      "name": "4764",
+      "name": "雙鍵",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "化學工業",
       "signals": [
         "low_base_breakout",
         "limit_up"
@@ -966,9 +968,9 @@
     },
     {
       "code": "6442",
-      "name": "6442",
+      "name": "光聖",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "通信網路業",
       "signals": [
         "low_base_breakout",
         "limit_up"
@@ -1008,9 +1010,9 @@
     },
     {
       "code": "1710",
-      "name": "1710",
+      "name": "東聯",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "化學工業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1027,9 +1029,9 @@
     },
     {
       "code": "2207",
-      "name": "2207",
+      "name": "和泰車",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "汽車工業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1067,9 +1069,9 @@
     },
     {
       "code": "2302",
-      "name": "2302",
+      "name": "麗正",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1086,9 +1088,9 @@
     },
     {
       "code": "2458",
-      "name": "2458",
+      "name": "義隆",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1105,16 +1107,18 @@
     },
     {
       "code": "6854",
-      "name": "6854",
+      "name": "錼創科技-KY創",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
       ],
       "kind": "confirm",
       "score": 1.5,
-      "tags": [],
+      "tags": [
+        "KY"
+      ],
       "c": 94.9,
       "ret1": 1.3,
       "ret5": 2.5,
@@ -1143,9 +1147,9 @@
     },
     {
       "code": "2408",
-      "name": "2408",
+      "name": "南亞科",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1164,9 +1168,9 @@
     },
     {
       "code": "3014",
-      "name": "3014",
+      "name": "聯陽",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "半導體業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1204,9 +1208,9 @@
     },
     {
       "code": "4949",
-      "name": "4949",
+      "name": "有成精密",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "光電業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1250,7 +1254,7 @@
       "method": [
         "correlation"
       ],
-      "label": "未知族群：化學工業／半導體業／未分類 等",
+      "label": "未知族群：化學工業／半導體業／其他 等",
       "theme": null,
       "members": [
         "4716",
@@ -1262,13 +1266,13 @@
         "3163",
         "4927"
       ],
-      "heat": 0.88,
+      "heat": 0.89,
       "breadth": 0.63,
       "unknown": true,
       "industries": [
         "化學工業",
         "半導體業",
-        "未分類",
+        "其他",
         "電子零組件業",
         "通信網路業"
       ],
@@ -1288,19 +1292,18 @@
       "method": [
         "correlation"
       ],
-      "label": "未知族群：半導體業／未分類／光電業",
+      "label": "未知族群：半導體業／光電業",
       "theme": null,
       "members": [
         "4991",
         "7768",
         "8111"
       ],
-      "heat": 0.82,
+      "heat": 0.83,
       "breadth": 0.63,
       "unknown": true,
       "industries": [
         "半導體業",
-        "未分類",
         "光電業"
       ],
       "avgCorr": 0.63,
@@ -1314,7 +1317,7 @@
       "method": [
         "correlation"
       ],
-      "label": "未知族群：其他電子業／電子零組件業／未分類",
+      "label": "未知族群：其他電子業／電子零組件業／綠能環保 等",
       "theme": null,
       "members": [
         "4760",
@@ -1338,7 +1341,9 @@
       "industries": [
         "其他電子業",
         "電子零組件業",
-        "未分類"
+        "綠能環保",
+        "化學工業",
+        "電子通路業"
       ],
       "avgCorr": 0.65,
       "relatedThemes": [
@@ -1352,6 +1357,37 @@
     },
     {
       "id": "g-20261002-4",
+      "key": "corr:3707",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：半導體業／電子零組件業／通信網路業",
+      "theme": null,
+      "members": [
+        "3707",
+        "4989",
+        "6442"
+      ],
+      "heat": 0.71,
+      "breadth": 0.61,
+      "unknown": true,
+      "industries": [
+        "半導體業",
+        "電子零組件業",
+        "通信網路業"
+      ],
+      "avgCorr": 0.61,
+      "relatedThemes": [
+        {
+          "theme": "optical-cpo",
+          "members": 1
+        }
+      ],
+      "stage": "overheat",
+      "earlyRatio": 0
+    },
+    {
+      "id": "g-20261002-5",
       "key": "corr:3455",
       "method": [
         "correlation"
@@ -1365,14 +1401,14 @@
         "6150",
         "3588"
       ],
-      "heat": 0.72,
+      "heat": 0.7,
       "breadth": 0.63,
       "unknown": true,
       "industries": [
         "光電業",
         "電子零組件業",
         "電腦及週邊設備業",
-        "未分類"
+        "半導體業"
       ],
       "avgCorr": 0.63,
       "relatedThemes": [],
@@ -1380,12 +1416,12 @@
       "earlyRatio": 0.8
     },
     {
-      "id": "g-20261002-5",
+      "id": "g-20261002-6",
       "key": "corr:1477",
       "method": [
         "correlation"
       ],
-      "label": "未知族群：未分類",
+      "label": "未知族群：紡織纖維／金融保險業／汽車工業 等",
       "theme": null,
       "members": [
         "1477",
@@ -1394,11 +1430,14 @@
         "2204",
         "6592"
       ],
-      "heat": 0.72,
+      "heat": 0.7,
       "breadth": 0.65,
       "unknown": true,
       "industries": [
-        "未分類"
+        "紡織纖維",
+        "金融保險業",
+        "汽車工業",
+        "其他"
       ],
       "avgCorr": 0.65,
       "relatedThemes": [
@@ -1415,12 +1454,12 @@
       "earlyRatio": 0.4
     },
     {
-      "id": "g-20261002-6",
+      "id": "g-20261002-7",
       "key": "corr:2614",
       "method": [
         "correlation"
       ],
-      "label": "未知族群：未分類／生技醫療業",
+      "label": "未知族群：其他／生技醫療業／貿易百貨 等",
       "theme": null,
       "members": [
         "2614",
@@ -1428,12 +1467,14 @@
         "2912",
         "1216"
       ],
-      "heat": 0.72,
+      "heat": 0.69,
       "breadth": 0.71,
       "unknown": true,
       "industries": [
-        "未分類",
-        "生技醫療業"
+        "其他",
+        "生技醫療業",
+        "貿易百貨",
+        "食品工業"
       ],
       "avgCorr": 0.71,
       "relatedThemes": [
@@ -1450,42 +1491,12 @@
       "earlyRatio": 0.75
     },
     {
-      "id": "g-20261002-7",
-      "key": "corr:3707",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：半導體業／未分類",
-      "theme": null,
-      "members": [
-        "3707",
-        "4989",
-        "6442"
-      ],
-      "heat": 0.68,
-      "breadth": 0.61,
-      "unknown": true,
-      "industries": [
-        "半導體業",
-        "未分類"
-      ],
-      "avgCorr": 0.61,
-      "relatedThemes": [
-        {
-          "theme": "optical-cpo",
-          "members": 1
-        }
-      ],
-      "stage": "overheat",
-      "earlyRatio": 0
-    },
-    {
       "id": "g-20261002-8",
       "key": "corr:3701",
       "method": [
         "correlation"
       ],
-      "label": "未知族群：未分類／其他",
+      "label": "未知族群：電腦及週邊設備業／半導體業／化學工業 等",
       "theme": null,
       "members": [
         "3701",
@@ -1493,11 +1504,13 @@
         "1709",
         "7777"
       ],
-      "heat": 0.64,
+      "heat": 0.67,
       "breadth": 0.57,
       "unknown": true,
       "industries": [
-        "未分類",
+        "電腦及週邊設備業",
+        "半導體業",
+        "化學工業",
         "其他"
       ],
       "avgCorr": 0.57,
@@ -1518,8 +1531,7 @@
       "ret1": 3.6,
       "ret5": 12.9,
       "ret20": 14.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "optical-cpo",
@@ -1540,8 +1552,7 @@
       "ret1": 7.8,
       "ret5": 5.5,
       "ret20": -10.1,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "abf-substrate",
@@ -1619,8 +1630,7 @@
       "ret1": 4.6,
       "ret5": 17.3,
       "ret20": 23.1,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "memory",
@@ -1673,8 +1683,7 @@
       "ret1": 3.8,
       "ret5": 7.8,
       "ret20": 12.7,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "ai-server-odm",
