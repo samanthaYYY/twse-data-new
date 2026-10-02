@@ -1,0 +1,2058 @@
+{
+  "schema": "themes-latest",
+  "v": 1,
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-02T06:27:46.471Z",
+  "historyDays": 29,
+  "dataReady": {
+    "vr": true,
+    "atr": true,
+    "pos60": true,
+    "flowTurn": true,
+    "trustFirst": true
+  },
+  "counts": {
+    "universe": 1949,
+    "liquid": 1022,
+    "anomalies": 100
+  },
+  "anomalies": [
+    {
+      "code": "5228",
+      "name": "5228",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 3.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 43.7,
+      "ret1": 9.9,
+      "ret5": 10.4,
+      "vr": 2.89,
+      "flow5": 138,
+      "themes": []
+    },
+    {
+      "code": "8289",
+      "name": "8289",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "vol_surge",
+        "limit_up",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 2.7,
+      "tags": [
+        "追高區"
+      ],
+      "c": 51,
+      "ret1": 9.9,
+      "ret5": 15.1,
+      "vr": 6.47,
+      "flow5": 643,
+      "themes": []
+    },
+    {
+      "code": "6499",
+      "name": "6499",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 2.7,
+      "tags": [],
+      "c": 79.1,
+      "ret1": 1.8,
+      "ret5": 7.6,
+      "vr": 2.5,
+      "flow5": 399,
+      "themes": []
+    },
+    {
+      "code": "3357",
+      "name": "3357",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 2.6,
+      "tags": [],
+      "c": 212.5,
+      "ret1": 3.9,
+      "ret5": 1,
+      "vr": 2.05,
+      "flow5": 64,
+      "themes": []
+    },
+    {
+      "code": "3537",
+      "name": "3537",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 58.6,
+      "ret1": 9.9,
+      "ret5": 10.8,
+      "vr": 7.65,
+      "flow5": 252,
+      "themes": []
+    },
+    {
+      "code": "5328",
+      "name": "5328",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 58.4,
+      "ret1": 10,
+      "ret5": 12.3,
+      "vr": 4.4,
+      "flow5": 442,
+      "themes": []
+    },
+    {
+      "code": "3490",
+      "name": "3490",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [],
+      "c": 48.75,
+      "ret1": 9.9,
+      "ret5": 7.1,
+      "vr": 3.82,
+      "flow5": 938,
+      "themes": []
+    },
+    {
+      "code": "6691",
+      "name": "6691",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_turn_buy"
+      ],
+      "kind": "early",
+      "score": 2.2,
+      "tags": [],
+      "c": 733,
+      "ret1": 1.9,
+      "ret5": 15.4,
+      "vr": 2.65,
+      "flow5": 1378,
+      "themes": []
+    },
+    {
+      "code": "7777",
+      "name": "7777",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_turn_buy"
+      ],
+      "kind": "early",
+      "score": 2.2,
+      "tags": [],
+      "c": 38.25,
+      "ret1": 0.7,
+      "ret5": 7,
+      "vr": 2.61,
+      "flow5": 1612,
+      "themes": []
+    },
+    {
+      "code": "6642",
+      "name": "6642",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_turn_buy"
+      ],
+      "kind": "early",
+      "score": 2.2,
+      "tags": [],
+      "c": 83,
+      "ret1": 1.6,
+      "ret5": 5.3,
+      "vr": 2.59,
+      "flow5": 123,
+      "themes": []
+    },
+    {
+      "code": "4760",
+      "name": "4760",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 288.5,
+      "ret1": 9.9,
+      "ret5": 9.7,
+      "vr": 2.48,
+      "flow5": -59,
+      "themes": []
+    },
+    {
+      "code": "4919",
+      "name": "4919",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [],
+      "c": 152,
+      "ret1": 9.7,
+      "ret5": 13.9,
+      "vr": 2.48,
+      "flow5": -8126,
+      "themes": []
+    },
+    {
+      "code": "6449",
+      "name": "6449",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 230,
+      "ret1": 9.8,
+      "ret5": 9,
+      "vr": 2.34,
+      "flow5": -258,
+      "themes": []
+    },
+    {
+      "code": "6243",
+      "name": "6243",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_turn_buy"
+      ],
+      "kind": "early",
+      "score": 2.2,
+      "tags": [],
+      "c": 40.55,
+      "ret1": 2.7,
+      "ret5": 8.1,
+      "vr": 2.12,
+      "flow5": -84,
+      "themes": []
+    },
+    {
+      "code": "3042",
+      "name": "3042",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "vol_surge",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 2.1,
+      "tags": [],
+      "c": 218.5,
+      "ret1": 4,
+      "ret5": 19.1,
+      "vr": 2.3,
+      "flow5": 3006,
+      "themes": []
+    },
+    {
+      "code": "3518",
+      "name": "3518",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
+      "tags": [
+        "追高區"
+      ],
+      "c": 40.35,
+      "ret1": -1.8,
+      "ret5": 25.1,
+      "vr": 9,
+      "flow5": 3612,
+      "themes": []
+    },
+    {
+      "code": "3236",
+      "name": "3236",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
+      "tags": [
+        "追高區"
+      ],
+      "c": 48.55,
+      "ret1": 10,
+      "ret5": 12.6,
+      "vr": 7.06,
+      "flow5": 2069,
+      "themes": []
+    },
+    {
+      "code": "3311",
+      "name": "3311",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
+      "tags": [
+        "追高區"
+      ],
+      "c": 45.15,
+      "ret1": 10,
+      "ret5": 22.9,
+      "vr": 6.85,
+      "flow5": 3588,
+      "themes": []
+    },
+    {
+      "code": "3162",
+      "name": "3162",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
+      "tags": [],
+      "c": 87.5,
+      "ret1": 2.5,
+      "ret5": 16.5,
+      "vr": 4.03,
+      "flow5": 3264,
+      "themes": []
+    },
+    {
+      "code": "6174",
+      "name": "6174",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
+      "tags": [
+        "追高區"
+      ],
+      "c": 50,
+      "ret1": 9.9,
+      "ret5": 13.9,
+      "vr": 2.68,
+      "flow5": 556,
+      "themes": []
+    },
+    {
+      "code": "4566",
+      "name": "4566",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
+      "tags": [],
+      "c": 75.2,
+      "ret1": 1.5,
+      "ret5": 15.7,
+      "vr": 2.46,
+      "flow5": 4595,
+      "themes": []
+    },
+    {
+      "code": "3528",
+      "name": "3528",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
+      "tags": [],
+      "c": 86.9,
+      "ret1": 1.5,
+      "ret5": 3.7,
+      "vr": 2.25,
+      "flow5": 136,
+      "themes": []
+    },
+    {
+      "code": "6175",
+      "name": "6175",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [
+        "追高區"
+      ],
+      "c": 76.3,
+      "ret1": 8.4,
+      "ret5": 9,
+      "vr": 9.02,
+      "flow5": -1126,
+      "themes": []
+    },
+    {
+      "code": "6284",
+      "name": "6284",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [],
+      "c": 80.3,
+      "ret1": 6.2,
+      "ret5": 6.2,
+      "vr": 3.85,
+      "flow5": 235,
+      "themes": []
+    },
+    {
+      "code": "2375",
+      "name": "2375",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [],
+      "c": 124.5,
+      "ret1": 5.5,
+      "ret5": 5.1,
+      "vr": 3.5,
+      "flow5": -534,
+      "themes": []
+    },
+    {
+      "code": "8043",
+      "name": "8043",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [],
+      "c": 138.5,
+      "ret1": 6.1,
+      "ret5": 5.7,
+      "vr": 3.13,
+      "flow5": 355,
+      "themes": []
+    },
+    {
+      "code": "5314",
+      "name": "5314",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [
+        "低基期"
+      ],
+      "c": 30.6,
+      "ret1": 6.1,
+      "ret5": 17,
+      "vr": 3.02,
+      "flow5": -2302,
+      "themes": []
+    },
+    {
+      "code": "5536",
+      "name": "5536",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [],
+      "c": 959,
+      "ret1": 4.4,
+      "ret5": 8,
+      "vr": 2.55,
+      "flow5": -456,
+      "themes": [
+        "fab-facility"
+      ]
+    },
+    {
+      "code": "2472",
+      "name": "2472",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [],
+      "c": 226,
+      "ret1": 5.9,
+      "ret5": 3.9,
+      "vr": 2.19,
+      "flow5": -1496,
+      "themes": []
+    },
+    {
+      "code": "7795",
+      "name": "7795",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "low_base_breakout",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [],
+      "c": 536,
+      "ret1": 9.8,
+      "ret5": 6.1,
+      "vr": 1.53,
+      "flow5": 162,
+      "themes": []
+    },
+    {
+      "code": "1709",
+      "name": "1709",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [],
+      "c": 53.2,
+      "ret1": 9.9,
+      "ret5": 15.8,
+      "vr": 1,
+      "flow5": -7171,
+      "themes": []
+    },
+    {
+      "code": "3675",
+      "name": "3675",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 359,
+      "ret1": 8.8,
+      "ret5": 18.9,
+      "vr": 1.94,
+      "flow5": -97,
+      "themes": []
+    },
+    {
+      "code": "3706",
+      "name": "3706",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 82.1,
+      "ret1": 3.5,
+      "ret5": 3.5,
+      "vr": 1.37,
+      "flow5": 2736,
+      "themes": [
+        "ai-server-odm"
+      ]
+    },
+    {
+      "code": "2458",
+      "name": "2458",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 138.5,
+      "ret1": 0.7,
+      "ret5": 6.9,
+      "vr": 1.1,
+      "flow5": -353,
+      "themes": []
+    },
+    {
+      "code": "2207",
+      "name": "2207",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 515,
+      "ret1": 1.2,
+      "ret5": -1.2,
+      "vr": 0.93,
+      "flow5": -202,
+      "themes": []
+    },
+    {
+      "code": "2393",
+      "name": "2393",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 64.5,
+      "ret1": 0,
+      "ret5": 1.4,
+      "vr": 0.89,
+      "flow5": 596,
+      "themes": []
+    },
+    {
+      "code": "8045",
+      "name": "8045",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 54.7,
+      "ret1": 1.5,
+      "ret5": 1.7,
+      "vr": 0.75,
+      "flow5": 85,
+      "themes": []
+    },
+    {
+      "code": "2385",
+      "name": "2385",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 105.5,
+      "ret1": 1,
+      "ret5": 1.4,
+      "vr": 0.64,
+      "flow5": 2015,
+      "themes": []
+    },
+    {
+      "code": "2353",
+      "name": "2353",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 31.85,
+      "ret1": 0.6,
+      "ret5": 1.4,
+      "vr": 0.62,
+      "flow5": 5279,
+      "themes": []
+    },
+    {
+      "code": "4927",
+      "name": "4927",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 43.8,
+      "ret1": -1.6,
+      "ret5": 0.7,
+      "vr": 0.47,
+      "flow5": 1511,
+      "themes": []
+    },
+    {
+      "code": "4991",
+      "name": "4991",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 485.5,
+      "ret1": -0.5,
+      "ret5": 2.6,
+      "vr": 0.47,
+      "flow5": 262,
+      "themes": []
+    },
+    {
+      "code": "2468",
+      "name": "2468",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [],
+      "c": 44.55,
+      "ret1": -2.1,
+      "ret5": -4.9,
+      "vr": 0.17,
+      "flow5": 167,
+      "themes": []
+    },
+    {
+      "code": "3481",
+      "name": "3481",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "trust_first_buy",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.4,
+      "tags": [],
+      "c": 52.3,
+      "ret1": -4.4,
+      "ret5": 3.6,
+      "vr": 2.28,
+      "flow5": -45718,
+      "themes": [
+        "glass-substrate"
+      ]
+    },
+    {
+      "code": "6197",
+      "name": "6197",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "trust_first_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.3,
+      "tags": [],
+      "c": 330,
+      "ret1": 1.2,
+      "ret5": 3.9,
+      "vr": 1.01,
+      "flow5": 588,
+      "themes": []
+    },
+    {
+      "code": "2020",
+      "name": "2020",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 26.2,
+      "ret1": -1.9,
+      "ret5": 21.9,
+      "vr": 25.42,
+      "flow5": -610,
+      "themes": []
+    },
+    {
+      "code": "6150",
+      "name": "6150",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 69.9,
+      "ret1": 9.9,
+      "ret5": 13.7,
+      "vr": 14.12,
+      "flow5": 205,
+      "themes": []
+    },
+    {
+      "code": "2030",
+      "name": "2030",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 37.65,
+      "ret1": 2.6,
+      "ret5": 38.2,
+      "vr": 11.66,
+      "flow5": 1809,
+      "themes": []
+    },
+    {
+      "code": "6120",
+      "name": "6120",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 14.75,
+      "ret1": 2.8,
+      "ret5": 12.2,
+      "vr": 10.83,
+      "flow5": -1120,
+      "themes": []
+    },
+    {
+      "code": "2483",
+      "name": "2483",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 36.6,
+      "ret1": 2.4,
+      "ret5": 12.6,
+      "vr": 8.92,
+      "flow5": -948,
+      "themes": []
+    },
+    {
+      "code": "1595",
+      "name": "1595",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 83.3,
+      "ret1": -2.3,
+      "ret5": 11.7,
+      "vr": 7.13,
+      "flow5": -1318,
+      "themes": []
+    },
+    {
+      "code": "3701",
+      "name": "3701",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 50.4,
+      "ret1": 9.8,
+      "ret5": 21.2,
+      "vr": 6.98,
+      "flow5": 736,
+      "themes": []
+    },
+    {
+      "code": "6485",
+      "name": "6485",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 84.7,
+      "ret1": 10,
+      "ret5": 22.8,
+      "vr": 6.98,
+      "flow5": -332,
+      "themes": []
+    },
+    {
+      "code": "6155",
+      "name": "6155",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 69.6,
+      "ret1": 10,
+      "ret5": 24.3,
+      "vr": 6.71,
+      "flow5": 78,
+      "themes": []
+    },
+    {
+      "code": "5309",
+      "name": "5309",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 62.8,
+      "ret1": 0.2,
+      "ret5": 21.2,
+      "vr": 6.42,
+      "flow5": 4186,
+      "themes": []
+    },
+    {
+      "code": "3149",
+      "name": "3149",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 74.3,
+      "ret1": 0.4,
+      "ret5": 15.9,
+      "vr": 6.21,
+      "flow5": -4365,
+      "themes": []
+    },
+    {
+      "code": "6127",
+      "name": "6127",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 56.8,
+      "ret1": 9.9,
+      "ret5": 18,
+      "vr": 6.02,
+      "flow5": 1349,
+      "themes": []
+    },
+    {
+      "code": "6432",
+      "name": "6432",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 69.8,
+      "ret1": 9.9,
+      "ret5": 12.6,
+      "vr": 5.62,
+      "flow5": -128,
+      "themes": []
+    },
+    {
+      "code": "6533",
+      "name": "6533",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 366.5,
+      "ret1": 9.9,
+      "ret5": 44,
+      "vr": 5.44,
+      "flow5": 3380,
+      "themes": []
+    },
+    {
+      "code": "3673",
+      "name": "3673",
+      "mkt": "T",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 73.3,
+      "ret1": -2.9,
+      "ret5": 11.7,
+      "vr": 4.72,
+      "flow5": -6747,
+      "themes": [
+        "glass-substrate"
+      ]
+    },
+    {
+      "code": "3581",
+      "name": "3581",
+      "mkt": "O",
+      "industry": "未分類",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 117,
+      "ret1": 0,
+      "ret5": 15.8,
+      "vr": 4.69,
+      "flow5": -326,
+      "themes": []
+    }
+  ],
+  "groups": [
+    {
+      "id": "g-20261001-1",
+      "key": "corr:6243",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：未分類",
+      "theme": null,
+      "members": [
+        "6243",
+        "3294",
+        "6237"
+      ],
+      "heat": 0.87,
+      "breadth": 0.78,
+      "unknown": true,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.78,
+      "relatedThemes": [],
+      "stage": "ignite",
+      "earlyRatio": 1
+    },
+    {
+      "id": "g-20261001-2",
+      "key": "corr:5228",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：未分類",
+      "theme": null,
+      "members": [
+        "5228",
+        "3236",
+        "8043",
+        "2327",
+        "3537",
+        "2375",
+        "6175",
+        "6449",
+        "4760",
+        "5328",
+        "2472",
+        "6284",
+        "6174",
+        "3357",
+        "6672",
+        "6155",
+        "4722",
+        "6432",
+        "4919",
+        "3147",
+        "8289"
+      ],
+      "heat": 0.86,
+      "breadth": 0.66,
+      "unknown": true,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.66,
+      "relatedThemes": [
+        {
+          "theme": "passive-components",
+          "members": 1
+        }
+      ],
+      "stage": "overheat",
+      "earlyRatio": 0
+    },
+    {
+      "id": "g-20261001-3",
+      "key": "corr:4991",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：未分類",
+      "theme": null,
+      "members": [
+        "4991",
+        "6425",
+        "6485"
+      ],
+      "heat": 0.67,
+      "breadth": 0.69,
+      "unknown": true,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.69,
+      "relatedThemes": [],
+      "stage": "spread",
+      "earlyRatio": 0.33
+    },
+    {
+      "id": "g-20261001-4",
+      "key": "corr:7777",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：未分類",
+      "theme": null,
+      "members": [
+        "7777",
+        "1605",
+        "6120",
+        "3481",
+        "2483"
+      ],
+      "heat": 0.65,
+      "breadth": 0.62,
+      "unknown": true,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.62,
+      "relatedThemes": [
+        {
+          "theme": "wire-cable",
+          "members": 1
+        },
+        {
+          "theme": "glass-substrate",
+          "members": 1
+        }
+      ],
+      "stage": "ignite",
+      "earlyRatio": 0.8
+    },
+    {
+      "id": "g-20261001-5",
+      "key": "corr:6691",
+      "method": [
+        "correlation"
+      ],
+      "label": "矽晶圓（共動）",
+      "theme": "silicon-wafer",
+      "members": [
+        "6691",
+        "6182",
+        "5536",
+        "5483"
+      ],
+      "heat": 0.65,
+      "breadth": 0.58,
+      "unknown": false,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.58,
+      "relatedThemes": [
+        {
+          "theme": "silicon-wafer",
+          "members": 2
+        },
+        {
+          "theme": "fab-facility",
+          "members": 1
+        }
+      ],
+      "stage": "spread",
+      "earlyRatio": 0.75
+    },
+    {
+      "id": "g-20261001-6",
+      "key": "corr:3518",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：未分類",
+      "theme": null,
+      "members": [
+        "3518",
+        "2020",
+        "3673",
+        "5309",
+        "7728"
+      ],
+      "heat": 0.64,
+      "breadth": 0.64,
+      "unknown": true,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.64,
+      "relatedThemes": [
+        {
+          "theme": "glass-substrate",
+          "members": 1
+        }
+      ],
+      "stage": "spread",
+      "earlyRatio": 0.8
+    },
+    {
+      "id": "g-20261001-7",
+      "key": "corr:2401",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：未分類",
+      "theme": null,
+      "members": [
+        "2401",
+        "3094",
+        "4956"
+      ],
+      "heat": 0.64,
+      "breadth": 0.76,
+      "unknown": true,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.76,
+      "relatedThemes": [],
+      "stage": "overheat",
+      "earlyRatio": 0.67
+    },
+    {
+      "id": "g-20261001-8",
+      "key": "corr:3490",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：未分類",
+      "theme": null,
+      "members": [
+        "3490",
+        "6150",
+        "6127"
+      ],
+      "heat": 0.6,
+      "breadth": 0.58,
+      "unknown": true,
+      "industries": [
+        "未分類"
+      ],
+      "avgCorr": 0.58,
+      "relatedThemes": [],
+      "stage": "overheat",
+      "earlyRatio": 0
+    }
+  ],
+  "themeStatus": [
+    {
+      "theme": "glass-substrate",
+      "name": "玻璃基板／TGV",
+      "members": 6,
+      "anomalies": [
+        "3481",
+        "3673"
+      ],
+      "signaled": [
+        {
+          "code": "8027",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": -2.4,
+      "ret5": 6.4,
+      "ret20": 9.2,
+      "stage": "ignite"
+    },
+    {
+      "theme": "optical-cpo",
+      "name": "光通訊／CPO",
+      "members": 5,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -0.8,
+      "ret5": -4.2,
+      "ret20": -14.4,
+      "stage": "latent"
+    },
+    {
+      "theme": "abf-substrate",
+      "name": "ABF 載板",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "3037",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "3189",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "8046",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 4.5,
+      "ret5": 13.8,
+      "ret20": 18.9,
+      "stage": "latent"
+    },
+    {
+      "theme": "ccl",
+      "name": "CCL 銅箔基板",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "6213",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 1.6,
+      "ret5": 9.1,
+      "ret20": 3.6,
+      "stage": "latent"
+    },
+    {
+      "theme": "silicon-wafer",
+      "name": "矽晶圓",
+      "members": 4,
+      "anomalies": [
+        "5483",
+        "6182"
+      ],
+      "signaled": [
+        {
+          "code": "6488",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": 1.2,
+      "ret5": 9.6,
+      "ret20": 13.6,
+      "stage": "ignite"
+    },
+    {
+      "theme": "memory",
+      "name": "記憶體",
+      "members": 7,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2408",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        },
+        {
+          "code": "2344",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -0.7,
+      "ret5": 1.7,
+      "ret20": -2.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "passive-components",
+      "name": "被動元件",
+      "members": 5,
+      "anomalies": [
+        "2327"
+      ],
+      "signaled": [
+        {
+          "code": "2492",
+          "signals": [
+            "limit_up"
+          ]
+        },
+        {
+          "code": "2478",
+          "signals": [
+            "vol_surge"
+          ]
+        },
+        {
+          "code": "3090",
+          "signals": [
+            "low_base_breakout"
+          ]
+        }
+      ],
+      "ret1": 6.7,
+      "ret5": 3.5,
+      "ret20": 5.8,
+      "stage": "latent"
+    },
+    {
+      "theme": "ai-server-odm",
+      "name": "AI 伺服器組裝",
+      "members": 6,
+      "anomalies": [
+        "3706"
+      ],
+      "signaled": [],
+      "ret1": 1.4,
+      "ret5": 0.7,
+      "ret20": -16,
+      "stage": "latent"
+    },
+    {
+      "theme": "thermal",
+      "name": "散熱",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "3653",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 1.3,
+      "ret5": 3.7,
+      "ret20": 5.8,
+      "stage": "latent"
+    },
+    {
+      "theme": "fab-facility",
+      "name": "半導體廠務工程",
+      "members": 4,
+      "anomalies": [
+        "5536"
+      ],
+      "signaled": [
+        {
+          "code": "2404",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 2.2,
+      "ret5": 10.3,
+      "ret20": 11.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "osat",
+      "name": "封測",
+      "members": 5,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": 2.2,
+      "ret5": 1.7,
+      "ret20": 14.5,
+      "stage": "latent"
+    },
+    {
+      "theme": "heavy-electric",
+      "name": "重電",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "1504",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -0.4,
+      "ret5": -0.5,
+      "ret20": -5.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "wire-cable",
+      "name": "電線電纜",
+      "members": 3,
+      "anomalies": [
+        "1605"
+      ],
+      "signaled": [],
+      "ret1": -0.2,
+      "ret5": 2.3,
+      "ret20": -0.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "steel",
+      "name": "鋼鐵",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -0.6,
+      "ret5": 2.6,
+      "ret20": -1.2,
+      "stage": "latent"
+    },
+    {
+      "theme": "petrochem",
+      "name": "塑化",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "6505",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": -2.2,
+      "ret5": 5.7,
+      "ret20": 5.2,
+      "stage": "latent"
+    },
+    {
+      "theme": "container-shipping",
+      "name": "貨櫃航運",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2609",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "2615",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -1,
+      "ret5": -2.9,
+      "ret20": 0.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "dry-bulk",
+      "name": "散裝航運",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2606",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -0.5,
+      "ret5": -4.7,
+      "ret20": -0.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "airlines",
+      "name": "航空",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -0.7,
+      "ret5": -0.8,
+      "ret20": -1,
+      "stage": "latent"
+    },
+    {
+      "theme": "tourism-dining",
+      "name": "觀光餐旅",
+      "members": 4,
+      "anomalies": [
+        "2748"
+      ],
+      "signaled": [],
+      "ret1": 0.1,
+      "ret5": 0.8,
+      "ret20": 0.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "construction",
+      "name": "營建資產",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -0.3,
+      "ret5": -5.1,
+      "ret20": -6.2,
+      "stage": "latent"
+    },
+    {
+      "theme": "cement",
+      "name": "水泥",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -1.1,
+      "ret5": 1.7,
+      "ret20": 0.3,
+      "stage": "latent"
+    },
+    {
+      "theme": "life-insurance",
+      "name": "壽險金控",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2883",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": -1.8,
+      "ret5": -3.6,
+      "ret20": 2.5,
+      "stage": "latent"
+    },
+    {
+      "theme": "banks",
+      "name": "銀行",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2891",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "2884",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "2892",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 0,
+      "ret5": -2.5,
+      "ret20": 6.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "biotech",
+      "name": "生技新藥",
+      "members": 5,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -1.4,
+      "ret5": 1,
+      "ret20": -4,
+      "stage": "latent"
+    },
+    {
+      "theme": "defense",
+      "name": "國防軍工",
+      "members": 5,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2634",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        },
+        {
+          "code": "8033",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": 0.5,
+      "ret5": 1.4,
+      "ret20": -4.9,
+      "stage": "latent"
+    },
+    {
+      "theme": "renewables",
+      "name": "綠能（風電／太陽能）",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "3576",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": -2.5,
+      "ret5": 1.2,
+      "ret20": 3,
+      "stage": "latent"
+    },
+    {
+      "theme": "energy-storage",
+      "name": "儲能／電池",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "6121",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": -0.3,
+      "ret5": 1.8,
+      "ret20": -6.5,
+      "stage": "latent"
+    },
+    {
+      "theme": "food",
+      "name": "食品",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -0.1,
+      "ret5": -0.4,
+      "ret20": -1.6,
+      "stage": "latent"
+    },
+    {
+      "theme": "textile",
+      "name": "紡織成衣",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "1477",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": -0.6,
+      "ret5": 0.2,
+      "ret20": -6.7,
+      "stage": "latent"
+    },
+    {
+      "theme": "bicycle",
+      "name": "自行車",
+      "members": 2,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": -0.7,
+      "ret5": 2.3,
+      "ret20": -13.6,
+      "stage": "latent"
+    },
+    {
+      "theme": "auto-parts",
+      "name": "汽車零組件／電動車",
+      "members": 4,
+      "anomalies": [
+        "2231"
+      ],
+      "signaled": [],
+      "ret1": -1,
+      "ret5": 0.4,
+      "ret20": -4,
+      "stage": "latent"
+    },
+    {
+      "theme": "telecom",
+      "name": "電信",
+      "members": 3,
+      "anomalies": [],
+      "signaled": [],
+      "ret1": 1.6,
+      "ret5": -0.3,
+      "ret20": 5.5,
+      "stage": "latent"
+    },
+    {
+      "theme": "retail",
+      "name": "零售通路",
+      "members": 2,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2912",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -0.4,
+      "ret5": -1.5,
+      "ret20": -3.8,
+      "stage": "latent"
+    },
+    {
+      "theme": "robotics",
+      "name": "機器人／自動化",
+      "members": 4,
+      "anomalies": [],
+      "signaled": [
+        {
+          "code": "2049",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -0.5,
+      "ret5": -0.8,
+      "ret20": -7.9,
+      "stage": "latent"
+    }
+  ],
+  "kbWarnings": []
+}
