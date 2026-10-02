@@ -1,0 +1,1200 @@
+{
+  "schema": "themes-kb",
+  "v": 1,
+  "updated": "2026-10-02",
+  "_說明": "題材卡。status：candidate 候選（程式或 Claude 提案，待確認）／active 活躍／archived 封存。role：indicator 指標股／direct 直接受惠／indirect 間接受惠／concept 概念。初版內容整理自 2026/09 SEMICON 研究與題材討論，代號請再確認；程式會自動檢查代號是否存在於全市場資料。 category：tech 科技／non-tech 非科技，只用於分類閱讀，不影響計算。",
+  "themes": [
+    {
+      "id": "glass-substrate",
+      "name": "玻璃基板／TGV",
+      "aliases": [
+        "玻璃基板",
+        "glass substrate",
+        "유리기판",
+        "TGV"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "2409",
+          "role": "indicator",
+          "note": "友達，基板製造"
+        },
+        {
+          "code": "3481",
+          "role": "direct",
+          "note": "群創"
+        },
+        {
+          "code": "8027",
+          "role": "direct",
+          "note": "鈦昇，TGV 加工"
+        },
+        {
+          "code": "2467",
+          "role": "indirect",
+          "note": "志聖，設備"
+        },
+        {
+          "code": "3673",
+          "role": "indirect",
+          "note": "TPK-KY"
+        },
+        {
+          "code": "1802",
+          "role": "concept",
+          "note": "台玻"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-30",
+          "evidence": "soft",
+          "note": "韓媒報導輝達評估導入玻璃基板"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "optical-cpo",
+      "name": "光通訊／CPO",
+      "aliases": [
+        "光通訊",
+        "CPO",
+        "矽光子",
+        "co-packaged optics"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "3081",
+          "role": "direct",
+          "note": "聯亞"
+        },
+        {
+          "code": "4979",
+          "role": "direct",
+          "note": "華星光"
+        },
+        {
+          "code": "3363",
+          "role": "direct",
+          "note": "上詮"
+        },
+        {
+          "code": "3163",
+          "role": "direct",
+          "note": "波若威"
+        },
+        {
+          "code": "6442",
+          "role": "direct",
+          "note": "光聖"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "abf-substrate",
+      "name": "ABF 載板",
+      "aliases": [
+        "ABF",
+        "載板"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "3037",
+          "role": "indicator",
+          "note": "欣興"
+        },
+        {
+          "code": "3189",
+          "role": "direct",
+          "note": "景碩"
+        },
+        {
+          "code": "8046",
+          "role": "direct",
+          "note": "南電"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "ccl",
+      "name": "CCL 銅箔基板",
+      "aliases": [
+        "CCL",
+        "銅箔基板"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "2383",
+          "role": "indicator",
+          "note": "台光電"
+        },
+        {
+          "code": "6274",
+          "role": "direct",
+          "note": "台燿"
+        },
+        {
+          "code": "6213",
+          "role": "direct",
+          "note": "聯茂"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "silicon-wafer",
+      "name": "矽晶圓",
+      "aliases": [
+        "矽晶圓",
+        "wafer"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "6488",
+          "role": "indicator",
+          "note": "環球晶"
+        },
+        {
+          "code": "5483",
+          "role": "direct",
+          "note": "中美晶"
+        },
+        {
+          "code": "6182",
+          "role": "direct",
+          "note": "合晶"
+        },
+        {
+          "code": "3532",
+          "role": "direct",
+          "note": "台勝科"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "memory",
+      "name": "記憶體",
+      "aliases": [
+        "記憶體",
+        "DRAM",
+        "NAND",
+        "HBM"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "2408",
+          "role": "indicator",
+          "note": "南亞科"
+        },
+        {
+          "code": "2344",
+          "role": "direct",
+          "note": "華邦電"
+        },
+        {
+          "code": "2337",
+          "role": "direct",
+          "note": "旺宏"
+        },
+        {
+          "code": "3006",
+          "role": "direct",
+          "note": "晶豪科"
+        },
+        {
+          "code": "5351",
+          "role": "direct",
+          "note": "鈺創"
+        },
+        {
+          "code": "3260",
+          "role": "direct",
+          "note": "威剛"
+        },
+        {
+          "code": "8299",
+          "role": "direct",
+          "note": "群聯"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "passive-components",
+      "name": "被動元件",
+      "aliases": [
+        "被動元件",
+        "MLCC"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "2327",
+          "role": "indicator",
+          "note": "國巨"
+        },
+        {
+          "code": "2492",
+          "role": "direct",
+          "note": "華新科"
+        },
+        {
+          "code": "2478",
+          "role": "direct",
+          "note": "大毅"
+        },
+        {
+          "code": "3090",
+          "role": "direct",
+          "note": "日電貿"
+        },
+        {
+          "code": "6173",
+          "role": "direct",
+          "note": "信昌電"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "ai-server-odm",
+      "name": "AI 伺服器組裝",
+      "aliases": [
+        "AI 伺服器",
+        "ODM"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "2382",
+          "role": "indicator",
+          "note": "廣達"
+        },
+        {
+          "code": "3231",
+          "role": "direct",
+          "note": "緯創"
+        },
+        {
+          "code": "6669",
+          "role": "direct",
+          "note": "緯穎"
+        },
+        {
+          "code": "2356",
+          "role": "direct",
+          "note": "英業達"
+        },
+        {
+          "code": "4938",
+          "role": "direct",
+          "note": "和碩"
+        },
+        {
+          "code": "3706",
+          "role": "direct",
+          "note": "神達"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "thermal",
+      "name": "散熱",
+      "aliases": [
+        "散熱",
+        "液冷",
+        "CDU"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "3017",
+          "role": "indicator",
+          "note": "奇鋐"
+        },
+        {
+          "code": "3324",
+          "role": "direct",
+          "note": "雙鴻"
+        },
+        {
+          "code": "3653",
+          "role": "direct",
+          "note": "健策"
+        },
+        {
+          "code": "2421",
+          "role": "indirect",
+          "note": "建準"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "fab-facility",
+      "name": "半導體廠務工程",
+      "aliases": [
+        "廠務",
+        "無塵室"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "2404",
+          "role": "indicator",
+          "note": "漢唐"
+        },
+        {
+          "code": "6139",
+          "role": "direct",
+          "note": "亞翔"
+        },
+        {
+          "code": "6196",
+          "role": "direct",
+          "note": "帆宣"
+        },
+        {
+          "code": "5536",
+          "role": "direct",
+          "note": "聖暉"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "osat",
+      "name": "封測",
+      "aliases": [
+        "封測",
+        "OSAT",
+        "先進封裝"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "3711",
+          "role": "indicator",
+          "note": "日月光投控"
+        },
+        {
+          "code": "2449",
+          "role": "direct",
+          "note": "京元電"
+        },
+        {
+          "code": "6239",
+          "role": "direct",
+          "note": "力成"
+        },
+        {
+          "code": "8150",
+          "role": "direct",
+          "note": "南茂"
+        },
+        {
+          "code": "6147",
+          "role": "direct",
+          "note": "頎邦"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "heavy-electric",
+      "name": "重電",
+      "aliases": [
+        "重電",
+        "電網",
+        "變壓器"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "1513",
+          "role": "direct",
+          "note": "中興電"
+        },
+        {
+          "code": "1503",
+          "role": "direct",
+          "note": "士電"
+        },
+        {
+          "code": "1504",
+          "role": "direct",
+          "note": "東元"
+        },
+        {
+          "code": "1519",
+          "role": "direct",
+          "note": "華城"
+        }
+      ],
+      "category": "non-tech"
+    },
+    {
+      "id": "wire-cable",
+      "name": "電線電纜",
+      "aliases": [
+        "電線電纜",
+        "銅價"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "1605",
+          "role": "indicator",
+          "note": "華新"
+        },
+        {
+          "code": "1609",
+          "role": "direct",
+          "note": "大亞"
+        },
+        {
+          "code": "1608",
+          "role": "direct",
+          "note": "華榮"
+        }
+      ],
+      "category": "non-tech"
+    },
+    {
+      "id": "steel",
+      "name": "鋼鐵",
+      "aliases": [
+        "鋼鐵",
+        "鋼價"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "2002",
+          "role": "indicator",
+          "note": "中鋼"
+        },
+        {
+          "code": "2014",
+          "role": "direct",
+          "note": "中鴻"
+        },
+        {
+          "code": "2027",
+          "role": "direct",
+          "note": "大成鋼"
+        }
+      ],
+      "category": "non-tech"
+    },
+    {
+      "id": "petrochem",
+      "name": "塑化",
+      "aliases": [
+        "塑化",
+        "油價"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "members": [
+        {
+          "code": "1301",
+          "role": "indicator",
+          "note": "台塑"
+        },
+        {
+          "code": "1303",
+          "role": "direct",
+          "note": "南亞"
+        },
+        {
+          "code": "1326",
+          "role": "direct",
+          "note": "台化"
+        },
+        {
+          "code": "6505",
+          "role": "direct",
+          "note": "台塑化"
+        }
+      ],
+      "category": "non-tech"
+    },
+    {
+      "id": "container-shipping",
+      "name": "貨櫃航運",
+      "aliases": [
+        "貨櫃",
+        "運價",
+        "SCFI",
+        "紅海"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2603",
+          "role": "indicator",
+          "note": "長榮"
+        },
+        {
+          "code": "2609",
+          "role": "direct",
+          "note": "陽明"
+        },
+        {
+          "code": "2615",
+          "role": "direct",
+          "note": "萬海"
+        }
+      ],
+      "_說明": "領先指標：SCFI 運價、地緣政治（航道）"
+    },
+    {
+      "id": "dry-bulk",
+      "name": "散裝航運",
+      "aliases": [
+        "散裝",
+        "BDI"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2606",
+          "role": "indicator",
+          "note": "裕民"
+        },
+        {
+          "code": "2637",
+          "role": "direct",
+          "note": "慧洋-KY"
+        },
+        {
+          "code": "2605",
+          "role": "direct",
+          "note": "新興"
+        }
+      ],
+      "_說明": "領先指標：BDI、中國基建與原物料需求"
+    },
+    {
+      "id": "airlines",
+      "name": "航空",
+      "aliases": [
+        "航空",
+        "油價受害",
+        "旅遊復甦"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2618",
+          "role": "indicator",
+          "note": "長榮航"
+        },
+        {
+          "code": "2610",
+          "role": "direct",
+          "note": "華航"
+        },
+        {
+          "code": "2646",
+          "role": "direct",
+          "note": "星宇航空"
+        }
+      ],
+      "_說明": "油價上漲為利空、旅遊旺季為利多"
+    },
+    {
+      "id": "tourism-dining",
+      "name": "觀光餐旅",
+      "aliases": [
+        "觀光",
+        "餐飲",
+        "內需"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2727",
+          "role": "indicator",
+          "note": "王品"
+        },
+        {
+          "code": "2707",
+          "role": "direct",
+          "note": "晶華"
+        },
+        {
+          "code": "2731",
+          "role": "direct",
+          "note": "雄獅"
+        },
+        {
+          "code": "2748",
+          "role": "direct",
+          "note": "雲品"
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "name": "營建資產",
+      "aliases": [
+        "營建",
+        "房市",
+        "利率"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2542",
+          "role": "indicator",
+          "note": "興富發"
+        },
+        {
+          "code": "5522",
+          "role": "direct",
+          "note": "遠雄"
+        },
+        {
+          "code": "2545",
+          "role": "direct",
+          "note": "皇翔"
+        },
+        {
+          "code": "2548",
+          "role": "direct",
+          "note": "華固"
+        }
+      ],
+      "_說明": "升息為利空；房市政策敏感"
+    },
+    {
+      "id": "cement",
+      "name": "水泥",
+      "aliases": [
+        "水泥",
+        "基建",
+        "災後重建"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "1101",
+          "role": "indicator",
+          "note": "台泥"
+        },
+        {
+          "code": "1102",
+          "role": "direct",
+          "note": "亞泥"
+        },
+        {
+          "code": "1104",
+          "role": "direct",
+          "note": "環泥"
+        }
+      ]
+    },
+    {
+      "id": "life-insurance",
+      "name": "壽險金控",
+      "aliases": [
+        "壽險",
+        "金控",
+        "利率",
+        "匯率"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2882",
+          "role": "indicator",
+          "note": "國泰金"
+        },
+        {
+          "code": "2881",
+          "role": "direct",
+          "note": "富邦金"
+        },
+        {
+          "code": "2883",
+          "role": "direct",
+          "note": "凱基金"
+        },
+        {
+          "code": "2885",
+          "role": "direct",
+          "note": "元大金"
+        }
+      ],
+      "_說明": "利率上升、新台幣貶值通常有利；股市大跌不利"
+    },
+    {
+      "id": "banks",
+      "name": "銀行",
+      "aliases": [
+        "銀行",
+        "利差"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2891",
+          "role": "indicator",
+          "note": "中信金"
+        },
+        {
+          "code": "2886",
+          "role": "direct",
+          "note": "兆豐金"
+        },
+        {
+          "code": "2884",
+          "role": "direct",
+          "note": "玉山金"
+        },
+        {
+          "code": "2892",
+          "role": "direct",
+          "note": "第一金"
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "name": "生技新藥",
+      "aliases": [
+        "生技",
+        "新藥",
+        "CDMO"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "6446",
+          "role": "indicator",
+          "note": "藥華藥"
+        },
+        {
+          "code": "4743",
+          "role": "direct",
+          "note": "合一"
+        },
+        {
+          "code": "6472",
+          "role": "direct",
+          "note": "保瑞"
+        },
+        {
+          "code": "1795",
+          "role": "direct",
+          "note": "美時"
+        },
+        {
+          "code": "4162",
+          "role": "direct",
+          "note": "智擎"
+        }
+      ],
+      "_說明": "題材多為臨床試驗、藥證等事件驅動，證據等級差異大"
+    },
+    {
+      "id": "defense",
+      "name": "國防軍工",
+      "aliases": [
+        "國防",
+        "軍工",
+        "無人機"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2634",
+          "role": "indicator",
+          "note": "漢翔"
+        },
+        {
+          "code": "8033",
+          "role": "direct",
+          "note": "雷虎"
+        },
+        {
+          "code": "5284",
+          "role": "direct",
+          "note": "jpp-KY"
+        },
+        {
+          "code": "4572",
+          "role": "direct",
+          "note": "駐龍"
+        },
+        {
+          "code": "3004",
+          "role": "direct",
+          "note": "豐達科"
+        }
+      ],
+      "_說明": "政策與國防預算驅動"
+    },
+    {
+      "id": "renewables",
+      "name": "綠能（風電／太陽能）",
+      "aliases": [
+        "綠能",
+        "風電",
+        "太陽能"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "9958",
+          "role": "indicator",
+          "note": "世紀鋼"
+        },
+        {
+          "code": "6443",
+          "role": "direct",
+          "note": "元晶"
+        },
+        {
+          "code": "3576",
+          "role": "direct",
+          "note": "聯合再生"
+        },
+        {
+          "code": "3708",
+          "role": "direct",
+          "note": "上緯投控"
+        }
+      ],
+      "_說明": "政策補助、電價與標案驅動"
+    },
+    {
+      "id": "energy-storage",
+      "name": "儲能／電池",
+      "aliases": [
+        "儲能",
+        "電池",
+        "BESS"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "6781",
+          "role": "direct",
+          "note": "AES-KY"
+        },
+        {
+          "code": "6121",
+          "role": "direct",
+          "note": "新普"
+        },
+        {
+          "code": "3211",
+          "role": "direct",
+          "note": "順達"
+        },
+        {
+          "code": "4931",
+          "role": "direct",
+          "note": "新盛力"
+        }
+      ],
+      "_說明": "AI 資料中心儲能需求為新題材"
+    },
+    {
+      "id": "food",
+      "name": "食品",
+      "aliases": [
+        "食品",
+        "內需",
+        "通膨"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "1216",
+          "role": "indicator",
+          "note": "統一"
+        },
+        {
+          "code": "1210",
+          "role": "direct",
+          "note": "大成"
+        },
+        {
+          "code": "1215",
+          "role": "direct",
+          "note": "卜蜂"
+        },
+        {
+          "code": "1227",
+          "role": "direct",
+          "note": "佳格"
+        }
+      ],
+      "_說明": "原物料（黃豆、玉米、小麥）成本與內需"
+    },
+    {
+      "id": "textile",
+      "name": "紡織成衣",
+      "aliases": [
+        "紡織",
+        "成衣",
+        "機能布"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "1476",
+          "role": "indicator",
+          "note": "儒鴻"
+        },
+        {
+          "code": "1477",
+          "role": "direct",
+          "note": "聚陽"
+        },
+        {
+          "code": "1402",
+          "role": "direct",
+          "note": "遠東新"
+        }
+      ],
+      "_說明": "美國零售庫存與關稅"
+    },
+    {
+      "id": "bicycle",
+      "name": "自行車",
+      "aliases": [
+        "自行車",
+        "電輔車"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "9921",
+          "role": "indicator",
+          "note": "巨大"
+        },
+        {
+          "code": "9914",
+          "role": "direct",
+          "note": "美利達"
+        }
+      ],
+      "_說明": "歐美庫存循環"
+    },
+    {
+      "id": "auto-parts",
+      "name": "汽車零組件／電動車",
+      "aliases": [
+        "汽車",
+        "電動車",
+        "AM 售後市場"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "1536",
+          "role": "direct",
+          "note": "和大"
+        },
+        {
+          "code": "2201",
+          "role": "direct",
+          "note": "裕隆"
+        },
+        {
+          "code": "1522",
+          "role": "direct",
+          "note": "堤維西"
+        },
+        {
+          "code": "2231",
+          "role": "direct",
+          "note": "為升"
+        }
+      ]
+    },
+    {
+      "id": "telecom",
+      "name": "電信",
+      "aliases": [
+        "電信",
+        "防禦",
+        "高股息"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2412",
+          "role": "indicator",
+          "note": "中華電"
+        },
+        {
+          "code": "3045",
+          "role": "direct",
+          "note": "台灣大"
+        },
+        {
+          "code": "4904",
+          "role": "direct",
+          "note": "遠傳"
+        }
+      ],
+      "_說明": "防禦型，市場避險時資金流入"
+    },
+    {
+      "id": "retail",
+      "name": "零售通路",
+      "aliases": [
+        "零售",
+        "內需"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2912",
+          "role": "indicator",
+          "note": "統一超"
+        },
+        {
+          "code": "5904",
+          "role": "direct",
+          "note": "寶雅"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "name": "機器人／自動化",
+      "aliases": [
+        "機器人",
+        "人形機器人",
+        "自動化"
+      ],
+      "status": "active",
+      "stage": null,
+      "evidence": null,
+      "category": "non-tech",
+      "members": [
+        {
+          "code": "2049",
+          "role": "indicator",
+          "note": "上銀"
+        },
+        {
+          "code": "1590",
+          "role": "direct",
+          "note": "亞德客-KY"
+        },
+        {
+          "code": "2359",
+          "role": "direct",
+          "note": "所羅門"
+        },
+        {
+          "code": "4540",
+          "role": "direct",
+          "note": "全球傳動"
+        }
+      ]
+    }
+  ]
+}
