@@ -1,136 +1,157 @@
-# twse-data-new — 台股報價 + 籌碼面 + K線 + 重大訊息 + 潛力雷達資料源
+# twse-data-new — 台股資料源
 
-這裡存放外部讀取專用的資料。程式與觀察清單在私有 repo `tw-stock-alert`。
+本 repo 只存放資料，供儀表板、排程與 Claude 讀取。程式、觀察清單與系統架構在私有 repo。
 
-最後更新：2026/10/01（K 線改以資料本身日期為準並可修復、latest_prices 新增 `marketDate`、寫檔改為內容沒變不寫；前次 2026/09/18：新增重大訊息監控 material_news.json；前次 2026/08/23：新增董監持股／集保股權分散、補記 K 線與上櫃來源、退役 Gist）
+最後更新：2026/10/02
 
 ---
 
-## 檔案說明
+## 檔案總覽
 
-| 檔案 | 內容 | 由誰寫 | 給誰讀 |
+| 檔案 | 內容 | 範圍 | 更新（台北，平日） |
 |---|---|---|---|
-| `latest_prices.json` | 最新報價快照（現價、昨收、漲跌、到價提醒、`marketDate` 實際交易日、更新時間），key 為股票代號 | GitHub Actions（`check-prices.mjs`）每 15 分鐘 | 儀表板、排程、Claude |
-| `fundamentals.json` | **八面向**籌碼/基本面快照（見下），key 為股票代號，值為官方回傳原始物件 | GitHub Actions（`check-fundamentals.mjs`）平日 17:00 | Claude（`taiwan-stock-advisor` skill） |
-| `kline_history.json` | 個股日 K 線歷史（開高低收量），保留約 120 交易日 | GitHub Actions（`check-kline.mjs`）平日 17:30、21:13、隔日 07:43（冪等補跑） | Claude（技術分析） |
-| `material_news.json` | 觀察清單**重大訊息**去重記憶＋近期明細（含 AI 多空粗判、一句話重點） | GitHub Actions（`check-material.mjs`）盤中每 30 分＋盤後 16:00/20:00 | 排程去重、Claude、儀表板 |
-| `radar-baseline.json` | 潛力雷達的**名單＋分析基準**（題材/基期/潛力標籤、`p`進場錨定基準價） | 人工維護 + 排程刷新 | 儀表板、排程、Claude |
-| `README.md` | 本說明 | 人工 | 人 |
+| `latest_prices.json` | 最新報價與到價提醒 | 觀察清單 | 08:00–14:45 每 15 分鐘 |
+| `fundamentals.json` | 籌碼面與基本面（8 項） | 觀察清單 | 17:00 |
+| `kline_history.json` | 日 K 線，保留 120 個交易日 | 觀察清單 | 17:30、21:13、隔日 07:43 |
+| `material_news.json` | 重大訊息與 AI 判讀 | 觀察清單 | 盤中每 30 分鐘、16:00、20:00 |
+| `radar-baseline.json` | 潛力雷達名單與評分基準 | 人工名單 | 人工＋每月／每季排程 |
+| `market/` | 全市場每日快照、產業別、個股特徵 | 上市櫃全部普通股 | 17:13、21:23、隔日 07:53 |
+| `themes/` | 題材雷達結果、報告、題材卡 | 全市場 | 同上 |
 
-> 私有 repo 的 `prices.json`（觀察清單）是「要抓哪些股票」的唯一源頭。**加減股票 = 改 `prices.json`**，各輸出檔下次排程自動更新。
-
----
-
-## 系統總覽
+觀察清單以私有 repo 的 `prices.json` 為準，**加減股票只要改 `prices.json`**，各檔下次排程自動更新。
 
 ```
-私有 tw-stock-alert：prices.json（觀察清單，手動編輯）＝四套排程共用的唯一入口
-        │
-        ├─ check.yml            平日每15分鐘   → check-prices.mjs      → latest_prices.json
-        ├─ check-fundamentals   平日 17:00      → check-fundamentals.mjs → fundamentals.json
-        ├─ check-kline          平日 17:30＋補跑 → check-kline.mjs       → kline_history.json
-        └─ check-material       盤中每30分+盤後 → check-material.mjs    → material_news.json（+ Discord 推播）
-                （四支都寫進本 public repo，共用同一把 DATA_REPO_TOKEN）
-                                     │
-        ┌────────────────────────────┼───────────────────────────────┐
-        ▼                            ▼                                ▼
-  React 儀表板 /             潛力雷達 /radar.html               Claude skills
-  （讀 latest_prices）       （讀 radar-baseline+latest_prices）  （bash curl 讀各份 json）
+私有 tw-stock-alert（排程與程式）
+  ├─ 觀察清單 prices.json ─┬─ check-prices        → latest_prices.json ＋ 到價 Discord
+  │                       ├─ check-fundamentals  → fundamentals.json
+  │                       ├─ check-kline         → kline_history.json
+  │                       └─ check-material      → material_news.json ＋ 重訊 Discord
+  ├─ 全市場 ─────────────── check-market        → market/ → themes/ ＋ 題材 Discord（選用）
+  └─ 人工維護 ───────────── radar-baseline.json、themes/config.json、themes/kb/themes.json
+                                   │
+                                   ▼  本 repo（twse-data-new）
+         ┌─────────────────────────┼─────────────────────────────┐
+         ▼                         ▼                             ▼
+  儀表板 /（到價＋清單）       /radar.html（潛力雷達）           Claude skills
+  latest_prices.json         radar-baseline.json            realtime-twse-price：latest_prices
+                             ＋ latest_prices.json          taiwan-stock-advisor：fundamentals、kline_history
+                                                            theme-radar：themes/、market/
 ```
 
-四套排程互相獨立（抓取邏輯、輸出檔、排程時間完全分開），只共用 `prices.json` 觀察清單與 `DATA_REPO_TOKEN`。
+**讀取方式**：`https://raw.githubusercontent.com/samanthaYYY/twse-data-new/main/<檔案路徑>`（Claude 請用 bash curl，不要用 web_fetch）。raw 失敗時可改用 `https://cdn.jsdelivr.net/gh/samanthaYYY/twse-data-new@main/<檔案路徑>`，但 jsDelivr 有快取延遲。
 
-> 2026/08/23 起 `latest_prices.json` **不再雙寫 Secret Gist**：儀表板已改讀本 repo 的 raw URL，單一資料源。
-
----
-
-## fundamentals.json — 八面向籌碼/基本面
-
-給 Claude 分析個股用，取代對話當下即時打官方 API（會踩快取和網址解鎖限制）。
-
-**結構**：`data` 以股票代號為 key，每檔底下八個欄位，全部保留官方回傳原始物件、標 `_market`（TWSE/TPEx）追溯來源。頂層 `sources` 記各項 `date`/`isStale`/`error`。
-
-| 欄位 | 內容 | 上市 | 上櫃 |
-|---|---|---|---|
-| `institutionalFlow` | 三大法人買賣超 | T86 | tpex_3insti_daily_trading |
-| `marginTrading` | 融資融券餘額 | MI_MARGN | tpex_mainboard_margin_balance |
-| `foreignHolding` | 外資持股比率 | MI_QFIIS | tpex_3insti_qfii |
-| `insiderHolding` ★ | 董監事／內部人持股 | t187ap11_L | mopsfin_t187ap11_O |
-| `shareholdingDistribution` ★ | 集保股權分散（大戶/散戶分佈） | TDCC getOD.ashx?id=1-5（上市櫃通用） | 同左 |
-| `monthlyRevenue` | 月營收 | t187ap05_L | mopsfin_t187ap05_O |
-| `dividend` | 股利分派 | t187ap45_L | mopsfin_t187ap39_O |
-| `valuation` | PE/殖利率/PB | BWIBBU_ALL | tpex_mainboard_peratio_analysis |
-
-★ = 2026/08/23 新增的籌碼面。
-
-**集保股權分散（`shareholdingDistribution`）讀法**：每檔一個物件 `{資料日期, levels:[...]}`，`levels` 為持股分級 1–17 的陣列，每級含 `持股分級`/`人數`/`股數`/`占集保比例`。**分級 15 = 1,000 張以上（千張大戶）**、16=差異數調整、17=合計。看「分級 15 占比」的週變化就是最直接的大戶籌碼流向。TDCC 為每週資料。
-
-**逐日資料（T86/融資融券/外資持股）** 找不到當天資料時會自動往前找最近交易日，並用 `isStale` 標記。
-
-**已知踩過的坑**：融資融券 (MI_MARGN) 官方 JSON 是巢狀 `tables`（大盤總計 + 逐股明細），逐股明細用「列數最多」判斷；openapi/tpex/tdcc 系列無查詢參數、永遠回傳全市場，程式自行過濾成觀察清單。
+**日期**：所有資料的日期都是**資料本身的交易日**，不是排程執行日；排程一天會補跑多次，重跑不會產生重複資料。
 
 ---
 
-## kline_history.json — 日 K 線歷史
+## latest_prices.json
 
-`meta` 記每檔市場別（TWSE/TPEx）；`tickers[代號][YYYY-MM-DD] = {open,high,low,close,volume}`。每日例行更新只需 2 次 call（TWSE 全市場 1 次 + TPEx 全市場 1 次）；上市新股首次會逐月回補 3 個月，上櫃股無回補（官方 API 限制，只能從開始執行當天累積）。保留約 120 交易日（涵蓋季線）。
+以股票代號為 key：
 
-**日期規則（2026/10 修正）**：K 棒的日期一律是**資料本身的交易日**，不是排程執行日。端點有日期欄位就用；沒有時用 `latest_prices.json` 的 `marketDate` 做全市場多數決推定，推定不出來就整批不寫。同一日期重跑會覆蓋同一根 K 棒，所以一天排三次補跑不會重複。
-
-**資料品質欄位 `dataQuality`**（2026/10 新增，選用）：記錄上市股最近一次官方月資料修復的時間與月份。**2026/10 以前的上櫃股 K 棒可能有一天錯置**（舊版用執行日期當 key），待 TPEx 歷史端點驗證後修復；讀取端做均線時若需要高精度，請優先參考上市股或近期資料。
-
-`meta` 裡可能留有已從觀察清單移除的代號（保留歷史，讀取端以 `latest_prices.json` 的代號為準即可）。
-
----
-
-## material_news.json — 觀察清單重大訊息
-
-抓 MOPS（`mopsov.twse.com.tw` 的 `ajax_t05st02`，當日全市場重訊）過濾成觀察清單，去重後把「新的」推 Discord（與到價提醒同頻道，username「台股重訊」）。目的：利多/利空第一手消息即時到手，不用等媒體、隔天跳空才追。
-
-**結構**：
-```
-{
-  "updatedAt": ISO 時間,
-  "seen":  [ "代號|發言日期|發言時間|主旨前30字", ... ]   // 去重記憶，保留最近 ~1200 筆
-  "recent":[ { code, name, date, time, subject, src, aiTag, aiNote, pushedAt }, ... ]  // 近期明細，保留最近 300 則
-}
+```json
+{ "2356": { "name": "INVENTEC CORP", "price": 59.7, "prevClose": 59.5, "change": 0.2, "changePercent": 0.34,
+            "marketDate": "2026-10-01",
+            "alertTargets": [{ "direction": "above", "target": 70 }], "updatedAt": "2026-10-01T06:46:53Z" } }
 ```
 
-- **去重記憶內建在這份檔**：`check-material` 每次讀 `seen` 比對、只推「新的」，同一則永遠只推一次。排程頻率是可調旋鈕，跑幾次只影響「多快收到」、不會重複推播。
-- `aiTag`（利多/利空/中性）與 `aiNote`（一句話重點）為 **AI 研判、僅供參考**（非投資建議），由 `claude-sonnet-4-5` 產生；沒設 `ANTHROPIC_API_KEY` 時為 `null`。**2026/10 以前的紀錄全部是 `null`**：workflow 當時漏傳金鑰，2026/10 起才開始有判讀。沒有新重訊時不再重寫本檔。
-- 資料源 memo：**舊網域 `mops.twse.com.tw` 被安全性封鎖頁擋掉**，一定要用 `mopsov.twse.com.tw`；`ajax_t05st02` 的 `step` 要用 0、`year` 用民國年、回傳是 HTML 要解析表格（欄位以關鍵字比對表頭）。
+- `marketDate`：這筆價格對應的交易日（台北）。休市日 `updatedAt` 會更新，但 `marketDate` 仍是最後交易日。
+- `alertTargets`：`above` 通常是賣出目標、`below` 通常是買入目標；空陣列代表只觀察。
+- 抓不到報價的股票不會出現在檔案中。
 
----
+## fundamentals.json
 
-## 潛力雷達儀表板（dashboard/public/radar.html，部署於 /radar.html）
+`data[代號]` 底下 8 個欄位，**保留官方原始物件**（欄位名稱為官方中文或英文），每筆有 `_market`（TWSE／TPEx）。頂層 `sources` 記錄各項的資料日期、`isStale`（當天無資料、改用前一交易日）與錯誤。
 
-**固定模板、樣式不變**：開啟時線上抓 `radar-baseline.json`（名單＋分析）＋ `latest_prices.json`（即時價）合併呈現，抓不到退 jsDelivr、再不行用內建備援。
-
-- **潛力分** = 題材強度×1.1 + 低基期×1.1 + 需求兌現×0.8 + (2−已漲程度)×0.9
-- **標籤**：`ts`題材1-3、`lb`低基期1-3、`dr`需求兌現0-2、`ru`已漲0-2、`risk`1-3
-- **進場策略** `bt`：`near`近價 / `mid`回檔承接 / `deep`高檔候低
-- **進場區間**（錨 `p`）：near ×[0.93,1.00]、mid ×[0.86,0.94]、deep ×[0.80,0.88]；停損＝下緣×0.93。屬指引、非精準線圖價位。**非投資建議。**
-
----
-
-## 兩個排程（Cowork Scheduled）
-
-| 排程 | 何時 | 做什麼 |
+| 欄位 | 內容 | 頻率 |
 |---|---|---|
-| `twse-radar-monthly-light` | 每月 11 號 09:00 | 用最新收盤重錨各檔 `p`、掃月營收異動、微調 dr/ru |
-| `twse-radar-quarterly-deep` | 4/5/8/11 月 20 號 09:00 | 深查財報，重評 基期/題材/需求/是否已大漲、估值、屬性 |
+| `institutionalFlow` | 三大法人買賣超 | 每日 |
+| `marginTrading` | 融資融券餘額 | 每日 |
+| `foreignHolding` | 外資持股比率 | 每日 |
+| `valuation` | 本益比、殖利率、股價淨值比 | 每日 |
+| `monthlyRevenue` | 月營收與年增、月增率 | 每月 |
+| `dividend` | 股利分派 | 每年 |
+| `insiderHolding` | 董監持股與設質 | 每月 |
+| `shareholdingDistribution` | 集保股權分散 | 每週 |
 
-共同規則：名單以 `radar-baseline.json` 為準全部保留；報價源新增=新標的加入；報價源這次缺的保留並標記、絕不自動刪；不產 HTML（儀表板固定模板）。
+**集保股權分散**：`{資料日期, levels:[...]}`，`levels` 為持股分級 1–17，每級含人數、股數、占集保比例。**分級 15＝1,000 張以上（千張大戶）**，17＝合計。週資料，平日內容不變屬正常。
+
+## kline_history.json
+
+```json
+{ "meta": { "2356": "TWSE", "5483": "TPEx" },
+  "tickers": { "2356": { "2026-10-01": { "open": 59.6, "high": 59.8, "low": 59, "close": 59.7, "volume": 8414000 } } },
+  "dataQuality": { "twseRepairedAt": "...", "twseRepairedMonths": [...], "tpexRepairedAt": "...", "tpexRepairedMonths": [...] },
+  "updatedAt": "..." }
+```
+
+- `volume` 單位為**股**。
+- 上市股約在收盤當晚、上櫃股約在收盤後 1 小時內寫入；官方上市端點常延遲到隔天早上，所以最新一天的上市 K 棒可能要到隔日 07:43 才出現。
+- `dataQuality` 記錄以官方月資料修復過的月份。2026/10/01 已修復 6 月以來上市櫃全部 K 線（舊版曾把資料整段標錯一天）。
+- `meta` 可能留有已移出觀察清單的代號，讀取時以 `latest_prices.json` 的代號為準。
+
+## material_news.json
+
+```json
+{ "updatedAt": "...",
+  "seen":   ["代號|發言日期|發言時間|主旨前30字", "..."],
+  "recent": [{ "code": "2356", "name": "英業達", "date": "...", "time": "...", "subject": "...",
+               "aiTag": "利多", "aiNote": "一句話重點", "pushedAt": "..." }] }
+```
+
+- `seen` 為去重紀錄（保留約 1,200 筆），`recent` 為近期明細（保留 300 則）。
+- `aiTag`（利多／利空／中性）與 `aiNote` 為 AI 研判，僅供參考。**2026/10 以前的紀錄為 `null`**（當時尚未啟用 AI 判讀）。
+
+## radar-baseline.json（潛力雷達）
+
+個股層級的潛力評分名單，供 `/radar.html` 儀表板使用；與 `themes/` 的題材雷達是不同的東西。
+
+- 每檔欄位：`ts` 題材（1–3）、`lb` 低基期（1–3）、`dr` 需求兌現（0–2）、`ru` 已漲（0–2）、`bt` 進場策略（near／mid／deep）、`risk`（1–3）、`p` 進場錨定基準價。
+- **潛力分**＝題材×1.1＋低基期×1.1＋需求兌現×0.8＋(2−已漲)×0.9。
+- **進場區間**（以 `p` 為錨）：near ×0.93–1.00、mid ×0.86–0.94、deep ×0.80–0.88；停損＝區間下緣×0.93。屬指引，非精準價位。
+- 由兩個 Cowork 排程維護：每月 11 日重錨 `p` 並掃月營收；4／5／8／11 月 20 日依財報重評。名單只增不自動刪除，除權息季基準價重錨屬正常。
 
 ---
 
-## 維護方式
+## market/ — 全市場資料
 
-- **加/減股票** → 改私有 repo 的 `prices.json`（唯一入口）。四份輸出檔（含重訊監控）下次排程自動涵蓋。
-- **手動細修雷達分析** → 改 `radar-baseline.json` 重新提交。
-- **儀表板** → 直接開 `radar.html`（自己線上抓最新資料）；只有模板改版才換新檔。
-- **除權息季（7–8 月）** → 進場區間因基準價重錨而變動，屬正常。
+| 檔案 | 內容 |
+|---|---|
+| `market/index.json` | `dates` 已收錄交易日、`closed` 休市日、`partial` 法人資料待補日期 |
+| `market/daily/YYYY/YYYY-MM-DD.json` | 該日全市場快照（約 1,950 檔），寫入後不再修改 |
+| `market/companies.json` | 代號 → 名稱、產業別、最新月營收年增率 |
+| `market/features.json` | 全市場個股特徵：報酬率、量比、ATR、60 日區間位置、法人連買賣、訊號分數 |
+
+**讀取順序**：先讀 `market/index.json` 取得可用日期，再讀需要的日期檔。
+
+**每日快照**的 `rows` 為「代號 → 陣列」，欄位順序見同檔 `fields`：
+
+| 欄位 | 說明 | 單位 |
+|---|---|---|
+| `mkt` | `T` 上市、`O` 上櫃 | |
+| `o` `h` `l` `c` | 開高低收 | 元 |
+| `chg` | 官方漲跌價差（相對參考價，已考慮除權息） | 元 |
+| `vol` | 成交量 | **張** |
+| `val` | 成交金額 | 百萬元 |
+| `fi` `it` `dl` | 外資、投信、自營商買賣超 | 張 |
+
+另有 `sectors`（上市類股指數 `[收盤, 漲跌幅%]`）與 `flags`（`notice` 注意股、`disposal` 處置中，只有最新交易日有值）。資料自 2026-08-20 起。
+
+**注意單位差異**：`market/` 的量為「張」、`kline_history.json` 的量為「股」。
+
+## themes/ — 題材雷達
+
+| 檔案 | 內容 | 維護 |
+|---|---|---|
+| `themes/latest.json` | 今日異常股、族群、題材卡狀態 | 程式每日覆寫 |
+| `themes/reports/YYYY/DATE.md` | 每日題材報告，可直接在 GitHub 上閱讀 | 程式每日一檔 |
+| `themes/log/YYYY.jsonl` | 每日族群紀錄，供日後校準 | 程式附加 |
+| `themes/config.json` | 訊號門檻與權重，只需寫要覆蓋的項目 | **人工** |
+| `themes/kb/themes.json` | 題材卡：成員代號、角色、證據等級 | **人工**（Claude 可提案 `candidate`） |
+
+- 族群有三種來源：同產業、同題材卡、跨產業共動。**跨產業共動且不屬於任何題材卡的族群會標為「未知族群候選」**，是新題材的線索。
+- 雷達**只標記、不排除個股**（千元股、KY、處置中、追高區等皆為標籤），是否參與屬於選股階段的判斷。
+- 欄位定義見私有 repo `docs/theme-radar-schema.md`；Claude 透過 `theme-radar` skill 解讀。
 
 ---
 
-*本 repo 內容為研究彙整與紀錄，非投資建議；進出請自行判斷、自負盈虧。*
+*本 repo 內容為研究彙整與紀錄，非投資建議。*
