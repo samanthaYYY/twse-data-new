@@ -1,0 +1,19 @@
+{
+  "schema": "themes-config",
+  "v": 1,
+  "_說明": "題材雷達的門檻與權重。只需寫要覆蓋的項目，未寫的使用程式內建預設值（見 tw-stock-alert/scripts/lib/features.mjs 的 DEFAULT_CONFIG）。調整後下一次排程就會生效，不需要改程式。",
+  "universe": { "minAvgValue20": 10 },
+  "signals": {
+    "vol_surge_quiet": { "kind": "early", "weight": 1.2, "vrMin": 2, "retAbsMax": 3, "label": "爆量未漲" },
+    "flow_turn_buy": { "kind": "early", "weight": 1.0, "days": 2, "lookback": 5, "label": "法人轉買" },
+    "trust_first_buy": { "kind": "early", "weight": 0.8, "lookback": 20, "minLots": 50, "label": "投信首買" },
+    "low_base_breakout": { "kind": "early", "weight": 1.0, "posMax": 0.3, "retMin": 3, "vrMin": 1.5, "label": "低基期突破" },
+    "vol_surge": { "kind": "confirm", "weight": 0.6, "vrMin": 2, "label": "爆量" },
+    "limit_up": { "kind": "confirm", "weight": 0.6, "pctMin": 9.5, "label": "漲停" },
+    "flow_streak_buy": { "kind": "confirm", "weight": 0.5, "days": 4, "label": "法人連買" }
+  },
+  "anomaly": { "minScore": 1.2, "maxListed": 60 },
+  "tags": { "priceHigh": 1000, "chaseAtrMult": 2, "chaseRet5": 20, "lowBasePos": 0.3 },
+  "groups": { "minMembers": 3, "maxReport": 8, "themeMinMembers": 2 },
+  "stages": { "overheatAtrMult": 2, "overheatRet20": 30, "overheatLimitUpRatio": 0.5, "spreadBreadth": 0.15 }
+}
