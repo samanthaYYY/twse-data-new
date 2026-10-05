@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-05",
-  "generatedAt": "2026-10-05T18:21:41.420Z",
+  "generatedAt": "2026-10-05T21:15:03.790Z",
   "historyDays": 31,
   "dataReady": {
     "vr": true,
@@ -1505,8 +1505,7 @@
       "ret1": 1.6,
       "ret5": 7.8,
       "ret20": -3.7,
-      "stage": "ignite",
-      "change": "overheat→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "abf-substrate",
@@ -1628,8 +1627,7 @@
       "ret1": -0.5,
       "ret5": 6.3,
       "ret20": 19.3,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "ai-server-odm",
