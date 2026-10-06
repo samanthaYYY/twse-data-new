@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-06",
-  "generatedAt": "2026-10-06T15:53:51.005Z",
+  "generatedAt": "2026-10-06T18:57:30.523Z",
   "historyDays": 32,
   "dataReady": {
     "vr": true,
@@ -1481,8 +1481,7 @@
       "ret1": -3.2,
       "ret5": 5.4,
       "ret20": -9.3,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "abf-substrate",
@@ -1930,8 +1929,7 @@
       "ret1": -0.6,
       "ret5": 1.8,
       "ret20": -2.2,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "food",
