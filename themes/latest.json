@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T09:53:07.270Z",
+  "generatedAt": "2026-10-07T10:20:26.483Z",
   "historyDays": 33,
   "dataReady": {
     "vr": true,
@@ -1508,8 +1508,7 @@
       "ret1": 1.9,
       "ret5": 0.8,
       "ret20": 11,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "optical-cpo",
@@ -2034,8 +2033,7 @@
       "ret1": -1.1,
       "ret5": -0.9,
       "ret20": -1.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "food",
