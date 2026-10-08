@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T09:20:54.587Z",
+  "generatedAt": "2026-10-08T10:20:27.747Z",
   "historyDays": 34,
   "dataReady": {
     "vr": true,
@@ -1485,8 +1485,7 @@
       "ret1": -2.9,
       "ret5": 0.3,
       "ret20": 9.4,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "optical-cpo",
