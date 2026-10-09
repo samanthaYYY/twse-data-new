@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T10:20:27.747Z",
+  "generatedAt": "2026-10-09T09:20:30.912Z",
   "historyDays": 34,
   "dataReady": {
     "vr": true,
@@ -10,6 +10,20 @@
     "pos60": true,
     "flowTurn": true,
     "trustFirst": true
+  },
+  "attribution": {
+    "enabled": true,
+    "roleWeight": {
+      "indicator": 1,
+      "direct": 1,
+      "indirect": 0.5,
+      "concept": 0.3
+    },
+    "stageNeedsCoreMember": true,
+    "minDistinctMembers": 2,
+    "sharedMemberNeedsPeer": true,
+    "peerMustBeCore": true,
+    "_說明": "題材卡歸因（2026/10/09）。roleWeight：角色權重，用來算題材卡廣度；sharedMemberNeedsPeer：屬於多張卡的股票，需同卡核心成員也有訊號或同在一個共動群才採計；peerMustBeCore：同卡佐證成員須為 indicator／direct；stageNeedsCoreMember：離開潛伏需至少 1 檔 indicator／direct 異常；minDistinctMembers：離開潛伏的最少採計家數。enabled=false 回到舊算法。"
   },
   "counts": {
     "universe": 1950,
@@ -38,7 +52,8 @@
       "ret5": 8.8,
       "vr": 2.57,
       "flow5": 296,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "1723",
@@ -61,7 +76,8 @@
       "ret5": 5.8,
       "vr": 2.58,
       "flow5": 639,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "4114",
@@ -83,7 +99,8 @@
       "ret5": 2.2,
       "vr": 5.01,
       "flow5": 661,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5228",
@@ -106,7 +123,8 @@
       "ret5": 40.3,
       "vr": 7.57,
       "flow5": -142,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "8086",
@@ -128,7 +146,8 @@
       "ret5": 33.9,
       "vr": 6.61,
       "flow5": 4329,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6811",
@@ -147,7 +166,8 @@
       "ret5": 15.4,
       "vr": 4.35,
       "flow5": 658,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2108",
@@ -166,7 +186,8 @@
       "ret5": 6.5,
       "vr": 3.88,
       "flow5": 1479,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "8042",
@@ -186,7 +207,8 @@
       "ret5": 17.4,
       "vr": 3.35,
       "flow5": 2723,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6469",
@@ -205,7 +227,8 @@
       "ret5": 3.1,
       "vr": 3.27,
       "flow5": 135,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2439",
@@ -224,7 +247,8 @@
       "ret5": 5.4,
       "vr": 3.02,
       "flow5": 2489,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5009",
@@ -243,7 +267,8 @@
       "ret5": 2.6,
       "vr": 2.76,
       "flow5": 1787,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "7780",
@@ -262,7 +287,8 @@
       "ret5": 2.5,
       "vr": 2.73,
       "flow5": 141,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "4583",
@@ -283,7 +309,8 @@
       "ret5": -0.6,
       "vr": 2.35,
       "flow5": 54,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2504",
@@ -302,7 +329,8 @@
       "ret5": 4.6,
       "vr": 2.27,
       "flow5": 2087,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6163",
@@ -321,7 +349,8 @@
       "ret5": 5.9,
       "vr": 2.06,
       "flow5": -1466,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2355",
@@ -340,7 +369,8 @@
       "ret5": 9.4,
       "vr": 2.04,
       "flow5": 360,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6670",
@@ -359,7 +389,8 @@
       "ret5": 3,
       "vr": 2.04,
       "flow5": 143,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5225",
@@ -382,7 +413,8 @@
       "ret5": 1.1,
       "vr": 4.15,
       "flow5": 134,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "3624",
@@ -404,7 +436,8 @@
       "ret5": 15.9,
       "vr": 1.72,
       "flow5": 12009,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "8213",
@@ -423,7 +456,8 @@
       "ret5": 12.8,
       "vr": 9.11,
       "flow5": 1609,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2241",
@@ -442,7 +476,8 @@
       "ret5": 14.6,
       "vr": 8.15,
       "flow5": 6857,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "4720",
@@ -464,7 +499,8 @@
       "ret5": 34.1,
       "vr": 5.48,
       "flow5": 2049,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5230",
@@ -484,7 +520,8 @@
       "ret5": 10.4,
       "vr": 4.22,
       "flow5": 959,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "3558",
@@ -503,7 +540,8 @@
       "ret5": 5,
       "vr": 3.85,
       "flow5": 338,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6277",
@@ -522,7 +560,8 @@
       "ret5": 2.7,
       "vr": 3.22,
       "flow5": 168,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6278",
@@ -541,7 +580,8 @@
       "ret5": 14.5,
       "vr": 2.9,
       "flow5": 11917,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6197",
@@ -560,7 +600,8 @@
       "ret5": 15.6,
       "vr": 2.52,
       "flow5": 1710,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "1304",
@@ -579,7 +620,8 @@
       "ret5": 5.6,
       "vr": 2.3,
       "flow5": 6940,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2727",
@@ -599,6 +641,9 @@
       "vr": 2.27,
       "flow5": 346,
       "themes": [
+        "tourism-dining"
+      ],
+      "attributedThemes": [
         "tourism-dining"
       ]
     },
@@ -621,7 +666,8 @@
       "ret5": 3.2,
       "vr": 2.27,
       "flow5": 188,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6658",
@@ -640,7 +686,8 @@
       "ret5": 18.5,
       "vr": 5.94,
       "flow5": 100,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "3685",
@@ -659,7 +706,8 @@
       "ret5": 9.4,
       "vr": 4.39,
       "flow5": 1684,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5263",
@@ -680,7 +728,8 @@
       "ret5": 6,
       "vr": 4.07,
       "flow5": 180,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "8162",
@@ -699,7 +748,8 @@
       "ret5": -0.6,
       "vr": 2.71,
       "flow5": 133,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "3147",
@@ -718,7 +768,8 @@
       "ret5": 15.1,
       "vr": 2.57,
       "flow5": -587,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5209",
@@ -739,7 +790,8 @@
       "ret5": 5.5,
       "vr": 2.52,
       "flow5": 161,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6901",
@@ -758,7 +810,8 @@
       "ret5": 6.3,
       "vr": 2.09,
       "flow5": 294,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "7740",
@@ -777,7 +830,8 @@
       "ret5": 15.6,
       "vr": 1.92,
       "flow5": -8,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2305",
@@ -796,7 +850,8 @@
       "ret5": 4.5,
       "vr": 0.52,
       "flow5": 3676,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2912",
@@ -819,6 +874,9 @@
       "flow5": 879,
       "themes": [
         "retail"
+      ],
+      "attributedThemes": [
+        "retail"
       ]
     },
     {
@@ -838,7 +896,8 @@
       "ret5": 1,
       "vr": 0.88,
       "flow5": 72,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5515",
@@ -857,7 +916,8 @@
       "ret5": 2.3,
       "vr": 0.84,
       "flow5": 51,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2851",
@@ -876,7 +936,8 @@
       "ret5": 4,
       "vr": 0.68,
       "flow5": 3440,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "8464",
@@ -897,7 +958,8 @@
       "ret5": 1.1,
       "vr": 0.64,
       "flow5": 116,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2850",
@@ -916,7 +978,8 @@
       "ret5": 4.8,
       "vr": 0.63,
       "flow5": 448,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "8996",
@@ -938,7 +1001,8 @@
       "ret5": 9.3,
       "vr": 0.29,
       "flow5": 1219,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "1325",
@@ -959,7 +1023,8 @@
       "ret5": 18.9,
       "vr": 12.94,
       "flow5": 14,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5244",
@@ -977,7 +1042,8 @@
       "ret5": 14.3,
       "vr": 10.4,
       "flow5": -17,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6174",
@@ -999,7 +1065,8 @@
       "ret5": 28,
       "vr": 9.15,
       "flow5": 355,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "4934",
@@ -1020,7 +1087,8 @@
       "ret5": 17.9,
       "vr": 8.87,
       "flow5": 1594,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "1802",
@@ -1039,7 +1107,11 @@
       "vr": 7.53,
       "flow5": 29910,
       "themes": [
-        "glass-substrate"
+        "glass-substrate",
+        "glass-fabric"
+      ],
+      "attributedThemes": [
+        "glass-fabric"
       ]
     },
     {
@@ -1061,7 +1133,8 @@
       "ret5": 11.6,
       "vr": 5.41,
       "flow5": 367,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "5274",
@@ -1081,7 +1154,8 @@
       "ret5": -8.2,
       "vr": 4.84,
       "flow5": -235,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "3564",
@@ -1102,7 +1176,8 @@
       "ret5": 31.2,
       "vr": 4.83,
       "flow5": -285,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "1434",
@@ -1120,7 +1195,8 @@
       "ret5": 8.4,
       "vr": 4.74,
       "flow5": 5768,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "4716",
@@ -1138,7 +1214,8 @@
       "ret5": 14.5,
       "vr": 4.61,
       "flow5": 340,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "2340",
@@ -1159,7 +1236,8 @@
       "ret5": 20.6,
       "vr": 4.55,
       "flow5": 12196,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "4903",
@@ -1177,7 +1255,8 @@
       "ret5": 3.6,
       "vr": 4.47,
       "flow5": -153,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "6127",
@@ -1196,7 +1275,8 @@
       "ret5": 12.9,
       "vr": 4.41,
       "flow5": -1646,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "1711",
@@ -1214,7 +1294,8 @@
       "ret5": 14.1,
       "vr": 4.3,
       "flow5": 3454,
-      "themes": []
+      "themes": [],
+      "attributedThemes": []
     }
   ],
   "groups": [
@@ -1474,6 +1555,23 @@
       "anomalies": [
         "1802"
       ],
+      "attributed": [],
+      "unattributed": [
+        {
+          "code": "1802",
+          "reason": "shared_no_peer",
+          "alsoIn": [
+            "glass-fabric"
+          ]
+        }
+      ],
+      "weighted": 0,
+      "totalWeight": 2.7,
+      "coreHit": false,
+      "gate": null,
+      "roles": {
+        "1802": "concept"
+      },
       "signaled": [
         {
           "code": "3673",
@@ -1492,6 +1590,13 @@
       "name": "光通訊／CPO",
       "members": 5,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "6442",
@@ -1510,6 +1615,13 @@
       "name": "ABF 載板",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "3037",
@@ -1540,6 +1652,13 @@
       "name": "CCL 銅箔基板",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "6274",
@@ -1558,6 +1677,13 @@
       "name": "矽晶圓",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 4,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "5483",
@@ -1576,6 +1702,13 @@
       "name": "記憶體",
       "members": 7,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 7,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [],
       "ret1": -0.2,
       "ret5": -1.5,
@@ -1589,6 +1722,17 @@
       "anomalies": [
         "2478"
       ],
+      "attributed": [
+        "2478"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 4,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "2478": "direct"
+      },
       "signaled": [],
       "ret1": -0.9,
       "ret5": 11.1,
@@ -1600,6 +1744,13 @@
       "name": "AI 伺服器組裝",
       "members": 6,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 6,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [],
       "ret1": -0.4,
       "ret5": -0.6,
@@ -1611,6 +1762,13 @@
       "name": "散熱",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "2421",
@@ -1631,6 +1789,17 @@
       "anomalies": [
         "5536"
       ],
+      "attributed": [
+        "5536"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 4,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "5536": "direct"
+      },
       "signaled": [
         {
           "code": "6196",
@@ -1651,6 +1820,17 @@
       "anomalies": [
         "2449"
       ],
+      "attributed": [
+        "2449"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 5,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "2449": "direct"
+      },
       "signaled": [
         {
           "code": "6239",
@@ -1675,6 +1855,13 @@
       "name": "重電",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 4,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "1513",
@@ -1693,6 +1880,13 @@
       "name": "電線電纜",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [],
       "ret1": -1.7,
       "ret5": 0.6,
@@ -1704,6 +1898,13 @@
       "name": "鋼鐵",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "2027",
@@ -1724,6 +1925,17 @@
       "anomalies": [
         "1326"
       ],
+      "attributed": [
+        "1326"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 3.5,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "1326": "direct"
+      },
       "signaled": [
         {
           "code": "1301",
@@ -1755,6 +1967,13 @@
       "name": "貨櫃航運",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [],
       "ret1": 0.3,
       "ret5": -0.6,
@@ -1766,6 +1985,13 @@
       "name": "散裝航運",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [],
       "ret1": 0.8,
       "ret5": 3,
@@ -1777,6 +2003,13 @@
       "name": "航空",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "2610",
@@ -1797,6 +2030,17 @@
       "anomalies": [
         "2727"
       ],
+      "attributed": [
+        "2727"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 4,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "2727": "indicator"
+      },
       "signaled": [
         {
           "code": "2707",
@@ -1815,6 +2059,13 @@
       "name": "營建資產",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 4,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "2542",
@@ -1833,6 +2084,13 @@
       "name": "水泥",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "1104",
@@ -1851,6 +2109,13 @@
       "name": "壽險金控",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "2882",
@@ -1869,6 +2134,13 @@
       "name": "銀行",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 4,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "2891",
@@ -1895,6 +2167,17 @@
       "anomalies": [
         "4162"
       ],
+      "attributed": [
+        "4162"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 4,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "4162": "direct"
+      },
       "signaled": [],
       "ret1": 0.2,
       "ret5": 2.1,
@@ -1906,6 +2189,13 @@
       "name": "國防軍工",
       "members": 5,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "5284",
@@ -1924,6 +2214,13 @@
       "name": "綠能（風電／太陽能）",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [],
       "ret1": -1.7,
       "ret5": -3.3,
@@ -1935,6 +2232,13 @@
       "name": "儲能／電池",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [],
       "ret1": -1.4,
       "ret5": -1.9,
@@ -1946,6 +2250,13 @@
       "name": "食品",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 4,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "1216",
@@ -1976,6 +2287,13 @@
       "name": "紡織成衣",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 2.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "1476",
@@ -2001,6 +2319,13 @@
       "name": "自行車",
       "members": 2,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 2,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "9921",
@@ -2025,6 +2350,13 @@
       "name": "汽車零組件／電動車",
       "members": 4,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 4,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "1536",
@@ -2055,6 +2387,13 @@
       "name": "電信",
       "members": 3,
       "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "2412",
@@ -2075,6 +2414,17 @@
       "anomalies": [
         "2912"
       ],
+      "attributed": [
+        "2912"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 2,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "2912": "indicator"
+      },
       "signaled": [
         {
           "code": "5904",
@@ -2091,14 +2441,62 @@
     {
       "theme": "robotics",
       "name": "機器人／自動化",
-      "members": 4,
+      "members": 5,
       "anomalies": [
         "1590"
       ],
+      "attributed": [
+        "1590"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 4.3,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "1590": "direct"
+      },
       "signaled": [],
-      "ret1": -1.9,
-      "ret5": -1.7,
-      "ret20": -5.3,
+      "ret1": -2,
+      "ret5": -2.3,
+      "ret20": -5.4,
+      "stage": "latent"
+    },
+    {
+      "theme": "glass-fabric",
+      "name": "玻纖布",
+      "members": 4,
+      "anomalies": [
+        "1802"
+      ],
+      "attributed": [
+        "1802"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 4,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "1802": "indicator"
+      },
+      "signaled": [
+        {
+          "code": "1303",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "5340",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": 0.7,
+      "ret5": 16.1,
+      "ret20": 13.3,
       "stage": "latent"
     }
   ],
