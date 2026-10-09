@@ -15,5 +15,14 @@
   "anomaly": { "minScore": 1.2, "maxListed": 60 },
   "tags": { "priceHigh": 1000, "chaseAtrMult": 2, "chaseRet5": 20, "lowBasePos": 0.3 },
   "groups": { "minMembers": 3, "maxReport": 8, "themeMinMembers": 2 },
-  "stages": { "overheatAtrMult": 2, "overheatRet20": 30, "overheatLimitUpRatio": 0.5, "spreadBreadth": 0.15 }
+  "stages": { "overheatAtrMult": 2, "overheatRet20": 30, "overheatLimitUpRatio": 0.5, "spreadBreadth": 0.15 },
+  "attribution": {
+    "_說明": "題材卡歸因（2026/10/09）。roleWeight：角色權重，用來算題材卡廣度；sharedMemberNeedsPeer：屬於多張卡的股票，需同卡核心成員也有訊號或同在一個共動群才採計；peerMustBeCore：同卡佐證成員須為 indicator／direct；stageNeedsCoreMember：離開潛伏需至少 1 檔 indicator／direct 異常；minDistinctMembers：離開潛伏的最少採計家數。enabled=false 回到舊算法。",
+    "enabled": true,
+    "roleWeight": { "indicator": 1, "direct": 1, "indirect": 0.5, "concept": 0.3 },
+    "sharedMemberNeedsPeer": true,
+    "peerMustBeCore": true,
+    "stageNeedsCoreMember": true,
+    "minDistinctMembers": 2
+  }
 }
