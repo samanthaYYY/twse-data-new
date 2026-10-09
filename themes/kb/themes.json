@@ -1,8 +1,8 @@
 {
   "schema": "themes-kb",
   "v": 1,
-  "updated": "2026-10-02",
-  "_說明": "題材卡。status：candidate 候選（程式或 Claude 提案，待確認）／active 活躍／archived 封存。role：indicator 指標股／direct 直接受惠／indirect 間接受惠／concept 概念。初版內容整理自 2026/09 SEMICON 研究與題材討論，代號請再確認；程式會自動檢查代號是否存在於全市場資料。 category：tech 科技／non-tech 非科技，只用於分類閱讀，不影響計算。",
+  "updated": "2026-10-07",
+  "_說明": "題材卡。status：candidate 候選（程式或 Claude 提案，待確認）／active 活躍／archived 封存。role：indicator 指標股／direct 直接受惠／indirect 間接受惠／concept 概念。初版內容整理自 2026/09 SEMICON 研究與題材討論，代號請再確認；程式會自動檢查代號是否存在於全市場資料。 category：tech 科技／non-tech 非科技，只用於分類閱讀，不影響計算。 角色判定四問（2026/10 起）：1 現在有營收嗎；2 產品在量產、送樣還是研發；3 有沒有硬性證據；4 多久會反映在財報。direct＝已量產且營收占比明顯；indirect＝有營收但占比小或屬間接環節；concept＝研發、送樣、認證中，尚無營收；indicator＝市場用來判斷題材熱度的指標股，與營收占比無關。 選填欄位：exposure（營收曝險 high／low／none／unknown）、asOf（判定日期）、source（判定依據）。asOf 超過半年或出現送樣通過、接單等新聞時，應重新判定。同一檔股票可以屬於多張題材卡，各卡角色獨立判定。",
   "themes": [
     {
       "id": "glass-substrate",
@@ -19,18 +19,27 @@
       "members": [
         {
           "code": "2409",
-          "role": "indicator",
-          "note": "友達，基板製造"
+          "role": "concept",
+          "note": "友達，未見玻璃基板量產或營收證據",
+          "exposure": "none",
+          "source": "2026/10 查無量產時程報導",
+          "asOf": "2026-10-07"
         },
         {
           "code": "3481",
-          "role": "direct",
-          "note": "群創"
+          "role": "indicator",
+          "note": "群創，市場視為玻璃基板指標；摩根士丹利估量產 2028H2–2029，FOPLP 另有營收",
+          "exposure": "none",
+          "source": "摩根士丹利報告（yam 2026-07-29）",
+          "asOf": "2026-10-07"
         },
         {
           "code": "8027",
-          "role": "direct",
-          "note": "鈦昇，TGV 加工"
+          "role": "concept",
+          "note": "鈦昇，TGV 雷射設備驗證末段，預計 2026 年底接單、2027Q2 起放量；目前出貨主力為 EMIB 設備。接單後升級為 direct",
+          "exposure": "none",
+          "asOf": "2026-10-07",
+          "source": "鈦昇法說會 2026-07-07（鉅亨網）"
         },
         {
           "code": "2467",
@@ -39,13 +48,18 @@
         },
         {
           "code": "3673",
-          "role": "indirect",
-          "note": "TPK-KY"
+          "role": "concept",
+          "note": "TPK-KY，未見玻璃基板營收證據",
+          "exposure": "none",
+          "asOf": "2026-10-07"
         },
         {
           "code": "1802",
           "role": "concept",
-          "note": "台玻"
+          "note": "台玻，CoPoS 玻璃基板研發驗證中，最快 2028–29 量產；主力在玻纖布",
+          "exposure": "none",
+          "source": "CMoney 台玻 CoPoS 布局分析（2026）",
+          "asOf": "2026-10-07"
         }
       ],
       "history": [
@@ -72,8 +86,11 @@
       "members": [
         {
           "code": "3081",
-          "role": "direct",
-          "note": "聯亞"
+          "role": "indicator",
+          "note": "聯亞，雷射磊晶上游，光通訊族群報導最常列為領頭；8 月營收年增 181%",
+          "exposure": "high",
+          "source": "財報狗族群報導、companies.json",
+          "asOf": "2026-10-07"
         },
         {
           "code": "4979",
@@ -413,7 +430,7 @@
         {
           "code": "2449",
           "role": "direct",
-          "note": "京元電"
+          "note": "京元電子"
         },
         {
           "code": "6239",
@@ -462,8 +479,11 @@
         },
         {
           "code": "1519",
-          "role": "direct",
-          "note": "華城"
+          "role": "indicator",
+          "note": "華城，變壓器產能滿載，2026Q1 合約負債 87.6 億",
+          "exposure": "high",
+          "source": "旺得富 2026-06-22",
+          "asOf": "2026-10-07"
         }
       ],
       "category": "non-tech"
@@ -544,8 +564,11 @@
         },
         {
           "code": "1303",
-          "role": "direct",
-          "note": "南亞"
+          "role": "indirect",
+          "note": "南亞，電子材料（玻纖布、CCL、銅箔）營收占比已升至約 57%，塑化非主力",
+          "exposure": "low",
+          "source": "永豐豐雲學堂 2026-09",
+          "asOf": "2026-10-07"
         },
         {
           "code": "1326",
@@ -785,8 +808,10 @@
         },
         {
           "code": "2885",
-          "role": "direct",
-          "note": "元大金"
+          "role": "indirect",
+          "note": "元大金，以證券為主，壽險占比低",
+          "exposure": "low",
+          "asOf": "2026-10-07"
         }
       ],
       "_說明": "利率上升、新台幣貶值通常有利；股市大跌不利"
@@ -806,7 +831,10 @@
         {
           "code": "2891",
           "role": "indicator",
-          "note": "中信金"
+          "note": "中信金，2025 獲利中信銀約 71%、台灣人壽約 26%，仍以銀行為主",
+          "exposure": "high",
+          "source": "優分析 2025 年報導",
+          "asOf": "2026-10-07"
         },
         {
           "code": "2886",
@@ -850,13 +878,17 @@
         },
         {
           "code": "6472",
-          "role": "direct",
-          "note": "保瑞"
+          "role": "indirect",
+          "note": "保瑞，CDMO 與學名藥為主，非新藥開發",
+          "exposure": "low",
+          "asOf": "2026-10-07"
         },
         {
           "code": "1795",
-          "role": "direct",
-          "note": "美時"
+          "role": "indirect",
+          "note": "美時，學名藥為主，非新藥開發",
+          "exposure": "low",
+          "asOf": "2026-10-07"
         },
         {
           "code": "4162",
@@ -937,8 +969,11 @@
         },
         {
           "code": "3708",
-          "role": "direct",
-          "note": "上緯投控"
+          "role": "indirect",
+          "note": "上緯投控，2026 轉向循環材料、AI 機器人、航太複材，風電材料比重下降",
+          "exposure": "low",
+          "source": "上緯投控法說會（旺得富 2026-05-12）",
+          "asOf": "2026-10-07"
         }
       ],
       "_說明": "政策補助、電價與標案驅動"
@@ -949,7 +984,9 @@
       "aliases": [
         "儲能",
         "電池",
-        "BESS"
+        "BESS",
+        "BBU",
+        "備援電池"
       ],
       "status": "active",
       "stage": null,
@@ -958,23 +995,34 @@
       "members": [
         {
           "code": "6781",
-          "role": "direct",
-          "note": "AES-KY"
+          "role": "indicator",
+          "note": "AES-KY，BBU 龍頭，市場列為 BBU 核心三雄之首",
+          "exposure": "high",
+          "source": "經濟日報、口袋學堂 BBU 概念股",
+          "asOf": "2026-10-07"
         },
         {
           "code": "6121",
-          "role": "direct",
-          "note": "新普"
+          "role": "indirect",
+          "note": "新普，筆電電池為主；持有 AES-KY，合併營收含其 BBU，約占 2 成",
+          "exposure": "low",
+          "asOf": "2026-10-07",
+          "source": "MoneyDJ 2026-07-06、CMoney 2026-02"
         },
         {
           "code": "3211",
           "role": "direct",
-          "note": "順達"
+          "note": "順達，BBU 等非 IT 營收 2026 年預估過半",
+          "exposure": "high",
+          "asOf": "2026-10-07",
+          "source": "順達法說會（中央社 2026-03-04、永豐 2026-10）"
         },
         {
           "code": "4931",
           "role": "direct",
-          "note": "新盛力"
+          "note": "新盛力，BBU 與儲能電池模組",
+          "exposure": "high",
+          "asOf": "2026-10-07"
         }
       ],
       "_說明": "AI 資料中心儲能需求為新題材"
@@ -1040,8 +1088,10 @@
         },
         {
           "code": "1402",
-          "role": "direct",
-          "note": "遠東新"
+          "role": "indirect",
+          "note": "遠東新，聚酯化纖與石化為主，非成衣品牌代工",
+          "exposure": "low",
+          "asOf": "2026-10-07"
         }
       ],
       "_說明": "美國零售庫存與關稅"
@@ -1086,8 +1136,10 @@
       "members": [
         {
           "code": "1536",
-          "role": "direct",
-          "note": "和大"
+          "role": "indicator",
+          "note": "和大，電動車齒輪與傳動件，電動車族群常見指標；另跨足機器人、半導體",
+          "exposure": "high",
+          "asOf": "2026-10-07"
         },
         {
           "code": "2201",
@@ -1193,8 +1245,72 @@
           "code": "4540",
           "role": "direct",
           "note": "全球傳動"
+        },
+        {
+          "code": "3708",
+          "role": "concept",
+          "note": "上緯投控，AI 機器人新事業已開始貢獻但規模小",
+          "exposure": "low",
+          "asOf": "2026-10-07",
+          "source": "上緯投控法說會（旺得富 2026-05-12）"
         }
       ]
+    },
+    {
+      "id": "glass-fabric",
+      "name": "玻纖布",
+      "aliases": [
+        "玻纖布",
+        "玻纖紗",
+        "Low Dk",
+        "Low CTE",
+        "glass fiber cloth"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "1802",
+          "role": "indicator",
+          "note": "台玻，高階玻纖布供不應求，法人估 2026Q4 玻纖布營收占比逾 5 成",
+          "exposure": "high",
+          "asOf": "2026-10-07",
+          "source": "鉅亨網 2026-07-12"
+        },
+        {
+          "code": "1303",
+          "role": "direct",
+          "note": "南亞，電子材料（玻纖布、CCL、銅箔）營收占比約 57%",
+          "exposure": "high",
+          "asOf": "2026-10-07",
+          "source": "永豐豐雲學堂 2026-09"
+        },
+        {
+          "code": "1815",
+          "role": "direct",
+          "note": "富喬，玻纖紗與玻纖布本業，Low Dk 與石英布認證中",
+          "exposure": "high",
+          "asOf": "2026-10-07",
+          "source": "鉅亨網、理財周刊"
+        },
+        {
+          "code": "5340",
+          "role": "direct",
+          "note": "建榮，電子級玻纖布本業",
+          "exposure": "high",
+          "asOf": "2026-10-07",
+          "source": "商周財經好讀"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-07",
+          "evidence": "semi-hard",
+          "note": "PCB 族群往上游輪動，台玻放量漲停，富喬、建榮同步走強（聯合新聞網 2026-10-07）"
+        }
+      ],
+      "category": "tech"
     }
   ]
 }
