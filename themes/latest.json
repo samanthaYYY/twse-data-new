@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-08",
-  "generatedAt": "2026-10-09T09:20:30.912Z",
+  "generatedAt": "2026-10-12T02:40:40.043Z",
   "historyDays": 34,
   "dataReady": {
     "vr": true,
@@ -252,9 +252,9 @@
     },
     {
       "code": "5009",
-      "name": "榮剛",
+      "name": "5009",
       "mkt": "O",
-      "industry": "鋼鐵工業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet",
         "flow_turn_buy"
@@ -334,9 +334,9 @@
     },
     {
       "code": "6163",
-      "name": "華電網",
+      "name": "6163",
       "mkt": "O",
-      "industry": "資訊服務業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet",
         "flow_turn_buy"
@@ -753,9 +753,9 @@
     },
     {
       "code": "3147",
-      "name": "大綜",
+      "name": "3147",
       "mkt": "O",
-      "industry": "資訊服務業",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "vol_surge"
@@ -815,9 +815,9 @@
     },
     {
       "code": "7740",
-      "name": "熙特爾-創",
+      "name": "7740",
       "mkt": "T",
-      "industry": "綠能環保",
+      "industry": "未分類",
       "signals": [
         "low_base_breakout",
         "limit_up"
@@ -855,9 +855,9 @@
     },
     {
       "code": "2912",
-      "name": "統一超",
+      "name": "2912",
       "mkt": "T",
-      "industry": "貿易百貨",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -921,9 +921,9 @@
     },
     {
       "code": "2851",
-      "name": "中再保",
+      "name": "2851",
       "mkt": "T",
-      "industry": "金融保險業",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -963,9 +963,9 @@
     },
     {
       "code": "2850",
-      "name": "新產",
+      "name": "2850",
       "mkt": "T",
-      "industry": "金融保險業",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1092,9 +1092,9 @@
     },
     {
       "code": "1802",
-      "name": "台玻",
+      "name": "1802",
       "mkt": "T",
-      "industry": "玻璃陶瓷",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -1301,38 +1301,6 @@
   "groups": [
     {
       "id": "g-20261008-1",
-      "key": "corr:4973",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：半導體業／光電業／塑膠工業 等",
-      "theme": null,
-      "members": [
-        "4973",
-        "4934",
-        "1325",
-        "3290",
-        "5225",
-        "3685"
-      ],
-      "heat": 0.79,
-      "breadth": 0.63,
-      "unknown": true,
-      "industries": [
-        "半導體業",
-        "光電業",
-        "塑膠工業",
-        "電子零組件業",
-        "其他電子業",
-        "電機機械"
-      ],
-      "avgCorr": 0.63,
-      "relatedThemes": [],
-      "stage": "overheat",
-      "earlyRatio": 0
-    },
-    {
-      "id": "g-20261008-2",
       "key": "corr:6469",
       "method": [
         "correlation"
@@ -1357,25 +1325,25 @@
       "earlyRatio": 1
     },
     {
-      "id": "g-20261008-3",
+      "id": "g-20261008-2",
       "key": "corr:2439",
       "method": [
         "correlation"
       ],
-      "label": "未知族群：通信網路業／生技醫療業／貿易百貨",
+      "label": "未知族群：通信網路業／生技醫療業／未分類",
       "theme": null,
       "members": [
         "2439",
         "4736",
         "2912"
       ],
-      "heat": 0.79,
+      "heat": 0.78,
       "breadth": 0.74,
       "unknown": true,
       "industries": [
         "通信網路業",
         "生技醫療業",
-        "貿易百貨"
+        "未分類"
       ],
       "avgCorr": 0.74,
       "relatedThemes": [
@@ -1388,57 +1356,39 @@
       "earlyRatio": 0.67
     },
     {
-      "id": "g-20261008-4",
-      "key": "corr:1723",
+      "id": "g-20261008-3",
+      "key": "corr:4973",
       "method": [
         "correlation"
       ],
-      "label": "未知族群：化學工業／生技醫療業／運動休閒 等",
+      "label": "未知族群：半導體業／光電業／塑膠工業 等",
       "theme": null,
       "members": [
-        "1723",
-        "4114",
-        "4162",
-        "6670",
-        "2727",
-        "6277",
-        "5009",
-        "1440",
-        "7780",
-        "8464",
-        "1434",
-        "4105"
+        "4973",
+        "4934",
+        "1325",
+        "3290",
+        "5225",
+        "3685"
       ],
-      "heat": 0.76,
-      "breadth": 0.59,
+      "heat": 0.77,
+      "breadth": 0.63,
       "unknown": true,
       "industries": [
-        "化學工業",
-        "生技醫療業",
-        "運動休閒",
-        "觀光餐旅",
-        "電腦及週邊設備業",
-        "鋼鐵工業",
-        "紡織纖維",
-        "食品工業",
-        "居家生活"
+        "半導體業",
+        "光電業",
+        "塑膠工業",
+        "電子零組件業",
+        "其他電子業",
+        "電機機械"
       ],
-      "avgCorr": 0.59,
-      "relatedThemes": [
-        {
-          "theme": "biotech",
-          "members": 1
-        },
-        {
-          "theme": "tourism-dining",
-          "members": 1
-        }
-      ],
-      "stage": "ignite",
-      "earlyRatio": 0.58
+      "avgCorr": 0.63,
+      "relatedThemes": [],
+      "stage": "overheat",
+      "earlyRatio": 0
     },
     {
-      "id": "g-20261008-5",
+      "id": "g-20261008-4",
       "key": "corr:5228",
       "method": [
         "correlation"
@@ -1468,6 +1418,56 @@
       "earlyRatio": 0.5
     },
     {
+      "id": "g-20261008-5",
+      "key": "corr:1723",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：化學工業／生技醫療業／運動休閒 等",
+      "theme": null,
+      "members": [
+        "1723",
+        "4114",
+        "4162",
+        "6670",
+        "2727",
+        "6277",
+        "5009",
+        "1440",
+        "7780",
+        "8464",
+        "1434",
+        "4105"
+      ],
+      "heat": 0.75,
+      "breadth": 0.59,
+      "unknown": true,
+      "industries": [
+        "化學工業",
+        "生技醫療業",
+        "運動休閒",
+        "觀光餐旅",
+        "電腦及週邊設備業",
+        "未分類",
+        "紡織纖維",
+        "食品工業",
+        "居家生活"
+      ],
+      "avgCorr": 0.59,
+      "relatedThemes": [
+        {
+          "theme": "biotech",
+          "members": 1
+        },
+        {
+          "theme": "tourism-dining",
+          "members": 1
+        }
+      ],
+      "stage": "ignite",
+      "earlyRatio": 0.58
+    },
+    {
       "id": "g-20261008-6",
       "key": "corr:2108",
       "method": [
@@ -1495,35 +1495,6 @@
     },
     {
       "id": "g-20261008-7",
-      "key": "corr:8086",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：半導體業／綠能環保／電子零組件業 等",
-      "theme": null,
-      "members": [
-        "8086",
-        "7740",
-        "6174",
-        "3564",
-        "2355"
-      ],
-      "heat": 0.66,
-      "breadth": 0.55,
-      "unknown": true,
-      "industries": [
-        "半導體業",
-        "綠能環保",
-        "電子零組件業",
-        "通信網路業"
-      ],
-      "avgCorr": 0.55,
-      "relatedThemes": [],
-      "stage": "overheat",
-      "earlyRatio": 0.2
-    },
-    {
-      "id": "g-20261008-8",
       "key": "corr:4720",
       "method": [
         "correlation"
@@ -1545,6 +1516,35 @@
       "relatedThemes": [],
       "stage": "spread",
       "earlyRatio": 0.67
+    },
+    {
+      "id": "g-20261008-8",
+      "key": "corr:8086",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：半導體業／未分類／電子零組件業 等",
+      "theme": null,
+      "members": [
+        "8086",
+        "7740",
+        "6174",
+        "3564",
+        "2355"
+      ],
+      "heat": 0.64,
+      "breadth": 0.55,
+      "unknown": true,
+      "industries": [
+        "半導體業",
+        "未分類",
+        "電子零組件業",
+        "通信網路業"
+      ],
+      "avgCorr": 0.55,
+      "relatedThemes": [],
+      "stage": "overheat",
+      "earlyRatio": 0.2
     }
   ],
   "themeStatus": [
