@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-12",
-  "generatedAt": "2026-10-12T09:21:36.595Z",
+  "generatedAt": "2026-10-12T10:20:29.876Z",
   "historyDays": 35,
   "dataReady": {
     "vr": true,
@@ -1977,8 +1977,7 @@
       "ret1": 2.3,
       "ret5": 3,
       "ret20": 0,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "wire-cable",
@@ -2008,8 +2007,7 @@
       "ret1": 2.3,
       "ret5": 2.7,
       "ret20": 2.7,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "steel",
@@ -2112,8 +2110,7 @@
       "ret1": 8.3,
       "ret5": 6.7,
       "ret20": 7.4,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "dry-bulk",
@@ -2542,8 +2539,7 @@
       "ret1": -0.5,
       "ret5": -0.6,
       "ret20": -2.8,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "telecom",
@@ -2657,8 +2653,7 @@
       "ret1": -0.9,
       "ret5": 11.8,
       "ret20": 12.8,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     }
   ],
   "kbWarnings": []
