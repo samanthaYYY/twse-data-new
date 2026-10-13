@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T09:20:54.104Z",
+  "generatedAt": "2026-10-13T10:20:23.049Z",
   "historyDays": 36,
   "dataReady": {
     "vr": true,
@@ -1842,8 +1842,7 @@
       "ret1": -0.2,
       "ret5": 2.6,
       "ret20": -0.6,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "thermal",
@@ -1967,8 +1966,7 @@
       "ret1": -4,
       "ret5": -0.6,
       "ret20": -3,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "wire-cable",
@@ -1986,8 +1984,7 @@
       "ret1": -2.5,
       "ret5": 1.1,
       "ret20": 1.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "steel",
@@ -2039,8 +2036,7 @@
       "ret1": 4.1,
       "ret5": 14.8,
       "ret20": 25.3,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "container-shipping",
@@ -2070,8 +2066,7 @@
       "ret1": 1.7,
       "ret5": 10.8,
       "ret20": 11.8,
-      "stage": "spread",
-      "change": "overheat→spread"
+      "stage": "spread"
     },
     {
       "theme": "dry-bulk",
@@ -2160,8 +2155,7 @@
       "ret1": -0.2,
       "ret5": 1,
       "ret20": 1.1,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "construction",
@@ -2497,8 +2491,7 @@
       "ret1": -0.4,
       "ret5": 0.1,
       "ret20": -2.4,
-      "stage": "spread",
-      "change": "ignite→spread"
+      "stage": "spread"
     },
     {
       "theme": "telecom",
@@ -2603,8 +2596,7 @@
       "ret1": -0.5,
       "ret5": 6.3,
       "ret20": 11.4,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     }
   ],
   "kbWarnings": []
