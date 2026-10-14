@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T10:20:23.049Z",
+  "generatedAt": "2026-10-14T02:11:26.185Z",
   "historyDays": 36,
   "dataReady": {
     "vr": true,
@@ -359,9 +359,9 @@
     },
     {
       "code": "2607",
-      "name": "2607",
+      "name": "榮運",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "航運業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -440,9 +440,9 @@
     },
     {
       "code": "3702",
-      "name": "3702",
+      "name": "大聯大",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "電子通路業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -460,9 +460,9 @@
     },
     {
       "code": "1301",
-      "name": "1301",
+      "name": "台塑",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "塑膠工業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -504,9 +504,9 @@
     },
     {
       "code": "3705",
-      "name": "3705",
+      "name": "永信",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "生技醫療業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -544,9 +544,9 @@
     },
     {
       "code": "6505",
-      "name": "6505",
+      "name": "台塑化",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "油電燃氣業",
       "signals": [
         "vol_surge",
         "limit_up",
@@ -656,9 +656,9 @@
     },
     {
       "code": "2312",
-      "name": "2312",
+      "name": "金寶",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "其他電子業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -878,9 +878,9 @@
     },
     {
       "code": "4137",
-      "name": "4137",
+      "name": "麗豐-KY",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "生技醫療業",
       "signals": [
         "low_base_breakout",
         "vol_surge"
@@ -888,6 +888,7 @@
       "kind": "confirm",
       "score": 1.6,
       "tags": [
+        "KY",
         "追高區"
       ],
       "c": 81.4,
@@ -942,9 +943,9 @@
     },
     {
       "code": "1795",
-      "name": "1795",
+      "name": "美時",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "生技醫療業",
       "signals": [
         "flow_turn_buy",
         "vol_surge"
@@ -968,9 +969,9 @@
     },
     {
       "code": "1229",
-      "name": "1229",
+      "name": "聯華",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "食品工業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -988,9 +989,9 @@
     },
     {
       "code": "1104",
-      "name": "1104",
+      "name": "環泥",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "水泥工業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1012,9 +1013,9 @@
     },
     {
       "code": "7631",
-      "name": "7631",
+      "name": "聚賢研發-創",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "其他電子業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1188,9 +1189,9 @@
     },
     {
       "code": "2105",
-      "name": "2105",
+      "name": "正新",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "橡膠工業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1296,9 +1297,9 @@
     },
     {
       "code": "1707",
-      "name": "1707",
+      "name": "葡萄王",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "生技醫療業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -1352,7 +1353,7 @@
         "3008",
         "3406"
       ],
-      "heat": 0.89,
+      "heat": 0.87,
       "breadth": 0.7,
       "unknown": true,
       "industries": [
@@ -1365,36 +1366,11 @@
     },
     {
       "id": "g-20261013-2",
-      "key": "corr:3287",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：電腦及週邊設備業／建材營造",
-      "theme": null,
-      "members": [
-        "3287",
-        "2547",
-        "1808"
-      ],
-      "heat": 0.82,
-      "breadth": 0.66,
-      "unknown": true,
-      "industries": [
-        "電腦及週邊設備業",
-        "建材營造"
-      ],
-      "avgCorr": 0.66,
-      "relatedThemes": [],
-      "stage": "spread",
-      "earlyRatio": 0
-    },
-    {
-      "id": "g-20261013-3",
       "key": "corr:1319",
       "method": [
         "correlation"
       ],
-      "label": "未知族群：汽車工業／未分類／觀光餐旅 等",
+      "label": "未知族群：汽車工業／航運業／食品工業 等",
       "theme": null,
       "members": [
         "1319",
@@ -1420,22 +1396,24 @@
         "2610",
         "2727"
       ],
-      "heat": 0.79,
+      "heat": 0.81,
       "breadth": 0.64,
       "unknown": true,
       "industries": [
         "汽車工業",
-        "未分類",
-        "觀光餐旅",
+        "航運業",
         "食品工業",
+        "觀光餐旅",
+        "水泥工業",
+        "生技醫療業",
+        "貿易百貨",
         "其他",
+        "橡膠工業",
         "化學工業",
         "塑膠工業",
         "電腦及週邊設備業",
-        "生技醫療業",
         "紡織纖維",
-        "建材營造",
-        "航運業"
+        "建材營造"
       ],
       "avgCorr": 0.64,
       "relatedThemes": [
@@ -1458,6 +1436,31 @@
       ],
       "stage": "spread",
       "earlyRatio": 0.05
+    },
+    {
+      "id": "g-20261013-3",
+      "key": "corr:3287",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：電腦及週邊設備業／建材營造",
+      "theme": null,
+      "members": [
+        "3287",
+        "2547",
+        "1808"
+      ],
+      "heat": 0.81,
+      "breadth": 0.66,
+      "unknown": true,
+      "industries": [
+        "電腦及週邊設備業",
+        "建材營造"
+      ],
+      "avgCorr": 0.66,
+      "relatedThemes": [],
+      "stage": "spread",
+      "earlyRatio": 0
     },
     {
       "id": "g-20261013-4",
@@ -1535,7 +1538,7 @@
         "4766",
         "6117"
       ],
-      "heat": 0.73,
+      "heat": 0.75,
       "breadth": 0.57,
       "unknown": true,
       "industries": [
@@ -1543,7 +1546,8 @@
         "電腦及週邊設備業",
         "資訊服務業",
         "光電業",
-        "未分類",
+        "建材營造",
+        "電子通路業",
         "航運業",
         "半導體業",
         "化學工業"
@@ -1559,7 +1563,7 @@
       "method": [
         "correlation"
       ],
-      "label": "未知族群：電腦及週邊設備業／未分類",
+      "label": "未知族群：電腦及週邊設備業／其他電子業",
       "theme": null,
       "members": [
         "6150",
@@ -1571,7 +1575,7 @@
       "unknown": true,
       "industries": [
         "電腦及週邊設備業",
-        "未分類"
+        "其他電子業"
       ],
       "avgCorr": 0.66,
       "relatedThemes": [
@@ -1602,7 +1606,7 @@
         "6438",
         "1563"
       ],
-      "heat": 0.68,
+      "heat": 0.67,
       "breadth": 0.66,
       "unknown": true,
       "industries": [
