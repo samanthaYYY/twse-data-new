@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T09:20:55.865Z",
+  "generatedAt": "2026-10-14T10:20:28.130Z",
   "historyDays": 37,
   "dataReady": {
     "vr": true,
@@ -1791,8 +1791,7 @@
       "ret1": 8.3,
       "ret5": 5.7,
       "ret20": 20.2,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "ai-server-odm",
@@ -1829,8 +1828,7 @@
       "ret1": -0.5,
       "ret5": 0.6,
       "ret20": -0.4,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "thermal",
@@ -2084,8 +2082,7 @@
       "ret1": 1.1,
       "ret5": 11,
       "ret20": 11.1,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "dry-bulk",
@@ -2184,8 +2181,7 @@
       "ret1": 0.1,
       "ret5": 1.1,
       "ret20": 1.6,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "construction",
@@ -2519,8 +2515,7 @@
       "ret1": 0.9,
       "ret5": 1.7,
       "ret20": 0,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "telecom",
