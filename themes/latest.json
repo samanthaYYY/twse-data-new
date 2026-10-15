@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T09:20:52.118Z",
+  "generatedAt": "2026-10-15T10:20:40.822Z",
   "historyDays": 38,
   "dataReady": {
     "vr": true,
@@ -1778,8 +1778,7 @@
       "ret1": -4.1,
       "ret5": -3.1,
       "ret20": 15.5,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "ai-server-odm",
@@ -2024,8 +2023,7 @@
       "ret1": -8.6,
       "ret5": 3.6,
       "ret20": 28.2,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "container-shipping",
@@ -2155,8 +2153,7 @@
       "ret1": 0.6,
       "ret5": 1.7,
       "ret20": 2.5,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "construction",
@@ -2290,8 +2287,7 @@
       "ret1": 2.6,
       "ret5": 6.3,
       "ret20": 4.2,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "biotech",
@@ -2435,8 +2431,7 @@
       "ret1": 0.7,
       "ret5": 2.7,
       "ret20": 1.6,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "textile",
