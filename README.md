@@ -2,7 +2,7 @@
 
 本 repo 只存放資料，供儀表板、排程與 Claude 讀取。程式、觀察清單與系統架構在私有 repo。
 
-最後更新：2026/10/12
+最後更新：2026/10/16
 
 ---
 
@@ -11,11 +11,12 @@
 | 檔案 | 內容 | 範圍 | 更新（台北，平日） |
 |---|---|---|---|
 | `latest_prices.json` | 最新報價與到價提醒 | 觀察清單 | 08:00–14:45 每 15 分鐘 |
-| `fundamentals.json` | 籌碼面與基本面（8 項） | 觀察清單 | 17:00 |
-| `kline_history.json` | 日 K 線，保留 120 個交易日 | 觀察清單 | 17:30、21:13、隔日 07:43 |
+| `fundamentals.json` | 籌碼面與基本面（8 項） | 觀察清單 | 17:30 |
+| `institutional_flow_history.json` | 三大法人逐日合計，保留 60 個交易日 | 觀察清單 | 同 `fundamentals.json` |
+| `kline_history.json` | 日 K 線，保留 120 個交易日 | 觀察清單 | 18:10（備援 21:13、隔日 07:43） |
 | `material_news.json` | 重大訊息（AI 判讀目前未啟用） | 觀察清單 | 盤中每 30 分鐘、16:00、20:00 |
 | `radar-baseline.json` | 潛力雷達名單與評分基準 | 人工名單 | 人工＋每月自動重錨與 dr 上調＋每季排程 |
-| `market/` | 全市場每日快照、產業別、個股特徵 | 上市櫃全部普通股 | 17:13、21:23、隔日 07:53 |
+| `market/` | 全市場每日快照、產業別、個股特徵 | 上市櫃全部普通股 | 17:20、18:20（備援 20:41、隔日 07:53） |
 | `themes/` | 題材雷達結果、報告、題材卡 | 全市場 | 同上 |
 
 觀察清單以私有 repo 的 `prices.json` 為準，**加減股票只要改 `prices.json`**，各檔下次排程自動更新。
@@ -51,11 +52,12 @@
 ```json
 { "2356": { "name": "INVENTEC CORP", "price": 59.7, "prevClose": 59.5, "change": 0.2, "changePercent": 0.34,
             "marketDate": "2026-10-01",
-            "alertTargets": [{ "direction": "above", "target": 70 }], "updatedAt": "2026-10-01T06:46:53Z" } }
+            "hasAlert": true, "updatedAt": "2026-10-01T06:46:53Z" } }
 ```
 
 - `marketDate`：這筆價格對應的交易日（台北）。休市日 `updatedAt` 會更新，但 `marketDate` 仍是最後交易日。
-- `alertTargets`：`above` 通常是賣出目標、`below` 通常是買入目標；空陣列代表只觀察。
+- `hasAlert`：只在該檔設有到價提醒時出現（值為 `true`）。目標價與方向不公開，只存在私有 repo 與 Discord 通知；沒有此欄代表只觀察。（2026/10/16 前的版本曾公開 `alertTargets`，已移除。）
+- `suspended`：只在暫停交易時出現（值為 `true`）。該檔 `marketDate` 落後全市場最新交易日，`prevClose` 設為現價、漲跌為 0。恢復交易後自動消失。
 - 抓不到報價的股票不會出現在檔案中。
 
 ## fundamentals.json
