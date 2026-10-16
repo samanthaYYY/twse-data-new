@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T10:20:40.822Z",
+  "generatedAt": "2026-10-16T01:42:34.105Z",
   "historyDays": 38,
   "dataReady": {
     "vr": true,
@@ -634,9 +634,9 @@
     },
     {
       "code": "5880",
-      "name": "5880",
+      "name": "合庫金",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "金融保險業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -762,9 +762,9 @@
     },
     {
       "code": "2886",
-      "name": "2886",
+      "name": "兆豐金",
       "mkt": "T",
-      "industry": "未分類",
+      "industry": "金融保險業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -1422,7 +1422,7 @@
         "2707",
         "2731"
       ],
-      "heat": 0.82,
+      "heat": 0.83,
       "breadth": 0.75,
       "stage": "spread",
       "earlyRatio": 0.33
@@ -1450,18 +1450,19 @@
         "6146",
         "2891"
       ],
-      "heat": 0.81,
+      "heat": 0.8,
       "breadth": 0.69,
       "unknown": true,
       "industries": [
         "鋼鐵工業",
         "電腦及週邊設備業",
         "生技醫療業",
-        "未分類",
+        "金融保險業",
         "紡織纖維",
         "觀光餐旅",
         "運動休閒",
-        "其他電子業"
+        "其他電子業",
+        "未分類"
       ],
       "avgCorr": 0.69,
       "relatedThemes": [
@@ -1499,7 +1500,7 @@
         "6269",
         "6108"
       ],
-      "heat": 0.75,
+      "heat": 0.76,
       "breadth": 0.6,
       "unknown": true,
       "industries": [
@@ -1524,7 +1525,7 @@
         "2707",
         "2731"
       ],
-      "heat": 0.7,
+      "heat": 0.72,
       "breadth": 0.6,
       "stage": "spread",
       "earlyRatio": 0.33
@@ -1535,7 +1536,7 @@
       "method": [
         "correlation"
       ],
-      "label": "未知族群：數位雲端／未分類／紡織纖維",
+      "label": "未知族群：數位雲端／金融保險業／紡織纖維",
       "theme": null,
       "members": [
         "8044",
@@ -1548,7 +1549,7 @@
       "unknown": true,
       "industries": [
         "數位雲端",
-        "未分類",
+        "金融保險業",
         "紡織纖維"
       ],
       "avgCorr": 0.65,
@@ -1569,29 +1570,27 @@
         "1477",
         "1434"
       ],
-      "heat": 0.66,
+      "heat": 0.68,
       "breadth": 0.33,
       "stage": "ignite",
       "earlyRatio": 0.67
     },
     {
       "id": "g-20261015-8",
-      "key": "ind:食品工業",
+      "key": "theme:food",
       "method": [
-        "industry"
+        "kb_theme"
       ],
-      "label": "食品工業",
-      "theme": null,
+      "label": "食品",
+      "theme": "food",
       "members": [
-        "1232",
         "1216",
-        "1227",
-        "1231"
+        "1227"
       ],
-      "heat": 0.62,
-      "breadth": 0.36,
+      "heat": 0.63,
+      "breadth": 0.5,
       "stage": "spread",
-      "earlyRatio": 0.25
+      "earlyRatio": 0
     }
   ],
   "themeStatus": [
