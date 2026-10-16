@@ -52,11 +52,11 @@
 ```json
 { "2356": { "name": "INVENTEC CORP", "price": 59.7, "prevClose": 59.5, "change": 0.2, "changePercent": 0.34,
             "marketDate": "2026-10-01",
-            "alertTargets": [{ "direction": "above", "target": 70 }], "updatedAt": "2026-10-01T06:46:53Z" } }
+            "hasAlert": true, "updatedAt": "2026-10-01T06:46:53Z" } }
 ```
 
 - `marketDate`：這筆價格對應的交易日（台北）。休市日 `updatedAt` 會更新，但 `marketDate` 仍是最後交易日。
-- `alertTargets`：`above` 通常是賣出目標、`below` 通常是買入目標；空陣列代表只觀察。
+- `hasAlert`：只在該檔設有到價提醒時出現（值為 `true`）。目標價與方向不公開，只存在私有 repo 與 Discord 通知；沒有此欄代表只觀察。（2026/10/16 前的版本曾公開 `alertTargets`，已移除。）
 - `suspended`：只在暫停交易時出現（值為 `true`）。該檔 `marketDate` 落後全市場最新交易日，`prevClose` 設為現價、漲跌為 0。恢復交易後自動消失。
 - 抓不到報價的股票不會出現在檔案中。
 
