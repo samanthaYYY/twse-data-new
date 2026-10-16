@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T09:21:51.114Z",
+  "generatedAt": "2026-10-16T10:20:23.797Z",
   "historyDays": 39,
   "dataReady": {
     "vr": true,
@@ -2025,8 +2025,7 @@
       "ret1": 0.4,
       "ret5": 1.2,
       "ret20": 2.5,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "construction",
@@ -2156,8 +2155,7 @@
       "ret1": 1,
       "ret5": 8.7,
       "ret20": 5.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "biotech",
@@ -2299,8 +2297,7 @@
       "ret1": 0.1,
       "ret5": 2.3,
       "ret20": 2.4,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "textile",
