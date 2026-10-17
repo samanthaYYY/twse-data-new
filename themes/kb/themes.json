@@ -1,7 +1,7 @@
 {
   "schema": "themes-kb",
   "v": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-17",
   "_說明": "題材卡。status：candidate 候選（程式或 Claude 提案，待確認）／active 活躍／archived 封存。role：indicator 指標股／direct 直接受惠／indirect 間接受惠／concept 概念。初版內容整理自 2026/09 SEMICON 研究與題材討論，代號請再確認；程式會自動檢查代號是否存在於全市場資料。 category：tech 科技／non-tech 非科技，只用於分類閱讀，不影響計算。 角色判定四問（2026/10 起）：1 現在有營收嗎；2 產品在量產、送樣還是研發；3 有沒有硬性證據；4 多久會反映在財報。direct＝已量產且營收占比明顯；indirect＝有營收但占比小或屬間接環節；concept＝研發、送樣、認證中，尚無營收；indicator＝市場用來判斷題材熱度的指標股，與營收占比無關。 選填欄位：exposure（營收曝險 high／low／none／unknown）、asOf（判定日期）、source（判定依據）。asOf 超過半年或出現送樣通過、接單等新聞時，應重新判定。同一檔股票可以屬於多張題材卡，各卡角色獨立判定。",
   "themes": [
     {
@@ -111,6 +111,14 @@
           "code": "6442",
           "role": "direct",
           "note": "光聖"
+        },
+        {
+          "code": "3008",
+          "role": "concept",
+          "note": "大立光，CPO 光纖陣列（FA/FAU）新進者；FA 2026/9 通過客戶認證，FAU 2027 下半年才量產，目前無相關營收",
+          "exposure": "none",
+          "asOf": "2026-10-17",
+          "source": "中時 2026-10-08 法說報導"
         }
       ],
       "category": "tech"
@@ -203,6 +211,46 @@
           "code": "3532",
           "role": "direct",
           "note": "台勝科"
+        },
+        {
+          "code": "3016",
+          "role": "indirect",
+          "note": "嘉晶，矽基、SiC、GaN 磊晶代工，承接晶圓後段加工",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "pttstock 矽晶圓概念股整理（2026）"
+        },
+        {
+          "code": "8028",
+          "role": "indirect",
+          "note": "昇陽半導體，再生晶圓，晶圓循環使用環節",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "產品線，占比待查證"
+        },
+        {
+          "code": "1560",
+          "role": "indirect",
+          "note": "中砂，再生晶圓與鑽石碟（CMP 耗材），矽晶圓相關僅部分營收",
+          "exposure": "low",
+          "asOf": "2026-10-17",
+          "source": "產品線，占比待查證"
+        },
+        {
+          "code": "3583",
+          "role": "indirect",
+          "note": "辛耘，再生晶圓與半導體設備代理",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "產品線，占比待查證"
+        },
+        {
+          "code": "5434",
+          "role": "indirect",
+          "note": "崇越，信越矽晶圓代理與半導體材料通路",
+          "exposure": "low",
+          "asOf": "2026-10-17",
+          "source": "產品線"
         }
       ],
       "category": "tech"
@@ -1301,6 +1349,14 @@
           "exposure": "high",
           "asOf": "2026-10-07",
           "source": "商周財經好讀"
+        },
+        {
+          "code": "5475",
+          "role": "concept",
+          "note": "德宏，切入石英玻纖布研發，產品仍在認證階段",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "工商時報 2026-08-29"
         }
       ],
       "history": [
@@ -1311,6 +1367,364 @@
         }
       ],
       "category": "tech"
+    },
+    {
+      "id": "leo-satellite",
+      "name": "低軌衛星／太空",
+      "aliases": [
+        "低軌衛星",
+        "LEO",
+        "SpaceX",
+        "太空資料中心"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "3491",
+          "role": "indicator",
+          "note": "昇達科，報導稱為 SpaceX 主要供應商，族群起漲常由其帶頭",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "中時 2026-10-05"
+        },
+        {
+          "code": "2313",
+          "role": "direct",
+          "note": "華通，衛星用 PCB 板",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "中時 2026-10-05「低軌六小福」"
+        },
+        {
+          "code": "6285",
+          "role": "direct",
+          "note": "啟碁，衛星通訊與地面設備",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "低軌衛星概念股整理（財報狗、天下）"
+        },
+        {
+          "code": "3701",
+          "role": "concept",
+          "note": "大眾控，列入「低軌六小福」，產品與衛星的關聯待查證",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "中時 2026-10-05"
+        },
+        {
+          "code": "2368",
+          "role": "indirect",
+          "note": "金像電，PCB 板廠，隨衛星題材共動；主要營收為 AI 伺服器板",
+          "exposure": "low",
+          "asOf": "2026-10-17",
+          "source": "中時 2026-10-05"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-05",
+          "evidence": "semi-hard",
+          "note": "SpaceX 大漲、太空資料中心話題，低軌六小福同日漲停（中時）"
+        },
+        {
+          "date": "2026-10-13",
+          "evidence": "soft",
+          "note": "高本益比概念股遭法人調節重挫（CMoney）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "pcb-board",
+      "name": "PCB 板廠",
+      "aliases": [
+        "PCB",
+        "印刷電路板",
+        "AI 伺服器板",
+        "HDI"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "2368",
+          "role": "indicator",
+          "note": "金像電，AI 伺服器高層數板，9 月營收年增 55%",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json；Yahoo 2026-09-27 題材整理"
+        },
+        {
+          "code": "3044",
+          "role": "direct",
+          "note": "健鼎，PCB 本業",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        },
+        {
+          "code": "2313",
+          "role": "direct",
+          "note": "華通，HDI 與衛星板",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        },
+        {
+          "code": "4958",
+          "role": "direct",
+          "note": "臻鼎-KY，PCB 本業（含軟板、載板）",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        },
+        {
+          "code": "6191",
+          "role": "direct",
+          "note": "精成科，PCB 本業，2026-10-14 雷達點火群成員",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "themes/reports 2026-10-14"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "evidence": "semi-hard",
+          "note": "PCB 漲價與材料缺貨延續至 2027；TPCA 展（工商 2026-08-29、Yahoo 2026-09-27）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "flex-pcb",
+      "name": "軟板／高速傳輸",
+      "aliases": [
+        "軟板",
+        "FPC",
+        "NVLink",
+        "PTFE"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "6269",
+          "role": "indicator",
+          "note": "台郡，軟板本業；輝達 OCP 展示 NVLink 看板出現其名，AI 營收占比待查證",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "風傳媒 2026-10-16"
+        },
+        {
+          "code": "8039",
+          "role": "direct",
+          "note": "台虹，軟板材料（FCCL、PTFE），同見於輝達展示看板",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "風傳媒 2026-10-16"
+        },
+        {
+          "code": "6153",
+          "role": "direct",
+          "note": "嘉聯益，軟板本業",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        },
+        {
+          "code": "4939",
+          "role": "indirect",
+          "note": "亞電，PTFE 材料，報導與台虹並稱「PTFE 雙雄」",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "財報狗"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "evidence": "semi-hard",
+          "note": "台郡連 3 根漲停，起因為輝達 OCP 峰會 NVLink 展示（風傳媒）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "hvlp-copper-foil",
+      "name": "高階銅箔 HVLP",
+      "aliases": [
+        "銅箔",
+        "HVLP",
+        "HVLP4",
+        "電解銅箔"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "8358",
+          "role": "indicator",
+          "note": "金居，銅箔本業；報導稱台灣唯一可量產 HVLP4，良率約 50～60%",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "工商時報 2026-08-29"
+        },
+        {
+          "code": "1303",
+          "role": "indirect",
+          "note": "南亞，電子材料含銅箔，為多角化集團，銅箔占比小",
+          "exposure": "low",
+          "asOf": "2026-10-17",
+          "source": "永豐豐雲學堂 2026-09"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-08-29",
+          "evidence": "semi-hard",
+          "note": "HVLP4 供需缺口 2026 年約 48%、2027 年約 43%（工商時報）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "it-security-cloud",
+      "name": "資安／雲端服務",
+      "aliases": [
+        "資安",
+        "雲端服務",
+        "MSP",
+        "系統整合"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "7765",
+          "role": "indicator",
+          "note": "中華資安，資安服務",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json 產業別"
+        },
+        {
+          "code": "6690",
+          "role": "direct",
+          "note": "安碁資訊，資安服務",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json 產業別"
+        },
+        {
+          "code": "3029",
+          "role": "direct",
+          "note": "零壹，資安與網通產品代理",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "產品線，占比待查證"
+        },
+        {
+          "code": "6689",
+          "role": "direct",
+          "note": "伊雲谷，雲端代管服務（MSP），2026-10-16 漲停",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "themes/reports 2026-10-16"
+        },
+        {
+          "code": "6112",
+          "role": "direct",
+          "note": "邁達特，系統整合與雲端，2026-10-16 低基期突破",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "themes/reports 2026-10-16"
+        },
+        {
+          "code": "2480",
+          "role": "direct",
+          "note": "敦陽科，系統整合，外資連買 8 日",
+          "exposure": "unknown",
+          "asOf": "2026-10-17",
+          "source": "market/features.json"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "evidence": "soft",
+          "note": "意藍、伊雲谷、驊宏資漲停，媒體稱資金轉向資安；尚無共同催化消息（風傳媒）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "machine-tools",
+      "name": "工具機",
+      "aliases": [
+        "工具機",
+        "CNC",
+        "JIMTOF"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "4526",
+          "role": "indicator",
+          "note": "東台，工具機本業，9 月營收年增 81%，報導稱已有法人買進",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "Yahoo 2026-09-27；companies.json"
+        },
+        {
+          "code": "1583",
+          "role": "direct",
+          "note": "程泰，工具機本業",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        },
+        {
+          "code": "4510",
+          "role": "direct",
+          "note": "高鋒，工具機本業",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        },
+        {
+          "code": "6609",
+          "role": "direct",
+          "note": "瀧澤科，工具機本業",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        },
+        {
+          "code": "4513",
+          "role": "direct",
+          "note": "福裕，工具機本業",
+          "exposure": "high",
+          "asOf": "2026-10-17",
+          "source": "companies.json"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-27",
+          "evidence": "soft",
+          "note": "日本國際工具機展、半導體設備需求帶動；東台見法人買進（Yahoo）"
+        }
+      ],
+      "category": "non-tech"
     }
   ]
 }
