@@ -1,7 +1,7 @@
 {
   "schema": "themes-kb",
   "v": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "_說明": "題材卡。status：candidate 候選（程式或 Claude 提案，待確認）／active 活躍／archived 封存。role：indicator 指標股／direct 直接受惠／indirect 間接受惠／concept 概念。初版內容整理自 2026/09 SEMICON 研究與題材討論，代號請再確認；程式會自動檢查代號是否存在於全市場資料。 category：tech 科技／non-tech 非科技，只用於分類閱讀，不影響計算。 角色判定四問（2026/10 起）：1 現在有營收嗎；2 產品在量產、送樣還是研發；3 有沒有硬性證據；4 多久會反映在財報。direct＝已量產且營收占比明顯；indirect＝有營收但占比小或屬間接環節；concept＝研發、送樣、認證中，尚無營收；indicator＝市場用來判斷題材熱度的指標股，與營收占比無關。 選填欄位：exposure（營收曝險 high／low／none／unknown）、asOf（判定日期）、source（判定依據）。asOf 超過半年或出現送樣通過、接單等新聞時，應重新判定。同一檔股票可以屬於多張題材卡，各卡角色獨立判定。",
   "themes": [
     {
@@ -302,6 +302,14 @@
           "code": "8299",
           "role": "direct",
           "note": "群聯"
+        },
+        {
+          "code": "6531",
+          "role": "indirect",
+          "note": "愛普*，利基型記憶體（IoT RAM、AI 用客製化記憶體）IC 設計",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "產品線"
         }
       ],
       "category": "tech"
@@ -1725,6 +1733,691 @@
         }
       ],
       "category": "non-tech"
+    },
+    {
+      "id": "adv-pkg-equipment",
+      "name": "先進封裝設備",
+      "aliases": [
+        "CoWoS 設備",
+        "先進封裝設備",
+        "CoPoS",
+        "SoIC",
+        "設備股"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "3131",
+          "role": "indicator",
+          "note": "弘塑，高階濕製程設備，CoWoS 擴產主要受惠",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        },
+        {
+          "code": "6187",
+          "role": "direct",
+          "note": "萬潤，點膠、散熱片與高精度貼合製程設備",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        },
+        {
+          "code": "6640",
+          "role": "direct",
+          "note": "均華，晶粒挑選分選機，晶圓鍵合機驗證中",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        },
+        {
+          "code": "7751",
+          "role": "direct",
+          "note": "竑騰，點膠、散熱片與貼合製程設備",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        },
+        {
+          "code": "7734",
+          "role": "direct",
+          "note": "印能科技，除泡與抗翹曲設備",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        },
+        {
+          "code": "2467",
+          "role": "direct",
+          "note": "志聖，防翹曲烘烤設備；另有 PCB 設備，先進封裝占比待查證",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        },
+        {
+          "code": "3583",
+          "role": "direct",
+          "note": "辛耘，高階濕製程設備；另有再生晶圓，設備占比待查證",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        },
+        {
+          "code": "7822",
+          "role": "concept",
+          "note": "倍利科，3D 透視檢查切入多層堆疊檢驗，量產貢獻待確認",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-27",
+          "evidence": "semi-hard",
+          "note": "AI 晶片功耗破千瓦，翹曲與散熱成瓶頸，先進封裝三年擴產；CoPoS 預計 2028 放量（鉅亨）"
+        },
+        {
+          "date": "2026-10-15",
+          "evidence": "hard",
+          "note": "台積電法說：2026 資本支出 600–640 億美元，2026–2028 明顯高於過去三年；CoWoS 仍供不應求（財報狗）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "test-interface",
+      "name": "測試介面",
+      "aliases": [
+        "探針卡",
+        "測試座",
+        "測試介面",
+        "測試分選機"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "hard",
+      "members": [
+        {
+          "code": "6223",
+          "role": "indicator",
+          "note": "旺矽，探針卡，Q3 營收 59.0 億元、年增約 73%，單季新高",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "壹蘋 2026-10-11 月營收報導"
+        },
+        {
+          "code": "6515",
+          "role": "direct",
+          "note": "穎崴，測試座與探針卡，Q3 營收 45.6 億元、年增約 153%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "壹蘋 2026-10-11"
+        },
+        {
+          "code": "6510",
+          "role": "direct",
+          "note": "精測，探針卡與載板，Q3 營收 19.1 億元、年增約 53%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "壹蘋 2026-10-11"
+        },
+        {
+          "code": "7856",
+          "role": "direct",
+          "note": "漢測，探針卡（含薄膜探針卡）與清潔材料，9 月營收年增約 150%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "壹蘋 2026-10-11"
+        },
+        {
+          "code": "6683",
+          "role": "direct",
+          "note": "雍智科技，測試載板",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json"
+        },
+        {
+          "code": "7769",
+          "role": "direct",
+          "note": "鴻勁，測試分選機（handler）",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-11",
+          "evidence": "hard",
+          "note": "旺矽、精測、穎崴 Q3 營收創高，AI／HPC／ASIC 測試需求（壹蘋）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "semi-equip-parts",
+      "name": "半導體設備零組件與自動化",
+      "aliases": [
+        "設備零組件",
+        "晶圓載具",
+        "EFEM",
+        "半導體自動化"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "3413",
+          "role": "indicator",
+          "note": "京鼎，半導體設備模組代工（主要客戶為國際設備大廠）",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "3680",
+          "role": "direct",
+          "note": "家登，光罩盒、晶圓載具",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "6532",
+          "role": "direct",
+          "note": "瑞耘，半導體設備零組件",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "2464",
+          "role": "indirect",
+          "note": "盟立，自動化物料搬運，半導體占比待查證",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-18",
+          "evidence": "soft",
+          "note": "依台積電資本支出擴張推論，尚無族群共同事件；科林研發 10/21 財報可作前段設備景氣參考"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "test-inspection-equipment",
+      "name": "測試與檢測設備",
+      "aliases": [
+        "AOI",
+        "自動光學檢測",
+        "測試設備",
+        "量測"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "2360",
+          "role": "indicator",
+          "note": "致茂，量測與測試設備（含電源、半導體測試）",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "3030",
+          "role": "direct",
+          "note": "德律，AOI 與電路板測試設備",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "3563",
+          "role": "direct",
+          "note": "牧德，PCB 與半導體 AOI 設備",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-18",
+          "evidence": "soft",
+          "note": "建卡，尚無共同事件"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "pcb-equipment",
+      "name": "PCB 設備",
+      "aliases": [
+        "PCB 設備",
+        "鑽孔機",
+        "壓合",
+        "曝光"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "2467",
+          "role": "indicator",
+          "note": "志聖，PCB 壓合、烘烤設備，市場常列為 PCB 設備代表",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "Threads 族群整理（軟性）"
+        },
+        {
+          "code": "6664",
+          "role": "direct",
+          "note": "群翊，PCB 烘烤、塗佈設備",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "4577",
+          "role": "direct",
+          "note": "達航科技，PCB 鑽孔機",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "6438",
+          "role": "direct",
+          "note": "迅得，PCB 自動化設備",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "3563",
+          "role": "direct",
+          "note": "牧德，PCB AOI 檢測",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-18",
+          "evidence": "soft",
+          "note": "PCB 漲價與擴產（見 pcb-board 卡）帶動設備需求，屬推論"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "asic-design-service",
+      "name": "ASIC／設計服務",
+      "aliases": [
+        "ASIC",
+        "客製化晶片",
+        "設計服務",
+        "turnkey"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "3661",
+          "role": "indicator",
+          "note": "世芯-KY，AI ASIC 設計服務，9 月營收年增約 496%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        },
+        {
+          "code": "3443",
+          "role": "direct",
+          "note": "創意，ASIC 設計服務，9 月營收年增約 98%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        },
+        {
+          "code": "3035",
+          "role": "direct",
+          "note": "智原，ASIC 設計服務與 IP",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "2454",
+          "role": "indirect",
+          "note": "聯發科，手機晶片為主；ASIC（Google TPU）放量中，傳洽談字節跳動 ASIC，最快 2029 量產（傳聞）",
+          "exposure": "low",
+          "asOf": "2026-10-18",
+          "source": "工商時報 2026-10-16 引 Bloomberg"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "evidence": "soft",
+          "note": "傳字節跳動洽談聯發科 ASIC 與 turnkey 服務，聯發科止住 7 連跌（工商、自由）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "silicon-ip",
+      "name": "矽智財 IP",
+      "aliases": [
+        "IP",
+        "矽智財",
+        "NVM IP",
+        "RISC-V"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "3529",
+          "role": "indicator",
+          "note": "力旺，嵌入式非揮發記憶體 IP，授權與權利金",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "6643",
+          "role": "direct",
+          "note": "M31，基礎元件 IP",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "6533",
+          "role": "direct",
+          "note": "晶心科，RISC-V 處理器 IP，9 月營收年減約 10%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-18",
+          "evidence": "soft",
+          "note": "建卡；先進製程與 ASIC 帶動 IP 需求屬推論，尚無共同事件"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "high-speed-io-ic",
+      "name": "高速傳輸／伺服器周邊 IC",
+      "aliases": [
+        "高速傳輸",
+        "USB4",
+        "PCIe",
+        "retimer",
+        "BMC"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "5269",
+          "role": "indicator",
+          "note": "祥碩，USB／PCIe 高速傳輸 IC，9 月營收年減約 30%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        },
+        {
+          "code": "4966",
+          "role": "direct",
+          "note": "譜瑞-KY，高速傳輸與顯示介面 IC，切入資料中心",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "今周刊 2025-12"
+        },
+        {
+          "code": "6756",
+          "role": "direct",
+          "note": "威鋒電子，USB 高速傳輸 IC，2026-10-16 漲停，9 月營收年增約 66%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "themes/reports 2026-10-16"
+        },
+        {
+          "code": "6104",
+          "role": "direct",
+          "note": "創惟，USB 集線器 IC",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "5274",
+          "role": "direct",
+          "note": "信驊，伺服器遠端管理晶片（BMC），9 月營收年增約 101%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "evidence": "soft",
+          "note": "威鋒電子漲停並出現在跨產業共動群（themes/reports）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "display-driver-ic",
+      "name": "驅動 IC",
+      "aliases": [
+        "驅動IC",
+        "DDI",
+        "TDDI",
+        "面板驅動"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "3034",
+          "role": "indicator",
+          "note": "聯詠，面板驅動 IC 與 SoC，投信連買 11 日",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "market/features.json"
+        },
+        {
+          "code": "4961",
+          "role": "direct",
+          "note": "天鈺，面板驅動 IC，9 月營收年增約 57%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        },
+        {
+          "code": "8016",
+          "role": "direct",
+          "note": "矽創，中小尺寸驅動 IC，投信連買 14 日",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "market/features.json"
+        },
+        {
+          "code": "3014",
+          "role": "indirect",
+          "note": "聯陽，嵌入式控制器與介面 IC，驅動 IC 相關占比待查證",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-05",
+          "evidence": "semi-hard",
+          "note": "IC 設計醞釀年底再漲價，客戶提前拉貨，但業者稱非終端需求轉強（經濟日報）"
+        },
+        {
+          "date": "2026-10-16",
+          "evidence": "soft",
+          "note": "天鈺、矽創雷達出現爆量未漲且位置偏高（0.8 以上），需留意高檔換手"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "power-ic",
+      "name": "電源管理 IC",
+      "aliases": [
+        "PMIC",
+        "電源管理",
+        "DDR5 PMIC"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "6415",
+          "role": "indicator",
+          "note": "矽力*-KY，電源管理 IC，9 月營收年增約 51%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        },
+        {
+          "code": "8081",
+          "role": "direct",
+          "note": "致新，電源管理 IC",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "6138",
+          "role": "direct",
+          "note": "茂達，電源管理與馬達驅動 IC，9 月營收年減約 9%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-05",
+          "evidence": "soft",
+          "note": "IC 設計漲價潮報導，電源管理常被列為先漲類別（經濟日報，未點名公司）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "network-audio-ic",
+      "name": "網通與消費 IC",
+      "aliases": [
+        "網通IC",
+        "藍牙",
+        "Wi-Fi",
+        "Ethernet"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "2379",
+          "role": "indicator",
+          "note": "瑞昱，網通、音訊與 PC 周邊 IC，投信連買 15 日",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "market/features.json"
+        },
+        {
+          "code": "6526",
+          "role": "direct",
+          "note": "達發，藍牙音訊與網通 IC，投信連買 11 日",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "market/features.json"
+        },
+        {
+          "code": "3227",
+          "role": "indirect",
+          "note": "原相，光學感測 IC",
+          "exposure": "unknown",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-18",
+          "evidence": "soft",
+          "note": "投信在電子大跌期間連續買進，尚無共同事件"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "mcu",
+      "name": "MCU 微控制器",
+      "aliases": [
+        "MCU",
+        "微控制器"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "soft",
+      "members": [
+        {
+          "code": "4919",
+          "role": "indicator",
+          "note": "新唐，MCU 與音訊 IC",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "產品線"
+        },
+        {
+          "code": "6202",
+          "role": "direct",
+          "note": "盛群，MCU，9 月營收年增約 40%",
+          "exposure": "high",
+          "asOf": "2026-10-18",
+          "source": "companies.json 9 月營收年增"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-18",
+          "evidence": "soft",
+          "note": "建卡，尚無共同事件"
+        }
+      ],
+      "category": "tech"
     }
   ]
 }
