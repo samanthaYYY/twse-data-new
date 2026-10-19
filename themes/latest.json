@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T10:20:23.797Z",
+  "generatedAt": "2026-10-19T01:48:31.546Z",
   "historyDays": 39,
   "dataReady": {
     "vr": true,
@@ -51,8 +51,12 @@
       "ret5": 12.7,
       "vr": 8.39,
       "flow5": 179,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "high-speed-io-ic"
+      ],
+      "attributedThemes": [
+        "high-speed-io-ic"
+      ]
     },
     {
       "code": "6269",
@@ -74,8 +78,12 @@
       "ret5": 28.9,
       "vr": 6.88,
       "flow5": 1567,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "flex-pcb"
+      ],
+      "attributedThemes": [
+        "flex-pcb"
+      ]
     },
     {
       "code": "6517",
@@ -186,8 +194,12 @@
       "ret5": 9.2,
       "vr": 2.8,
       "flow5": 2410,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "it-security-cloud"
+      ],
+      "attributedThemes": [
+        "it-security-cloud"
+      ]
     },
     {
       "code": "3167",
@@ -232,8 +244,12 @@
       "ret5": 12.6,
       "vr": 1.59,
       "flow5": 399,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "it-security-cloud"
+      ],
+      "attributedThemes": [
+        "it-security-cloud"
+      ]
     },
     {
       "code": "2033",
@@ -273,8 +289,12 @@
       "ret5": 13.3,
       "vr": 4.01,
       "flow5": 2183,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "it-security-cloud"
+      ],
+      "attributedThemes": [
+        "it-security-cloud"
+      ]
     },
     {
       "code": "3287",
@@ -400,8 +420,12 @@
       "ret5": 3.8,
       "vr": 2.94,
       "flow5": 1207,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "display-driver-ic"
+      ],
+      "attributedThemes": [
+        "display-driver-ic"
+      ]
     },
     {
       "code": "2377",
@@ -462,8 +486,12 @@
       "ret5": 6.7,
       "vr": 2.74,
       "flow5": 2276,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "display-driver-ic"
+      ],
+      "attributedThemes": [
+        "display-driver-ic"
+      ]
     },
     {
       "code": "3705",
@@ -502,8 +530,12 @@
       "ret5": 2.9,
       "vr": 2.62,
       "flow5": 1084,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "power-ic"
+      ],
+      "attributedThemes": [
+        "power-ic"
+      ]
     },
     {
       "code": "2912",
@@ -566,8 +598,12 @@
       "ret5": 0.8,
       "vr": 2.34,
       "flow5": 519,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "network-audio-ic"
+      ],
+      "attributedThemes": [
+        "network-audio-ic"
+      ]
     },
     {
       "code": "6148",
@@ -873,8 +909,12 @@
       "ret5": -13.6,
       "vr": 0.96,
       "flow5": -365,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
     },
     {
       "code": "6533",
@@ -893,8 +933,12 @@
       "ret5": -8.2,
       "vr": 0.63,
       "flow5": 689,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "silicon-ip"
+      ],
+      "attributedThemes": [
+        "silicon-ip"
+      ]
     },
     {
       "code": "8045",
@@ -975,8 +1019,12 @@
       "ret5": 2.1,
       "vr": 0.86,
       "flow5": 1646,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "display-driver-ic"
+      ],
+      "attributedThemes": [
+        "display-driver-ic"
+      ]
     },
     {
       "code": "2371",
@@ -1298,7 +1346,7 @@
         "3535",
         "6269"
       ],
-      "heat": 0.89,
+      "heat": 0.87,
       "breadth": 0.65,
       "unknown": true,
       "industries": [
@@ -1308,7 +1356,20 @@
         "光電業"
       ],
       "avgCorr": 0.65,
-      "relatedThemes": [],
+      "relatedThemes": [
+        {
+          "theme": "high-speed-io-ic",
+          "members": 1
+        },
+        {
+          "theme": "it-security-cloud",
+          "members": 1
+        },
+        {
+          "theme": "flex-pcb",
+          "members": 1
+        }
+      ],
       "stage": "overheat",
       "earlyRatio": 0
     },
@@ -1328,7 +1389,7 @@
         "2015",
         "3705"
       ],
-      "heat": 0.88,
+      "heat": 0.84,
       "breadth": 0.68,
       "unknown": true,
       "industries": [
@@ -1349,6 +1410,42 @@
     },
     {
       "id": "g-20261016-3",
+      "key": "theme:display-driver-ic",
+      "method": [
+        "kb_theme"
+      ],
+      "label": "驅動 IC",
+      "theme": "display-driver-ic",
+      "members": [
+        "4961",
+        "8016",
+        "3014"
+      ],
+      "heat": 0.75,
+      "breadth": 0.71,
+      "stage": "spread",
+      "earlyRatio": 0
+    },
+    {
+      "id": "g-20261016-4",
+      "key": "theme:it-security-cloud",
+      "method": [
+        "kb_theme"
+      ],
+      "label": "資安／雲端服務",
+      "theme": "it-security-cloud",
+      "members": [
+        "6689",
+        "6112",
+        "2480"
+      ],
+      "heat": 0.71,
+      "breadth": 0.5,
+      "stage": "spread",
+      "earlyRatio": 0
+    },
+    {
+      "id": "g-20261016-5",
       "key": "corr:3596",
       "method": [
         "correlation"
@@ -1363,7 +1460,7 @@
         "8016",
         "5880"
       ],
-      "heat": 0.73,
+      "heat": 0.69,
       "breadth": 0.62,
       "unknown": true,
       "industries": [
@@ -1376,7 +1473,15 @@
       "avgCorr": 0.62,
       "relatedThemes": [
         {
+          "theme": "power-ic",
+          "members": 1
+        },
+        {
           "theme": "retail",
+          "members": 1
+        },
+        {
+          "theme": "display-driver-ic",
           "members": 1
         }
       ],
@@ -1384,7 +1489,7 @@
       "earlyRatio": 0.17
     },
     {
-      "id": "g-20261016-4",
+      "id": "g-20261016-6",
       "key": "corr:2377",
       "method": [
         "correlation"
@@ -1396,7 +1501,7 @@
         "4961",
         "3406"
       ],
-      "heat": 0.68,
+      "heat": 0.67,
       "breadth": 0.6,
       "unknown": true,
       "industries": [
@@ -1405,45 +1510,13 @@
         "光電業"
       ],
       "avgCorr": 0.6,
-      "relatedThemes": [],
+      "relatedThemes": [
+        {
+          "theme": "display-driver-ic",
+          "members": 1
+        }
+      ],
       "stage": "spread",
-      "earlyRatio": 0
-    },
-    {
-      "id": "g-20261016-5",
-      "key": "ind:數位雲端",
-      "method": [
-        "industry"
-      ],
-      "label": "數位雲端",
-      "theme": null,
-      "members": [
-        "6925",
-        "6689",
-        "8044"
-      ],
-      "heat": 0.64,
-      "breadth": 0.18,
-      "stage": "overheat",
-      "earlyRatio": 0.33
-    },
-    {
-      "id": "g-20261016-6",
-      "key": "ind:鋼鐵工業",
-      "method": [
-        "industry"
-      ],
-      "label": "鋼鐵工業",
-      "theme": null,
-      "members": [
-        "2033",
-        "2010",
-        "2015",
-        "2031"
-      ],
-      "heat": 0.63,
-      "breadth": 0.17,
-      "stage": "overheat",
       "earlyRatio": 0
     },
     {
@@ -1459,7 +1532,7 @@
         "2607",
         "2480"
       ],
-      "heat": 0.62,
+      "heat": 0.61,
       "breadth": 0.65,
       "unknown": true,
       "industries": [
@@ -1468,28 +1541,32 @@
         "資訊服務業"
       ],
       "avgCorr": 0.65,
-      "relatedThemes": [],
+      "relatedThemes": [
+        {
+          "theme": "it-security-cloud",
+          "members": 1
+        }
+      ],
       "stage": "spread",
       "earlyRatio": 0.33
     },
     {
       "id": "g-20261016-8",
-      "key": "ind:資訊服務業",
+      "key": "ind:數位雲端",
       "method": [
         "industry"
       ],
-      "label": "資訊服務業",
+      "label": "數位雲端",
       "theme": null,
       "members": [
-        "6112",
-        "2480",
-        "6148",
-        "6163"
+        "6925",
+        "6689",
+        "8044"
       ],
-      "heat": 0.61,
-      "breadth": 0.24,
-      "stage": "spread",
-      "earlyRatio": 0.25
+      "heat": 0.6,
+      "breadth": 0.18,
+      "stage": "overheat",
+      "earlyRatio": 0.33
     }
   ],
   "themeStatus": [
@@ -1534,19 +1611,26 @@
     {
       "theme": "optical-cpo",
       "name": "光通訊／CPO",
-      "members": 5,
+      "members": 6,
       "anomalies": [],
       "attributed": [],
       "unattributed": [],
       "weighted": 0,
-      "totalWeight": 5,
+      "totalWeight": 5.3,
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [],
-      "ret1": -2.1,
-      "ret5": -14.5,
-      "ret20": -5.7,
+      "signaled": [
+        {
+          "code": "3008",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": -2.2,
+      "ret5": -12.7,
+      "ret20": -3.8,
       "stage": "latent"
     },
     {
@@ -1608,12 +1692,12 @@
     {
       "theme": "silicon-wafer",
       "name": "矽晶圓",
-      "members": 4,
+      "members": 9,
       "anomalies": [],
       "attributed": [],
       "unattributed": [],
       "weighted": 0,
-      "totalWeight": 4,
+      "totalWeight": 6.5,
       "coreHit": false,
       "gate": null,
       "roles": {},
@@ -1631,20 +1715,20 @@
           ]
         }
       ],
-      "ret1": 1.2,
-      "ret5": -15,
-      "ret20": 4.9,
+      "ret1": -0.1,
+      "ret5": -12.8,
+      "ret20": 10.7,
       "stage": "latent"
     },
     {
       "theme": "memory",
       "name": "記憶體",
-      "members": 7,
+      "members": 8,
       "anomalies": [],
       "attributed": [],
       "unattributed": [],
       "weighted": 0,
-      "totalWeight": 7,
+      "totalWeight": 7.5,
       "coreHit": false,
       "gate": null,
       "roles": {},
@@ -1660,11 +1744,17 @@
           "signals": [
             "flow_streak_buy"
           ]
+        },
+        {
+          "code": "6531",
+          "signals": [
+            "flow_streak_buy"
+          ]
         }
       ],
-      "ret1": 3.5,
-      "ret5": -8.4,
-      "ret20": -3.3,
+      "ret1": 3.8,
+      "ret5": -8.6,
+      "ret20": -3,
       "stage": "latent"
     },
     {
@@ -2456,7 +2546,7 @@
     {
       "theme": "glass-fabric",
       "name": "玻纖布",
-      "members": 4,
+      "members": 5,
       "anomalies": [
         "1815"
       ],
@@ -2465,7 +2555,7 @@
       ],
       "unattributed": [],
       "weighted": 1,
-      "totalWeight": 4,
+      "totalWeight": 4.3,
       "coreHit": true,
       "gate": "too_few",
       "roles": {
@@ -2484,11 +2574,594 @@
           "signals": [
             "flow_streak_buy"
           ]
+        },
+        {
+          "code": "5475",
+          "signals": [
+            "flow_streak_buy"
+          ]
         }
       ],
-      "ret1": 4.2,
-      "ret5": 1.5,
-      "ret20": 23.5,
+      "ret1": 3.9,
+      "ret5": 0.7,
+      "ret20": 22.2,
+      "stage": "latent"
+    },
+    {
+      "theme": "leo-satellite",
+      "name": "低軌衛星／太空",
+      "members": 5,
+      "anomalies": [
+        "3491"
+      ],
+      "attributed": [
+        "3491"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 3.8,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "3491": "indicator"
+      },
+      "signaled": [
+        {
+          "code": "2313",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "6285",
+          "signals": [
+            "vol_surge",
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "3701",
+          "signals": [
+            "limit_up",
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "2368",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 7.8,
+      "ret5": -2.5,
+      "ret20": 26.9,
+      "stage": "latent"
+    },
+    {
+      "theme": "pcb-board",
+      "name": "PCB 板廠",
+      "members": 5,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "2368",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "3044",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "2313",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "4958",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "6191",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 4.6,
+      "ret5": -0.7,
+      "ret20": 18.3,
+      "stage": "latent"
+    },
+    {
+      "theme": "flex-pcb",
+      "name": "軟板／高速傳輸",
+      "members": 4,
+      "anomalies": [
+        "6269",
+        "4939"
+      ],
+      "attributed": [
+        "6269",
+        "4939"
+      ],
+      "unattributed": [],
+      "weighted": 1.5,
+      "totalWeight": 3.5,
+      "coreHit": true,
+      "gate": null,
+      "roles": {
+        "4939": "indirect",
+        "6269": "indicator"
+      },
+      "signaled": [
+        {
+          "code": "8039",
+          "signals": [
+            "limit_up"
+          ]
+        },
+        {
+          "code": "6153",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": 9.1,
+      "ret5": 12.2,
+      "ret20": 16.4,
+      "stage": "overheat"
+    },
+    {
+      "theme": "hvlp-copper-foil",
+      "name": "高階銅箔 HVLP",
+      "members": 2,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 1.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "1303",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": -0.1,
+      "ret5": -6.4,
+      "ret20": 18.3,
+      "stage": "latent"
+    },
+    {
+      "theme": "it-security-cloud",
+      "name": "資安／雲端服務",
+      "members": 6,
+      "anomalies": [
+        "6689",
+        "6112",
+        "2480"
+      ],
+      "attributed": [
+        "6689",
+        "6112",
+        "2480"
+      ],
+      "unattributed": [],
+      "weighted": 3,
+      "totalWeight": 6,
+      "coreHit": true,
+      "gate": null,
+      "roles": {
+        "2480": "direct",
+        "6112": "direct",
+        "6689": "direct"
+      },
+      "signaled": [
+        {
+          "code": "6690",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        },
+        {
+          "code": "3029",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 3.5,
+      "ret5": 6.7,
+      "ret20": 3.2,
+      "stage": "spread"
+    },
+    {
+      "theme": "machine-tools",
+      "name": "工具機",
+      "members": 5,
+      "anomalies": [
+        "4513"
+      ],
+      "attributed": [
+        "4513"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 5,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "4513": "direct"
+      },
+      "signaled": [],
+      "ret1": 0.4,
+      "ret5": 0.5,
+      "ret20": 3.8,
+      "stage": "latent"
+    },
+    {
+      "theme": "adv-pkg-equipment",
+      "name": "先進封裝設備",
+      "members": 8,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 7.3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "7751",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 0.3,
+      "ret5": -8.8,
+      "ret20": 1.3,
+      "stage": "latent"
+    },
+    {
+      "theme": "test-interface",
+      "name": "測試介面",
+      "members": 6,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 6,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "6223",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "7769",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 2.7,
+      "ret5": -9.4,
+      "ret20": -10,
+      "stage": "latent"
+    },
+    {
+      "theme": "semi-equip-parts",
+      "name": "半導體設備零組件與自動化",
+      "members": 4,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [],
+      "ret1": 1,
+      "ret5": -1.4,
+      "ret20": 10.4,
+      "stage": "latent"
+    },
+    {
+      "theme": "test-inspection-equipment",
+      "name": "測試與檢測設備",
+      "members": 3,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "3030",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": -0.4,
+      "ret5": -9.6,
+      "ret20": 4.7,
+      "stage": "latent"
+    },
+    {
+      "theme": "pcb-equipment",
+      "name": "PCB 設備",
+      "members": 5,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "6438",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": -0.3,
+      "ret5": -3.3,
+      "ret20": 7.4,
+      "stage": "latent"
+    },
+    {
+      "theme": "asic-design-service",
+      "name": "ASIC／設計服務",
+      "members": 4,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 3.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "3661",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "3443",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "2454",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": -0.2,
+      "ret5": -9.3,
+      "ret20": 11.5,
+      "stage": "latent"
+    },
+    {
+      "theme": "silicon-ip",
+      "name": "矽智財 IP",
+      "members": 3,
+      "anomalies": [
+        "6533"
+      ],
+      "attributed": [
+        "6533"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 3,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "6533": "direct"
+      },
+      "signaled": [],
+      "ret1": 5.5,
+      "ret5": -7,
+      "ret20": 20,
+      "stage": "latent"
+    },
+    {
+      "theme": "high-speed-io-ic",
+      "name": "高速傳輸／伺服器周邊 IC",
+      "members": 5,
+      "anomalies": [
+        "6756"
+      ],
+      "attributed": [
+        "6756"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 5,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "6756": "direct"
+      },
+      "signaled": [
+        {
+          "code": "5269",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "4966",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 3,
+      "ret5": 0.7,
+      "ret20": 4.3,
+      "stage": "latent"
+    },
+    {
+      "theme": "display-driver-ic",
+      "name": "驅動 IC",
+      "members": 4,
+      "anomalies": [
+        "4961",
+        "8016",
+        "3014"
+      ],
+      "attributed": [
+        "4961",
+        "8016",
+        "3014"
+      ],
+      "unattributed": [],
+      "weighted": 2.5,
+      "totalWeight": 3.5,
+      "coreHit": true,
+      "gate": null,
+      "roles": {
+        "3014": "indirect",
+        "4961": "direct",
+        "8016": "direct"
+      },
+      "signaled": [
+        {
+          "code": "3034",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 1.6,
+      "ret5": 5.3,
+      "ret20": 9.2,
+      "stage": "spread"
+    },
+    {
+      "theme": "power-ic",
+      "name": "電源管理 IC",
+      "members": 3,
+      "anomalies": [
+        "8081"
+      ],
+      "attributed": [
+        "8081"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 3,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "8081": "direct"
+      },
+      "signaled": [
+        {
+          "code": "6415",
+          "signals": [
+            "vol_surge"
+          ]
+        }
+      ],
+      "ret1": 2.9,
+      "ret5": 1.7,
+      "ret20": 9.1,
+      "stage": "latent"
+    },
+    {
+      "theme": "network-audio-ic",
+      "name": "網通與消費 IC",
+      "members": 3,
+      "anomalies": [
+        "3227"
+      ],
+      "attributed": [
+        "3227"
+      ],
+      "unattributed": [],
+      "weighted": 0.5,
+      "totalWeight": 2.5,
+      "coreHit": false,
+      "gate": "too_few",
+      "roles": {
+        "3227": "indirect"
+      },
+      "signaled": [
+        {
+          "code": "2379",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "6526",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        }
+      ],
+      "ret1": 0.9,
+      "ret5": 0.8,
+      "ret20": 13.7,
+      "stage": "latent"
+    },
+    {
+      "theme": "mcu",
+      "name": "MCU 微控制器",
+      "members": 2,
+      "anomalies": [],
+      "attributed": [],
+      "unattributed": [],
+      "weighted": 0,
+      "totalWeight": 2,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [],
+      "ret1": 1.3,
+      "ret5": -7.5,
+      "ret20": 15,
       "stage": "latent"
     }
   ],
