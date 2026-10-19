@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T09:20:46.689Z",
+  "generatedAt": "2026-10-19T10:20:27.075Z",
   "historyDays": 40,
   "dataReady": {
     "vr": true,
@@ -2325,8 +2325,7 @@
       "ret1": 3.4,
       "ret5": 4.6,
       "ret20": 21.7,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "leo-satellite",
@@ -2438,8 +2437,7 @@
       "ret1": -3.8,
       "ret5": 9.5,
       "ret20": 9,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "hvlp-copper-foil",
@@ -2495,8 +2493,7 @@
       "ret1": -2.1,
       "ret5": 1.4,
       "ret20": 0.9,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "machine-tools",
@@ -2804,8 +2801,7 @@
       "ret1": -1.4,
       "ret5": 4.5,
       "ret20": 6.1,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "power-ic",
