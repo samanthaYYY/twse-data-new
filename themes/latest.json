@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-20",
-  "generatedAt": "2026-10-20T09:20:45.187Z",
+  "generatedAt": "2026-10-20T10:20:24.113Z",
   "historyDays": 41,
   "dataReady": {
     "vr": true,
@@ -1589,8 +1589,7 @@
       "ret1": 2.3,
       "ret5": -1.3,
       "ret20": -0.2,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "thermal",
@@ -2330,8 +2329,7 @@
       "ret1": 2.5,
       "ret5": 17.2,
       "ret20": 15.9,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "hvlp-copper-foil",
