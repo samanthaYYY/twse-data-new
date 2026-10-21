@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T09:20:47.633Z",
+  "generatedAt": "2026-10-21T10:20:30.639Z",
   "historyDays": 42,
   "dataReady": {
     "vr": true,
@@ -1850,8 +1850,7 @@
       "ret1": 1.1,
       "ret5": 0.3,
       "ret20": 0.8,
-      "stage": "spread",
-      "change": "ignite→spread"
+      "stage": "spread"
     },
     {
       "theme": "thermal",
@@ -2504,8 +2503,7 @@
       "ret1": -0.6,
       "ret5": 0.7,
       "ret20": 21.4,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "leo-satellite",
@@ -2539,8 +2537,7 @@
       "ret1": 1.5,
       "ret5": -3.6,
       "ret20": 13.2,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "pcb-board",
@@ -2580,8 +2577,7 @@
       "ret1": 2,
       "ret5": -2.8,
       "ret20": 13.6,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "flex-pcb",
@@ -2605,8 +2601,7 @@
       "ret1": -1.1,
       "ret5": 5.3,
       "ret20": 13.2,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "hvlp-copper-foil",
@@ -2692,8 +2687,7 @@
       "ret1": 3,
       "ret5": 2.6,
       "ret20": 4.2,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "adv-pkg-equipment",
