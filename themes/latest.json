@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-22",
-  "generatedAt": "2026-10-22T09:20:54.780Z",
+  "generatedAt": "2026-10-22T10:20:28.831Z",
   "historyDays": 43,
   "dataReady": {
     "vr": true,
@@ -1765,8 +1765,7 @@
       "ret1": -1.7,
       "ret5": 2.6,
       "ret20": -1,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "thermal",
@@ -2503,8 +2502,7 @@
       "ret1": -7.1,
       "ret5": -4.4,
       "ret20": 4.1,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "pcb-board",
@@ -2541,8 +2539,7 @@
       "ret1": -4.5,
       "ret5": -0.8,
       "ret20": 8.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "flex-pcb",
@@ -2631,8 +2628,7 @@
       "ret1": 1.7,
       "ret5": 5.6,
       "ret20": 5,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "machine-tools",
@@ -2669,8 +2665,7 @@
       "ret1": 0.6,
       "ret5": 7,
       "ret20": 4,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "adv-pkg-equipment",
