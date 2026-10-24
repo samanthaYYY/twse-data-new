@@ -1,7 +1,7 @@
 {
   "schema": "themes-kb",
   "v": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-24",
   "_說明": "題材卡。status：candidate 候選（程式或 Claude 提案，待確認）／active 活躍／archived 封存。role：indicator 指標股／direct 直接受惠／indirect 間接受惠／concept 概念。初版內容整理自 2026/09 SEMICON 研究與題材討論，代號請再確認；程式會自動檢查代號是否存在於全市場資料。 category：tech 科技／non-tech 非科技，只用於分類閱讀，不影響計算。 角色判定四問（2026/10 起）：1 現在有營收嗎；2 產品在量產、送樣還是研發；3 有沒有硬性證據；4 多久會反映在財報。direct＝已量產且營收占比明顯；indirect＝有營收但占比小或屬間接環節；concept＝研發、送樣、認證中，尚無營收；indicator＝市場用來判斷題材熱度的指標股，與營收占比無關。 選填欄位：exposure（營收曝險 high／low／none／unknown）、asOf（判定日期）、source（判定依據）。asOf 超過半年或出現送樣通過、接單等新聞時，應重新判定。同一檔股票可以屬於多張題材卡，各卡角色獨立判定。",
   "themes": [
     {
@@ -1322,7 +1322,7 @@
         "Low CTE",
         "glass fiber cloth"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
       "evidence": "semi-hard",
       "members": [
@@ -1372,6 +1372,11 @@
           "date": "2026-10-07",
           "evidence": "semi-hard",
           "note": "PCB 族群往上游輪動，台玻放量漲停，富喬、建榮同步走強（聯合新聞網 2026-10-07）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -1385,49 +1390,97 @@
         "SpaceX",
         "太空資料中心"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "semi-hard",
+      "evidence": "hard",
       "members": [
         {
           "code": "3491",
           "role": "indicator",
-          "note": "昇達科，報導稱為 SpaceX 主要供應商，族群起漲常由其帶頭",
-          "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "中時 2026-10-05"
+          "note": "昇達科，低軌衛星產品占營收約 80%（2026Q1），衛星光通訊鏈路（OISL）已量產出貨，族群起漲常由它帶頭",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "永豐金證券 2026-04-28 法說整理；優分析 2026-10-08"
         },
         {
           "code": "2313",
           "role": "direct",
-          "note": "華通，衛星用 PCB 板",
-          "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "中時 2026-10-05「低軌六小福」"
+          "note": "華通，低軌衛星 PCB 已量產供應主要美系衛星客戶，衛星營收占比從 17% 升到約 22%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "理財周刊 2026-10-21"
         },
         {
           "code": "6285",
           "role": "direct",
-          "note": "啟碁，衛星通訊與地面設備",
+          "note": "啟碁，衛星地面終端與機載連網設備已量產出貨，預期 2027 年低軌訂單繼續增加；衛星營收占比沒有公開",
           "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "低軌衛星概念股整理（財報狗、天下）"
-        },
-        {
-          "code": "3701",
-          "role": "concept",
-          "note": "大眾控，列入「低軌六小福」，產品與衛星的關聯待查證",
-          "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "中時 2026-10-05"
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-06"
         },
         {
           "code": "2368",
           "role": "indirect",
-          "note": "金像電，PCB 板廠，隨衛星題材共動；主要營收為 AI 伺服器板",
+          "note": "金像電，PCB 板廠，跟著衛星題材一起動；主要營收來自 AI 伺服器板",
           "exposure": "low",
-          "asOf": "2026-10-17",
+          "asOf": "2026-10-23",
           "source": "中時 2026-10-05"
+        },
+        {
+          "code": "2367",
+          "role": "direct",
+          "note": "燿華，低軌衛星板已穩定量產供應兩家北美客戶，2026H1 占營收約 20%，目標下半年超過 30%；泰國廠 2026Q3 正式量產",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "富果 2026-06-26 法說"
+        },
+        {
+          "code": "7717",
+          "role": "direct",
+          "note": "萊德光電-KY，衛星雷射通訊被動元件是 2026H1 主要營收來源；8 月營收年增 86%，成長主要來自低軌衛星專案",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-09-11"
+        },
+        {
+          "code": "2314",
+          "role": "direct",
+          "note": "台揚，衛星通訊是本業（高軌終端、低軌 Ku/L 頻收發機已規模出貨）；但 9 月營收年減 67%，基本面偏弱",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "優分析 2025-12-11 法說"
+        },
+        {
+          "code": "6271",
+          "role": "indirect",
+          "note": "同欣電，陶瓷基板等產品的低軌衛星業務持續成長，但沒有公開衛星營收占比或具體產品",
+          "exposure": "unknown",
+          "asOf": "2026-10-23",
+          "source": "中時新聞網 2026-07-29"
+        },
+        {
+          "code": "3138",
+          "role": "indirect",
+          "note": "耀登，Ka/Ku 頻主動陣列天線與低軌地面終端，衛星營收只占個位數 %，目標明年倍增",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-10-13"
+        },
+        {
+          "code": "4916",
+          "role": "indirect",
+          "note": "事欣科，衛星用線束（面板電源、推進器等）已出貨並接到新衛星客戶；在手訂單中通訊（含低軌）約 18%，營收占比沒有公開",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-04-16"
+        },
+        {
+          "code": "7812",
+          "role": "concept",
+          "note": "稜研科技*-創，相位陣列天線模組占營收約 30%（2025）；與 Comtech 合作的多軌衛星終端還在連線測試、準備商用出貨，衛星營收沒有公開",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "三立新聞 2026-09-22"
         }
       ],
       "history": [
@@ -1440,6 +1493,16 @@
           "date": "2026-10-13",
           "evidence": "soft",
           "note": "高本益比概念股遭法人調節重挫（CMoney）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "成員擴充與角色重新判定。昇達科 9 月營收年增 52.5%、前 3 季年增 70.9%，重點客戶新一代產品認證順利；華通低軌衛星營收占比升到約 22%（優分析 2026-10-08；理財周刊 2026-10-21）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -1453,7 +1516,7 @@
         "AI 伺服器板",
         "HDI"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
       "evidence": "semi-hard",
       "members": [
@@ -1503,6 +1566,11 @@
           "date": "2026-10-16",
           "evidence": "semi-hard",
           "note": "PCB 漲價與材料缺貨延續至 2027；TPCA 展（工商 2026-08-29、Yahoo 2026-09-27）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -1518,39 +1586,63 @@
       ],
       "status": "candidate",
       "stage": null,
-      "evidence": "semi-hard",
+      "evidence": "soft",
       "members": [
         {
           "code": "6269",
           "role": "indicator",
-          "note": "台郡，軟板本業；輝達 OCP 展示 NVLink 看板出現其名，AI 營收占比待查證",
+          "note": "台郡，軟板本業；名字出現在輝達 NVLink PTFE 展示看板，但沒有確認訂單；9 月營收年減 2.7%，AI 伺服器傳輸產品還沒有營收數字",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "風傳媒 2026-10-16"
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-15；今周刊 2026-10-15"
         },
         {
           "code": "8039",
           "role": "direct",
-          "note": "台虹，軟板材料（FCCL、PTFE），同見於輝達展示看板",
+          "note": "台虹，軟板材料（FCCL）本業；PTFE 正在 AI 大客戶驗證，PTFE＋PP 最快 2027H2 推出；9 月營收年減 19%",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "風傳媒 2026-10-16"
+          "asOf": "2026-10-23",
+          "source": "今周刊 2026-10-15"
         },
         {
           "code": "6153",
           "role": "direct",
-          "note": "嘉聯益，軟板本業",
+          "note": "嘉聯益，軟板本業，鎖定 AI 眼鏡、機器人等邊緣 AI，不是伺服器高速傳輸；9 月營收年增 0.8%",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "companies.json"
+          "asOf": "2026-10-23",
+          "source": "科技新報 2026-10-08；理財周刊 2026-07-23"
         },
         {
           "code": "4939",
-          "role": "indirect",
-          "note": "亞電，PTFE 材料，報導與台虹並稱「PTFE 雙雄」",
+          "role": "concept",
+          "note": "亞電，開發 AI 伺服器用 M10 等級 PTFE 混合材料，還在客戶認證、沒有量產；報導稱它和台虹是「PTFE 雙雄」",
           "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "財報狗"
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-14"
+        },
+        {
+          "code": "4958",
+          "role": "direct",
+          "note": "臻鼎-KY，全球最大 PCB／軟板廠，也做 AI 伺服器與高頻軟板；9 月營收年增 36%，但成長主要來自伺服器、光模組與 IC 載板（2026H1 合計占 21.6%）",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "理財周刊 2026-10-20"
+        },
+        {
+          "code": "6672",
+          "role": "concept",
+          "note": "騰輝電子-KY，開發 PTFE 與碳氫材料，還在客戶驗證；9 月營收年增 202% 主要來自其他基板產品",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-14"
+        },
+        {
+          "code": "3645",
+          "role": "concept",
+          "note": "達邁，PI 膜上游，開發 AI 伺服器用高頻 PI 膜，還沒有營收數字；9 月營收年減 19.8%",
+          "exposure": "unknown",
+          "asOf": "2026-10-23",
+          "source": "理財周刊 2026-07-23"
         }
       ],
       "history": [
@@ -1558,6 +1650,11 @@
           "date": "2026-10-16",
           "evidence": "semi-hard",
           "note": "台郡連 3 根漲停，起因為輝達 OCP 峰會 NVLink 展示（風傳媒）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "soft",
+          "note": "成員擴充與角色重新判定。輝達 OCP 展示的「NVLink PTFE Board」看板列出台郡、台虹，兩家連續漲停，但媒體明確說沒有確認訂單或供貨；台虹 PTFE 還在客戶驗證，最快 2027H2 推出，9 月營收年減 19%（經濟日報 2026-10-14；今周刊 2026-10-15）"
         }
       ],
       "category": "tech"
@@ -1571,25 +1668,33 @@
         "HVLP4",
         "電解銅箔"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "semi-hard",
+      "evidence": "hard",
       "members": [
         {
           "code": "8358",
           "role": "indicator",
-          "note": "金居，銅箔本業；報導稱台灣唯一可量產 HVLP4，良率約 50～60%",
+          "note": "金居，專業銅箔廠（營收 100% 來自銅箔），HVLP4 已打進輝達供應鏈並今年開始量產出貨；新廠 2027Q1 開出",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "工商時報 2026-08-29"
+          "asOf": "2026-10-23",
+          "source": "自由時報 2026-09-16；科技新報 2026-10-08"
         },
         {
           "code": "1303",
           "role": "indirect",
-          "note": "南亞，電子材料含銅箔，為多角化集團，銅箔占比小",
+          "note": "南亞，電子材料占營收約 59.8%，HVLP3/4 為高階銅箔主力、HVLP5 開發中；但銅箔只占多角化集團一小部分，股價也受銅箔基板與玻纖布影響",
           "exposure": "low",
-          "asOf": "2026-10-17",
-          "source": "永豐豐雲學堂 2026-09"
+          "asOf": "2026-10-23",
+          "source": "中時新聞網 2026-09-17"
+        },
+        {
+          "code": "4989",
+          "role": "concept",
+          "note": "榮科，PCB 上游銅箔廠，HVLP3/4 在送樣測試、HVLP5 開發中；8 月完成現增籌資 21 億元，還沒有 HVLP 量產營收",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-08-03"
         }
       ],
       "history": [
@@ -1597,6 +1702,16 @@
           "date": "2026-08-29",
           "evidence": "semi-hard",
           "note": "HVLP4 供需缺口 2026 年約 48%、2027 年約 43%（工商時報）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "成員擴充與角色重新判定。金居 9 月營收 11.04 億元、年增 64.6%，HVLP3/4 月出貨約 150 噸、占營收約 15～20%，下半年目標 20～25%（科技新報 2026-10-08；理財周刊 2026-10-05）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -1617,50 +1732,122 @@
         {
           "code": "7765",
           "role": "indicator",
-          "note": "中華資安，資安服務",
+          "note": "中華資安，純資安服務；前 3 季營收 17.43 億元、年增 18.6%，獲利創同期新高",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "companies.json 產業別"
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-16"
         },
         {
           "code": "6690",
           "role": "direct",
-          "note": "安碁資訊，資安服務",
+          "note": "安碁資訊，資安服務（SOC 監控、資安檢測、鑑識），約 60% 是月費型收入；2026H1 營收年增 15%",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "companies.json 產業別"
+          "asOf": "2026-10-23",
+          "source": "富果 2026-09-02 法說"
         },
         {
           "code": "3029",
-          "role": "direct",
-          "note": "零壹，資安與網通產品代理",
+          "role": "indirect",
+          "note": "零壹，資安與網通產品代理，正在轉型做服務；資安營收占比沒有公開，服務收入約只占營收 1.6%",
           "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "產品線，占比待查證"
+          "asOf": "2026-10-23",
+          "source": "口袋證券 2026-09-15"
         },
         {
           "code": "6689",
           "role": "direct",
-          "note": "伊雲谷，雲端代管服務（MSP），2026-10-16 漲停",
+          "note": "伊雲谷，公有雲代管服務（MSP）本業；2026Q2 營收年減 2%、營益率只有 0.65%，資安（MSSP）仍在擴展",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "themes/reports 2026-10-16"
+          "asOf": "2026-10-23",
+          "source": "富果 2026-08-24 法說"
         },
         {
           "code": "6112",
-          "role": "direct",
-          "note": "邁達特，系統整合與雲端，2026-10-16 低基期突破",
-          "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "themes/reports 2026-10-16"
+          "role": "indirect",
+          "note": "邁達特，以 AI 運算設備為主（約 57.5%），雲端服務約 13.4%、資安約 3.4%（2026Q1）",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "富果 2026-06-03 法說"
         },
         {
           "code": "2480",
+          "role": "indirect",
+          "note": "敦陽科，系統整合；含資安的軟體類約占 19%，資安單獨占比沒有公開；全年營收預期超過 100 億元",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "富果 2026-08-05 法說"
+        },
+        {
+          "code": "7714",
           "role": "direct",
-          "note": "敦陽科，系統整合，外資連買 8 日",
+          "note": "創泓科技，代理網通與資安品牌，Check Point 約占營收 25.6%、Tenable 13.2%、Trellix 7.5%（2026H1）",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "富果 2026-09-02 法說"
+        },
+        {
+          "code": "6811",
+          "role": "direct",
+          "note": "宏碁資訊，雲端與 AI 系統整合服務，9 月營收 15.3 億元、年增 97%，受惠 Microsoft 在台擴建雲端；雲端與資安占比沒有公開",
           "exposure": "unknown",
-          "asOf": "2026-10-17",
-          "source": "market/features.json"
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-10-16"
+        },
+        {
+          "code": "6214",
+          "role": "indirect",
+          "note": "精誠，大型系統整合，9 月營收年增 55.7%，主要靠數位轉型與雲端需求；資安只是服務項目之一，沒有公開占比",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-08"
+        },
+        {
+          "code": "6752",
+          "role": "indirect",
+          "note": "叡揚，軟體與資料治理，有完整資安產品線，看好歐盟網路韌性法案帶來的需求；資安營收沒有公開",
+          "exposure": "unknown",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-06-08"
+        },
+        {
+          "code": "8099",
+          "role": "indirect",
+          "note": "大世科，系統整合（AI 運算、資安、ESG 是三大重點），2025 年營收年增 27.5%；資安占比沒有公開",
+          "exposure": "unknown",
+          "asOf": "2026-10-23",
+          "source": "富果 2026-03-27 法說"
+        },
+        {
+          "code": "2468",
+          "role": "concept",
+          "note": "華經，系統整合與文件數位化，資安只是方案之一（零信任）；大聯大持股過半，9/15、10/16 都跟著族群漲停",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "口袋證券 2026-09-15；優分析 2026-10-16"
+        },
+        {
+          "code": "6148",
+          "role": "concept",
+          "note": "驊宏資，伺服器、儲存、網路產品代理與系統整合、金融軟體，沒有資安事業部；2026H1 EPS 年減 62%，只是跟著族群漲",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "口袋證券 2026-09-15"
+        },
+        {
+          "code": "6925",
+          "role": "concept",
+          "note": "意藍，AI 輿情與文字分析，不是資安本業，10/16 跟著族群漲停；9 月營收年增 21%",
+          "exposure": "none",
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-16"
+        },
+        {
+          "code": "2412",
+          "role": "indirect",
+          "note": "中華電，中華資安的母公司，資安只占電信本業很小一部分",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-05-13"
         }
       ],
       "history": [
@@ -1668,6 +1855,11 @@
           "date": "2026-10-16",
           "evidence": "soft",
           "note": "意藍、伊雲谷、驊宏資漲停，媒體稱資金轉向資安；尚無共同催化消息（風傳媒）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "soft",
+          "note": "成員擴充與角色重新判定。10/16 黃仁勳說資安是 AI 下一個重要應用，伊雲谷、邁達特、華經、驊宏資等漲停；這只是談話，沒有新訂單或政策。個股營收中，宏碁資訊 9 月年增 97%、中華資安前 3 季年增 18.6%（經濟日報 2026-10-16；優分析 2026-10-16）"
         }
       ],
       "category": "tech"
@@ -1680,49 +1872,73 @@
         "CNC",
         "JIMTOF"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "semi-hard",
       "members": [
-        {
-          "code": "4526",
-          "role": "indicator",
-          "note": "東台，工具機本業，9 月營收年增 81%，報導稱已有法人買進",
-          "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "Yahoo 2026-09-27；companies.json"
-        },
         {
           "code": "1583",
           "role": "direct",
-          "note": "程泰，工具機本業",
+          "note": "程泰，工具機本業（車床、加工中心機）；9 月營收 4.38 億元、年增 45%",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "companies.json"
+          "asOf": "2026-10-23",
+          "source": "winvest 2026-10-09"
+        },
+        {
+          "code": "4526",
+          "role": "indicator",
+          "note": "東台，工具機本業約占七成，PCB 鑽孔為主要成長動能；在手訂單至少 32 億元",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-22；優分析 2026-10-22"
         },
         {
           "code": "4510",
           "role": "direct",
-          "note": "高鋒，工具機本業",
+          "note": "高鋒，工具機本業；9 月營收年增 42%",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "companies.json"
+          "asOf": "2026-10-23",
+          "source": "9 月營收公告 2026-10"
         },
         {
           "code": "6609",
           "role": "direct",
-          "note": "瀧澤科，工具機本業",
+          "note": "瀧澤科，工具機本業；9 月營收 2.46 億元、年增 113%，訂單來自 AI 散熱管件、半導體耗材，能見度到明年第二季",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "companies.json"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-20；鉅亨 2026-10"
         },
         {
           "code": "4513",
           "role": "direct",
-          "note": "福裕，工具機本業",
+          "note": "福裕，工具機本業（磨床）；9 月營收年增 50%",
           "exposure": "high",
-          "asOf": "2026-10-17",
-          "source": "companies.json"
+          "asOf": "2026-10-23",
+          "source": "9 月營收公告 2026-10"
+        },
+        {
+          "code": "1530",
+          "role": "direct",
+          "note": "亞崴，工具機本業（龍門、加工中心機）；9 月營收 2.96 億元、年增 267%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "winvest 2026-10-09"
+        },
+        {
+          "code": "1528",
+          "role": "direct",
+          "note": "恩德，金屬加工機（Focaseiki）與板材加工機，另有 PCB 鑽孔成型設備；TPCA 展接單轉強",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-19；富果 2025-12-10"
+        },
+        {
+          "code": "7750",
+          "role": "indirect",
+          "note": "新代，CNC 控制器與伺服驅動，賣給工具機廠；上半年金屬切削控制器出貨年增約 70%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "富果 2026-08-24"
         }
       ],
       "history": [
@@ -1730,6 +1946,16 @@
           "date": "2026-09-27",
           "evidence": "soft",
           "note": "日本國際工具機展、半導體設備需求帶動；東台見法人買進（Yahoo）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "成員擴充與角色重新判定。9 月營收程泰年增 45%、亞崴年增 267%、瀧澤科年增 113%，但整機出口前三季年減 1.9%、零組件年增 13.1%（中時 2026-10-12）；成長多來自 PCB、AI 散熱、半導體等電子需求，傳統工具機景氣仍待確認 指標股維持東台：程泰等多數工具機股日成交金額低於雷達流動性門檻，市場實際看的是東台；但東台近期漲勢主要來自 PCB 鑽孔，解讀時要和 PCB 設備卡一起看。"
+        },
+        {
+          "date": "2026-10-24",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active（成員補齊後達轉正標準）"
         }
       ],
       "category": "non-tech"
@@ -1744,73 +1970,89 @@
         "SoIC",
         "設備股"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "semi-hard",
+      "evidence": "hard",
       "members": [
         {
           "code": "3131",
           "role": "indicator",
-          "note": "弘塑，高階濕製程設備，CoWoS 擴產主要受惠",
+          "note": "弘塑，高階濕製程設備；第三季營收創新高，2.5D/3D、PLP、混合鍵合為後續主軸",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "asOf": "2026-10-23",
+          "source": "時報資訊 2026-10-20"
         },
         {
           "code": "6187",
           "role": "direct",
-          "note": "萬潤，點膠、散熱片與高精度貼合製程設備",
+          "note": "萬潤，點膠、散熱片與高精度貼合製程設備；9 月營收年增 109%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "asOf": "2026-10-23",
+          "source": "鉅亨 2026-09-27；9 月營收公告 2026-10"
         },
         {
           "code": "6640",
           "role": "direct",
-          "note": "均華，晶粒挑選分選機，晶圓鍵合機驗證中",
+          "note": "均華，晶粒挑選分選機，晶圓鍵合機驗證中；9 月營收年增 87%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "asOf": "2026-10-23",
+          "source": "鉅亨 2026-09-27；9 月營收公告 2026-10"
         },
         {
           "code": "7751",
           "role": "direct",
-          "note": "竑騰，點膠、散熱片與貼合製程設備",
+          "note": "竑騰，點膠、散熱片與貼合製程設備；9 月營收年增 57%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "asOf": "2026-10-23",
+          "source": "鉅亨 2026-09-27；9 月營收公告 2026-10"
         },
         {
           "code": "7734",
           "role": "direct",
-          "note": "印能科技，除泡與抗翹曲設備",
+          "note": "印能科技，除泡與抗翹曲設備；9 月營收年增 122%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "asOf": "2026-10-23",
+          "source": "鉅亨 2026-09-27；9 月營收公告 2026-10"
         },
         {
           "code": "2467",
           "role": "direct",
-          "note": "志聖，防翹曲烘烤設備；另有 PCB 設備，先進封裝占比待查證",
-          "exposure": "unknown",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "note": "志聖，壓膜、烘烤、防翹曲設備用於 CoWoS／SoIC／HBM；上半年半導體營收約 46%，在手訂單中先進封裝占 54%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "財報狗 2026-09-01（SEMICON）"
         },
         {
           "code": "3583",
           "role": "direct",
-          "note": "辛耘，高階濕製程設備；另有再生晶圓，設備占比待查證",
-          "exposure": "unknown",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "note": "辛耘，自製濕製程、清洗、TBDB 設備用於先進封裝，訂單看到 2027 年；自製設備加再生晶圓營收逾五成，2026 年自製首度超越代理（9 月營收年增僅 2.8%）",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "TechNews 2026-09-03"
         },
         {
           "code": "7822",
-          "role": "concept",
-          "note": "倍利科，3D 透視檢查切入多層堆疊檢驗，量產貢獻待確認",
-          "exposure": "unknown",
-          "asOf": "2026-10-18",
-          "source": "鉅亨 2026-09-27 先進封裝擴產潮"
+          "role": "direct",
+          "note": "倍利科，先進封裝 AOI 與量測設備，打進晶圓代工與封測廠，交期滿載；1–7 月營收年增 86%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "鏡報 2026-08-05"
+        },
+        {
+          "code": "5443",
+          "role": "direct",
+          "note": "均豪，上半年半導體占母公司營收 62%；下半年半導體在手訂單中先進封裝占 68%（Carrier AOI、白光量測、磨拋設備）",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "財報狗 2026-09-01（SEMICON）"
+        },
+        {
+          "code": "6937",
+          "role": "direct",
+          "note": "天虹，PVD／Descum 等設備，310mm PLP 平台已出貨多台；公司估今年先進封裝約占設備營收 40%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "財報狗 2026-08-13"
         }
       ],
       "history": [
@@ -1823,6 +2065,16 @@
           "date": "2026-10-15",
           "evidence": "hard",
           "note": "台積電法說：2026 資本支出 600–640 億美元，2026–2028 明顯高於過去三年；CoWoS 仍供不應求（財報狗）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "成員擴充與角色重新判定。弘塑第三季營收 22.21 億元創新高、季增 28.7%、年增 48.7%，下半年為出貨認列高峰（時報資訊 2026-10-20）；9 月營收萬潤年增 109%、印能科技年增 122%、均華年增 87%（9 月營收公告 2026-10）；台積電法說確認 2026–2028 資本支出高檔（2026-10-15）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -1836,7 +2088,7 @@
         "測試介面",
         "測試分選機"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
       "evidence": "hard",
       "members": [
@@ -1894,6 +2146,11 @@
           "date": "2026-10-11",
           "evidence": "hard",
           "note": "旺矽、精測、穎崴 Q3 營收創高，AI／HPC／ASIC 測試需求（壹蘋）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -1907,41 +2164,81 @@
         "EFEM",
         "半導體自動化"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "semi-hard",
       "members": [
         {
           "code": "3413",
           "role": "indicator",
-          "note": "京鼎，半導體設備模組代工（主要客戶為國際設備大廠）",
+          "note": "京鼎，半導體設備模組代工（主要客戶為國際設備大廠）；9 月營收 23.59 億元、年增 14.6%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "TechNews 2026-10-06"
         },
         {
           "code": "3680",
           "role": "direct",
-          "note": "家登，光罩盒、晶圓載具",
+          "note": "家登，光罩盒、晶圓載具；9 月營收 9.94 億元、年增 67.7%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "TechNews 2026-10-08"
         },
         {
           "code": "6532",
           "role": "direct",
-          "note": "瑞耘，半導體設備零組件",
+          "note": "瑞耘，半導體設備零組件；9 月營收 8,007 萬元、年增 60.6%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "TechNews 2026-10-08"
         },
         {
           "code": "2464",
+          "role": "direct",
+          "note": "盟立，EFEM、OHT、Stocker 等半導體自動化搬運，已打進 CoWoS；法人估半導體設備系統占年營收 50–55%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "理財周刊 2026-08-27"
+        },
+        {
+          "code": "8091",
+          "role": "direct",
+          "note": "翔名，半導體設備關鍵零組件（離子植入等）；9 月營收 2.54 億元、年增 26.5%，訂單看到 2027 年",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報旺得富 2026-06-16；月營收 2026-10-08"
+        },
+        {
+          "code": "6829",
+          "role": "direct",
+          "note": "千附精密，PVD／CVD 真空腔體精密加工，半導體為最大成長動能；上半年營收年增 43%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報旺得富 2026-07-09"
+        },
+        {
+          "code": "7556",
+          "role": "direct",
+          "note": "意德士科技，前段製程設備耗材（氟橡膠密封件、曝光機真空吸盤、E-Chuck 再生）；上半年營收創同期新高，產能滿載",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "富果 2026-09-01；工商時報旺得富 2026-07-09"
+        },
+        {
+          "code": "6196",
           "role": "indirect",
-          "note": "盟立，自動化物料搬運，半導體占比待查證",
-          "exposure": "unknown",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "note": "帆宣，自製設備／模組約占 15%、設備代理約 26%，其餘為廠務、氣體化學品供應系統（2026 上半年）",
+          "exposure": "low",
+          "asOf": "2026-10-24",
+          "source": "vocus 帆宣研究 2026-10-14（依財報整理）"
+        },
+        {
+          "code": "3178",
+          "role": "direct",
+          "note": "公準，精密零組件；半導體約占 59%、顯示器設備 30%、航太 10%（2025 前三季）",
+          "exposure": "high",
+          "asOf": "2026-10-24",
+          "source": "富果 公準法說 2025-12-29"
         }
       ],
       "history": [
@@ -1949,6 +2246,16 @@
           "date": "2026-10-18",
           "evidence": "soft",
           "note": "依台積電資本支出擴張推論，尚無族群共同事件；科林研發 10/21 財報可作前段設備景氣參考"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "成員擴充與角色重新判定。9 月營收：京鼎年增 14.6%、家登年增 67.7%、瑞耘年增 60.6%（TechNews 2026-10-06／10-08）；科林研發季營收年增 54%，但財測只小幅優於預期，盤後跌近 7%（TechNews 2026-10-22），設備股出現雜音"
+        },
+        {
+          "date": "2026-10-24",
+          "evidence": "semi-hard",
+          "note": "補齊待查證成員的營收占比後達轉正標準；使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -1962,33 +2269,57 @@
         "測試設備",
         "量測"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "hard",
       "members": [
         {
           "code": "2360",
           "role": "indicator",
-          "note": "致茂，量測與測試設備（含電源、半導體測試）",
+          "note": "致茂，電源、半導體與光子測試設備；9 月營收年增 206.5%，AI 相關約占營收六成",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "TechNews 2026-10-06；工商時報 2026-07-30"
         },
         {
           "code": "3030",
           "role": "direct",
-          "note": "德律，AOI 與電路板測試設備",
+          "note": "德律，AOI 與電路板測試設備；AI 伺服器約占營收 49%，半導體約 10%，日月光、矽品各採購逾 10 億元",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "理財周刊 2026-09-30"
         },
         {
           "code": "3563",
           "role": "direct",
-          "note": "牧德，PCB 與半導體 AOI 設備",
+          "note": "牧德，PCB 與半導體 AOI 設備；上半年 EPS 9.8 元，毛利率 60.5%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-07-30"
+        },
+        {
+          "code": "7769",
+          "role": "direct",
+          "note": "鴻勁，IC 測試分選機（含 ATC 主動溫控），產能滿到年底，2027 年再擴產 50%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-07-31"
+        },
+        {
+          "code": "3455",
+          "role": "direct",
+          "note": "由田，AOI 檢測設備；半導體營收比重已達 45–55%，其餘為 PCB 與面板",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-01-03"
+        },
+        {
+          "code": "7822",
+          "role": "direct",
+          "note": "倍利科，先進封裝 AOI 與量測設備，交期滿載",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "鏡報 2026-08-05"
         }
       ],
       "history": [
@@ -1996,6 +2327,16 @@
           "date": "2026-10-18",
           "evidence": "soft",
           "note": "建卡，尚無共同事件"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "成員擴充與角色重新判定。致茂 9 月營收 68.60 億元、年增 206.5%，單月、單季都創新高，花旗維持買進（TechNews 2026-10-06）"
+        },
+        {
+          "date": "2026-10-24",
+          "evidence": "hard",
+          "note": "使用者確認，由 candidate 轉為 active（成員補齊後達轉正標準）"
         }
       ],
       "category": "tech"
@@ -2009,49 +2350,81 @@
         "壓合",
         "曝光"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "hard",
       "members": [
         {
-          "code": "2467",
+          "code": "3167",
           "role": "indicator",
-          "note": "志聖，PCB 壓合、烘烤設備，市場常列為 PCB 設備代表",
-          "exposure": "unknown",
-          "asOf": "2026-10-18",
-          "source": "Threads 族群整理（軟性）"
+          "note": "大量，PCB 機械鑽孔機、背鑽機與量測機；9 月營收 13.04 億元、年增 172%，連 7 個月創新高",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-15"
+        },
+        {
+          "code": "2467",
+          "role": "direct",
+          "note": "志聖，PCB 壓合、烘烤、壓膜設備；在手訂單中先進 PCB 占 38%（先進封裝占 54%）",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "財報狗 2026-09-01（SEMICON）"
         },
         {
           "code": "6664",
           "role": "direct",
-          "note": "群翊，PCB 烘烤、塗佈設備",
+          "note": "群翊，PCB／載板乾製程烘烤、塗佈設備，延伸至玻璃基板、FOPLP；高階訂單看到年底",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-04-14"
         },
         {
           "code": "4577",
           "role": "direct",
-          "note": "達航科技，PCB 鑽孔機",
+          "note": "達航科技，PCB 鑽孔機；9 月營收約 1 億元、年增 55%（規模小）",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "nStock 月營收 2026-10-08"
         },
         {
           "code": "6438",
           "role": "direct",
-          "note": "迅得，PCB 自動化設備",
+          "note": "迅得，PCB 與半導體自動化設備；9 月營收、第三季營收都創新高，臻鼎、景碩大單合計逾 17 億元",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-10-01"
         },
         {
           "code": "3563",
           "role": "direct",
-          "note": "牧德，PCB AOI 檢測",
+          "note": "牧德，PCB AOI 檢測為核心，AI 應用設備比重拉高",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-07-30"
+        },
+        {
+          "code": "4526",
+          "role": "direct",
+          "note": "東台，PCB 鑽孔／成型機；電子設備占營收約 30%、新接單約 40%，訂單看到 2027 年底",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "優分析 2026-10-22；工商時報 2026-10-22"
+        },
+        {
+          "code": "3455",
+          "role": "indirect",
+          "note": "由田，AOI 檢測設備；IC 載板約占營收 20%，半導體約 45～55%、顯示器約 20%（2025 前三季），PCB 屬間接環節",
+          "exposure": "low",
+          "asOf": "2026-10-24",
+          "source": "由田法說 2025-12-30（vocus 整理）；工商時報 2026-10-20"
+        },
+        {
+          "code": "1528",
+          "role": "indirect",
+          "note": "恩德，PCB 鑽孔與成型機占前三季營收 27%、成長最快；木工機與 CNC 車床 53%、精密機械 11%",
+          "exposure": "low",
+          "asOf": "2026-10-24",
+          "source": "工商時報 2026-10-22"
         }
       ],
       "history": [
@@ -2059,6 +2432,16 @@
           "date": "2026-10-18",
           "evidence": "soft",
           "note": "PCB 漲價與擴產（見 pcb-board 卡）帶動設備需求，屬推論"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "hard",
+          "note": "成員擴充與角色重新判定。大量 9 月營收 13.04 億元、年增 172%，單月 EPS 3.82 元（工商時報 2026-10-15）；東台 PCB 鑽孔機訂單看到 2027 年底（工商時報 2026-10-22）；TPCA 展期間 PCB 設備股走強（經濟日報 2026-10-19）"
+        },
+        {
+          "date": "2026-10-24",
+          "evidence": "hard",
+          "note": "補齊待查證成員的營收占比後達轉正標準；使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -2072,7 +2455,7 @@
         "設計服務",
         "turnkey"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
       "evidence": "semi-hard",
       "members": [
@@ -2114,6 +2497,11 @@
           "date": "2026-10-16",
           "evidence": "soft",
           "note": "傳字節跳動洽談聯發科 ASIC 與 turnkey 服務，聯發科止住 7 連跌（工商、自由）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -2129,31 +2517,47 @@
       ],
       "status": "candidate",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "semi-hard",
       "members": [
         {
           "code": "3529",
           "role": "indicator",
-          "note": "力旺，嵌入式非揮發記憶體 IP，授權與權利金",
+          "note": "力旺，嵌入式非揮發記憶體與安全（PUF）IP，授權金加權利金；第3季營收約12.1億元創新高",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-05"
         },
         {
           "code": "6643",
           "role": "direct",
-          "note": "M31，基礎元件 IP",
+          "note": "M31，基礎元件與高速介面 IP（円星科技），先進製程授權金占比上升，公司目標全年營收成長約 20%；9 月營收年增 23%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "富果法說備忘錄 2026-08-12"
         },
         {
           "code": "6533",
           "role": "direct",
-          "note": "晶心科，RISC-V 處理器 IP，9 月營收年減約 10%",
+          "note": "晶心科，RISC-V 處理器 IP，授權金加權利金；9 月營收年減約 10%，成長尚未落到營收上",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "companies.json 9 月營收年增"
+          "asOf": "2026-10-23",
+          "source": "富果法說備忘錄 2026-03-18；companies.json 9 月營收"
+        },
+        {
+          "code": "3035",
+          "role": "indirect",
+          "note": "智原，ASIC 設計服務兼 IP 授權；Q1 IP 營收 4.1 億元，約占總營收一成多，其餘為 NRE 與量產",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "智原法說 2026-04-28（富果／Threads 整理）"
+        },
+        {
+          "code": "3443",
+          "role": "indirect",
+          "note": "創意，ASIC 委託設計與量產為主，有自有 HBM／介面 IP 但占比小；10/21 領漲 IP 族群 9.17%",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "CMoney 2026-10-21"
         }
       ],
       "history": [
@@ -2161,6 +2565,11 @@
           "date": "2026-10-18",
           "evidence": "soft",
           "note": "建卡；先進製程與 ASIC 帶動 IP 需求屬推論，尚無共同事件"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "成員擴充與角色重新判定。力旺第3季營收約12.1億元創高、年增27.1%（經濟日報 2026-10-05）；10/21 矽智財族群盤中大漲 7.35%，由創意、M31 領漲，原因僅稱 AI 開案熱絡與國際大廠正向展望，未點名具體事件（CMoney 2026-10-21）；晶心科 9 月仍年減 10%，族群內分歧"
         }
       ],
       "category": "tech"
@@ -2177,47 +2586,55 @@
       ],
       "status": "candidate",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "semi-hard",
       "members": [
         {
           "code": "5269",
           "role": "indicator",
-          "note": "祥碩，USB／PCIe 高速傳輸 IC，9 月營收年減約 30%",
+          "note": "祥碩，USB／PCIe 高速傳輸 IC 與 PCIe Switch；PC 主機板需求下滑，9 月營收年減約 30%，正轉向資料中心與 ASIC 客戶",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "companies.json 9 月營收年增"
+          "asOf": "2026-10-23",
+          "source": "TechNews 2026-10-08；法說 2026-05"
         },
         {
           "code": "4966",
           "role": "direct",
-          "note": "譜瑞-KY，高速傳輸與顯示介面 IC，切入資料中心",
+          "note": "譜瑞-KY，高速介面 IC（USB4、PCIe／CXL retimer）占營收過半；9 月營收 15.03 億元，年減 8.35%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "今周刊 2025-12"
+          "asOf": "2026-10-23",
+          "source": "MoneyDJ 2026-10-05；工商時報 2026-09-15"
         },
         {
           "code": "6756",
           "role": "direct",
-          "note": "威鋒電子，USB 高速傳輸 IC，2026-10-16 漲停，9 月營收年增約 66%",
+          "note": "威鋒電子，USB／USB4 高速傳輸 IC；9 月營收 2.11 億元創 50 個月高、年增 66%，連續兩天漲停",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "themes/reports 2026-10-16"
+          "asOf": "2026-10-23",
+          "source": "中時新聞網 2026-10-19"
         },
         {
           "code": "6104",
           "role": "direct",
-          "note": "創惟，USB 集線器 IC",
+          "note": "創惟，USB 集線器 IC，USB4 新品接棒；9 月營收 3.11 億元，年減 0.93%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-08-17；Yahoo 公告 2026-10"
         },
         {
           "code": "5274",
           "role": "direct",
-          "note": "信驊，伺服器遠端管理晶片（BMC），9 月營收年增約 101%",
+          "note": "信驊，伺服器遠端管理晶片（BMC），AST2700 放量；第3季營收年增 105% 創新高，9 月營收連續 11 個月創高",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "companies.json 9 月營收年增"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-06"
+        },
+        {
+          "code": "4919",
+          "role": "indirect",
+          "note": "新唐，有 BMC 產品，CSP 需求帶動今年 BMC 顯著成長、明年增幅更大；但主業是 MCU，BMC 占比未揭露",
+          "exposure": "unknown",
+          "asOf": "2026-10-23",
+          "source": "鉅亨網 2026-08-05"
         }
       ],
       "history": [
@@ -2225,6 +2642,11 @@
           "date": "2026-10-16",
           "evidence": "soft",
           "note": "威鋒電子漲停並出現在跨產業共動群（themes/reports）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "成員擴充與角色重新判定。伺服器端屬硬證據：信驊第3季營收47.86億元，年增105%並超出財測（工商時報 2026-10-06）；威鋒電子9月營收創50個月新高、年增66%，10/16、10/19 逆勢漲停（中時 2026-10-19）。PC 端高速傳輸偏弱：祥碩9月年減30%、譜瑞-KY 年減8%、創惟年減1%，族群內明顯分化"
         }
       ],
       "category": "tech"
@@ -2238,7 +2660,7 @@
         "TDDI",
         "面板驅動"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
       "evidence": "semi-hard",
       "members": [
@@ -2285,6 +2707,11 @@
           "date": "2026-10-16",
           "evidence": "soft",
           "note": "天鈺、矽創雷達出現爆量未漲且位置偏高（0.8 以上），需留意高檔換手"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active"
         }
       ],
       "category": "tech"
@@ -2297,33 +2724,65 @@
         "電源管理",
         "DDR5 PMIC"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "semi-hard",
       "members": [
         {
           "code": "6415",
           "role": "indicator",
-          "note": "矽力*-KY，電源管理 IC，9 月營收年增約 51%",
+          "note": "矽力*-KY，電源管理 IC，資料中心加車用雙引擎；9 月營收 25.11 億元創新高，年增 50.7%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "companies.json 9 月營收年增"
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10-08"
         },
         {
           "code": "8081",
           "role": "direct",
-          "note": "致新，電源管理 IC",
+          "note": "致新，電源管理 IC（運算、面板），受惠 AI 推論伺服器的 CPU／DDR5 用量；9 月營收 8.28 億元，年增 14.17%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-08"
         },
         {
           "code": "6138",
           "role": "direct",
-          "note": "茂達，電源管理與馬達驅動 IC，9 月營收年減約 9%",
+          "note": "茂達，電源管理與馬達驅動 IC，伺服器占比僅低個位數；9 月營收年減 9.22%，依產品調漲 0%～15%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "companies.json 9 月營收年增"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-08"
+        },
+        {
+          "code": "6719",
+          "role": "direct",
+          "note": "力智，電源管理 IC（含 DDR5 PMIC），AI 伺服器占比約 5%；NB／PC 拖累，9 月營收年減 25.33%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-08"
+        },
+        {
+          "code": "3588",
+          "role": "direct",
+          "note": "通嘉，AC-DC 電源管理 IC；9 月營收 1.5 億元，年增 34.7%，第3季季增、年增",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "DIGITIMES 2026-10-12；Yahoo 公告 2026-10"
+        },
+        {
+          "code": "6799",
+          "role": "direct",
+          "note": "來頡，電源管理 IC；9 月營收 9,107 萬元，年增 15.91%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "Yahoo 公告 2026-10"
+        },
+        {
+          "code": "6291",
+          "role": "direct",
+          "note": "沛亨，電源管理 IC；9 月營收年增約 13.6%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "companies.json 9 月營收；產品線"
         }
       ],
       "history": [
@@ -2331,6 +2790,16 @@
           "date": "2026-10-05",
           "evidence": "soft",
           "note": "IC 設計漲價潮報導，電源管理常被列為先漲類別（經濟日報，未點名公司）"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "成員擴充與角色重新判定。矽力*-KY 9 月與第3季營收都創新高，年增約 51%～53%，預估明年資料中心營收占比可望超過 20%（經濟日報 2026-10-08）；電源 IC 族群 9 月營收分化，致新年增 14%、茂達年減 9%、力智年減 25%，茂達依產品調漲 0%～15%（工商時報 2026-10-08）；明年第二波漲價還在醞釀，尚無公司具名證實（經濟日報 2026-10-05）"
+        },
+        {
+          "date": "2026-10-24",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active（成員補齊後達轉正標準）"
         }
       ],
       "category": "tech"
@@ -2344,33 +2813,49 @@
         "Wi-Fi",
         "Ethernet"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "semi-hard",
       "members": [
         {
           "code": "2379",
           "role": "indicator",
-          "note": "瑞昱，網通、音訊與 PC 周邊 IC，投信連買 15 日",
+          "note": "瑞昱，網通（Wi-Fi／乙太網路）、音訊與 PC 周邊 IC；第3季營收創單季新高，9 月營收年增 23.35%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "market/features.json"
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-10-11"
         },
         {
           "code": "6526",
           "role": "direct",
-          "note": "達發，藍牙音訊與網通 IC，投信連買 11 日",
+          "note": "達發，藍牙音訊、固網寬頻與光通訊 IC；9 月營收年增 26.65%，光通訊業務高速成長",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "market/features.json"
+          "asOf": "2026-10-23",
+          "source": "Yahoo 公告 2026-10；鉅亨網 2026-08"
+        },
+        {
+          "code": "8040",
+          "role": "direct",
+          "note": "九暘，乙太網路交換器 IC，布局 PoE 供電晶片，目標 2027 年初見成果；9 月營收年增約 48%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "MoneyDJ 2026；companies.json 9 月營收"
+        },
+        {
+          "code": "2454",
+          "role": "indirect",
+          "note": "聯發科，Wi-Fi 7 與固網寬頻晶片，在 Network X 2026 與達發合展；網通占營收比重小",
+          "exposure": "low",
+          "asOf": "2026-10-23",
+          "source": "經濟日報 2026-10"
         },
         {
           "code": "3227",
           "role": "indirect",
-          "note": "原相，光學感測 IC",
+          "note": "原相，光學感測 IC（滑鼠、遊戲周邊），無線與藍牙占比不明；9 月營收年增約 9.5%",
           "exposure": "unknown",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "產品線；companies.json 9 月營收"
         }
       ],
       "history": [
@@ -2378,6 +2863,16 @@
           "date": "2026-10-18",
           "evidence": "soft",
           "note": "投信在電子大跌期間連續買進，尚無共同事件"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "成員擴充與角色重新判定。瑞昱第3季營收再創單季新高，9 月營收 123.78 億元、年增 23.35%（工商時報 2026-10-11）；達發 9 月營收 23.13 億元、年增 26.65%（Yahoo 公告 2026-10）；九暘 9 月年增 48%。目前只看到月營收這類硬數據，沒有共同催化事件（Network X 展示屬軟訊息，經濟日報 2026-10）"
+        },
+        {
+          "date": "2026-10-24",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active（成員補齊後達轉正標準）"
         }
       ],
       "category": "tech"
@@ -2389,25 +2884,73 @@
         "MCU",
         "微控制器"
       ],
-      "status": "candidate",
+      "status": "active",
       "stage": null,
-      "evidence": "soft",
+      "evidence": "semi-hard",
       "members": [
         {
           "code": "4919",
           "role": "indicator",
-          "note": "新唐，MCU 與音訊 IC",
+          "note": "新唐，MCU 與音訊 IC，另有 BMC；MCU 導入後量子密碼（PQC），9 月營收年增約 4.7%",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "產品線"
+          "asOf": "2026-10-23",
+          "source": "鉅亨網 2026-08-05；工商時報 2026-07-09"
         },
         {
           "code": "6202",
           "role": "direct",
-          "note": "盛群，MCU，9 月營收年增約 40%",
+          "note": "盛群，消費性與家電 MCU；9 月營收 3.40 億元，年增 40.16%，年底後醞釀漲價",
           "exposure": "high",
-          "asOf": "2026-10-18",
-          "source": "companies.json 9 月營收年增"
+          "asOf": "2026-10-23",
+          "source": "鉅亨網 2026-10；盛群法說 2026-07-30"
+        },
+        {
+          "code": "5471",
+          "role": "direct",
+          "note": "松翰，消費性 MCU 與影像、語音 IC；9 月營收 2.72 億元，年增 33.25%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "MoneyDJ 2026-10"
+        },
+        {
+          "code": "4952",
+          "role": "direct",
+          "note": "凌通，消費性 MCU 與語音 IC；9 月營收 2.20 億元，年增 44.25%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "鉅亨網 2026-10"
+        },
+        {
+          "code": "6494",
+          "role": "direct",
+          "note": "九齊，低階 MCU 與語音 IC；9 月營收 1.24 億元，年增 24.94%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "Yahoo／MoneyDJ 2026-10"
+        },
+        {
+          "code": "6716",
+          "role": "direct",
+          "note": "應廣，OTP／低階 MCU；上半年營收高成長，但 9 月營收年減約 26.8%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-07-09；companies.json 9 月營收"
+        },
+        {
+          "code": "6907",
+          "role": "direct",
+          "note": "雅特力-KY，32 位元 MCU；6 月營收年增 113%，9 月營收年增約 175%",
+          "exposure": "high",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-07-09；companies.json 9 月營收"
+        },
+        {
+          "code": "2436",
+          "role": "indirect",
+          "note": "偉詮電，MCU 與電源／USB PD 控制 IC，被列入 MCU 族群；MCU 營收占比未查證",
+          "exposure": "unknown",
+          "asOf": "2026-10-23",
+          "source": "工商時報 2026-07-09"
         }
       ],
       "history": [
@@ -2415,6 +2958,16 @@
           "date": "2026-10-18",
           "evidence": "soft",
           "note": "建卡，尚無共同事件"
+        },
+        {
+          "date": "2026-10-23",
+          "evidence": "semi-hard",
+          "note": "成員擴充與角色重新判定。MCU 廠 9 月營收普遍年增：盛群 +40%、松翰 +33%、凌通 +44%、九齊 +25%、雅特力-KY +175%（鉅亨網／MoneyDJ 2026-10）；一家 MCU 廠透露明年報價已和客戶談妥調漲，但沒有公司具名（經濟日報 2026-10-05）。營收屬硬數據，但部分是低基期；漲價還沒被個別公司證實"
+        },
+        {
+          "date": "2026-10-24",
+          "evidence": "semi-hard",
+          "note": "使用者確認，由 candidate 轉為 active（成員補齊後達轉正標準）"
         }
       ],
       "category": "tech"
