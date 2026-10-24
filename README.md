@@ -12,7 +12,7 @@
 |---|---|---|---|
 | `latest_prices.json` | 最新報價與到價提醒 | 觀察清單 | 08:00–14:45 每 15 分鐘 |
 | `fundamentals.json` | 籌碼面與基本面（8 項） | 觀察清單 | 17:30 |
-| `institutional_flow_history.json` | 三大法人逐日合計，保留 60 個交易日 | 觀察清單 | 同 `fundamentals.json` |
+| `institutional_flow_history.json` | 三大法人逐日買賣超（合計與外資／投信／自營），保留 60 個交易日 | 觀察清單 | 同 `fundamentals.json` |
 | `kline_history.json` | 日 K 線，保留 120 個交易日 | 觀察清單 | 18:10（備援 21:13、隔日 07:43） |
 | `material_news.json` | 重大訊息（AI 判讀目前未啟用） | 觀察清單 | 盤中每 30 分鐘、16:00、20:00 |
 | `radar-baseline.json` | 潛力雷達名單與評分基準 | 人工名單 | 人工＋每月自動重錨與 dr 上調＋每季排程 |
@@ -51,18 +51,19 @@
 
 ```json
 { "2356": { "name": "INVENTEC CORP", "price": 59.7, "prevClose": 59.5, "change": 0.2, "changePercent": 0.34,
-            "marketDate": "2026-10-01",
+            "marketDate": "2026-10-01", "high52": 75.5, "low52": 38.2,
             "hasAlert": true, "updatedAt": "2026-10-01T06:46:53Z" } }
 ```
 
 - `marketDate`：這筆價格對應的交易日（台北）。休市日 `updatedAt` 會更新，但 `marketDate` 仍是最後交易日。
+- `high52`／`low52`：52 週最高、最低價（Yahoo）。
 - `hasAlert`：只在該檔設有到價提醒時出現（值為 `true`）。目標價與方向不公開，只存在私有 repo 與 Discord 通知；沒有此欄代表只觀察。（2026/10/16 前的版本曾公開 `alertTargets`，已移除。）
 - `suspended`：只在暫停交易時出現（值為 `true`）。該檔 `marketDate` 落後全市場最新交易日，`prevClose` 設為現價、漲跌為 0。恢復交易後自動消失。
 - 抓不到報價的股票不會出現在檔案中。
 
 ## fundamentals.json
 
-`data[代號]` 底下 8 個欄位，**保留官方原始物件**（欄位名稱為官方中文或英文），每筆有 `_market`（TWSE／TPEx）。頂層 `sources` 記錄各項的資料日期、`isStale`（當天無資料、改用前一交易日）與錯誤。
+`data[代號]` 底下 8 個欄位，**保留官方原始物件**（欄位名稱為官方中文或英文），每筆有 `_market`（TWSE／TPEx）。頂層 `sources` 記錄各項的資料日期與錯誤：上市逐日報表（三大法人、融資融券、外資持股）為 `date`（YYYYMMDD）與 `isStale`（當天無資料、改用前一交易日）；其餘來源有 `fetchedAt`，並依資料內容記 `date`（逐日資料）或 `dataMonth`（月資料，YYYY-MM）。上市與上櫃可能不同日，讀取時請比對。某來源抓取失敗時，該欄位沿用前一版資料，`sources` 標 `keptPrevious: true` 並附前一版的 `previous`。
 
 | 欄位 | 內容 | 頻率 |
 |---|---|---|
@@ -77,6 +78,17 @@
 
 **集保股權分散**：`{資料日期, levels:[...]}`，`levels` 為持股分級 1–17，每級含人數、股數、占集保比例。**分級 15＝1,000 張以上（千張大戶）**，17＝合計。週資料，平日內容不變屬正常。
 
+## institutional_flow_history.json
+
+```json
+{ "tickers": { "2344": { "2026-10-22": { "total": -2086985, "fi": -1707840, "it": -1100000, "dl": 720855, "_market": "TWSE" } } },
+  "updatedAt": "..." }
+```
+
+- 單位為**股**。`total`＝三大法人合計；`fi`＝外資（含外資自營商）、`it`＝投信、`dl`＝自營商。
+- 三者加總與 `total` 不符時只有 `total`；2026/10/24 以前的紀錄也只有 `total`。
+- 日期為資料本身的交易日，保留最近 60 個交易日；移出觀察清單的代號會刪除。
+
 ## kline_history.json
 
 ```json
@@ -89,7 +101,7 @@
 - `volume` 單位為**股**。
 - 上市股約在收盤當晚、上櫃股約在收盤後 1 小時內寫入；官方上市端點常延遲到隔天早上，所以最新一天的上市 K 棒可能要到隔日 07:43 才出現。
 - `dataQuality` 記錄以官方月資料修復過的月份。2026/10/01 已修復 6 月以來上市櫃全部 K 線（舊版曾把資料整段標錯一天）。
-- `meta` 可能留有已移出觀察清單的代號，讀取時以 `latest_prices.json` 的代號為準。
+- 移出觀察清單的代號會連同 `meta` 一起刪除；新加入的代號（上市、上櫃）自動回補 3 個月。
 
 ## material_news.json
 
