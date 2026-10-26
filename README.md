@@ -57,7 +57,7 @@
 
 - `marketDate`：這筆價格對應的交易日（台北）。休市日 `updatedAt` 會更新，但 `marketDate` 仍是最後交易日。
 - `high52`／`low52`：52 週最高、最低價（Yahoo）。
-- `hasAlert`：只在該檔設有到價提醒時出現（值為 `true`）。目標價與方向不公開，只存在私有 repo 與 Discord 通知；沒有此欄代表只觀察。（2026/10/16 前的版本曾公開 `alertTargets`，已移除。）
+- `hasAlert`：只在該檔設有觀察股到價提醒時出現（值為 `true`）；持股的停損與計畫價不標示。目標價、方向與持股都不公開，只存在私有 repo 與 Discord 通知；沒有此欄代表只觀察。（2026/10/16 前的版本曾公開 `alertTargets`，已移除。）
 - `suspended`：只在暫停交易時出現（值為 `true`）。該檔 `marketDate` 落後全市場最新交易日，`prevClose` 設為現價、漲跌為 0。恢復交易後自動消失。
 - 抓不到報價的股票不會出現在檔案中。
 
