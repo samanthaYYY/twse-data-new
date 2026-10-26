@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-22",
-  "generatedAt": "2026-10-26T01:48:14.681Z",
+  "generatedAt": "2026-10-26T09:20:30.200Z",
   "historyDays": 43,
   "dataReady": {
     "vr": true,
@@ -2707,8 +2707,7 @@
       "ret1": 2.3,
       "ret5": 7.9,
       "ret20": 12.1,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "machine-tools",
@@ -2748,8 +2747,7 @@
       "ret1": -0.2,
       "ret5": 5.1,
       "ret20": 0.3,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -2913,8 +2911,7 @@
       "ret1": -1.4,
       "ret5": 4.3,
       "ret20": 7.9,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "asic-design-service",
