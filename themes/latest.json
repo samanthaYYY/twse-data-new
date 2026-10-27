@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T09:20:52.052Z",
+  "generatedAt": "2026-10-27T10:20:46.192Z",
   "historyDays": 44,
   "dataReady": {
     "vr": true,
@@ -2506,8 +2506,7 @@
       "ret1": 0.4,
       "ret5": -0.5,
       "ret20": 1.7,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "textile",
@@ -2695,8 +2694,7 @@
       "ret1": 5.6,
       "ret5": 2.8,
       "ret20": -3.1,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "glass-fabric",
@@ -2929,8 +2927,7 @@
       "ret1": 2.3,
       "ret5": 6.2,
       "ret20": 16.3,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "machine-tools",
@@ -2970,8 +2967,7 @@
       "ret1": 3.5,
       "ret5": 7.1,
       "ret20": 4.9,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -3079,8 +3075,7 @@
       "ret1": 1.2,
       "ret5": -2.7,
       "ret20": -1.2,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "test-inspection-equipment",
@@ -3166,8 +3161,7 @@
       "ret1": -0.4,
       "ret5": 1.5,
       "ret20": 6.5,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "asic-design-service",
