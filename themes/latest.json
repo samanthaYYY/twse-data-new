@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T09:21:03.345Z",
+  "generatedAt": "2026-10-28T10:20:31.986Z",
   "historyDays": 45,
   "dataReady": {
     "vr": true,
@@ -1846,8 +1846,7 @@
       "ret1": 6.5,
       "ret5": 8.8,
       "ret20": -5.5,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "passive-components",
@@ -2380,8 +2379,7 @@
       "ret1": 1.2,
       "ret5": 0.2,
       "ret20": -4.6,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "renewables",
@@ -2456,8 +2454,7 @@
       "ret1": -1.2,
       "ret5": -1.1,
       "ret20": -0.1,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "textile",
@@ -2631,8 +2628,7 @@
       "ret1": 3.3,
       "ret5": 6.4,
       "ret20": 1.7,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "glass-fabric",
@@ -2883,8 +2879,7 @@
       "ret1": 2.6,
       "ret5": 8,
       "ret20": 9.4,
-      "stage": "spread",
-      "change": "overheat→spread"
+      "stage": "spread"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -2996,8 +2991,7 @@
       "ret1": 1.8,
       "ret5": 0.3,
       "ret20": 0.6,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "test-inspection-equipment",
@@ -3080,8 +3074,7 @@
       "ret1": 6.6,
       "ret5": 8.6,
       "ret20": 14,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "asic-design-service",
