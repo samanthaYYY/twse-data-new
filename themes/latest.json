@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T09:21:07.763Z",
+  "generatedAt": "2026-10-29T10:20:25.450Z",
   "historyDays": 46,
   "dataReady": {
     "vr": true,
@@ -1757,8 +1757,7 @@
       "ret1": -0.3,
       "ret5": 10.4,
       "ret20": -4.5,
-      "stage": "spread",
-      "change": "overheat→spread"
+      "stage": "spread"
     },
     {
       "theme": "passive-components",
@@ -2301,8 +2300,7 @@
       "ret1": 0,
       "ret5": 0.2,
       "ret20": -4.2,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "renewables",
@@ -2750,8 +2748,7 @@
       "ret1": 0.7,
       "ret5": 10.5,
       "ret20": 10.3,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -2938,8 +2935,7 @@
       "ret1": -0.9,
       "ret5": 8.6,
       "ret20": 11.1,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "asic-design-service",
@@ -3126,8 +3122,7 @@
       "ret1": -0.3,
       "ret5": 3.7,
       "ret20": -1.1,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "network-audio-ic",
