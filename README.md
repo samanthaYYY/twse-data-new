@@ -10,7 +10,7 @@
 
 | 檔案 | 內容 | 範圍 | 更新（台北，平日） |
 |---|---|---|---|
-| `latest_prices.json` | 最新報價與到價提醒 | 觀察清單 | 08:00–14:45 每 15 分鐘 |
+| `latest_prices.json` | 最新報價與到價提醒 | 觀察清單 | 09:05–13:45 每 20 分鐘 |
 | `fundamentals.json` | 籌碼面與基本面（8 項） | 觀察清單 | 17:30 |
 | `institutional_flow_history.json` | 三大法人逐日買賣超（合計與外資／投信／自營），保留 60 個交易日 | 觀察清單 | 同 `fundamentals.json` |
 | `kline_history.json` | 日 K 線，保留 120 個交易日 | 觀察清單 | 18:10（備援 21:13、隔日 07:43） |
