@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T09:20:50.390Z",
+  "generatedAt": "2026-11-02T10:20:27.245Z",
   "historyDays": 48,
   "dataReady": {
     "vr": true,
@@ -1786,8 +1786,7 @@
       "ret1": -0.9,
       "ret5": -2.4,
       "ret20": -4.3,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "defense",
@@ -2279,8 +2278,7 @@
       "ret1": 2.1,
       "ret5": 5,
       "ret20": 18.1,
-      "stage": "overheat",
-      "change": "ignite→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "machine-tools",
@@ -2323,8 +2321,7 @@
       "ret1": 1.6,
       "ret5": 7,
       "ret20": 8.9,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "adv-pkg-equipment",
