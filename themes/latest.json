@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T09:20:59.291Z",
+  "generatedAt": "2026-11-03T10:20:37.972Z",
   "historyDays": 49,
   "dataReady": {
     "vr": true,
@@ -1771,8 +1771,7 @@
       "ret1": -8.4,
       "ret5": -13.1,
       "ret20": -26.4,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "memory",
@@ -2150,8 +2149,7 @@
       "ret1": 0,
       "ret5": 0.2,
       "ret20": 1,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "tourism-dining",
@@ -2488,8 +2486,7 @@
       "ret1": 0,
       "ret5": -2.6,
       "ret20": -7.9,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "auto-parts",
@@ -2628,8 +2625,7 @@
       "ret1": -3.2,
       "ret5": -0.5,
       "ret20": 9.3,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "leo-satellite",
@@ -2826,8 +2822,7 @@
       "ret1": -3.2,
       "ret5": -0.5,
       "ret20": 15.2,
-      "stage": "spread",
-      "change": "overheat→spread"
+      "stage": "spread"
     },
     {
       "theme": "machine-tools",
