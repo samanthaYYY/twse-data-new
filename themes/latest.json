@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T10:20:46.177Z",
+  "generatedAt": "2026-11-06T19:41:18.057Z",
   "historyDays": 52,
   "dataReady": {
     "vr": true,
@@ -1893,8 +1893,7 @@
       "ret1": -6.8,
       "ret5": -22.9,
       "ret20": -40.9,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "abf-substrate",
@@ -2038,8 +2037,7 @@
       "ret1": -4.1,
       "ret5": -22,
       "ret20": -30.3,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "passive-components",
@@ -2444,8 +2442,7 @@
       "ret1": -2.4,
       "ret5": 1.8,
       "ret20": 2.4,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "tourism-dining",
@@ -2482,8 +2479,7 @@
       "ret1": -3.1,
       "ret5": -4.9,
       "ret20": -4.3,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "construction",
@@ -2517,8 +2513,7 @@
       "ret1": -2.3,
       "ret5": -3.6,
       "ret20": -3.2,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "cement",
@@ -2743,8 +2738,7 @@
       "ret1": 2.3,
       "ret5": -0.7,
       "ret20": -8.7,
-      "stage": "overheat",
-      "change": "ignite→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "energy-storage",
@@ -2809,8 +2803,7 @@
       "ret1": -1.6,
       "ret5": -2.2,
       "ret20": 0.4,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "textile",
@@ -2837,8 +2830,7 @@
       "ret1": 0,
       "ret5": 3.1,
       "ret20": 7.9,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "bicycle",
@@ -3063,8 +3055,7 @@
       "ret1": -6.1,
       "ret5": -16.6,
       "ret20": -30.8,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "pcb-board",
@@ -3236,8 +3227,7 @@
       "ret1": 0.1,
       "ret5": -1.5,
       "ret20": 16.9,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "machine-tools",
@@ -3769,8 +3759,7 @@
       "ret1": -3.9,
       "ret5": -16.1,
       "ret20": -31.1,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     }
   ],
   "kbWarnings": []
