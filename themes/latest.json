@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T10:20:31.555Z",
+  "generatedAt": "2026-11-06T09:20:28.047Z",
   "historyDays": 51,
   "dataReady": {
     "vr": true,
@@ -200,9 +200,9 @@
     },
     {
       "code": "6180",
-      "name": "橘子",
+      "name": "6180",
       "mkt": "O",
-      "industry": "文化創意業",
+      "industry": "未分類",
       "signals": [
         "low_base_breakout",
         "vol_surge",
@@ -244,9 +244,9 @@
     },
     {
       "code": "6590",
-      "name": "普鴻",
+      "name": "6590",
       "mkt": "O",
-      "industry": "資訊服務業",
+      "industry": "未分類",
       "signals": [
         "vol_surge",
         "limit_up",
@@ -453,9 +453,9 @@
     },
     {
       "code": "3213",
-      "name": "茂訊",
+      "name": "3213",
       "mkt": "O",
-      "industry": "電腦及週邊設備業",
+      "industry": "未分類",
       "signals": [
         "low_base_breakout",
         "vol_surge"
@@ -495,9 +495,9 @@
     },
     {
       "code": "3466",
-      "name": "德晉",
+      "name": "3466",
       "mkt": "O",
-      "industry": "通信網路業",
+      "industry": "未分類",
       "signals": [
         "low_base_breakout",
         "vol_surge"
@@ -537,9 +537,9 @@
     },
     {
       "code": "4743",
-      "name": "合一",
+      "name": "4743",
       "mkt": "O",
-      "industry": "生技醫療業",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -611,9 +611,9 @@
     },
     {
       "code": "4979",
-      "name": "華星光",
+      "name": "4979",
       "mkt": "O",
-      "industry": "通信網路業",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -750,9 +750,9 @@
     },
     {
       "code": "3162",
-      "name": "精確",
+      "name": "3162",
       "mkt": "O",
-      "industry": "電機機械",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -836,9 +836,9 @@
     },
     {
       "code": "3234",
-      "name": "光環",
+      "name": "3234",
       "mkt": "O",
-      "industry": "通信網路業",
+      "industry": "未分類",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -961,9 +961,9 @@
     },
     {
       "code": "6148",
-      "name": "驊宏資",
+      "name": "6148",
       "mkt": "O",
-      "industry": "資訊服務業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -986,9 +986,9 @@
     },
     {
       "code": "5291",
-      "name": "邑昇",
+      "name": "5291",
       "mkt": "O",
-      "industry": "電子零組件業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -1053,9 +1053,9 @@
     },
     {
       "code": "8042",
-      "name": "金山電",
+      "name": "8042",
       "mkt": "O",
-      "industry": "電子零組件業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -1074,9 +1074,9 @@
     },
     {
       "code": "6538",
-      "name": "倉和",
+      "name": "6538",
       "mkt": "O",
-      "industry": "電子零組件業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -1116,9 +1116,9 @@
     },
     {
       "code": "3597",
-      "name": "映興",
+      "name": "3597",
       "mkt": "O",
-      "industry": "電子零組件業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -1177,9 +1177,9 @@
     },
     {
       "code": "8415",
-      "name": "大國鋼",
+      "name": "8415",
       "mkt": "O",
-      "industry": "鋼鐵工業",
+      "industry": "未分類",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -1198,6 +1198,41 @@
   "groups": [
     {
       "id": "g-20261105-1",
+      "key": "corr:3023",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：電子零組件業／建材營造／生技醫療業 等",
+      "theme": null,
+      "members": [
+        "3023",
+        "2501",
+        "6472",
+        "3213",
+        "3019"
+      ],
+      "heat": 0.86,
+      "breadth": 0.68,
+      "unknown": true,
+      "industries": [
+        "電子零組件業",
+        "建材營造",
+        "生技醫療業",
+        "未分類",
+        "光電業"
+      ],
+      "avgCorr": 0.68,
+      "relatedThemes": [
+        {
+          "theme": "biotech",
+          "members": 1
+        }
+      ],
+      "stage": "spread",
+      "earlyRatio": 0
+    },
+    {
+      "id": "g-20261105-2",
       "key": "corr:2204",
       "method": [
         "correlation"
@@ -1220,7 +1255,7 @@
         "2548",
         "1795"
       ],
-      "heat": 0.89,
+      "heat": 0.84,
       "breadth": 0.7,
       "unknown": true,
       "industries": [
@@ -1229,11 +1264,10 @@
         "運動休閒",
         "通信網路業",
         "其他",
-        "鋼鐵工業",
+        "未分類",
         "資訊服務業",
         "電機機械",
         "金融保險業",
-        "文化創意業",
         "建材營造",
         "生技醫療業"
       ],
@@ -1264,41 +1298,6 @@
       "earlyRatio": 0.21
     },
     {
-      "id": "g-20261105-2",
-      "key": "corr:3023",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：電子零組件業／建材營造／生技醫療業 等",
-      "theme": null,
-      "members": [
-        "3023",
-        "2501",
-        "6472",
-        "3213",
-        "3019"
-      ],
-      "heat": 0.89,
-      "breadth": 0.68,
-      "unknown": true,
-      "industries": [
-        "電子零組件業",
-        "建材營造",
-        "生技醫療業",
-        "電腦及週邊設備業",
-        "光電業"
-      ],
-      "avgCorr": 0.68,
-      "relatedThemes": [
-        {
-          "theme": "biotech",
-          "members": 1
-        }
-      ],
-      "stage": "spread",
-      "earlyRatio": 0
-    },
-    {
       "id": "g-20261105-3",
       "key": "corr:6443",
       "method": [
@@ -1311,7 +1310,7 @@
         "3576",
         "2406"
       ],
-      "heat": 0.81,
+      "heat": 0.79,
       "breadth": 0.67,
       "unknown": false,
       "industries": [
@@ -1339,7 +1338,7 @@
         "6443",
         "3576"
       ],
-      "heat": 0.69,
+      "heat": 0.64,
       "breadth": 0.57,
       "stage": "ignite",
       "earlyRatio": 1
@@ -1357,7 +1356,7 @@
         "6472",
         "1795"
       ],
-      "heat": 0.66,
+      "heat": 0.57,
       "breadth": 0.5,
       "stage": "spread",
       "earlyRatio": 0
@@ -1368,18 +1367,18 @@
       "method": [
         "correlation"
       ],
-      "label": "未知族群：資訊服務業／航運業／生技醫療業",
+      "label": "未知族群：未分類／航運業／生技醫療業",
       "theme": null,
       "members": [
         "6590",
         "6757",
         "1786"
       ],
-      "heat": 0.59,
+      "heat": 0.53,
       "breadth": 0.61,
       "unknown": true,
       "industries": [
-        "資訊服務業",
+        "未分類",
         "航運業",
         "生技醫療業"
       ],
@@ -1404,8 +1403,8 @@
         "3504",
         "6226"
       ],
-      "heat": 0.56,
-      "breadth": 0.08,
+      "heat": 0.49,
+      "breadth": 0.11,
       "stage": "ignite",
       "earlyRatio": 0.33
     },
@@ -1423,7 +1422,7 @@
         "2501",
         "2528"
       ],
-      "heat": 0.55,
+      "heat": 0.43,
       "breadth": 0.14,
       "stage": "ignite",
       "earlyRatio": 0
