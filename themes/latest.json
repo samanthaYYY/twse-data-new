@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-09",
-  "generatedAt": "2026-11-09T09:20:47.317Z",
+  "generatedAt": "2026-11-09T10:20:34.937Z",
   "historyDays": 53,
   "dataReady": {
     "vr": true,
@@ -1780,8 +1780,7 @@
       "ret1": 7.4,
       "ret5": -12.2,
       "ret20": -25.5,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "optical-cpo",
@@ -1836,8 +1835,7 @@
       "ret1": 9.1,
       "ret5": -15.6,
       "ret20": -38,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "abf-substrate",
@@ -1864,8 +1862,7 @@
       "ret1": 4.5,
       "ret5": -23.2,
       "ret20": -38.8,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "ccl",
@@ -2010,8 +2007,7 @@
       "ret1": 8.7,
       "ret5": -13.9,
       "ret20": -23.5,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "passive-components",
@@ -2133,8 +2129,7 @@
       "ret1": 8,
       "ret5": -13.8,
       "ret20": -23.3,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "fab-facility",
@@ -2255,8 +2250,7 @@
       "ret1": 8.6,
       "ret5": -6.9,
       "ret20": -16.5,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "wire-cable",
@@ -2442,8 +2436,7 @@
       "ret1": 1.5,
       "ret5": 1.7,
       "ret20": 3,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "tourism-dining",
@@ -2474,8 +2467,7 @@
       "ret1": 0.2,
       "ret5": -4.5,
       "ret20": -4.2,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "construction",
@@ -2500,8 +2492,7 @@
       "ret1": 0,
       "ret5": -3.5,
       "ret20": -4.3,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "cement",
@@ -2637,8 +2628,7 @@
       "ret1": 2.5,
       "ret5": 3.7,
       "ret20": -1.5,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "defense",
@@ -2701,8 +2691,7 @@
       "ret1": 2.9,
       "ret5": 1.5,
       "ret20": -6.1,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "energy-storage",
@@ -2770,8 +2759,7 @@
       "ret1": -1.4,
       "ret5": -4,
       "ret20": -2.1,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "textile",
@@ -2805,8 +2793,7 @@
       "ret1": 0.8,
       "ret5": 4.2,
       "ret20": 7.3,
-      "stage": "ignite",
-      "change": "spread→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "bicycle",
@@ -3068,8 +3055,7 @@
       "ret1": 7.6,
       "ret5": -12.5,
       "ret20": -25.4,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "pcb-board",
@@ -3304,8 +3290,7 @@
       "ret1": 4.5,
       "ret5": -6.2,
       "ret20": 4.6,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -3370,8 +3355,7 @@
       "ret1": 7.5,
       "ret5": -17.3,
       "ret20": -35,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "test-interface",
@@ -3470,8 +3454,7 @@
       "ret1": 7.4,
       "ret5": -12.2,
       "ret20": -21.9,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "test-inspection-equipment",
@@ -3623,8 +3606,7 @@
       "ret1": 8.8,
       "ret5": -10.1,
       "ret20": -21.8,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "silicon-ip",
@@ -3654,8 +3636,7 @@
       "ret1": 7.9,
       "ret5": -13.8,
       "ret20": -26.6,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "high-speed-io-ic",
@@ -3707,8 +3688,7 @@
       "ret1": 6.8,
       "ret5": -16.4,
       "ret20": -19.5,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "display-driver-ic",
@@ -3832,8 +3812,7 @@
       "ret1": 6.9,
       "ret5": -7.3,
       "ret20": -13.6,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "mcu",
@@ -3876,8 +3855,7 @@
       "ret1": 4.6,
       "ret5": -11.3,
       "ret20": -28.1,
-      "stage": "spread",
-      "change": "ignite→spread"
+      "stage": "spread"
     }
   ],
   "kbWarnings": []
