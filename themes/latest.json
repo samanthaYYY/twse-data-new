@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T09:21:34.851Z",
+  "generatedAt": "2026-11-10T10:20:29.198Z",
   "historyDays": 54,
   "dataReady": {
     "vr": true,
@@ -1727,8 +1727,7 @@
       "ret1": 2.9,
       "ret5": -4.7,
       "ret20": -20.8,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "optical-cpo",
@@ -1802,8 +1801,7 @@
       "ret1": 8.4,
       "ret5": -7.8,
       "ret20": -32.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "ccl",
@@ -1920,8 +1918,7 @@
       "ret1": 1.6,
       "ret5": -4.4,
       "ret20": -22.1,
-      "stage": "ignite",
-      "change": "overheat→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "passive-components",
@@ -2103,8 +2100,7 @@
       "ret1": -1.2,
       "ret5": -3.3,
       "ret20": -16.4,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "wire-cable",
@@ -2575,8 +2571,7 @@
       "ret1": -0.9,
       "ret5": 4,
       "ret20": 4.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "bicycle",
@@ -2917,8 +2912,7 @@
       "ret1": 9,
       "ret5": 1.3,
       "ret20": -19.3,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "it-security-cloud",
@@ -3040,8 +3034,7 @@
       "ret1": 2.9,
       "ret5": 0.8,
       "ret20": 9.2,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -3075,8 +3068,7 @@
       "ret1": 5.9,
       "ret5": -4.7,
       "ret20": -30.4,
-      "stage": "ignite",
-      "change": "overheat→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "test-interface",
@@ -3123,8 +3115,7 @@
       "ret1": 7.1,
       "ret5": -4.4,
       "ret20": -30.1,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "semi-equip-parts",
@@ -3161,8 +3152,7 @@
       "ret1": 2.3,
       "ret5": -4.6,
       "ret20": -19.2,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "test-inspection-equipment",
@@ -3254,8 +3244,7 @@
       "ret1": 4.9,
       "ret5": -2.4,
       "ret20": -3.2,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "asic-design-service",
@@ -3298,8 +3287,7 @@
       "ret1": 5.3,
       "ret5": 2.5,
       "ret20": -16.8,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "silicon-ip",
@@ -3342,8 +3330,7 @@
       "ret1": 5,
       "ret5": -1.3,
       "ret20": -21.6,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "high-speed-io-ic",
@@ -3386,8 +3373,7 @@
       "ret1": 1.5,
       "ret5": -9.4,
       "ret20": -17.7,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "display-driver-ic",
@@ -3504,8 +3490,7 @@
       "ret1": 1.5,
       "ret5": -0.1,
       "ret20": -12.2,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "mcu",
@@ -3523,8 +3508,7 @@
       "ret1": 0.7,
       "ret5": -4.6,
       "ret20": -25.7,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     }
   ],
   "kbWarnings": []
