@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T09:21:09.642Z",
+  "generatedAt": "2026-11-11T10:20:25.382Z",
   "historyDays": 55,
   "dataReady": {
     "vr": true,
@@ -1796,8 +1796,7 @@
       "ret1": 2.3,
       "ret5": -0.9,
       "ret20": -19.4,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "passive-components",
@@ -1890,8 +1889,7 @@
       "ret1": 5.5,
       "ret5": 0.4,
       "ret20": -14.3,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "fab-facility",
@@ -2548,8 +2546,7 @@
       "ret1": 2.5,
       "ret5": -0.2,
       "ret20": -11.7,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "glass-fabric",
@@ -2653,8 +2650,7 @@
       "ret1": 3.5,
       "ret5": 2.3,
       "ret20": -17.8,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "pcb-board",
@@ -2771,8 +2767,7 @@
       "ret1": 5.9,
       "ret5": 6.6,
       "ret20": -12.2,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "it-security-cloud",
@@ -2855,8 +2850,7 @@
       "ret1": 4,
       "ret5": 5.4,
       "ret20": 21.7,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "machine-tools",
@@ -2924,8 +2918,7 @@
       "ret1": 2.4,
       "ret5": -2.4,
       "ret20": -31.7,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "test-interface",
@@ -2969,8 +2962,7 @@
       "ret1": 7.8,
       "ret5": 3.6,
       "ret20": -27.2,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "semi-equip-parts",
@@ -3102,8 +3094,7 @@
       "ret1": 3.8,
       "ret5": -2.3,
       "ret20": -0.4,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "asic-design-service",
@@ -3182,8 +3173,7 @@
       "ret1": 4.6,
       "ret5": 1.7,
       "ret20": -15.8,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "high-speed-io-ic",
