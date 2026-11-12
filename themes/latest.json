@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T09:20:45.992Z",
+  "generatedAt": "2026-11-12T10:20:24.850Z",
   "historyDays": 56,
   "dataReady": {
     "vr": true,
@@ -2254,8 +2254,7 @@
       "ret1": -0.4,
       "ret5": 2.3,
       "ret20": -2.4,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "banks",
@@ -2555,8 +2554,7 @@
       "ret1": -1.9,
       "ret5": 2.5,
       "ret20": -10.9,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "glass-fabric",
@@ -2658,8 +2656,7 @@
       "ret1": -2.1,
       "ret5": 8.4,
       "ret20": -15.9,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "pcb-board",
@@ -2705,8 +2702,7 @@
       "ret1": -2.4,
       "ret5": 15.1,
       "ret20": -16,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "flex-pcb",
@@ -2833,8 +2829,7 @@
       "ret1": -0.8,
       "ret5": 7.2,
       "ret20": 19.6,
-      "stage": "ignite",
-      "change": "spread→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "machine-tools",
@@ -2868,8 +2863,7 @@
       "ret1": -0.5,
       "ret5": 5.4,
       "ret20": 12.1,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -2935,8 +2929,7 @@
       "ret1": -0.1,
       "ret5": 14.6,
       "ret20": -24,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "semi-equip-parts",
@@ -3041,8 +3034,7 @@
       "ret1": -2.5,
       "ret5": 5,
       "ret20": -0.8,
-      "stage": "spread",
-      "change": "overheat→spread"
+      "stage": "spread"
     },
     {
       "theme": "asic-design-service",
@@ -3079,8 +3071,7 @@
       "ret1": -1.5,
       "ret5": 15.6,
       "ret20": -8.5,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "silicon-ip",
@@ -3117,8 +3108,7 @@
       "ret1": -2.7,
       "ret5": 7.9,
       "ret20": -15.4,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "high-speed-io-ic",
@@ -3257,8 +3247,7 @@
       "ret1": -3.4,
       "ret5": 3.7,
       "ret20": -11.3,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "mcu",
