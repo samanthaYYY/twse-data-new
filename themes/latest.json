@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T09:21:41.024Z",
+  "generatedAt": "2026-11-13T10:20:24.760Z",
   "historyDays": 57,
   "dataReady": {
     "vr": true,
@@ -1865,8 +1865,7 @@
       "ret1": 1.7,
       "ret5": 8.9,
       "ret20": -18.7,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "passive-components",
@@ -2338,8 +2337,7 @@
       "ret1": 1.9,
       "ret5": 8.4,
       "ret20": -1.1,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "banks",
@@ -2751,8 +2749,7 @@
       "ret1": 2.3,
       "ret5": 19.1,
       "ret20": -15.1,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "pcb-board",
@@ -2789,8 +2786,7 @@
       "ret1": 2.9,
       "ret5": 23.7,
       "ret20": -16.6,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "flex-pcb",
@@ -2929,8 +2925,7 @@
       "ret1": 6.5,
       "ret5": 14,
       "ret20": 28.2,
-      "stage": "overheat",
-      "change": "ignite→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "machine-tools",
@@ -2954,8 +2949,7 @@
       "ret1": 1.9,
       "ret5": 12.2,
       "ret20": 11.2,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "adv-pkg-equipment",
@@ -3011,8 +3005,7 @@
       "ret1": 0.2,
       "ret5": 25.3,
       "ret20": -22.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "semi-equip-parts",
@@ -3099,8 +3092,7 @@
       "ret1": 1.5,
       "ret5": 15.3,
       "ret20": -1.5,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "asic-design-service",
@@ -3137,8 +3129,7 @@
       "ret1": 8.9,
       "ret5": 31.1,
       "ret20": -2.1,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "silicon-ip",
@@ -3181,8 +3172,7 @@
       "ret1": 8.8,
       "ret5": 25.6,
       "ret20": -10.8,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "high-speed-io-ic",
@@ -3328,8 +3318,7 @@
       "ret1": 7,
       "ret5": 15.2,
       "ret20": -6.6,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "mcu",
