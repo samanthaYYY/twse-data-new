@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T09:20:45.329Z",
+  "generatedAt": "2026-11-16T10:20:25.645Z",
   "historyDays": 58,
   "dataReady": {
     "vr": true,
@@ -1619,8 +1619,7 @@
       "ret1": -8.4,
       "ret5": -8.2,
       "ret20": -19.9,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "passive-components",
@@ -2482,8 +2481,7 @@
       "ret1": -6.5,
       "ret5": 3,
       "ret20": -16,
-      "stage": "spread",
-      "change": "overheat→spread"
+      "stage": "spread"
     },
     {
       "theme": "pcb-board",
@@ -2808,8 +2806,7 @@
       "ret1": -7.9,
       "ret5": 10.9,
       "ret20": -3.7,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "silicon-ip",
@@ -2846,8 +2843,7 @@
       "ret1": -7,
       "ret5": 8.2,
       "ret20": -11.2,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "high-speed-io-ic",
@@ -2977,8 +2973,7 @@
       "ret1": -6.9,
       "ret5": 0.1,
       "ret20": -9.9,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "mcu",
