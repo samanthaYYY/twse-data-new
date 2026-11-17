@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T09:21:36.428Z",
+  "generatedAt": "2026-11-17T10:20:25.920Z",
   "historyDays": 59,
   "dataReady": {
     "vr": true,
@@ -2447,8 +2447,7 @@
       "ret1": -4,
       "ret5": -14.4,
       "ret20": -29.6,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "food",
@@ -2691,8 +2690,7 @@
       "ret1": -2.5,
       "ret5": -4.3,
       "ret20": -21,
-      "stage": "overheat",
-      "change": "spread→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "pcb-board",
@@ -2812,8 +2810,7 @@
       "ret1": -6.7,
       "ret5": 6.4,
       "ret20": 18.8,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "machine-tools",
