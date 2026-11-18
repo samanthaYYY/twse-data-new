@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T09:20:49.518Z",
+  "generatedAt": "2026-11-18T10:20:32.496Z",
   "historyDays": 60,
   "dataReady": {
     "vr": true,
@@ -1805,8 +1805,7 @@
       "ret1": 2,
       "ret5": -17.1,
       "ret20": -32,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "abf-substrate",
@@ -1840,8 +1839,7 @@
       "ret1": 2.9,
       "ret5": -24.5,
       "ret20": -41.9,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "ccl",
@@ -1899,8 +1897,7 @@
       "ret1": -0.4,
       "ret5": -15.6,
       "ret20": -31.3,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "memory",
@@ -2001,8 +1998,7 @@
       "ret1": 5.8,
       "ret5": -16.9,
       "ret20": -24.3,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "fab-facility",
@@ -2480,8 +2476,7 @@
       "ret1": 2.6,
       "ret5": -7.6,
       "ret20": -8.1,
-      "stage": "ignite",
-      "change": "latent→ignite"
+      "stage": "ignite"
     },
     {
       "theme": "energy-storage",
@@ -2506,8 +2501,7 @@
       "ret1": 0.9,
       "ret5": -14.5,
       "ret20": -27.9,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "food",
@@ -2980,8 +2974,7 @@
       "ret1": 2.7,
       "ret5": -14.2,
       "ret20": -32.2,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "test-interface",
@@ -3233,8 +3226,7 @@
       "ret1": 1.5,
       "ret5": -5.8,
       "ret20": -13.5,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "power-ic",
