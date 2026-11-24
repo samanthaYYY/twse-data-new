@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T09:21:02.421Z",
+  "generatedAt": "2026-11-24T10:20:31.725Z",
   "historyDays": 61,
   "dataReady": {
     "vr": true,
@@ -1971,8 +1971,7 @@
       "ret1": 9.8,
       "ret5": -8.6,
       "ret20": -33.6,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "memory",
@@ -2303,8 +2302,7 @@
       "ret1": 8.9,
       "ret5": -1,
       "ret20": -15.6,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "wire-cable",
@@ -2996,8 +2994,7 @@
       "ret1": 8.1,
       "ret5": -3.7,
       "ret20": -20.5,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "glass-fabric",
@@ -3438,8 +3435,7 @@
       "ret1": 9.9,
       "ret5": -5.3,
       "ret20": -33.4,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "test-interface",
@@ -3843,8 +3839,7 @@
       "ret1": 1.9,
       "ret5": -0.5,
       "ret20": -15.2,
-      "stage": "spread",
-      "change": "ignite→spread"
+      "stage": "spread"
     },
     {
       "theme": "power-ic",
@@ -3896,8 +3891,7 @@
       "ret1": 9.1,
       "ret5": -0.3,
       "ret20": -18.8,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "network-audio-ic",
@@ -4009,8 +4003,7 @@
       "ret1": 9.7,
       "ret5": -2.3,
       "ret20": -22.7,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     }
   ],
   "kbWarnings": []
