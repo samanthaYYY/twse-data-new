@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T09:21:38.892Z",
+  "generatedAt": "2026-11-26T10:20:34.152Z",
   "historyDays": 61,
   "dataReady": {
     "vr": true,
@@ -1277,8 +1277,7 @@
       "ret1": 8.1,
       "ret5": 0.3,
       "ret20": -34.5,
-      "stage": "latent",
-      "change": "ignite→latent"
+      "stage": "latent"
     },
     {
       "theme": "abf-substrate",
@@ -1496,8 +1495,7 @@
       "ret1": 9.5,
       "ret5": 2.7,
       "ret20": -39.6,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "ai-server-odm",
@@ -1921,8 +1919,7 @@
       "ret1": 0.9,
       "ret5": -6.2,
       "ret20": -14.1,
-      "stage": "spread",
-      "change": "latent→spread"
+      "stage": "spread"
     },
     {
       "theme": "biotech",
@@ -2308,8 +2305,7 @@
       "ret1": 8,
       "ret5": -1.5,
       "ret20": -17.5,
-      "stage": "overheat",
-      "change": "latent→overheat"
+      "stage": "overheat"
     },
     {
       "theme": "pcb-board",
@@ -2445,8 +2441,7 @@
       "ret1": -1.1,
       "ret5": 1.3,
       "ret20": -1.2,
-      "stage": "latent",
-      "change": "spread→latent"
+      "stage": "latent"
     },
     {
       "theme": "machine-tools",
