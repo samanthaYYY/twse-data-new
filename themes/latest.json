@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T10:20:34.152Z",
+  "generatedAt": "2026-11-27T05:24:55.573Z",
   "historyDays": 61,
   "dataReady": {
     "vr": true,
@@ -342,8 +342,12 @@
       "ret5": 3.3,
       "vr": 0.87,
       "flow5": 460,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
     },
     {
       "code": "4916",
@@ -412,8 +416,12 @@
       "ret5": -5.9,
       "vr": 0.64,
       "flow5": 158,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
     },
     {
       "code": "2327",
@@ -843,8 +851,12 @@
       "ret5": 12.7,
       "vr": 3.64,
       "flow5": -215,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "it-security-cloud"
+      ],
+      "attributedThemes": [
+        "it-security-cloud"
+      ]
     },
     {
       "code": "6614",
@@ -864,8 +876,12 @@
       "ret5": 26.5,
       "vr": 3.12,
       "flow5": -62,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "it-security-cloud"
+      ],
+      "attributedThemes": [
+        "it-security-cloud"
+      ]
     },
     {
       "code": "5457",
@@ -925,8 +941,12 @@
       "ret5": 15.8,
       "vr": 2.26,
       "flow5": -1007,
-      "themes": [],
-      "attributedThemes": []
+      "themes": [
+        "it-security-cloud"
+      ],
+      "attributedThemes": [
+        "it-security-cloud"
+      ]
     },
     {
       "code": "3374",
@@ -1121,6 +1141,35 @@
     },
     {
       "id": "g-20261126-5",
+      "key": "corr:6140",
+      "method": [
+        "correlation"
+      ],
+      "label": "資安／雲端服務（共動）",
+      "theme": "it-security-cloud",
+      "members": [
+        "6140",
+        "2471",
+        "7767"
+      ],
+      "heat": 0.62,
+      "breadth": 0.79,
+      "unknown": false,
+      "industries": [
+        "資訊服務業"
+      ],
+      "avgCorr": 0.79,
+      "relatedThemes": [
+        {
+          "theme": "it-security-cloud",
+          "members": 2
+        }
+      ],
+      "stage": "overheat",
+      "earlyRatio": 1
+    },
+    {
+      "id": "g-20261126-6",
       "key": "corr:2412",
       "method": [
         "correlation"
@@ -1134,7 +1183,7 @@
         "5871",
         "1789"
       ],
-      "heat": 0.64,
+      "heat": 0.6,
       "breadth": 0.67,
       "unknown": true,
       "industries": [
@@ -1156,30 +1205,6 @@
       ],
       "stage": "spread",
       "earlyRatio": 0
-    },
-    {
-      "id": "g-20261126-6",
-      "key": "corr:6140",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：資訊服務業",
-      "theme": null,
-      "members": [
-        "6140",
-        "2471",
-        "7767"
-      ],
-      "heat": 0.62,
-      "breadth": 0.79,
-      "unknown": true,
-      "industries": [
-        "資訊服務業"
-      ],
-      "avgCorr": 0.79,
-      "relatedThemes": [],
-      "stage": "overheat",
-      "earlyRatio": 1
     },
     {
       "id": "g-20261126-7",
@@ -2246,29 +2271,35 @@
     {
       "theme": "leo-satellite",
       "name": "低軌衛星／太空",
-      "members": 11,
+      "members": 18,
       "anomalies": [
         "2313",
         "2367",
         "3138",
-        "4916"
+        "4916",
+        "6190",
+        "6152"
       ],
       "attributed": [
         "2313",
         "2367",
         "3138",
-        "4916"
+        "4916",
+        "6190",
+        "6152"
       ],
       "unattributed": [],
-      "weighted": 3,
-      "totalWeight": 8.3,
+      "weighted": 3.8,
+      "totalWeight": 11.2,
       "coreHit": true,
       "gate": null,
       "roles": {
         "2313": "direct",
         "2367": "direct",
         "3138": "indirect",
-        "4916": "indirect"
+        "4916": "indirect",
+        "6152": "concept",
+        "6190": "indirect"
       },
       "signaled": [
         {
@@ -2300,11 +2331,35 @@
           "signals": [
             "limit_up"
           ]
+        },
+        {
+          "code": "3105",
+          "signals": [
+            "limit_up"
+          ]
+        },
+        {
+          "code": "2383",
+          "signals": [
+            "low_base_breakout"
+          ]
+        },
+        {
+          "code": "2485",
+          "signals": [
+            "limit_up"
+          ]
+        },
+        {
+          "code": "2413",
+          "signals": [
+            "limit_up"
+          ]
         }
       ],
-      "ret1": 8,
-      "ret5": -1.5,
-      "ret20": -17.5,
+      "ret1": 9.6,
+      "ret5": 3.2,
+      "ret20": -14.8,
       "stage": "overheat"
     },
     {
@@ -2409,20 +2464,29 @@
     {
       "theme": "it-security-cloud",
       "name": "資安／雲端服務",
-      "members": 15,
+      "members": 21,
       "anomalies": [
-        "2412"
+        "2412",
+        "2471",
+        "7767",
+        "6614"
       ],
       "attributed": [
-        "2412"
+        "2412",
+        "2471",
+        "7767",
+        "6614"
       ],
       "unattributed": [],
-      "weighted": 0.5,
-      "totalWeight": 9.4,
+      "weighted": 2,
+      "totalWeight": 12.7,
       "coreHit": false,
-      "gate": "too_few",
+      "gate": "no_core",
       "roles": {
-        "2412": "indirect"
+        "2412": "indirect",
+        "2471": "indirect",
+        "6614": "indirect",
+        "7767": "indirect"
       },
       "signaled": [
         {
@@ -2438,9 +2502,9 @@
           ]
         }
       ],
-      "ret1": -1.1,
-      "ret5": 1.3,
-      "ret20": -1.2,
+      "ret1": -1.4,
+      "ret5": 2.3,
+      "ret20": 2.6,
       "stage": "latent"
     },
     {
