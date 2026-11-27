@@ -1,8 +1,8 @@
 {
   "schema": "themes-latest",
   "v": 1,
-  "date": "2026-11-26",
-  "generatedAt": "2026-11-27T05:24:55.573Z",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T09:21:38.737Z",
   "historyDays": 61,
   "dataReady": {
     "vr": true,
@@ -26,14 +26,223 @@
     "_說明": "題材卡歸因（2026/10/09）。roleWeight：角色權重，用來算題材卡廣度；sharedMemberNeedsPeer：屬於多張卡的股票，需同卡核心成員也有訊號或同在一個共動群才採計；peerMustBeCore：同卡佐證成員須為 indicator／direct；stageNeedsCoreMember：離開潛伏需至少 1 檔 indicator／direct 異常；minDistinctMembers：離開潛伏的最少採計家數。enabled=false 回到舊算法。"
   },
   "counts": {
-    "universe": 1971,
-    "liquid": 1061,
-    "anomalies": 41
+    "universe": 1953,
+    "liquid": 1057,
+    "anomalies": 52
   },
   "anomalies": [
     {
-      "code": "6862",
-      "name": "三集瑞-KY",
+      "code": "6152",
+      "name": "百一",
+      "mkt": "T",
+      "industry": "通信網路業",
+      "signals": [
+        "flow_turn_buy",
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 3.2,
+      "tags": [],
+      "c": 16.65,
+      "ret1": 9.9,
+      "ret5": 14.8,
+      "vr": 2.49,
+      "flow5": 850,
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
+    },
+    {
+      "code": "2316",
+      "name": "楠梓電",
+      "mkt": "T",
+      "industry": "電子零組件業",
+      "signals": [
+        "trust_first_buy",
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 3,
+      "tags": [
+        "追高區"
+      ],
+      "c": 122.5,
+      "ret1": 9.9,
+      "ret5": 34,
+      "vr": 2.3,
+      "flow5": 1389,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "3685",
+      "name": "元創精密",
+      "mkt": "O",
+      "industry": "電機機械",
+      "signals": [
+        "flow_turn_buy",
+        "low_base_breakout",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.6,
+      "tags": [
+        "追高區"
+      ],
+      "c": 29.3,
+      "ret1": 9.9,
+      "ret5": 23.4,
+      "vr": 1.6,
+      "flow5": 96,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2313",
+      "name": "華通",
+      "mkt": "T",
+      "industry": "電子零組件業",
+      "signals": [
+        "flow_turn_buy",
+        "low_base_breakout",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.6,
+      "tags": [
+        "追高區"
+      ],
+      "c": 184.5,
+      "ret1": 9.8,
+      "ret5": 21,
+      "vr": 1.55,
+      "flow5": 12157,
+      "themes": [
+        "leo-satellite",
+        "pcb-board"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
+    },
+    {
+      "code": "3221",
+      "name": "台嘉碩",
+      "mkt": "O",
+      "industry": "通信網路業",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區",
+        "低基期"
+      ],
+      "c": 36,
+      "ret1": 9.9,
+      "ret5": 26.1,
+      "vr": 4.43,
+      "flow5": -339,
+      "themes": [
+        "leo-satellite",
+        "quartz-frequency"
+      ],
+      "attributedThemes": [
+        "leo-satellite",
+        "quartz-frequency"
+      ]
+    },
+    {
+      "code": "4909",
+      "name": "新復興",
+      "mkt": "O",
+      "industry": "通信網路業",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 30.1,
+      "ret1": 9.9,
+      "ret5": 21.4,
+      "vr": 3.52,
+      "flow5": 203,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2485",
+      "name": "兆赫",
+      "mkt": "T",
+      "industry": "通信網路業",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區",
+        "低基期"
+      ],
+      "c": 28.85,
+      "ret1": 9.9,
+      "ret5": 20.7,
+      "vr": 3.48,
+      "flow5": 578,
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
+    },
+    {
+      "code": "3138",
+      "name": "耀登",
+      "mkt": "T",
+      "industry": "通信網路業",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 79.3,
+      "ret1": 10,
+      "ret5": 21.8,
+      "vr": 2.92,
+      "flow5": 151,
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
+    },
+    {
+      "code": "2385",
+      "name": "群光",
       "mkt": "T",
       "industry": "電子零組件業",
       "signals": [
@@ -44,20 +253,46 @@
       "kind": "confirm",
       "score": 2.2,
       "tags": [
-        "KY",
-        "低基期"
+        "追高區"
       ],
-      "c": 101.5,
-      "ret1": 9.6,
-      "ret5": 7.7,
-      "vr": 2.07,
-      "flow5": 96,
+      "c": 101,
+      "ret1": 9.8,
+      "ret5": 19,
+      "vr": 2.19,
+      "flow5": 4124,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "2890",
-      "name": "永豐金",
+      "code": "6190",
+      "name": "萬泰科",
+      "mkt": "O",
+      "industry": "通信網路業",
+      "signals": [
+        "flow_turn_buy",
+        "vol_surge",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 2.2,
+      "tags": [
+        "追高區"
+      ],
+      "c": 68,
+      "ret1": 9.9,
+      "ret5": 25.9,
+      "vr": 2.09,
+      "flow5": 2236,
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
+    },
+    {
+      "code": "5876",
+      "name": "上海商銀",
       "mkt": "T",
       "industry": "金融保險業",
       "signals": [
@@ -66,14 +301,35 @@
       ],
       "kind": "confirm",
       "score": 1.7,
+      "tags": [],
+      "c": 49.8,
+      "ret1": 0.1,
+      "ret5": 0.4,
+      "vr": 3.07,
+      "flow5": 1921,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "5871",
+      "name": "中租-KY",
+      "mkt": "T",
+      "industry": "其他",
+      "signals": [
+        "vol_surge_quiet",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.7,
       "tags": [
+        "KY",
         "低基期"
       ],
-      "c": 35.55,
-      "ret1": -2.2,
-      "ret5": -9.1,
-      "vr": 3.72,
-      "flow5": -12110,
+      "c": 99.7,
+      "ret1": -1.3,
+      "ret5": 6.1,
+      "vr": 2.43,
+      "flow5": 9682,
       "themes": [],
       "attributedThemes": []
     },
@@ -91,11 +347,11 @@
       "tags": [
         "低基期"
       ],
-      "c": 48.25,
-      "ret1": -2.9,
-      "ret5": -9.6,
-      "vr": 2.91,
-      "flow5": 14437,
+      "c": 47.05,
+      "ret1": -2.5,
+      "ret5": -9.2,
+      "vr": 2.39,
+      "flow5": 4476,
       "themes": [
         "banks"
       ],
@@ -117,11 +373,11 @@
       "tags": [
         "低基期"
       ],
-      "c": 36.65,
-      "ret1": -0.8,
-      "ret5": -8.7,
-      "vr": 2.62,
-      "flow5": 11211,
+      "c": 35.7,
+      "ret1": -2.6,
+      "ret5": -5.1,
+      "vr": 2.27,
+      "flow5": -1506,
       "themes": [
         "banks"
       ],
@@ -130,36 +386,10 @@
       ]
     },
     {
-      "code": "2412",
-      "name": "中華電",
+      "code": "2890",
+      "name": "永豐金",
       "mkt": "T",
-      "industry": "通信網路業",
-      "signals": [
-        "vol_surge_quiet",
-        "flow_streak_buy"
-      ],
-      "kind": "confirm",
-      "score": 1.7,
-      "tags": [],
-      "c": 166.5,
-      "ret1": 1.8,
-      "ret5": 0.3,
-      "vr": 2.32,
-      "flow5": 32618,
-      "themes": [
-        "telecom",
-        "it-security-cloud"
-      ],
-      "attributedThemes": [
-        "telecom",
-        "it-security-cloud"
-      ]
-    },
-    {
-      "code": "5871",
-      "name": "中租-KY",
-      "mkt": "T",
-      "industry": "其他",
+      "industry": "金融保險業",
       "signals": [
         "vol_surge_quiet",
         "flow_streak_buy"
@@ -167,21 +397,21 @@
       "kind": "confirm",
       "score": 1.7,
       "tags": [
-        "KY"
+        "低基期"
       ],
-      "c": 101,
-      "ret1": -1,
-      "ret5": 1.5,
-      "vr": 2.3,
-      "flow5": 9701,
+      "c": 35.05,
+      "ret1": -1.4,
+      "ret5": -2.6,
+      "vr": 2.26,
+      "flow5": -24238,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "1708",
-      "name": "東鹼",
+      "code": "6285",
+      "name": "啟碁",
       "mkt": "T",
-      "industry": "化學工業",
+      "industry": "通信網路業",
       "signals": [
         "low_base_breakout",
         "vol_surge"
@@ -189,17 +419,69 @@
       "kind": "confirm",
       "score": 1.6,
       "tags": [],
-      "c": 46.25,
-      "ret1": 8.3,
-      "ret5": 6.7,
-      "vr": 2.01,
-      "flow5": -155,
+      "c": 201,
+      "ret1": 4.1,
+      "ret5": 16.9,
+      "vr": 3.1,
+      "flow5": -4329,
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
+    },
+    {
+      "code": "8182",
+      "name": "加高",
+      "mkt": "O",
+      "industry": "電子零組件業",
+      "signals": [
+        "low_base_breakout",
+        "vol_surge"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [
+        "低基期"
+      ],
+      "c": 26.5,
+      "ret1": 7.5,
+      "ret5": 18.3,
+      "vr": 2.22,
+      "flow5": -139,
+      "themes": [
+        "quartz-frequency"
+      ],
+      "attributedThemes": [
+        "quartz-frequency"
+      ]
+    },
+    {
+      "code": "6902",
+      "name": "GOGOLOOK",
+      "mkt": "T",
+      "industry": "數位雲端",
+      "signals": [
+        "low_base_breakout",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [
+        "追高區"
+      ],
+      "c": 114,
+      "ret1": 9.6,
+      "ret5": 26.2,
+      "vr": 1.95,
+      "flow5": -225,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "6584",
-      "name": "南俊國際",
+      "code": "8289",
+      "name": "泰藝",
       "mkt": "O",
       "industry": "電子零組件業",
       "signals": [
@@ -209,145 +491,66 @@
       "kind": "confirm",
       "score": 1.6,
       "tags": [
+        "追高區",
         "低基期"
       ],
-      "c": 294.5,
-      "ret1": 9.9,
-      "ret5": 17.8,
-      "vr": 1.83,
-      "flow5": -296,
-      "themes": [],
-      "attributedThemes": []
-    },
-    {
-      "code": "8028",
-      "name": "昇陽半導體",
-      "mkt": "T",
-      "industry": "半導體業",
-      "signals": [
-        "low_base_breakout",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 154.5,
+      "c": 37.4,
       "ret1": 10,
-      "ret5": 1.3,
-      "vr": 1.82,
-      "flow5": 16,
+      "ret5": 20.8,
+      "vr": 1.74,
+      "flow5": 83,
       "themes": [
-        "silicon-wafer"
+        "quartz-frequency"
       ],
       "attributedThemes": [
-        "silicon-wafer"
+        "quartz-frequency"
       ]
     },
     {
-      "code": "2367",
-      "name": "燿華",
-      "mkt": "T",
-      "industry": "電子零組件業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 33.95,
-      "ret1": 9.9,
-      "ret5": 3,
-      "vr": 1.28,
-      "flow5": 1677,
-      "themes": [
-        "leo-satellite"
-      ],
-      "attributedThemes": [
-        "leo-satellite"
-      ]
-    },
-    {
-      "code": "2313",
-      "name": "華通",
-      "mkt": "T",
-      "industry": "電子零組件業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 168,
-      "ret1": 9.8,
-      "ret5": -0.6,
-      "vr": 1.24,
-      "flow5": 6833,
-      "themes": [
-        "leo-satellite",
-        "pcb-board"
-      ],
-      "attributedThemes": [
-        "leo-satellite",
-        "pcb-board"
-      ]
-    },
-    {
-      "code": "3037",
-      "name": "欣興",
-      "mkt": "T",
-      "industry": "電子零組件業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 643,
-      "ret1": 9.9,
-      "ret5": 7.9,
-      "vr": 1.21,
-      "flow5": 761,
-      "themes": [
-        "abf-substrate"
-      ],
-      "attributedThemes": [
-        "abf-substrate"
-      ]
-    },
-    {
-      "code": "6190",
-      "name": "萬泰科",
+      "code": "6517",
+      "name": "保勝光學",
       "mkt": "O",
-      "industry": "通信網路業",
+      "industry": "光電業",
+      "signals": [
+        "low_base_breakout",
+        "limit_up"
+      ],
+      "kind": "confirm",
+      "score": 1.6,
+      "tags": [
+        "追高區",
+        "低基期"
+      ],
+      "c": 51.8,
+      "ret1": 10,
+      "ret5": 21.7,
+      "vr": 1.71,
+      "flow5": -41,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2491",
+      "name": "吉祥全",
+      "mkt": "T",
+      "industry": "光電業",
       "signals": [
         "flow_turn_buy",
         "limit_up"
       ],
       "kind": "confirm",
       "score": 1.6,
-      "tags": [],
-      "c": 61.9,
-      "ret1": 9.9,
-      "ret5": 3.3,
-      "vr": 0.87,
-      "flow5": 460,
-      "themes": [
-        "leo-satellite"
+      "tags": [
+        "追高區",
+        "低基期"
       ],
-      "attributedThemes": [
-        "leo-satellite"
-      ]
+      "c": 28.8,
+      "ret1": 9.9,
+      "ret5": 21.5,
+      "vr": 1.13,
+      "flow5": -70,
+      "themes": [],
+      "attributedThemes": []
     },
     {
       "code": "4916",
@@ -360,216 +563,52 @@
       ],
       "kind": "confirm",
       "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 90.9,
-      "ret1": 9.9,
-      "ret5": -9,
-      "vr": 0.7,
-      "flow5": -1832,
-      "themes": [
-        "leo-satellite"
-      ],
-      "attributedThemes": [
-        "leo-satellite"
-      ]
-    },
-    {
-      "code": "3444",
-      "name": "利機",
-      "mkt": "O",
-      "industry": "電子通路業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 60.5,
-      "ret1": 10,
-      "ret5": -3.5,
-      "vr": 0.64,
-      "flow5": -3,
-      "themes": [],
-      "attributedThemes": []
-    },
-    {
-      "code": "6152",
-      "name": "百一",
-      "mkt": "T",
-      "industry": "通信網路業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 15.15,
-      "ret1": 9.8,
-      "ret5": -5.9,
-      "vr": 0.64,
-      "flow5": 158,
-      "themes": [
-        "leo-satellite"
-      ],
-      "attributedThemes": [
-        "leo-satellite"
-      ]
-    },
-    {
-      "code": "2327",
-      "name": "國巨*",
-      "mkt": "T",
-      "industry": "電子零組件業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 339.5,
-      "ret1": 9.9,
-      "ret5": 5.3,
-      "vr": 0.58,
-      "flow5": 6770,
-      "themes": [
-        "passive-components"
-      ],
-      "attributedThemes": [
-        "passive-components"
-      ]
-    },
-    {
-      "code": "4919",
-      "name": "新唐",
-      "mkt": "T",
-      "industry": "半導體業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 90.3,
-      "ret1": 9.6,
-      "ret5": 5.7,
-      "vr": 0.58,
-      "flow5": 620,
-      "themes": [
-        "high-speed-io-ic",
-        "mcu"
-      ],
-      "attributedThemes": [
-        "high-speed-io-ic"
-      ]
-    },
-    {
-      "code": "8089",
-      "name": "康全電訊",
-      "mkt": "O",
-      "industry": "通信網路業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
       "tags": [],
-      "c": 31.2,
+      "c": 99.9,
       "ret1": 9.9,
-      "ret5": -13.1,
-      "vr": 0.57,
-      "flow5": 209,
-      "themes": [],
-      "attributedThemes": []
-    },
-    {
-      "code": "2492",
-      "name": "華新科",
-      "mkt": "T",
-      "industry": "電子零組件業",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [
-        "低基期"
-      ],
-      "c": 210,
-      "ret1": 9.9,
-      "ret5": 1,
-      "vr": 0.56,
-      "flow5": -458,
+      "ret5": 11,
+      "vr": 0.94,
+      "flow5": 618,
       "themes": [
-        "passive-components"
+        "leo-satellite"
       ],
       "attributedThemes": [
-        "passive-components"
+        "leo-satellite"
       ]
     },
     {
-      "code": "6870",
-      "name": "騰雲",
-      "mkt": "O",
-      "industry": "數位雲端",
-      "signals": [
-        "flow_turn_buy",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.6,
-      "tags": [],
-      "c": 446.5,
-      "ret1": 9.6,
-      "ret5": 13.6,
-      "vr": 0.49,
-      "flow5": -143,
-      "themes": [],
-      "attributedThemes": []
-    },
-    {
-      "code": "6805",
-      "name": "富世達",
+      "code": "6669",
+      "name": "緯穎",
       "mkt": "T",
-      "industry": "電子零組件業",
+      "industry": "電腦及週邊設備業",
       "signals": [
-        "flow_turn_buy",
-        "limit_up"
+        "low_base_breakout",
+        "flow_streak_buy"
       ],
       "kind": "confirm",
-      "score": 1.6,
+      "score": 1.5,
       "tags": [
         "千元股",
+        "追高區",
         "低基期"
       ],
-      "c": 1685,
-      "ret1": 9.8,
-      "ret5": 6.3,
-      "vr": 0.42,
-      "flow5": 357,
-      "themes": [],
-      "attributedThemes": []
+      "c": 1670,
+      "ret1": 6.4,
+      "ret5": 26,
+      "vr": 1.7,
+      "flow5": -431,
+      "themes": [
+        "ai-server-odm"
+      ],
+      "attributedThemes": [
+        "ai-server-odm"
+      ]
     },
     {
-      "code": "3138",
-      "name": "耀登",
+      "code": "2912",
+      "name": "統一超",
       "mkt": "T",
-      "industry": "通信網路業",
+      "industry": "貿易百貨",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -579,21 +618,21 @@
       "tags": [
         "低基期"
       ],
-      "c": 72.1,
-      "ret1": 8.9,
-      "ret5": -0.3,
-      "vr": 1.39,
-      "flow5": 126,
+      "c": 207.5,
+      "ret1": 0,
+      "ret5": 1.7,
+      "vr": 1.29,
+      "flow5": -3185,
       "themes": [
-        "leo-satellite"
+        "retail"
       ],
       "attributedThemes": [
-        "leo-satellite"
+        "retail"
       ]
     },
     {
-      "code": "2382",
-      "name": "廣達",
+      "code": "2301",
+      "name": "光寶科",
       "mkt": "T",
       "industry": "電腦及週邊設備業",
       "signals": [
@@ -602,22 +641,160 @@
       ],
       "kind": "confirm",
       "score": 1.5,
-      "tags": [],
-      "c": 281,
-      "ret1": 7.7,
-      "ret5": 7,
-      "vr": 1.01,
-      "flow5": -2968,
+      "tags": [
+        "低基期"
+      ],
+      "c": 195.5,
+      "ret1": -1.5,
+      "ret5": 11.4,
+      "vr": 0.96,
+      "flow5": 3606,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "mkt": "T",
+      "industry": "金融保險業",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 29.95,
+      "ret1": -3.7,
+      "ret5": 0.2,
+      "vr": 0.87,
+      "flow5": -240,
       "themes": [
-        "ai-server-odm"
+        "life-insurance"
       ],
       "attributedThemes": [
-        "ai-server-odm"
+        "life-insurance"
       ]
     },
     {
-      "code": "5521",
-      "name": "工信",
+      "code": "2317",
+      "name": "鴻海",
+      "mkt": "T",
+      "industry": "其他電子業",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 219,
+      "ret1": 1.2,
+      "ret5": 4.3,
+      "vr": 0.65,
+      "flow5": -25215,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2520",
+      "name": "冠德",
+      "mkt": "T",
+      "industry": "建材營造",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 32.55,
+      "ret1": 0.3,
+      "ret5": 5.7,
+      "vr": 0.65,
+      "flow5": 601,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2539",
+      "name": "櫻花建",
+      "mkt": "T",
+      "industry": "建材營造",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 29.45,
+      "ret1": 3,
+      "ret5": 3.9,
+      "vr": 0.55,
+      "flow5": -22,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "4904",
+      "name": "遠傳",
+      "mkt": "T",
+      "industry": "通信網路業",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 104,
+      "ret1": -0.5,
+      "ret5": 1,
+      "vr": 0.5,
+      "flow5": 3356,
+      "themes": [
+        "telecom"
+      ],
+      "attributedThemes": [
+        "telecom"
+      ]
+    },
+    {
+      "code": "2258",
+      "name": "鴻華先進-創",
+      "mkt": "T",
+      "industry": "汽車工業",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 27,
+      "ret1": 2.3,
+      "ret5": 0.6,
+      "vr": 0.44,
+      "flow5": -124,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2530",
+      "name": "華建",
       "mkt": "T",
       "industry": "建材營造",
       "signals": [
@@ -627,44 +804,17 @@
       "kind": "confirm",
       "score": 1.5,
       "tags": [],
-      "c": 11.4,
-      "ret1": 0.9,
-      "ret5": 5.1,
-      "vr": 0.83,
-      "flow5": 1042,
+      "c": 18.2,
+      "ret1": 1.7,
+      "ret5": 4,
+      "vr": 0.39,
+      "flow5": 185,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "7750",
-      "name": "新代",
-      "mkt": "T",
-      "industry": "電機機械",
-      "signals": [
-        "flow_turn_buy",
-        "flow_streak_buy"
-      ],
-      "kind": "confirm",
-      "score": 1.5,
-      "tags": [
-        "千元股",
-        "低基期"
-      ],
-      "c": 1195,
-      "ret1": 3.9,
-      "ret5": -1.2,
-      "vr": 0.81,
-      "flow5": 7,
-      "themes": [
-        "machine-tools"
-      ],
-      "attributedThemes": [
-        "machine-tools"
-      ]
-    },
-    {
-      "code": "1342",
-      "name": "八貫",
+      "code": "6901",
+      "name": "鑽石投資",
       "mkt": "T",
       "industry": "其他",
       "signals": [
@@ -673,18 +823,46 @@
       ],
       "kind": "confirm",
       "score": 1.5,
-      "tags": [],
-      "c": 93.8,
-      "ret1": 1.8,
-      "ret5": 1.2,
-      "vr": 0.59,
-      "flow5": -93,
+      "tags": [
+        "低基期"
+      ],
+      "c": 11.95,
+      "ret1": -1.6,
+      "ret5": -0.4,
+      "vr": 0.38,
+      "flow5": 186,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "2342",
-      "name": "茂矽",
+      "code": "6640",
+      "name": "均華",
+      "mkt": "O",
+      "industry": "半導體業",
+      "signals": [
+        "flow_turn_buy",
+        "flow_streak_buy"
+      ],
+      "kind": "confirm",
+      "score": 1.5,
+      "tags": [
+        "低基期"
+      ],
+      "c": 658,
+      "ret1": -1.9,
+      "ret5": 14.4,
+      "vr": 0.34,
+      "flow5": 21,
+      "themes": [
+        "adv-pkg-equipment"
+      ],
+      "attributedThemes": [
+        "adv-pkg-equipment"
+      ]
+    },
+    {
+      "code": "8016",
+      "name": "矽創",
       "mkt": "T",
       "industry": "半導體業",
       "signals": [
@@ -696,19 +874,23 @@
       "tags": [
         "低基期"
       ],
-      "c": 29.6,
-      "ret1": 7.4,
-      "ret5": 2.1,
-      "vr": 0.59,
-      "flow5": 383,
-      "themes": [],
-      "attributedThemes": []
+      "c": 240.5,
+      "ret1": -0.2,
+      "ret5": 1.3,
+      "vr": 0.32,
+      "flow5": -327,
+      "themes": [
+        "display-driver-ic"
+      ],
+      "attributedThemes": [
+        "display-driver-ic"
+      ]
     },
     {
-      "code": "4571",
-      "name": "鈞興-KY",
+      "code": "1905",
+      "name": "華紙",
       "mkt": "T",
-      "industry": "電機機械",
+      "industry": "造紙工業",
       "signals": [
         "flow_turn_buy",
         "flow_streak_buy"
@@ -716,108 +898,85 @@
       "kind": "confirm",
       "score": 1.5,
       "tags": [
-        "KY"
+        "低基期"
       ],
-      "c": 152.5,
-      "ret1": 2.3,
-      "ret5": 3.7,
-      "vr": 0.51,
-      "flow5": 93,
+      "c": 10.1,
+      "ret1": 0,
+      "ret5": 1.3,
+      "vr": 0.19,
+      "flow5": -175,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "1789",
-      "name": "神隆",
-      "mkt": "T",
+      "code": "4174",
+      "name": "浩鼎",
+      "mkt": "O",
       "industry": "生技醫療業",
       "signals": [
-        "flow_turn_buy",
-        "flow_streak_buy"
+        "trust_first_buy",
+        "limit_up"
       ],
       "kind": "confirm",
-      "score": 1.5,
-      "tags": [
-        "低基期"
-      ],
-      "c": 17.3,
-      "ret1": 1.5,
-      "ret5": -3.9,
-      "vr": 0.42,
-      "flow5": 333,
+      "score": 1.4,
+      "tags": [],
+      "c": 65.5,
+      "ret1": 9.9,
+      "ret5": 2.3,
+      "vr": 1.5,
+      "flow5": -824,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "1809",
-      "name": "中釉",
+      "code": "6134",
+      "name": "萬旭",
+      "mkt": "O",
+      "industry": "電子零組件業",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 24.7,
+      "ret1": 0.8,
+      "ret5": 14.9,
+      "vr": 6.24,
+      "flow5": 297,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2367",
+      "name": "燿華",
       "mkt": "T",
-      "industry": "玻璃陶瓷",
-      "signals": [
-        "flow_turn_buy",
-        "flow_streak_buy"
-      ],
-      "kind": "confirm",
-      "score": 1.5,
-      "tags": [
-        "低基期"
-      ],
-      "c": 32.25,
-      "ret1": 6.8,
-      "ret5": -2.1,
-      "vr": 0.42,
-      "flow5": 787,
-      "themes": [],
-      "attributedThemes": []
-    },
-    {
-      "code": "8111",
-      "name": "立碁",
-      "mkt": "O",
-      "industry": "光電業",
-      "signals": [
-        "flow_turn_buy",
-        "flow_streak_buy"
-      ],
-      "kind": "confirm",
-      "score": 1.5,
-      "tags": [
-        "低基期"
-      ],
-      "c": 58.9,
-      "ret1": 5.2,
-      "ret5": -5.9,
-      "vr": 0.4,
-      "flow5": 477,
-      "themes": [],
-      "attributedThemes": []
-    },
-    {
-      "code": "6140",
-      "name": "訊達電腦",
-      "mkt": "O",
-      "industry": "資訊服務業",
+      "industry": "電子零組件業",
       "signals": [
         "vol_surge_quiet"
       ],
       "kind": "early",
       "score": 1.2,
       "tags": [
-        "追高區"
+        "低基期"
       ],
-      "c": 33.5,
-      "ret1": 2.4,
-      "ret5": 22,
-      "vr": 5.57,
-      "flow5": 26,
-      "themes": [],
-      "attributedThemes": []
+      "c": 34.1,
+      "ret1": 0.4,
+      "ret5": 14.8,
+      "vr": 4.65,
+      "flow5": -3747,
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
     },
     {
-      "code": "3285",
-      "name": "微端",
-      "mkt": "O",
-      "industry": "其他電子業",
+      "code": "2413",
+      "name": "環科",
+      "mkt": "T",
+      "industry": "電子零組件業",
       "signals": [
         "vol_surge",
         "limit_up"
@@ -827,11 +986,34 @@
       "tags": [
         "追高區"
       ],
-      "c": 61,
-      "ret1": 9.5,
-      "ret5": 34.7,
-      "vr": 4.55,
-      "flow5": 17,
+      "c": 54,
+      "ret1": 10,
+      "ret5": 25,
+      "vr": 4.47,
+      "flow5": 131,
+      "themes": [
+        "leo-satellite"
+      ],
+      "attributedThemes": [
+        "leo-satellite"
+      ]
+    },
+    {
+      "code": "2633",
+      "name": "台灣高鐵",
+      "mkt": "T",
+      "industry": "航運業",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 25.95,
+      "ret1": 2,
+      "ret5": 3.8,
+      "vr": 4.47,
+      "flow5": -2823,
       "themes": [],
       "attributedThemes": []
     },
@@ -846,11 +1028,11 @@
       "kind": "early",
       "score": 1.2,
       "tags": [],
-      "c": 56.7,
-      "ret1": -1.9,
-      "ret5": 12.7,
-      "vr": 3.64,
-      "flow5": -215,
+      "c": 58,
+      "ret1": 2.3,
+      "ret5": 4.9,
+      "vr": 3.85,
+      "flow5": -810,
       "themes": [
         "it-security-cloud"
       ],
@@ -859,56 +1041,50 @@
       ]
     },
     {
-      "code": "6614",
-      "name": "資拓宏宇",
-      "mkt": "T",
-      "industry": "數位雲端",
+      "code": "5381",
+      "name": "光譜",
+      "mkt": "O",
+      "industry": "電機機械",
       "signals": [
         "vol_surge_quiet"
       ],
       "kind": "early",
       "score": 1.2,
       "tags": [
-        "追高區"
+        "低基期"
       ],
-      "c": 46.8,
+      "c": 18.2,
       "ret1": 0,
-      "ret5": 26.5,
-      "vr": 3.12,
-      "flow5": -62,
-      "themes": [
-        "it-security-cloud"
-      ],
-      "attributedThemes": [
-        "it-security-cloud"
-      ]
-    },
-    {
-      "code": "5457",
-      "name": "宣德",
-      "mkt": "O",
-      "industry": "電子零組件業",
-      "signals": [
-        "vol_surge",
-        "limit_up"
-      ],
-      "kind": "confirm",
-      "score": 1.2,
-      "tags": [
-        "注意股",
-        "追高區"
-      ],
-      "c": 28.4,
-      "ret1": 9.9,
-      "ret5": 31.5,
-      "vr": 2.52,
-      "flow5": 1670,
+      "ret5": 17.4,
+      "vr": 3.34,
+      "flow5": 72,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "6667",
-      "name": "信紘科",
+      "code": "9910",
+      "name": "豐泰",
+      "mkt": "T",
+      "industry": "運動休閒",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [
+        "低基期"
+      ],
+      "c": 55.4,
+      "ret1": 0.7,
+      "ret5": -5,
+      "vr": 2.97,
+      "flow5": 1039,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "7728",
+      "name": "光焱科技",
       "mkt": "O",
       "industry": "其他電子業",
       "signals": [
@@ -916,64 +1092,90 @@
       ],
       "kind": "early",
       "score": 1.2,
-      "tags": [],
-      "c": 239.5,
-      "ret1": -1.8,
-      "ret5": 9.9,
-      "vr": 2.37,
-      "flow5": -531,
+      "tags": [
+        "低基期"
+      ],
+      "c": 433,
+      "ret1": -1.6,
+      "ret5": 17.7,
+      "vr": 2.65,
+      "flow5": 33,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "2471",
-      "name": "資通",
+      "code": "6426",
+      "name": "統新",
       "mkt": "T",
-      "industry": "資訊服務業",
+      "industry": "通信網路業",
       "signals": [
         "vol_surge_quiet"
       ],
       "kind": "early",
       "score": 1.2,
-      "tags": [],
-      "c": 66.1,
-      "ret1": -0.8,
-      "ret5": 15.8,
-      "vr": 2.26,
-      "flow5": -1007,
+      "tags": [
+        "低基期"
+      ],
+      "c": 238.5,
+      "ret1": 1.3,
+      "ret5": 17.2,
+      "vr": 2.54,
+      "flow5": -427,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "1560",
+      "name": "中砂",
+      "mkt": "T",
+      "industry": "電機機械",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [
+        "追高區",
+        "低基期"
+      ],
+      "c": 655,
+      "ret1": 2.5,
+      "ret5": 25.2,
+      "vr": 2.22,
+      "flow5": -1247,
       "themes": [
-        "it-security-cloud"
+        "silicon-wafer"
       ],
       "attributedThemes": [
-        "it-security-cloud"
+        "silicon-wafer"
       ]
     },
     {
-      "code": "3374",
-      "name": "精材",
-      "mkt": "O",
-      "industry": "半導體業",
+      "code": "2355",
+      "name": "敬鵬",
+      "mkt": "T",
+      "industry": "電子零組件業",
       "signals": [
         "vol_surge_quiet"
       ],
       "kind": "early",
       "score": 1.2,
       "tags": [
-        "低基期"
+        "追高區"
       ],
-      "c": 340,
-      "ret1": 1.2,
-      "ret5": -4.2,
-      "vr": 2.26,
-      "flow5": -6291,
+      "c": 59.2,
+      "ret1": -1.7,
+      "ret5": 21.4,
+      "vr": 2.09,
+      "flow5": -11033,
       "themes": [],
       "attributedThemes": []
     },
     {
-      "code": "1802",
-      "name": "台玻",
-      "mkt": "T",
-      "industry": "玻璃陶瓷",
+      "code": "4129",
+      "name": "聯合",
+      "mkt": "O",
+      "industry": "生技醫療業",
       "signals": [
         "vol_surge_quiet"
       ],
@@ -982,264 +1184,338 @@
       "tags": [
         "低基期"
       ],
-      "c": 59.7,
-      "ret1": -0.3,
-      "ret5": 1.7,
-      "vr": 2.14,
-      "flow5": -107490,
-      "themes": [
-        "glass-substrate",
-        "glass-fabric"
+      "c": 66.1,
+      "ret1": -1,
+      "ret5": -1.3,
+      "vr": 2.08,
+      "flow5": -149,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "2332",
+      "name": "友訊",
+      "mkt": "T",
+      "industry": "通信網路業",
+      "signals": [
+        "vol_surge_quiet"
       ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [
+        "低基期"
+      ],
+      "c": 16.05,
+      "ret1": -0.3,
+      "ret5": 13.8,
+      "vr": 2.06,
+      "flow5": -2402,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "3305",
+      "name": "昇貿",
+      "mkt": "T",
+      "industry": "其他電子業",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [],
+      "c": 96.2,
+      "ret1": -1.3,
+      "ret5": 10.2,
+      "vr": 2.02,
+      "flow5": -469,
+      "themes": [],
+      "attributedThemes": []
+    },
+    {
+      "code": "1623",
+      "name": "大東電",
+      "mkt": "T",
+      "industry": "電器電纜",
+      "signals": [
+        "vol_surge_quiet"
+      ],
+      "kind": "early",
+      "score": 1.2,
+      "tags": [
+        "低基期"
+      ],
+      "c": 126.5,
+      "ret1": -1.9,
+      "ret5": 0.8,
+      "vr": 2,
+      "flow5": -11,
+      "themes": [],
       "attributedThemes": []
     }
   ],
   "groups": [
     {
-      "id": "g-20261126-1",
-      "key": "corr:2890",
+      "id": "g-20261127-1",
+      "key": "corr:2316",
       "method": [
         "correlation"
       ],
-      "label": "銀行（共動）",
-      "theme": "banks",
+      "label": "低軌衛星／太空（共動）",
+      "theme": "leo-satellite",
       "members": [
-        "2890",
-        "2892",
-        "2886"
+        "2316",
+        "3221",
+        "2313",
+        "8182",
+        "8289",
+        "2367",
+        "2485"
       ],
-      "heat": 0.89,
-      "breadth": 0.85,
+      "heat": 0.91,
+      "breadth": 0.76,
       "unknown": false,
       "industries": [
-        "金融保險業"
-      ],
-      "avgCorr": 0.85,
-      "relatedThemes": [
-        {
-          "theme": "banks",
-          "members": 2
-        }
-      ],
-      "stage": "spread",
-      "earlyRatio": 0
-    },
-    {
-      "id": "g-20261126-2",
-      "key": "corr:6862",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：電子零組件業／半導體業",
-      "theme": null,
-      "members": [
-        "6862",
-        "2342",
-        "2327"
-      ],
-      "heat": 0.84,
-      "breadth": 0.76,
-      "unknown": true,
-      "industries": [
         "電子零組件業",
-        "半導體業"
+        "通信網路業"
       ],
       "avgCorr": 0.76,
       "relatedThemes": [
         {
-          "theme": "passive-components",
-          "members": 1
-        }
-      ],
-      "stage": "overheat",
-      "earlyRatio": 0
-    },
-    {
-      "id": "g-20261126-3",
-      "key": "corr:6584",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：電子零組件業",
-      "theme": null,
-      "members": [
-        "6584",
-        "6805",
-        "3037"
-      ],
-      "heat": 0.7,
-      "breadth": 0.73,
-      "unknown": true,
-      "industries": [
-        "電子零組件業"
-      ],
-      "avgCorr": 0.73,
-      "relatedThemes": [
-        {
-          "theme": "abf-substrate",
-          "members": 1
-        }
-      ],
-      "stage": "overheat",
-      "earlyRatio": 0
-    },
-    {
-      "id": "g-20261126-4",
-      "key": "corr:8028",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：半導體業／電子零組件業／玻璃陶瓷 等",
-      "theme": null,
-      "members": [
-        "8028",
-        "2367",
-        "2492",
-        "2313",
-        "4919",
-        "1809",
-        "4916"
-      ],
-      "heat": 0.64,
-      "breadth": 0.66,
-      "unknown": true,
-      "industries": [
-        "半導體業",
-        "電子零組件業",
-        "玻璃陶瓷",
-        "電腦及週邊設備業"
-      ],
-      "avgCorr": 0.66,
-      "relatedThemes": [
-        {
           "theme": "leo-satellite",
+          "members": 4
+        },
+        {
+          "theme": "quartz-frequency",
           "members": 3
-        },
-        {
-          "theme": "silicon-wafer",
-          "members": 1
-        },
-        {
-          "theme": "passive-components",
-          "members": 1
         },
         {
           "theme": "pcb-board",
           "members": 1
-        },
-        {
-          "theme": "high-speed-io-ic",
-          "members": 1
-        },
-        {
-          "theme": "mcu",
-          "members": 1
         }
       ],
       "stage": "overheat",
-      "earlyRatio": 0
+      "earlyRatio": 0.14
     },
     {
-      "id": "g-20261126-5",
-      "key": "corr:6140",
-      "method": [
-        "correlation"
-      ],
-      "label": "資安／雲端服務（共動）",
-      "theme": "it-security-cloud",
-      "members": [
-        "6140",
-        "2471",
-        "7767"
-      ],
-      "heat": 0.62,
-      "breadth": 0.79,
-      "unknown": false,
-      "industries": [
-        "資訊服務業"
-      ],
-      "avgCorr": 0.79,
-      "relatedThemes": [
-        {
-          "theme": "it-security-cloud",
-          "members": 2
-        }
-      ],
-      "stage": "overheat",
-      "earlyRatio": 1
-    },
-    {
-      "id": "g-20261126-6",
-      "key": "corr:2412",
-      "method": [
-        "correlation"
-      ],
-      "label": "未知族群：通信網路業／建材營造／其他 等",
-      "theme": null,
-      "members": [
-        "2412",
-        "5521",
-        "1342",
-        "5871",
-        "1789"
-      ],
-      "heat": 0.6,
-      "breadth": 0.67,
-      "unknown": true,
-      "industries": [
-        "通信網路業",
-        "建材營造",
-        "其他",
-        "生技醫療業"
-      ],
-      "avgCorr": 0.67,
-      "relatedThemes": [
-        {
-          "theme": "telecom",
-          "members": 1
-        },
-        {
-          "theme": "it-security-cloud",
-          "members": 1
-        }
-      ],
-      "stage": "spread",
-      "earlyRatio": 0
-    },
-    {
-      "id": "g-20261126-7",
-      "key": "theme:banks",
+      "id": "g-20261127-2",
+      "key": "theme:leo-satellite",
       "method": [
         "kb_theme"
       ],
-      "label": "銀行",
-      "theme": "banks",
+      "label": "低軌衛星／太空",
+      "theme": "leo-satellite",
       "members": [
-        "2886",
-        "2892"
+        "2313",
+        "6285",
+        "2367",
+        "3138",
+        "4916",
+        "6190",
+        "2485",
+        "2413",
+        "6152",
+        "3221"
       ],
-      "heat": 0.59,
-      "breadth": 0.5,
-      "stage": "spread",
-      "earlyRatio": 0
+      "heat": 0.8,
+      "breadth": 0.52,
+      "stage": "overheat",
+      "earlyRatio": 0.1
     },
     {
-      "id": "g-20261126-8",
-      "key": "ind:金融保險業",
+      "id": "g-20261127-3",
+      "key": "corr:4909",
+      "method": [
+        "correlation"
+      ],
+      "label": "低軌衛星／太空（共動）",
+      "theme": "leo-satellite",
+      "members": [
+        "4909",
+        "3138",
+        "6190",
+        "2413",
+        "6517",
+        "4916",
+        "6134"
+      ],
+      "heat": 0.75,
+      "breadth": 0.63,
+      "unknown": false,
+      "industries": [
+        "通信網路業",
+        "電子零組件業",
+        "光電業",
+        "電腦及週邊設備業"
+      ],
+      "avgCorr": 0.63,
+      "relatedThemes": [
+        {
+          "theme": "leo-satellite",
+          "members": 4
+        }
+      ],
+      "stage": "overheat",
+      "earlyRatio": 0.14
+    },
+    {
+      "id": "g-20261127-4",
+      "key": "corr:2385",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：電子零組件業／航運業／建材營造",
+      "theme": null,
+      "members": [
+        "2385",
+        "2633",
+        "2539",
+        "2530",
+        "2520"
+      ],
+      "heat": 0.74,
+      "breadth": 0.78,
+      "unknown": true,
+      "industries": [
+        "電子零組件業",
+        "航運業",
+        "建材營造"
+      ],
+      "avgCorr": 0.78,
+      "relatedThemes": [],
+      "stage": "spread",
+      "earlyRatio": 0.2
+    },
+    {
+      "id": "g-20261127-5",
+      "key": "corr:5876",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：金融保險業／生技醫療業／貿易百貨 等",
+      "theme": null,
+      "members": [
+        "5876",
+        "2892",
+        "2886",
+        "4129",
+        "2912",
+        "9910",
+        "4904",
+        "2890",
+        "5871",
+        "6901",
+        "2258"
+      ],
+      "heat": 0.73,
+      "breadth": 0.68,
+      "unknown": true,
+      "industries": [
+        "金融保險業",
+        "生技醫療業",
+        "貿易百貨",
+        "運動休閒",
+        "通信網路業",
+        "其他",
+        "汽車工業"
+      ],
+      "avgCorr": 0.68,
+      "relatedThemes": [
+        {
+          "theme": "banks",
+          "members": 2
+        },
+        {
+          "theme": "retail",
+          "members": 1
+        },
+        {
+          "theme": "telecom",
+          "members": 1
+        }
+      ],
+      "stage": "spread",
+      "earlyRatio": 0.18
+    },
+    {
+      "id": "g-20261127-6",
+      "key": "ind:通信網路業",
       "method": [
         "industry"
       ],
-      "label": "金融保險業",
+      "label": "通信網路業",
       "theme": null,
       "members": [
-        "2890",
-        "2886",
-        "2892"
+        "6152",
+        "3221",
+        "4909",
+        "2485",
+        "3138",
+        "6190",
+        "6285",
+        "4904",
+        "6426",
+        "2332"
       ],
-      "heat": 0.54,
-      "breadth": 0.1,
-      "stage": "ignite",
+      "heat": 0.68,
+      "breadth": 0.17,
+      "stage": "overheat",
+      "earlyRatio": 0.2
+    },
+    {
+      "id": "g-20261127-7",
+      "key": "theme:quartz-frequency",
+      "method": [
+        "kb_theme"
+      ],
+      "label": "石英頻率元件",
+      "theme": "quartz-frequency",
+      "members": [
+        "3221",
+        "8289",
+        "8182"
+      ],
+      "heat": 0.62,
+      "breadth": 0.5,
+      "stage": "overheat",
       "earlyRatio": 0
+    },
+    {
+      "id": "g-20261127-8",
+      "key": "corr:6285",
+      "method": [
+        "correlation"
+      ],
+      "label": "未知族群：通信網路業／其他電子業／電腦及週邊設備業 等",
+      "theme": null,
+      "members": [
+        "6285",
+        "3305",
+        "2301",
+        "1560"
+      ],
+      "heat": 0.5,
+      "breadth": 0.61,
+      "unknown": true,
+      "industries": [
+        "通信網路業",
+        "其他電子業",
+        "電腦及週邊設備業",
+        "電機機械"
+      ],
+      "avgCorr": 0.61,
+      "relatedThemes": [
+        {
+          "theme": "leo-satellite",
+          "members": 1
+        },
+        {
+          "theme": "silicon-wafer",
+          "members": 1
+        }
+      ],
+      "stage": "spread",
+      "earlyRatio": 0.5
     }
   ],
   "themeStatus": [
@@ -1247,30 +1523,18 @@
       "theme": "glass-substrate",
       "name": "玻璃基板／TGV",
       "members": 6,
-      "anomalies": [
-        "1802"
-      ],
+      "anomalies": [],
       "attributed": [],
-      "unattributed": [
-        {
-          "code": "1802",
-          "reason": "shared_no_peer",
-          "alsoIn": [
-            "glass-fabric"
-          ]
-        }
-      ],
+      "unattributed": [],
       "weighted": 0,
       "totalWeight": 2.7,
       "coreHit": false,
       "gate": null,
-      "roles": {
-        "1802": "concept"
-      },
+      "roles": {},
       "signaled": [],
-      "ret1": 5.4,
-      "ret5": 1,
-      "ret20": -28.4,
+      "ret1": -2.4,
+      "ret5": 8.5,
+      "ret20": -26,
       "stage": "latent"
     },
     {
@@ -1285,60 +1549,28 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "3363",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "3008",
-          "signals": [
-            "limit_up"
-          ]
-        }
-      ],
-      "ret1": 8.1,
-      "ret5": 0.3,
-      "ret20": -34.5,
+      "signaled": [],
+      "ret1": -4.6,
+      "ret5": 5.6,
+      "ret20": -33.5,
       "stage": "latent"
     },
     {
       "theme": "abf-substrate",
       "name": "ABF 載板",
       "members": 3,
-      "anomalies": [
-        "3037"
-      ],
-      "attributed": [
-        "3037"
-      ],
+      "anomalies": [],
+      "attributed": [],
       "unattributed": [],
-      "weighted": 1,
+      "weighted": 0,
       "totalWeight": 3,
-      "coreHit": true,
-      "gate": "too_few",
-      "roles": {
-        "3037": "indicator"
-      },
-      "signaled": [
-        {
-          "code": "3189",
-          "signals": [
-            "low_base_breakout"
-          ]
-        },
-        {
-          "code": "8046",
-          "signals": [
-            "limit_up"
-          ]
-        }
-      ],
-      "ret1": 9,
-      "ret5": 4.7,
-      "ret20": -41.5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {},
+      "signaled": [],
+      "ret1": -0.8,
+      "ret5": 15.3,
+      "ret20": -39.4,
       "stage": "latent"
     },
     {
@@ -1353,23 +1585,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "2383",
-          "signals": [
-            "low_base_breakout"
-          ]
-        },
-        {
-          "code": "6213",
-          "signals": [
-            "limit_up"
-          ]
-        }
-      ],
-      "ret1": 8.8,
-      "ret5": 13.5,
-      "ret20": -37.4,
+      "signaled": [],
+      "ret1": -3,
+      "ret5": 22.4,
+      "ret20": -34.1,
       "stage": "latent"
     },
     {
@@ -1377,10 +1596,10 @@
       "name": "矽晶圓",
       "members": 9,
       "anomalies": [
-        "8028"
+        "1560"
       ],
       "attributed": [
-        "8028"
+        "1560"
       ],
       "unattributed": [],
       "weighted": 0.5,
@@ -1388,7 +1607,7 @@
       "coreHit": false,
       "gate": "too_few",
       "roles": {
-        "8028": "indirect"
+        "1560": "indirect"
       },
       "signaled": [
         {
@@ -1398,33 +1617,15 @@
           ]
         },
         {
-          "code": "3016",
-          "signals": [
-            "flow_turn_buy"
-          ]
-        },
-        {
-          "code": "1560",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "3583",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        },
-        {
           "code": "5434",
           "signals": [
             "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 7.7,
-      "ret5": 2,
-      "ret20": -33.5,
+      "ret1": -0.9,
+      "ret5": 12.3,
+      "ret20": -30.4,
       "stage": "latent"
     },
     {
@@ -1441,27 +1642,9 @@
       "roles": {},
       "signaled": [
         {
-          "code": "2408",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "2344",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
           "code": "3006",
           "signals": [
             "flow_turn_buy"
-          ]
-        },
-        {
-          "code": "5351",
-          "signals": [
-            "limit_up"
           ]
         },
         {
@@ -1469,68 +1652,41 @@
           "signals": [
             "flow_turn_buy"
           ]
-        },
-        {
-          "code": "8299",
-          "signals": [
-            "limit_up"
-          ]
         }
       ],
-      "ret1": 8.1,
-      "ret5": 4.7,
-      "ret20": -31,
+      "ret1": 0,
+      "ret5": 15.2,
+      "ret20": -27.6,
       "stage": "latent"
     },
     {
       "theme": "passive-components",
       "name": "被動元件",
       "members": 5,
-      "anomalies": [
-        "2327",
-        "2492"
-      ],
-      "attributed": [
-        "2327",
-        "2492"
-      ],
+      "anomalies": [],
+      "attributed": [],
       "unattributed": [],
-      "weighted": 2,
+      "weighted": 0,
       "totalWeight": 5,
-      "coreHit": true,
+      "coreHit": false,
       "gate": null,
-      "roles": {
-        "2327": "indicator",
-        "2492": "direct"
-      },
-      "signaled": [
-        {
-          "code": "2478",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "3090",
-          "signals": [
-            "limit_up"
-          ]
-        }
-      ],
-      "ret1": 9.5,
-      "ret5": 2.7,
-      "ret20": -39.6,
-      "stage": "overheat"
+      "roles": {},
+      "signaled": [],
+      "ret1": -1.1,
+      "ret5": 12.3,
+      "ret20": -35.1,
+      "stage": "latent",
+      "change": "overheat→latent"
     },
     {
       "theme": "ai-server-odm",
       "name": "AI 伺服器組裝",
       "members": 6,
       "anomalies": [
-        "2382"
+        "6669"
       ],
       "attributed": [
-        "2382"
+        "6669"
       ],
       "unattributed": [],
       "weighted": 1,
@@ -1538,27 +1694,25 @@
       "coreHit": true,
       "gate": "too_few",
       "roles": {
-        "2382": "indicator"
+        "6669": "direct"
       },
       "signaled": [
         {
-          "code": "3231",
+          "code": "2356",
           "signals": [
-            "limit_up",
-            "flow_streak_buy"
+            "flow_turn_buy"
           ]
         },
         {
-          "code": "6669",
+          "code": "4938",
           "signals": [
-            "limit_up",
-            "flow_streak_buy"
+            "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 7.4,
-      "ret5": 6.2,
-      "ret20": -19.1,
+      "ret1": 0,
+      "ret5": 12.1,
+      "ret20": -17.1,
       "stage": "latent"
     },
     {
@@ -1573,23 +1727,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "3017",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "3653",
-          "signals": [
-            "limit_up"
-          ]
-        }
-      ],
-      "ret1": 7.9,
-      "ret5": 6.1,
-      "ret20": -25.7,
+      "signaled": [],
+      "ret1": -0.3,
+      "ret5": 17.2,
+      "ret20": -21.9,
       "stage": "latent"
     },
     {
@@ -1605,9 +1746,9 @@
       "gate": null,
       "roles": {},
       "signaled": [],
-      "ret1": 6.2,
-      "ret5": 4.1,
-      "ret20": -22.1,
+      "ret1": -0.2,
+      "ret5": 13,
+      "ret20": -19.1,
       "stage": "latent"
     },
     {
@@ -1622,23 +1763,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "8150",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "6147",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        }
-      ],
-      "ret1": 7.3,
-      "ret5": 3.9,
-      "ret20": -28.1,
+      "signaled": [],
+      "ret1": -1.7,
+      "ret5": 13.1,
+      "ret20": -25.9,
       "stage": "latent"
     },
     {
@@ -1661,22 +1789,15 @@
           ]
         },
         {
-          "code": "1504",
+          "code": "1519",
           "signals": [
             "flow_turn_buy"
           ]
-        },
-        {
-          "code": "1519",
-          "signals": [
-            "limit_up",
-            "flow_streak_buy"
-          ]
         }
       ],
-      "ret1": 6.3,
-      "ret5": 1,
-      "ret20": -14.7,
+      "ret1": 0.2,
+      "ret5": 11.4,
+      "ret20": -13.1,
       "stage": "latent"
     },
     {
@@ -1693,15 +1814,15 @@
       "roles": {},
       "signaled": [
         {
-          "code": "1605",
+          "code": "1608",
           "signals": [
-            "flow_streak_buy"
+            "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 3.9,
-      "ret5": -0.5,
-      "ret20": -23.2,
+      "ret1": -0.5,
+      "ret5": 7.6,
+      "ret20": -21.1,
       "stage": "latent"
     },
     {
@@ -1716,10 +1837,17 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [],
-      "ret1": 1.2,
-      "ret5": -3.3,
-      "ret20": -15.2,
+      "signaled": [
+        {
+          "code": "2002",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -0.4,
+      "ret5": 1.6,
+      "ret20": -14,
       "stage": "latent"
     },
     {
@@ -1742,15 +1870,27 @@
           ]
         },
         {
+          "code": "1303",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        },
+        {
+          "code": "1326",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        },
+        {
           "code": "6505",
           "signals": [
             "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 6.7,
-      "ret5": 2.2,
-      "ret20": -17.2,
+      "ret1": -0.5,
+      "ret5": 10,
+      "ret20": -15.5,
       "stage": "latent"
     },
     {
@@ -1771,17 +1911,11 @@
           "signals": [
             "flow_streak_buy"
           ]
-        },
-        {
-          "code": "2609",
-          "signals": [
-            "flow_turn_buy"
-          ]
         }
       ],
-      "ret1": 0.3,
-      "ret5": -0.8,
-      "ret20": -8.3,
+      "ret1": -1.5,
+      "ret5": 5.2,
+      "ret20": -12.9,
       "stage": "latent"
     },
     {
@@ -1797,9 +1931,9 @@
       "gate": null,
       "roles": {},
       "signaled": [],
-      "ret1": 1.4,
-      "ret5": -0.4,
-      "ret20": -10.6,
+      "ret1": -2,
+      "ret5": 5.7,
+      "ret20": -12.5,
       "stage": "latent"
     },
     {
@@ -1815,9 +1949,9 @@
       "gate": null,
       "roles": {},
       "signaled": [],
-      "ret1": 0.1,
-      "ret5": -2.1,
-      "ret20": 3.3,
+      "ret1": -0.9,
+      "ret5": 1.4,
+      "ret20": 2.8,
       "stage": "latent"
     },
     {
@@ -1834,15 +1968,15 @@
       "roles": {},
       "signaled": [
         {
-          "code": "2727",
+          "code": "2748",
           "signals": [
-            "flow_turn_buy"
+            "flow_streak_buy"
           ]
         }
       ],
-      "ret1": 1.8,
-      "ret5": -0.2,
-      "ret20": -8.4,
+      "ret1": -0.6,
+      "ret5": 3.4,
+      "ret20": -8.6,
       "stage": "latent"
     },
     {
@@ -1859,15 +1993,15 @@
       "roles": {},
       "signaled": [
         {
-          "code": "2545",
+          "code": "2548",
           "signals": [
             "flow_streak_buy"
           ]
         }
       ],
-      "ret1": 1.1,
-      "ret5": -0.9,
-      "ret20": -2.7,
+      "ret1": 1,
+      "ret5": 3.3,
+      "ret20": -0.6,
       "stage": "latent"
     },
     {
@@ -1883,8 +2017,8 @@
       "gate": null,
       "roles": {},
       "signaled": [],
-      "ret1": 1.5,
-      "ret5": -1.2,
+      "ret1": 0.1,
+      "ret5": 3.1,
       "ret20": -10,
       "stage": "latent"
     },
@@ -1892,14 +2026,20 @@
       "theme": "life-insurance",
       "name": "壽險金控",
       "members": 4,
-      "anomalies": [],
-      "attributed": [],
+      "anomalies": [
+        "2883"
+      ],
+      "attributed": [
+        "2883"
+      ],
       "unattributed": [],
-      "weighted": 0,
+      "weighted": 1,
       "totalWeight": 3.5,
-      "coreHit": false,
-      "gate": null,
-      "roles": {},
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "2883": "direct"
+      },
       "signaled": [
         {
           "code": "2882",
@@ -1908,15 +2048,15 @@
           ]
         },
         {
-          "code": "2883",
+          "code": "2885",
           "signals": [
             "flow_streak_buy"
           ]
         }
       ],
-      "ret1": 3.9,
-      "ret5": -1.7,
-      "ret20": -14.3,
+      "ret1": -1.5,
+      "ret5": 3.7,
+      "ret20": -14.8,
       "stage": "latent"
     },
     {
@@ -1940,10 +2080,17 @@
         "2886": "direct",
         "2892": "direct"
       },
-      "signaled": [],
-      "ret1": 0.9,
-      "ret5": -6.2,
-      "ret20": -14.1,
+      "signaled": [
+        {
+          "code": "2891",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -0.9,
+      "ret5": -2.7,
+      "ret20": -15.1,
       "stage": "spread"
     },
     {
@@ -1958,17 +2105,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "6446",
-          "signals": [
-            "flow_turn_buy"
-          ]
-        }
-      ],
-      "ret1": 3.6,
-      "ret5": -6.2,
-      "ret20": -22,
+      "signaled": [],
+      "ret1": -1,
+      "ret5": 2,
+      "ret20": -21.3,
       "stage": "latent"
     },
     {
@@ -1985,15 +2125,21 @@
       "roles": {},
       "signaled": [
         {
-          "code": "2634",
+          "code": "5284",
+          "signals": [
+            "flow_streak_buy"
+          ]
+        },
+        {
+          "code": "3004",
           "signals": [
             "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 5.2,
-      "ret5": -1.7,
-      "ret20": -18.9,
+      "ret1": 0.6,
+      "ret5": 7.4,
+      "ret20": -16.5,
       "stage": "latent"
     },
     {
@@ -2010,15 +2156,15 @@
       "roles": {},
       "signaled": [
         {
-          "code": "3708",
+          "code": "6443",
           "signals": [
-            "limit_up"
+            "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 6.8,
-      "ret5": -2.5,
-      "ret20": -18.5,
+      "ret1": 2.1,
+      "ret5": 9.4,
+      "ret20": -13.6,
       "stage": "latent"
     },
     {
@@ -2033,24 +2179,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "6781",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        },
-        {
-          "code": "4931",
-          "signals": [
-            "limit_up",
-            "flow_streak_buy"
-          ]
-        }
-      ],
-      "ret1": 6.5,
-      "ret5": 1.4,
-      "ret20": -30.9,
+      "signaled": [],
+      "ret1": -1.9,
+      "ret5": 8,
+      "ret20": -29.2,
       "stage": "latent"
     },
     {
@@ -2073,15 +2205,15 @@
           ]
         },
         {
-          "code": "1227",
+          "code": "1210",
           "signals": [
-            "flow_turn_buy"
+            "flow_streak_buy"
           ]
         }
       ],
-      "ret1": 0.2,
-      "ret5": -1,
-      "ret20": -4,
+      "ret1": -0.6,
+      "ret5": 2.3,
+      "ret20": -5.1,
       "stage": "latent"
     },
     {
@@ -2097,9 +2229,9 @@
       "gate": null,
       "roles": {},
       "signaled": [],
-      "ret1": 2.1,
-      "ret5": -0.1,
-      "ret20": 6.8,
+      "ret1": 0.2,
+      "ret5": 3.7,
+      "ret20": 7.4,
       "stage": "latent"
     },
     {
@@ -2114,17 +2246,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "9914",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        }
-      ],
-      "ret1": 0.5,
-      "ret5": -0.1,
-      "ret20": -7.8,
+      "signaled": [],
+      "ret1": -1.7,
+      "ret5": 2.1,
+      "ret20": -8.8,
       "stage": "latent"
     },
     {
@@ -2141,15 +2266,15 @@
       "roles": {},
       "signaled": [
         {
-          "code": "2231",
+          "code": "2201",
           "signals": [
-            "flow_turn_buy"
+            "flow_streak_buy"
           ]
         }
       ],
-      "ret1": 2.1,
-      "ret5": -0.8,
-      "ret20": -19.8,
+      "ret1": 0.1,
+      "ret5": 7,
+      "ret20": -17.7,
       "stage": "latent"
     },
     {
@@ -2157,10 +2282,10 @@
       "name": "電信",
       "members": 3,
       "anomalies": [
-        "2412"
+        "4904"
       ],
       "attributed": [
-        "2412"
+        "4904"
       ],
       "unattributed": [],
       "weighted": 1,
@@ -2168,43 +2293,49 @@
       "coreHit": true,
       "gate": "too_few",
       "roles": {
-        "2412": "indicator"
+        "4904": "direct"
       },
       "signaled": [
         {
-          "code": "3045",
+          "code": "2412",
           "signals": [
             "flow_streak_buy"
           ]
         },
         {
-          "code": "4904",
+          "code": "3045",
           "signals": [
             "flow_streak_buy"
           ]
         }
       ],
-      "ret1": 1.3,
-      "ret5": -1.8,
-      "ret20": -3.2,
+      "ret1": -0.6,
+      "ret5": 1.1,
+      "ret20": -4.3,
       "stage": "latent"
     },
     {
       "theme": "retail",
       "name": "零售通路",
       "members": 2,
-      "anomalies": [],
-      "attributed": [],
+      "anomalies": [
+        "2912"
+      ],
+      "attributed": [
+        "2912"
+      ],
       "unattributed": [],
-      "weighted": 0,
+      "weighted": 1,
       "totalWeight": 2,
-      "coreHit": false,
-      "gate": null,
-      "roles": {},
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "2912": "indicator"
+      },
       "signaled": [],
-      "ret1": 0.8,
-      "ret5": -2.4,
-      "ret20": -5.4,
+      "ret1": -0.6,
+      "ret5": 1.8,
+      "ret20": -6.6,
       "stage": "latent"
     },
     {
@@ -2225,101 +2356,84 @@
           "signals": [
             "flow_turn_buy"
           ]
-        },
-        {
-          "code": "3708",
-          "signals": [
-            "limit_up"
-          ]
         }
       ],
-      "ret1": 5.8,
-      "ret5": 3.2,
-      "ret20": -23.3,
+      "ret1": -0.7,
+      "ret5": 11.5,
+      "ret20": -19.6,
       "stage": "latent"
     },
     {
       "theme": "glass-fabric",
       "name": "玻纖布",
       "members": 5,
-      "anomalies": [
-        "1802"
-      ],
+      "anomalies": [],
       "attributed": [],
-      "unattributed": [
-        {
-          "code": "1802",
-          "reason": "shared_no_peer",
-          "alsoIn": [
-            "glass-substrate"
-          ]
-        }
-      ],
+      "unattributed": [],
       "weighted": 0,
       "totalWeight": 4.3,
       "coreHit": false,
       "gate": null,
-      "roles": {
-        "1802": "indicator"
-      },
-      "signaled": [],
-      "ret1": 4.8,
-      "ret5": 1.1,
-      "ret20": -17,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "1303",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -3.6,
+      "ret5": 8.2,
+      "ret20": -16.4,
       "stage": "latent"
     },
     {
       "theme": "leo-satellite",
       "name": "低軌衛星／太空",
-      "members": 18,
+      "members": 19,
       "anomalies": [
         "2313",
+        "6285",
         "2367",
         "3138",
         "4916",
         "6190",
-        "6152"
+        "2485",
+        "2413",
+        "6152",
+        "3221"
       ],
       "attributed": [
         "2313",
+        "6285",
         "2367",
         "3138",
         "4916",
         "6190",
-        "6152"
+        "2485",
+        "2413",
+        "6152",
+        "3221"
       ],
       "unattributed": [],
-      "weighted": 3.8,
-      "totalWeight": 11.2,
+      "weighted": 6.1,
+      "totalWeight": 11.7,
       "coreHit": true,
       "gate": null,
       "roles": {
         "2313": "direct",
         "2367": "direct",
+        "2413": "concept",
+        "2485": "indirect",
         "3138": "indirect",
+        "3221": "indirect",
         "4916": "indirect",
         "6152": "concept",
-        "6190": "indirect"
+        "6190": "indirect",
+        "6285": "direct"
       },
       "signaled": [
-        {
-          "code": "3491",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "6285",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "2368",
-          "signals": [
-            "limit_up"
-          ]
-        },
         {
           "code": "7717",
           "signals": [
@@ -2327,39 +2441,15 @@
           ]
         },
         {
-          "code": "6271",
+          "code": "6443",
           "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "3105",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "2383",
-          "signals": [
-            "low_base_breakout"
-          ]
-        },
-        {
-          "code": "2485",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "2413",
-          "signals": [
-            "limit_up"
+            "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 9.6,
-      "ret5": 3.2,
-      "ret20": -14.8,
+      "ret1": 4.9,
+      "ret5": 19.7,
+      "ret20": -7,
       "stage": "overheat"
     },
     {
@@ -2369,34 +2459,27 @@
       "anomalies": [
         "2313"
       ],
-      "attributed": [
-        "2313"
-      ],
-      "unattributed": [],
-      "weighted": 1,
-      "totalWeight": 5,
-      "coreHit": true,
-      "gate": "too_few",
-      "roles": {
-        "2313": "direct"
-      },
-      "signaled": [
+      "attributed": [],
+      "unattributed": [
         {
-          "code": "2368",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "3044",
-          "signals": [
-            "limit_up"
+          "code": "2313",
+          "reason": "shared_no_peer",
+          "alsoIn": [
+            "leo-satellite"
           ]
         }
       ],
-      "ret1": 9,
-      "ret5": 10,
-      "ret20": -16.9,
+      "weighted": 0,
+      "totalWeight": 5,
+      "coreHit": false,
+      "gate": null,
+      "roles": {
+        "2313": "direct"
+      },
+      "signaled": [],
+      "ret1": -1,
+      "ret5": 19.1,
+      "ret20": -12.3,
       "stage": "latent"
     },
     {
@@ -2413,27 +2496,15 @@
       "roles": {},
       "signaled": [
         {
-          "code": "8039",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
           "code": "6153",
           "signals": [
             "flow_turn_buy"
           ]
-        },
-        {
-          "code": "6672",
-          "signals": [
-            "limit_up"
-          ]
         }
       ],
-      "ret1": 7,
-      "ret5": 2,
-      "ret20": -29.2,
+      "ret1": -2.2,
+      "ret5": 9.7,
+      "ret20": -25.9,
       "stage": "latent"
     },
     {
@@ -2450,15 +2521,15 @@
       "roles": {},
       "signaled": [
         {
-          "code": "8358",
+          "code": "1303",
           "signals": [
-            "limit_up"
+            "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 8.5,
-      "ret5": 0.9,
-      "ret20": -30.4,
+      "ret1": -2.3,
+      "ret5": 9.4,
+      "ret20": -27.6,
       "stage": "latent"
     },
     {
@@ -2466,124 +2537,84 @@
       "name": "資安／雲端服務",
       "members": 21,
       "anomalies": [
-        "2412",
-        "2471",
-        "7767",
-        "6614"
+        "7767"
       ],
       "attributed": [
-        "2412",
-        "2471",
-        "7767",
-        "6614"
+        "7767"
       ],
       "unattributed": [],
-      "weighted": 2,
+      "weighted": 0.5,
       "totalWeight": 12.7,
       "coreHit": false,
-      "gate": "no_core",
+      "gate": "too_few",
       "roles": {
-        "2412": "indirect",
-        "2471": "indirect",
-        "6614": "indirect",
         "7767": "indirect"
       },
       "signaled": [
         {
-          "code": "7765",
+          "code": "6690",
           "signals": [
-            "vol_surge"
+            "flow_turn_buy"
           ]
         },
         {
           "code": "8099",
           "signals": [
+            "limit_up"
+          ]
+        },
+        {
+          "code": "2412",
+          "signals": [
             "flow_streak_buy"
           ]
         }
       ],
-      "ret1": -1.4,
-      "ret5": 2.3,
-      "ret20": 2.6,
+      "ret1": -0.8,
+      "ret5": 0.8,
+      "ret20": 1.3,
       "stage": "latent"
     },
     {
       "theme": "machine-tools",
       "name": "工具機",
       "members": 8,
-      "anomalies": [
-        "7750"
-      ],
-      "attributed": [
-        "7750"
-      ],
+      "anomalies": [],
+      "attributed": [],
       "unattributed": [],
-      "weighted": 0.5,
+      "weighted": 0,
       "totalWeight": 7.5,
       "coreHit": false,
-      "gate": "too_few",
-      "roles": {
-        "7750": "indirect"
-      },
+      "gate": null,
+      "roles": {},
       "signaled": [],
-      "ret1": 3,
-      "ret5": -6.4,
-      "ret20": -23,
+      "ret1": -0.7,
+      "ret5": 2.1,
+      "ret20": -22,
       "stage": "latent"
     },
     {
       "theme": "adv-pkg-equipment",
       "name": "先進封裝設備",
       "members": 10,
-      "anomalies": [],
-      "attributed": [],
-      "unattributed": [],
-      "weighted": 0,
-      "totalWeight": 10,
-      "coreHit": false,
-      "gate": null,
-      "roles": {},
-      "signaled": [
-        {
-          "code": "3131",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "6187",
-          "signals": [
-            "low_base_breakout"
-          ]
-        },
-        {
-          "code": "6640",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        },
-        {
-          "code": "3583",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        },
-        {
-          "code": "7822",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        },
-        {
-          "code": "5443",
-          "signals": [
-            "flow_turn_buy"
-          ]
-        }
+      "anomalies": [
+        "6640"
       ],
-      "ret1": 7.4,
-      "ret5": 2.9,
-      "ret20": -33.4,
+      "attributed": [
+        "6640"
+      ],
+      "unattributed": [],
+      "weighted": 1,
+      "totalWeight": 10,
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "6640": "direct"
+      },
+      "signaled": [],
+      "ret1": -2.3,
+      "ret5": 11.6,
+      "ret20": -31,
       "stage": "latent"
     },
     {
@@ -2604,17 +2635,11 @@
           "signals": [
             "flow_streak_buy"
           ]
-        },
-        {
-          "code": "6515",
-          "signals": [
-            "limit_up"
-          ]
         }
       ],
-      "ret1": 6.3,
-      "ret5": -3.2,
-      "ret20": -31.6,
+      "ret1": -3.1,
+      "ret5": 4.2,
+      "ret20": -30.8,
       "stage": "latent"
     },
     {
@@ -2631,15 +2656,21 @@
       "roles": {},
       "signaled": [
         {
-          "code": "3178",
+          "code": "3413",
           "signals": [
             "flow_turn_buy"
           ]
+        },
+        {
+          "code": "3178",
+          "signals": [
+            "limit_up"
+          ]
         }
       ],
-      "ret1": 4.8,
-      "ret5": 4.1,
-      "ret20": -23.5,
+      "ret1": -0.1,
+      "ret5": 13.4,
+      "ret20": -21,
       "stage": "latent"
     },
     {
@@ -2654,17 +2685,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "7822",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        }
-      ],
-      "ret1": 6.4,
-      "ret5": 2.8,
-      "ret20": -34.8,
+      "signaled": [],
+      "ret1": -2.7,
+      "ret5": 9.9,
+      "ret20": -32.5,
       "stage": "latent"
     },
     {
@@ -2679,17 +2703,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "3167",
-          "signals": [
-            "low_base_breakout"
-          ]
-        }
-      ],
-      "ret1": 3.5,
-      "ret5": -2.3,
-      "ret20": -33.9,
+      "signaled": [],
+      "ret1": -2.5,
+      "ret5": 5.6,
+      "ret20": -33.1,
       "stage": "latent"
     },
     {
@@ -2704,17 +2721,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "3035",
-          "signals": [
-            "flow_turn_buy"
-          ]
-        }
-      ],
-      "ret1": 4.8,
-      "ret5": -1.7,
-      "ret20": -15.4,
+      "signaled": [],
+      "ret1": -3.4,
+      "ret5": 5.5,
+      "ret20": -14.1,
       "stage": "latent"
     },
     {
@@ -2729,43 +2739,24 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "3529",
-          "signals": [
-            "flow_turn_buy"
-          ]
-        },
-        {
-          "code": "3035",
-          "signals": [
-            "flow_turn_buy"
-          ]
-        }
-      ],
-      "ret1": 5.5,
-      "ret5": -3.9,
-      "ret20": -25.8,
+      "signaled": [],
+      "ret1": -4.7,
+      "ret5": 1.4,
+      "ret20": -26.9,
       "stage": "latent"
     },
     {
       "theme": "high-speed-io-ic",
       "name": "高速傳輸／伺服器周邊 IC",
       "members": 6,
-      "anomalies": [
-        "4919"
-      ],
-      "attributed": [
-        "4919"
-      ],
+      "anomalies": [],
+      "attributed": [],
       "unattributed": [],
-      "weighted": 0.5,
+      "weighted": 0,
       "totalWeight": 5.5,
       "coreHit": false,
-      "gate": "too_few",
-      "roles": {
-        "4919": "indirect"
-      },
+      "gate": null,
+      "roles": {},
       "signaled": [
         {
           "code": "5269",
@@ -2774,23 +2765,29 @@
           ]
         }
       ],
-      "ret1": 5.9,
-      "ret5": 0.2,
-      "ret20": -30,
+      "ret1": -1.4,
+      "ret5": 9.3,
+      "ret20": -27.6,
       "stage": "latent"
     },
     {
       "theme": "display-driver-ic",
       "name": "驅動 IC",
       "members": 4,
-      "anomalies": [],
-      "attributed": [],
+      "anomalies": [
+        "8016"
+      ],
+      "attributed": [
+        "8016"
+      ],
       "unattributed": [],
-      "weighted": 0,
+      "weighted": 1,
       "totalWeight": 3.5,
-      "coreHit": false,
-      "gate": null,
-      "roles": {},
+      "coreHit": true,
+      "gate": "too_few",
+      "roles": {
+        "8016": "direct"
+      },
       "signaled": [
         {
           "code": "3034",
@@ -2805,15 +2802,15 @@
           ]
         },
         {
-          "code": "8016",
+          "code": "3014",
           "signals": [
-            "flow_streak_buy"
+            "flow_turn_buy"
           ]
         }
       ],
-      "ret1": 5.3,
-      "ret5": 1.5,
-      "ret20": -17.1,
+      "ret1": -0.1,
+      "ret5": 6,
+      "ret20": -13.8,
       "stage": "latent"
     },
     {
@@ -2828,17 +2825,10 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "6291",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        }
-      ],
-      "ret1": 3.6,
-      "ret5": 3.3,
-      "ret20": -24.2,
+      "signaled": [],
+      "ret1": -1.1,
+      "ret5": 8.9,
+      "ret20": -21.9,
       "stage": "latent"
     },
     {
@@ -2853,60 +2843,79 @@
       "coreHit": false,
       "gate": null,
       "roles": {},
-      "signaled": [
-        {
-          "code": "2379",
-          "signals": [
-            "flow_turn_buy"
-          ]
-        },
-        {
-          "code": "6526",
-          "signals": [
-            "limit_up"
-          ]
-        },
-        {
-          "code": "3227",
-          "signals": [
-            "flow_streak_buy"
-          ]
-        }
-      ],
-      "ret1": 5,
-      "ret5": 4.1,
-      "ret20": -9.2,
+      "signaled": [],
+      "ret1": -0.6,
+      "ret5": 12.3,
+      "ret20": -8,
       "stage": "latent"
     },
     {
       "theme": "mcu",
       "name": "MCU 微控制器",
       "members": 8,
-      "anomalies": [
-        "4919"
-      ],
+      "anomalies": [],
       "attributed": [],
-      "unattributed": [
-        {
-          "code": "4919",
-          "reason": "shared_no_peer",
-          "alsoIn": [
-            "high-speed-io-ic"
-          ]
-        }
-      ],
+      "unattributed": [],
       "weighted": 0,
       "totalWeight": 7.5,
       "coreHit": false,
       "gate": null,
-      "roles": {
-        "4919": "indicator"
-      },
-      "signaled": [],
-      "ret1": 5.6,
-      "ret5": 1.3,
-      "ret20": -25.4,
+      "roles": {},
+      "signaled": [
+        {
+          "code": "6202",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": -1.3,
+      "ret5": 8.6,
+      "ret20": -23.3,
       "stage": "latent"
+    },
+    {
+      "theme": "quartz-frequency",
+      "name": "石英頻率元件",
+      "members": 6,
+      "anomalies": [
+        "3221",
+        "8289",
+        "8182"
+      ],
+      "attributed": [
+        "3221",
+        "8289",
+        "8182"
+      ],
+      "unattributed": [],
+      "weighted": 3,
+      "totalWeight": 6,
+      "coreHit": true,
+      "gate": null,
+      "roles": {
+        "3221": "direct",
+        "8182": "direct",
+        "8289": "direct"
+      },
+      "signaled": [
+        {
+          "code": "2484",
+          "signals": [
+            "low_base_breakout"
+          ]
+        },
+        {
+          "code": "6174",
+          "signals": [
+            "flow_turn_buy"
+          ]
+        }
+      ],
+      "ret1": 5.7,
+      "ret5": 17.9,
+      "ret20": -22.4,
+      "stage": "overheat"
     }
   ],
   "kbWarnings": []
