@@ -2,7 +2,7 @@
   "schema": "themes-latest",
   "v": 1,
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T09:21:38.737Z",
+  "generatedAt": "2026-11-27T10:20:39.059Z",
   "historyDays": 61,
   "dataReady": {
     "vr": true,
@@ -1675,8 +1675,7 @@
       "ret1": -1.1,
       "ret5": 12.3,
       "ret20": -35.1,
-      "stage": "latent",
-      "change": "overheat→latent"
+      "stage": "latent"
     },
     {
       "theme": "ai-server-odm",
