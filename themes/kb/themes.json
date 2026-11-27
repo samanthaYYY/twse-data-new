@@ -1537,6 +1537,14 @@
           "exposure": "none",
           "asOf": "2026-11-27",
           "source": "優分析 2026-10-05；自由時報 2025-06-27 法說"
+        },
+        {
+          "code": "3221",
+          "role": "indirect",
+          "note": "台嘉碩，衛星用濾波器與頻率元件，低軌衛星約占營收 5–10%；主題材為石英頻率元件（見 quartz-frequency）",
+          "exposure": "low",
+          "asOf": "2026-11-27",
+          "source": "工商時報 2026-08-06 法說"
         }
       ],
       "history": [
@@ -3092,6 +3100,79 @@
           "date": "2026-10-24",
           "evidence": "semi-hard",
           "note": "使用者確認，由 candidate 轉為 active（成員補齊後達轉正標準）"
+        }
+      ],
+      "category": "tech"
+    },
+    {
+      "id": "quartz-frequency",
+      "name": "石英頻率元件",
+      "aliases": [
+        "石英元件",
+        "頻率元件",
+        "石英振盪器",
+        "crystal oscillator",
+        "TCXO",
+        "OCXO"
+      ],
+      "status": "candidate",
+      "stage": null,
+      "evidence": "semi-hard",
+      "members": [
+        {
+          "code": "3042",
+          "role": "indicator",
+          "note": "晶技，台灣石英元件龍頭，AI、車用、網通、低軌衛星；2026 年目標車用占比逾三成、AI 占比 15%，已調漲部分高階產品售價",
+          "exposure": "high",
+          "asOf": "2026-11-27",
+          "source": "工商時報 2026-01-19；理財周刊 2026"
+        },
+        {
+          "code": "2484",
+          "role": "direct",
+          "note": "希華，石英材料到封測垂直整合，主攻 AI 光通訊高頻 MEMS 石英（312.5MHz 量產、625MHz 送樣），擴增 MEMS 產能",
+          "exposure": "high",
+          "asOf": "2026-11-27",
+          "source": "嘉實資訊 2026；Q3 EPS 0.51（2026-11-04 公告）"
+        },
+        {
+          "code": "3221",
+          "role": "direct",
+          "note": "台嘉碩，濾波器（SAW/BAW）＋石英振盪器＋陶瓷天線；低軌衛星約占營收 5–10%，2027 年低軌衛星、AI、新興國防合計目標約 20%",
+          "exposure": "high",
+          "asOf": "2026-11-27",
+          "source": "工商時報 2026-08-06 法說"
+        },
+        {
+          "code": "8289",
+          "role": "direct",
+          "note": "泰藝，高精度低抖動振盪器，用於光通訊、衛星時脈與網通；衛星營收占比未揭露",
+          "exposure": "high",
+          "asOf": "2026-11-27",
+          "source": "理財周刊 2026-05；工商時報 2024-03-05"
+        },
+        {
+          "code": "8182",
+          "role": "direct",
+          "note": "加高，石英晶體與振盪器，消費性與網通為主；10 月營收年增僅約 2%",
+          "exposure": "high",
+          "asOf": "2026-11-27",
+          "source": "工商時報 2026-01-19；companies.json 2026-10"
+        },
+        {
+          "code": "6174",
+          "role": "direct",
+          "note": "安碁，石英元件與光電元件；石英族群漲價題材中曾亮燈漲停",
+          "exposure": "unknown",
+          "asOf": "2026-11-27",
+          "source": "理財周刊 2026"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "evidence": "semi-hard",
+          "note": "候選卡建立：石英元件三個需求來源為 AI 光模組升級（800G→1.6T 帶動高階差動振盪器）、車用單車用量增加、低軌衛星；貴金屬原料上漲帶動漲價。11/26 族群大漲但 20 日 −27%～−36%，全部在下彎的 60 日線下。台嘉碩、泰藝、加高、安碁 20 日均成交值 < 0.5 億"
         }
       ],
       "category": "tech"
